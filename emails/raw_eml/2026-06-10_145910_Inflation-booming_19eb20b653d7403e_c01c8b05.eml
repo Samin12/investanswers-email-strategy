@@ -1,0 +1,1047 @@
+Delivered-To: samin@aianswer.us
+Received: by 2002:a05:7110:15:20b0:300:f046:23cc with SMTP id b21-n2csp2522539geo;
+        Wed, 10 Jun 2026 07:59:12 -0700 (PDT)
+X-Received: by 2002:a05:6300:4086:b0:3b3:a66e:3908 with SMTP id adf61e73a8af0-3b4d3ce4c48mr22588848637.23.1781103551929;
+        Wed, 10 Jun 2026 07:59:11 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1781103551; cv=none;
+        d=google.com; s=arc-20240605;
+        b=jGyP1HWYkKwyb1YFbxQwsjjy9XoPbqj+sqc17H3eWqawTixuqAR/bySvPL86fFnMkc
+         HwD/ARu3lC/FmEux2l8pF5AHiOWqc1FHxWP6YIVSGkatETzGSAxLsMwWdhzlcc1WDWgi
+         Mzr9Qr74L+m9NcZSvy83kUC23IhEInWxa9D9csTH/WrUVVo6OOrUSRfjhbMY1ugndKrM
+         Cp72rQNt3au5s8c3jgrOdJaOCZlUbWpFpNe7IRnKb2saPi610ftsXOXuKz023CLO6ryu
+         0N+3hjgHLcJkBd8NVZ5G4mf+y2OO3mr25vmzyQEwxjarvZDVQV8lPLCrzUaP40B42bmB
+         ofOg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=content-transfer-encoding:message-id:list-unsubscribe
+         :list-unsubscribe-post:reply-to:to:from:subject:mime-version:date
+         :dkim-signature;
+        bh=lekohlZokpjsni0v9OM1J09WbUhYirWytExkxPQQOEo=;
+        fh=8CaXxphAXK9mc2ZtT0sDJyShszDCdzjuJnVUV7pcN9M=;
+        b=gJIZ0RAjFQPWq/BBXldpNF+EYBPB1oXpZ43faRAMopy/F9Ikd0W4yi+M9/qTo3avBm
+         eWZ6hNXOiOtajLZ14SCQ7rky7gop6r6mKC56GiniliHyYb+ngqPIN1Tt89t6S5nrMthp
+         +F+VxlZuc/HjHxhIKKFdSc54MMs+3CRerBnAqONeLo1hrw3PWwSc7zTX40pI4HoVnjUc
+         U4wZKukivg6eeR3u3O+Z+boQUaDEsALXoMI/Eo4BgsqyZxgfYOWlYG3BpiNogmE5DpMV
+         fuTUzoVmCK2K7VXf2l91Lz9lB5wToJ7fiHV5NhkxAGwIerLsu/qUHw+CPv5VF49PB8L2
+         KBeg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@creator.patreon.com header.s=pdk2 header.b=S75m5muP;
+       spf=pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.194 as permitted sender) smtp.mailfrom="bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=patreon.com
+Return-Path: <bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com>
+Received: from 201-194.static.patreon.com (201-194.static.patreon.com. [161.38.201.194])
+        by mx.google.com with UTF8SMTPS id 41be03b00d2f7-c85df0c8049si36408247a12.181.2026.06.10.07.59.11
+        for <samin@aianswer.us>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Jun 2026 07:59:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.194 as permitted sender) client-ip=161.38.201.194;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@creator.patreon.com header.s=pdk2 header.b=S75m5muP;
+       spf=pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.194 as permitted sender) smtp.mailfrom="bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=patreon.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=creator.patreon.com; q=dns/txt; s=pdk2; t=1781103550; x=1781110750;
+ h=Content-Transfer-Encoding: Content-Type: Message-Id: List-Unsubscribe: List-Unsubscribe-Post: Reply-To: To: To: From: From: Subject: Subject: Mime-Version: Date: Sender;
+ bh=lekohlZokpjsni0v9OM1J09WbUhYirWytExkxPQQOEo=;
+ b=S75m5muP9Sf6ZCkFjGrrpdNp0HVvx9q04kPOlp5LOnjd9W+WNRK7ZRyn9nFycVQr1kqdt1p+FTcpxH/EJFXKTVZca203X7Uu8d9uYaGsW35r63Cu137JJ8PKDelXkTJEpLAMiiOP1iL9MXhr5RYLH+gm6ezO8bBTZrNU8oHOS2IqVMqOoC0xBD+rRQZDlWvvStXtHGccDT5h9snKIMHacUuIYDvq03jD8hdq3D17rAu3jGFB74Wxx80MGa3dNn31aTv9HRi7TfdoSqMXfNoJZ+XoWYjmBIAb9C5Dfljz99VaU1EWok6hB+SSBhjSXvnhspE7+FfO/GRRroZ/53a/6g==
+X-Mailgun-Sid: WyJlZTNjZiIsInNhbWluQGFpYW5zd2VyLnVzIiwiOTRjZTIzMCJd
+Received: by 406ffa91584fcf0872592137e2bfcc54368785907cf5625693c9423623e71f7d with HTTP
+ id 6a297bbe95d7341de39ec794; Wed, 10 Jun 2026 14:59:10 GMT
+X-Mailgun-Sending-Ip: 161.38.201.194
+Date: Wed, 10 Jun 2026 14:59:10 +0000
+Mime-Version: 1.0
+Subject: Inflation booming...
+From: InvestAnswers <investanswers@creator.patreon.com>
+To: samin@aianswer.us
+X-Mailgun-Tag: template_newsletterpost
+X-Mailgun-Rewrite-Sender-Header: false
+X-Mailgun-Track-Clicks: false
+X-Mailgun-Track-Opens: true
+Reply-To: no-reply@creator.patreon.com
+X-Patreon-Uuid: 08cf9dd0-5159-475a-96c6-902531ad9510
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://webhooks.patreon.com/email-unsubscribe?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGQiOiJaMEZCUVVGQlFuRkxXSFV0TkhKT2FsVmhOR2xpUWxKSlQwdE5SbVpQUzBGTmRtWkVZMkZ1UTNJd1YydG1VMDFVVHpKSVNHaHFka3BoWlRCaWMwcFFURXRGWWpSbGMydFViVU5HUTJSSlJWUnBSMVJUTkRaaFVERkZXV05UU25aQ1UxaGhWamR5V2w5Nk9HZDZhek4yWVRoR1ptUk5aSGQxWlZOck0xSktXUzE0Uld3NFJFcDBaakpYUlcweFVqQldNVFZKZDJoSU4xOTBTbkJVWVVvNU16ZEJWRGQzY0ZsbVducHRVRmhpWjIwNFUzSm5OVXhwVURSRE1GcGxja1EzZW5NM2QxbEJRVFZOVlZoQ1IzbHdaVVI2ZDBORVVEVXdVRXRwZGxod2NEaFhkRkJMTVdaMWFVRjBOMFY2U25oSE5GZG5iRFZ1VVRRM1UzVlFiVzg1ZDJkbFdrVjRZbHBOWmpGbVgwbG1TemxaYlROYU5VaExka2RvZWtaelpUSTVZa3BSUVhoVlEwUlNlalV3YjBoaFEwUnpZWHBzV2s5Q1Z6ZHRZV1J2T0VORU1sQkdTemxWWkZKcllsWlJOa1IzTmtoSU5uaGhhSGRCWm1GMGQwWjFaR1pqZG1kcE5WVTBkekpNYm10NVkzWkdSVE16Vm1JNVdFcGlZazFCYm1WR2RtdHFTRFI0VERGNlIzWmhZekZ5TTBKdFJsbEtWV1p2TW1ZNWRIVkdPVEZ0U0Rkc2MwZGZRemw0YTNkRlNUUjVhMU5FYldsTmQyRndTRXBzY0hSaFYzUm1OSE01WmtobFpUSlpMWEJqZFZodlMyaG9Sbk5JUnpJM1NXUnpTVVp2YjJabVQyTkxPVnBzYUZjNGVIZ3hZVU5PZDJvdFh6QTkifQ.SZD9kRXLH6x-b6Q93qdQEaylCy53DTxYa9JdyTwIvN0>
+X-Mailgun-Variables: {"bulk_mode": "0", "campaign_id": "6060700", "custom_nonce":
+ "NewsletterPost:160718424:2026-06-10 14:58:05", "domain_override":
+ "creator.patreon.com", "email_campaign_name": "transactional", "email_id":
+ "e1293841-fbe6-475c-97d0-76a46d14c5a7", "email_notif_campaign_id": "6060700",
+ "email_notif_type": "campaign_email_post", "email_priority": "standard",
+ "email_system": "email-service-nunjucks", "extra_logging_props":
+ "{\"entity_id\":null,\"primary_entity\":{\"entity_id\":160718424,\"entity_type\":\"post\"},\"secondary_entities\":null,\"sender\":{\"sender_id\":6060700,\"sender_type\":\"campaign\"},\"campaign_id\":\"6060700\",\"notification_name\":\"NewPost\",\"fanout_id\":\"019eb20a-6949-7403-8c1c-ca3abc8f7e75\"}",
+ "intent_type": "NewsletterPost", "is_high_priority": "0", "notification_id":
+ "e1293841-fbe6-475c-97d0-76a46d14c5a7", "notification_priority": "standard",
+ "patreon_service_name": "notif-platform", "post_id": "160718424",
+ "post_type": "image_file", "rate_limits": "[]", "recipient_size_bucket": "1",
+ "should_channel_throttle": "0", "should_ml_throttle": "0", "task_id":
+ "08cf9dd0-5159-475a-96c6-902531ad9510", "template_name": "newsletterpost",
+ "timing":
+ "{\"client_start_time\":\"2026-06-10T14:58:05.609794\",\"notification_platform_entrypoint\":\"send_fanout_notifications\",\"notification_platform_received_time\":\"2026-06-10T14:58:07.305663\",\"filter_recipient_list_start_time\":\"2026-06-10T14:58:45.100020\",\"filter_recipient_list_end_time\":\"2026-06-10T14:58:46.292710\",\"notification_generation_start_time\":\"2026-06-10T14:58:46.292723\",\"notification_generation_end_time\":\"2026-06-10T14:58:56.014663\",\"channel_start_time\":\"2026-06-10T14:59:09.031625\",\"channel_provider_received_time\":\"2026-06-10T14:59:10.311929\",\"channel_delivered_time\":null}",
+ "user_id": "185171849"}
+Message-Id: <20260610145910.2d3fcc04fd94dfb9@creator.patreon.com>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xml=
+ns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com=
+:office:office" dir=3D"ltr"><head>
+<title>Inflation booming... </title>
+<!--[if !mso]><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />=
+<!--<![endif]-->
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+<style type=3D"text/css">
+#outlook a{padding: 0;}
+=2EReadMsgBody{width: 100%;}
+=2EExternalClass{width: 100%;}
+=2EExternalClass *{line-height: 100%;}
+body{margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%;}
+table, td{border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;}
+img{border: 0; height: auto; line-height: 100%; outline: none; text-decorat=
+ion: none; -ms-interpolation-mode: bicubic;}
+p{display: block; margin: 13px 0;}
+</style>
+<!--[if mso]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type=3D"text/css">
+=2Eoutlook-group-fix{width:100% !important;}
+</style>
+<![endif]-->
+<style type=3D"text/css">=20
+@media only screen and (max-width: 480px) {
+=2Edys-desktop { display: none !important; }
+div.dys-mobile { display: block !important; }
+tr.dys-mobile { display: table-row !important; }=20
+}
+</style>
+ <style type=3D"text/css">
+@media only screen and (min-width:480px) {
+=2Edys-column-per-100 {
+width: 100.000000% !important;
+max-width: 100.000000%;
+}
+=2Edys-column-per-50 {
+width: 50.000000% !important;
+max-width: 50.000000%;
+}
+}
+</style>
+<style type=3D"text/css">
+@media only screen and (max-width:480px) {
+ table.full-width-mobile { width: 100% !important; }
+td.full-width-mobile { width: auto !important; }
+}
+u + #body a {color: #000000;text-decoration: underline;font-size: inherit; =
+font-family: inherit; font-weight: inherit; line-height: inherit; }
+ a {color: #000000;text-decoration: underline;}
+ /* Adds left and right padding to Apple mail */
+ [class^=3D"apple-mail"] #body {
+ padding: 0px 12px !important;=20
+ }=20
+ strong {
+ font-weight:600 !important;
+ }
+ b {
+ font-weight:600 !important;
+ }
+ /* inline image width */
+ td.post-content img {
+ max-width:592px;=20
+ }
+ /* list indentation */
+ td.post-content div ol {
+ margin-left: 5px !important;
+ padding-left: 16px !important;
+ }
+ td.post-content div ul {
+ margin-left:5px !important;
+ padding-left:16px !important;
+ }
+ /* set 20px between paragraphs */
+ td.post-content div p {
+ margin: 20px 0 !important;
+ mso-margin-top-alt: 20px !important;
+ mso-margin-bottom-alt: 20px !important;=20
+ }
+ /* set 10px between list items */
+ td.post-content div ul li,
+ td.post-content div ol li {
+ margin: 0 0 10px 0 !important;=20
+ }
+ /* set 10px between list items */
+ td.post-content li p {
+ margin: 0 0 10px 0 !important;
+ mso-margin-bottom-alt: 10px !important;
+ }
+ td.post-content li {
+ margin: 0 !important;
+ }
+ /* remove extra spacing after the last item in each list */
+ td.post-content div ul li:last-child,
+ td.post-content div ol li:last-child {
+ margin-bottom: 0 !important;
+ }
+ blockquote {
+ border-left:2px solid #070707 !important;
+ margin: 0; padding: 0;
+ padding-left:20px !important;
+ }
+ li p {
+ margin: 12px 0 !important;
+ }
+ @media only screen and (max-width:480px) {
+ td.post-content div p {
+ margin:18px 0 !important;
+ }
+ h1 {
+ font-size: 30px !important;
+ font-weight: 600 !important;
+ line-height:36px !important;
+ }
+ h3 {
+ font-size: 20px !important;
+ font-weight: 600 !important;
+ line-height: 26px !important;=20
+ }
+ h4 {
+ font-size:16px !important;
+ font-weight:600;
+ line-height: 21px !important;
+ }
+ /* padding for titles variant */
+ .pd-bt16 > h1 {
+ padding-bottom:16px !important;
+ }
+ }
+ @media only screen and (max-width: 480px) {
+ .pd-btm {
+ padding-bottom:12px !important;
+ }
+ .mb-pd-wrp > table > tbody > tr > td {
+ padding: 12px 14px !important;
+ }=20
+ .row-mb-pd > table > tbody > tr > td {
+ padding-left:4px !important;
+ padding-right:4px !important;
+ }
+ .stack-mb {
+ display:block !important;
+ }
+ .stack-mb-btn > table {
+ margin-top:16px !important;
+ }
+ }
+ @media only screen and (min-width:480px) {
+ .body-pd {
+ padding:20px 0 !important;
+ }
+ .row-mb-pd > table > tbody > tr > td {
+ padding-left:4px !important;
+ padding-right:4px !important;
+ }
+ }
+ .title-2lines{
+ display:-webkit-box;
+ -webkit-box-orient:vertical;
+ -webkit-line-clamp:2;
+ overflow:hidden;
+ text-overflow:ellipsis;
+ max-height:41.6px;
+ line-height:20.8px;
+ }
+=20
+ .cr-img img {width:42px !important;}
+ @media only screen and (max-width:440px) {
+ .title-mb-sz-26 > h2 {
+ font-size:30px !important;
+ line-height:36px !important;
+ }
+ }
+=20
+ @media only screen and (max-width:440px) {
+ .text-mb-sz-16 > div {
+ font-size:16px !important;
+ line-height:26px !important;
+ }
+ td.post-content li { margin: 0 !important; padding: 0 !important; }
+ /* 10px between paragraphs INSIDE list items (wins over the 16px rule abov=
+e) */
+ td.post-content li p,
+ .text-mb-sz-16 li p {
+ margin: 0 0 10px 0 !important;
+ mso-margin-bottom-alt: 10px !important;
+ }
+ /* 10px between list items */
+ td.post-content ul li,
+ td.post-content ol li,
+ .text-mb-sz-16 ul li,
+ .text-mb-sz-16 ol li {
+ margin: 0 0 10px 0 !important;
+ }
+ /* trim the extra space after the last item */
+ td.post-content ul li:last-child,
+ td.post-content ol li:last-child {
+ margin-bottom: 0 !important;
+ }
+ }=20
+ td.post-content div p li {
+ margin-left:0 !important;
+ padding-left:0 !important;
+ }
+ td.post-content div hr {
+ background-color: #cccccc !important;
+ border: none !important;
+ margin: 32px 0 !important;
+ height: 1px !important;
+ width: 100% !important;
+ }
+ td.post-content div h1 {
+ font-size:26px !important;
+ line-height:34px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div h2 {
+ font-size:22px !important;
+ line-height:29px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div h3 {
+ font-size:18px !important;
+ line-height:23px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div p {
+ font-size:16px !important;
+ line-height:26px !important;
+ }
+ td.post-content div p.caption-text {
+ font-size:14px !important;
+ line-height:20px !important;
+ color: #666 !important;
+ }
+=20
+ .wrp-radius > table {
+ border:1px solid #e8e8e8 !important;
+ border-collapse:initial !important;
+ border-radius: 12px !important;
+ }
+=20
+ @media only screen and (max-width:480px) {
+ .full-width-mb > table {
+ width:100% !important;
+ }
+ .full-width-mb {
+ padding-left: 0 !important;
+ }
+ .mb-crd-pd > table > tbody > tr > td {
+ padding: 24px 16px !important;
+ }
+ .stack-container-mb > tbody > tr > td {
+ display: block !important;
+ width: 100% !important;
+ box-sizing: border-box !important;
+ }
+ .button-cell-mb {
+ padding-top: 16px !important;
+ padding-left: 0 !important;
+ max-width:100% !important;
+ }
+ }
+=20
+ @media only screen and (max-width: 480px) {
+ .footer-text > div {
+ text-align: left !important;
+ margin-top:16px !important;
+ }
+ .fnt12 > div {
+ font-size:12px !important;
+ }
+ }
+=20
+</style>
+
+
+</head>
+<body id=3D"body" style=3D"background-color: transparent;"><span id=3D"dys-=
+ph" style=3D"width:0;opacity:0;max-height:0;mso-hide:all;overflow:hidden;fl=
+oat:left;display:none !important;">Of course 60% of it driven by increase i=
+n oil prices but still spooks the markets. February's data was 2.4% In 3 mo=
+nths, inflation has risen to 4.2%As...</span><span style=3D"display: none; =
+max-height: 0px; overflow: hidden;">=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=
+=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+ &nbsp;</span><div style=3D"background-color: transparent;" class=3D"body-p=
+d">
+<!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]-->
+<div style=3D"margin:0px auto; max-width:600px;">
+<table align=3D"center" role=3D"presentation" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%"><tbody><tr><td style=3D"padding:12px 0px=
+ 12px 0px;vertical-align:top;">
+
+=20
+=20
+
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:0px 4px;padding-bottom:0px;padding-left:4px=
+;padding-right:4px;padding-top:16px;text-align:center;vertical-align:top;">=
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:0;word-brea=
+k:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;"><t=
+body><tr><td style=3D"width:592px;"><a href=3D"https://www.patreon.com/post=
+s/inflation-160718424?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpos=
+t_link&amp;post_id=3D160718424&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpX=
+VCJ9.eyJyZWRpc19rZXkiOiJpYTI6NTAwOGRlNDQtYmIxZS00NWMxLTkyMTktOGI4ZTM0ZTczYj=
+Q0IiwicG9zdF9pZCI6MTYwNzE4NDI0LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.ZuE59ynjbINl-=
+FWlkqn7Q0BIxdxzVJBeLSq-PnIJLEQ&amp;utm_id=3De1293841-fbe6-475c-97d0-76a46d1=
+4c5a7&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#0=
+00000;text-decoration:underline;" target=3D"_blank"><span style=3D"color:#0=
+00000;text-decoration:underline;"><img height=3D"auto" src=3D"https://c10.p=
+atreonusercontent.com/4/patreon-media/p/post/160718424/c395c36066aa420b894d=
+7f5c89621dc1/eyJ3IjoxMDgwfQ%3D%3D/1.jpeg?token-hash=3DQqaJZ--xe2soo2sC-90AO=
+GElTreS_F01HsxKkOfScKk%3D&amp;token-time=3D1782345600" style=3D"border:none=
+;border-radius:12px;display:block;font-size:13px;height:auto;outline:none;t=
+ext-decoration:none;width:100%;" width=3D"592"></span></a></td></tr></tbody=
+></table></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mb-pd-title-outlook row-mb-pd-outlook" style=3D"width:600px;" width=
+=3D"600"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rul=
+e:exactly;">
+<![endif]--><div class=3D"mb-pd-title row-mb-pd" style=3D"margin:0px auto;m=
+ax-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td s=
+tyle=3D"direction:ltr;font-size:0px;padding:0px 4px;padding-bottom:16px;pad=
+ding-top:16px;text-align:center;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"title-mb-sz-30" style=3D"font-size:=
+0px;padding:0px 0px 20px;padding-bottom:16px;padding-top:0px;word-break:bre=
+ak-word;"><h2 style=3D"color:#000000;font-family:'SF Pro Display', -apple-s=
+ystem, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:32px;font=
+-weight:600;line-height:38px;margin:0;padding:0;text-align:left;text-decora=
+tion:none;"><a href=3D"https://www.patreon.com/posts/inflation-160718424?ut=
+m_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D160=
+718424&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJ=
+pYTI6NTAwOGRlNDQtYmIxZS00NWMxLTkyMTktOGI4ZTM0ZTczYjQ0IiwicG9zdF9pZCI6MTYwNz=
+E4NDI0LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.ZuE59ynjbINl-FWlkqn7Q0BIxdxzVJBeLSq-P=
+nIJLEQ&amp;utm_id=3De1293841-fbe6-475c-97d0-76a46d14c5a7&amp;utm_medium=3De=
+mail" style=3D"text-decoration:none;color:#000000;"><span style=3D"text-dec=
+oration:none;color:#000000;">Inflation booming... </span></a></h2></td></tr=
+>
+ <tr><td><div>
+ <div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on">
+ <tbody>
+ <tr>
+=20
+ <td class=3D"cr-img" style=3D"max-width:40px;padding-right:12px;" width=3D=
+"40">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:42px;"><a href=3D"https://www.patreon.com/InvestAnswers?utm_c=
+ampaign=3Dpatron_engagement&amp;utm_source=3Dcreator_link&amp;utm_id=3De129=
+3841-fbe6-475c-97d0-76a46d14c5a7&amp;utm_medium=3Demail" rel=3D"noopener no=
+referrer" style=3D"color:#000000;text-decoration:underline;" target=3D"_bla=
+nk"><span style=3D"color:#000000;text-decoration:underline;"><img height=3D=
+"auto" src=3D"https://c10.patreonusercontent.com/4/patreon-media/p/campaign=
+/6060700/1e1c15135a1b458c8c3199bbee7f657b/eyJoIjo3NSwidyI6NzV9/4.png?token-=
+hash=3DSEhhIAk8OLBgPeMkz_-qm_uAyNc-C59l_YTnjpW61RU%3D" style=3D"border:none=
+;border-radius:4px;display:block;font-size:13px;height:auto;outline:none;te=
+xt-decoration:none;width:100%;" width=3D"42"></span></a></td></tr></tbody><=
+/table>
+ </td>
+=20
+ <td>
+=20
+=20
+ <h4 style=3D"color:#000000;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:6=
+00;line-height:18px;margin:0;padding:0;text-align:left;"><a href=3D"https:/=
+/www.patreon.com/InvestAnswers?utm_campaign=3Dpatron_engagement&amp;utm_sou=
+rce=3Dcreator_link&amp;utm_id=3De1293841-fbe6-475c-97d0-76a46d14c5a7&amp;ut=
+m_medium=3Demail" style=3D"text-decoration:none;color:#000000;"><span style=
+=3D"text-decoration:none;color:#000000;">InvestAnswers</span></a></h4>
+=20
+=20
+ <div style=3D"color:#666666;font-family:-apple-system, system-ui, BlinkMac=
+SystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:400;line-height:20=
+px;text-align:left;">Jun 10, 2026</div>
+=20
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div></td></tr>
+ <tr><td style=3D"font-size:0px;word-break:break-word;"><div style=3D"heigh=
+t:16px;line-height:16px;">=E2=80=8A</div></td></tr>
+ <tr><td><div>
+ <div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"icon-mb-a=
+l">
+ <tbody>
+ <tr style=3D"padding-top 16px;">
+ <td align=3D"left" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/posts/inflation-160718424?utm_campaign=3Dpatron_engage=
+ment&amp;utm_source=3Dpost_link&amp;post_id=3D160718424&amp;token=3DeyJhbGc=
+iOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6NTAwOGRlNDQtYmIxZS00N=
+WMxLTkyMTktOGI4ZTM0ZTczYjQ0IiwicG9zdF9pZCI6MTYwNzE4NDI0LCJwYXRyb25faWQiOjE4=
+NTE3MTg0OX0.ZuE59ynjbINl-FWlkqn7Q0BIxdxzVJBeLSq-PnIJLEQ&amp;utm_id=3De12938=
+41-fbe6-475c-97d0-76a46d14c5a7&amp;utm_medium=3Demail" rel=3D"noopener nore=
+ferrer" style=3D"background:transparent;border-radius:50px;color:#ffffff;di=
+splay:inline-block;font-family:'SF Pro Display', -apple-system, system-ui, =
+BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;font-weight:600;line-h=
+eight:16px;margin:0;mso-padding-alt:0px;padding:8px;text-decoration:none;te=
+xt-transform:none;" target=3D"_blank"><!--[if mso | IE]><span style=3D"mso-=
+text-raise:-2px;"><![endif]--><img alt=3D"like" src=3D"https://cdn-web-asse=
+ts.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_01jmdv6s5fevecq2mwr1tmmws=
+s%2FmEPm9PuPRYKykZNvWcmk_HeartOutline.png" style=3D"vertical-align:-2px;wid=
+th:19px;" width=3D"19"><!--[if mso | IE]></span><![endif]--></a></td></tr><=
+/tbody></table>
+ </td>
+ <td align=3D"center" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/posts/inflation-160718424?utm_campaign=3Dpatron_engage=
+ment&amp;utm_source=3Dpost_link&amp;post_id=3D160718424&amp;token=3DeyJhbGc=
+iOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6NTAwOGRlNDQtYmIxZS00N=
+WMxLTkyMTktOGI4ZTM0ZTczYjQ0IiwicG9zdF9pZCI6MTYwNzE4NDI0LCJwYXRyb25faWQiOjE4=
+NTE3MTg0OX0.ZuE59ynjbINl-FWlkqn7Q0BIxdxzVJBeLSq-PnIJLEQ&amp;utm_id=3De12938=
+41-fbe6-475c-97d0-76a46d14c5a7&amp;utm_medium=3Demail" rel=3D"noopener nore=
+ferrer" style=3D"background:transparent;border-radius:50px;color:#ffffff;di=
+splay:inline-block;font-family:'SF Pro Display', -apple-system, system-ui, =
+BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;font-weight:600;line-h=
+eight:16px;margin:0;mso-padding-alt:0px;padding:8px;text-decoration:none;te=
+xt-transform:none;" target=3D"_blank"><!--[if mso | IE]><span style=3D"mso-=
+text-raise:-2px;"><![endif]--><img alt=3D"comment" src=3D"https://cdn-web-a=
+ssets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_01jmdv6s5fevecq2mwr1tm=
+mwss%2FpONe1AzqSS2ydddAswCs_BubbleOutlined%20(1).png" style=3D"vertical-ali=
+gn:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></span><![endif]--></a>=
+</td></tr></tbody></table>
+ </td>
+ <td align=3D"right" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/posts/inflation-160718424?utm_campaign=3Dpatron_engage=
+ment&amp;utm_source=3Dpost_link&amp;post_id=3D160718424&amp;token=3DeyJhbGc=
+iOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6NTAwOGRlNDQtYmIxZS00N=
+WMxLTkyMTktOGI4ZTM0ZTczYjQ0IiwicG9zdF9pZCI6MTYwNzE4NDI0LCJwYXRyb25faWQiOjE4=
+NTE3MTg0OX0.ZuE59ynjbINl-FWlkqn7Q0BIxdxzVJBeLSq-PnIJLEQ&amp;utm_id=3De12938=
+41-fbe6-475c-97d0-76a46d14c5a7&amp;utm_medium=3Demail" rel=3D"noopener nore=
+ferrer" style=3D"background:transparent;border-radius:50px;color:#ffffff;di=
+splay:inline-block;font-family:'SF Pro Display', -apple-system, system-ui, =
+BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;font-weight:600;line-h=
+eight:16px;margin:0;mso-padding-alt:0px;padding:8px;text-decoration:none;te=
+xt-transform:none;" target=3D"_blank"><!--[if mso | IE]><span style=3D"mso-=
+text-raise:-2px;"><![endif]--><img alt=3D"share" src=3D"https://cdn-web-ass=
+ets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_01jmdv6s5fevecq2mwr1tmmw=
+ss%2FFkHQyZCfR8O5oErCuqC4_Share%20(2).png" style=3D"vertical-align:-2px;wid=
+th:19px;" width=3D"19"><!--[if mso | IE]></span><![endif]--></a></td></tr><=
+/tbody></table>
+ </td>
+ <td>
+=20
+ <div class=3D"dys-desktop"><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"border-collapse:separate;line-heigh=
+t:100%;"><tbody><tr><td align=3D"center" bgcolor=3D"transparent" role=3D"pr=
+esentation" style=3D"border:1px solid #CCCCCC;border-color:#CCCCCC;backgrou=
+nd:transparent;border-radius:50px;cursor:auto;mso-padding-alt:8px 20px;" va=
+lign=3D"middle"><a class=3D"dys-button-a" href=3D"https://open.patreon.com/=
+posts/inflation-160718424?utm_campaign=3Dpatron_engagement&amp;utm_source=
+=3Dpost_link&amp;post_id=3D160718424&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cC=
+I6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6NTAwOGRlNDQtYmIxZS00NWMxLTkyMTktOGI4ZTM0=
+ZTczYjQ0IiwicG9zdF9pZCI6MTYwNzE4NDI0LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.ZuE59yn=
+jbINl-FWlkqn7Q0BIxdxzVJBeLSq-PnIJLEQ&amp;utm_id=3De1293841-fbe6-475c-97d0-7=
+6a46d14c5a7&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"ba=
+ckground:transparent;border-radius:50px;color:#000000;display:inline-block;=
+font-family:'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont,=
+ 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol';font-size:14px;font-weight:600;line-height:20px;margin:0=
+;mso-padding-alt:0px;padding:8px 20px;text-decoration:none;text-transform:n=
+one;" target=3D"_blank">View in app</a></td></tr></tbody></table></div>
+=20
+=20
+ <div><!--[if !mso]--><div class=3D"dys-mobile" style=3D"display:none;"><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td align=
+=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border:1=
+px solid #CCCCCC;border-color:#CCCCCC;background:transparent;border-radius:=
+50px;cursor:auto;mso-padding-alt:8px 20px;" valign=3D"middle"><a class=3D"d=
+ys-button-a" href=3D"https://open.patreon.com/posts/inflation-160718424?utm=
+_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D1607=
+18424&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJp=
+YTI6NTAwOGRlNDQtYmIxZS00NWMxLTkyMTktOGI4ZTM0ZTczYjQ0IiwicG9zdF9pZCI6MTYwNzE=
+4NDI0LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.ZuE59ynjbINl-FWlkqn7Q0BIxdxzVJBeLSq-Pn=
+IJLEQ&amp;utm_id=3De1293841-fbe6-475c-97d0-76a46d14c5a7&amp;utm_medium=3Dem=
+ail" rel=3D"noopener noreferrer" style=3D"background:transparent;border-rad=
+ius:50px;color:#000000;display:inline-block;font-family:'SF Pro Display', -=
+apple-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:14=
+px;font-weight:600;line-height:20px;margin:0;mso-padding-alt:0px;padding:8p=
+x 20px;text-decoration:none;text-transform:none;" target=3D"_blank">View in=
+ app</a></td></tr></tbody></table></div><!--[endif]--></div>
+=20
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:0px 4px;padding-bottom:0px;padding-left:12p=
+x;padding-right:12px;padding-top:0px;text-align:center;vertical-align:top;"=
+><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:576px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"text-mb-sz-16 post-content" style=
+=3D"font-size:0px;padding:0px 0px 16px;padding-bottom:0;word-break:break-wo=
+rd;"><div style=3D"color:#000000;font-family:-apple-system, system-ui, Blin=
+kMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol';font-size:18px;font-weight:400;line-heigh=
+t:29px;text-align:left;"><p style=3D"margin-top:0;margin-bottom:0"></p><p s=
+tyle=3D"margin:10px 0">Of course 60% of it driven by increase in oil prices=
+ but still spooks the markets. </p><p style=3D"margin:10px 0">February's da=
+ta was 2.4% </p><p style=3D"margin:10px 0">In 3 months, inflation has risen=
+ to 4.2%</p><p style=3D"margin:10px 0">As I have said for years... FED DOES=
+ NOT CONTROL inflation - they only destroy demand - AI deflation could not =
+come at a better time</p><div><a href=3D"https://www.patreon.com/posts/infl=
+ation-160718424?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_link=
+&amp;post_id=3D160718424&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.e=
+yJyZWRpc19rZXkiOiJpYTI6NTAwOGRlNDQtYmIxZS00NWMxLTkyMTktOGI4ZTM0ZTczYjQ0Iiwi=
+cG9zdF9pZCI6MTYwNzE4NDI0LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.ZuE59ynjbINl-FWlkqn=
+7Q0BIxdxzVJBeLSq-PnIJLEQ&amp;media_id=3D679045462&amp;utm_id=3De1293841-fbe=
+6-475c-97d0-76a46d14c5a7&amp;utm_medium=3Demail">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"border-collapse:collapse;border-spacing:0px;">
+        <tbody>
+          <tr>
+            <td style=3D"width:592px;padding-top:8px;padding-bottom:8px;">
+                <img style=3D"border:none;display:block;font-size:13px;heig=
+ht:auto;outline:none;text-decoration:none;width:100%" src=3D"https://c10.pa=
+treonusercontent.com/4/patreon-media/p/post/160718424/d50f59bde11043329ad6a=
+db66d72714f/eyJhIjoxLCJ3Ijo4MjB9/1.jpeg?token-hash=3DQFzBOPSMRrVVQLa8HaPZ4N=
+2GBLBFa38M97PyzQCL1Qo%3D&amp;token-time=3D1782345600" width=3D"592" height=
+=3D"auto">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+        </a></div><p style=3D"margin:10px 0">Now talk is fed hikes</p><div>=
+<a href=3D"https://www.patreon.com/posts/inflation-160718424?utm_campaign=
+=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D160718424&amp=
+;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6NTAwO=
+GRlNDQtYmIxZS00NWMxLTkyMTktOGI4ZTM0ZTczYjQ0IiwicG9zdF9pZCI6MTYwNzE4NDI0LCJw=
+YXRyb25faWQiOjE4NTE3MTg0OX0.ZuE59ynjbINl-FWlkqn7Q0BIxdxzVJBeLSq-PnIJLEQ&amp=
+;media_id=3D679044915&amp;utm_id=3De1293841-fbe6-475c-97d0-76a46d14c5a7&amp=
+;utm_medium=3Demail">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"border-collapse:collapse;border-spacing:0px;">
+        <tbody>
+          <tr>
+            <td style=3D"width:592px;padding-top:8px;padding-bottom:8px;">
+                <img style=3D"border:none;display:block;font-size:13px;heig=
+ht:auto;outline:none;text-decoration:none;width:100%" src=3D"https://c10.pa=
+treonusercontent.com/4/patreon-media/p/post/160718424/22e4bc3be5c7458abdf33=
+ebe74c0a141/eyJhIjoxLCJ3Ijo4MjB9/1.png?token-hash=3DNLnBj6Q0MdMsGLa5lZcPYcY=
+B3Dhk0EriqKZb54Al-Ew%3D&amp;token-time=3D1782345600" width=3D"592" height=
+=3D"auto">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+        </a></div><p style=3D"margin:10px 0"></p><p></p></div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:16px 4px;text-align:center;vertical-align:t=
+op;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exac=
+tly;">
+<![endif]--><!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mb-pd-cr-outlook card-pd-32-outlook mb-crd-pd-outlook" style=3D"widt=
+h:592px;" width=3D"592"><tr><td style=3D"line-height:0px;font-size:0px;mso-=
+line-height-rule:exactly;">
+<![endif]--><div class=3D"mb-pd-cr card-pd-32 mb-crd-pd" style=3D"backgroun=
+d-color:#F5F5F5;border-radius:8px;margin:0px auto;max-width:592px;"><table =
+align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"background-color:#F5F5F5;border-collapse:separate;bor=
+der-radius:8px;width:100%;"><tbody><tr><td style=3D"border-radius:8px;direc=
+tion:ltr;font-size:0px;padding:24px;text-align:center;vertical-align:top;">=
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:544px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td><div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"stack-con=
+tainer-mb" width=3D"100%">
+ <tbody>
+ <tr>
+ <td valign=3D"middle">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+ <tbody>
+ <tr>
+ <td height=3D"60" style=3D"min-width:60px;min-height:60px;width:60px;heigh=
+t:60;" width=3D"60">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:60px;"><img height=3D"auto" src=3D"https://c10.patreonusercon=
+tent.com/4/patreon-media/p/campaign/6060700/1e1c15135a1b458c8c3199bbee7f657=
+b/eyJoIjoxMjAsInciOjEyMH0%3D/4.png?token-hash=3DSCP2JJ3CAyW5eoxpmDCcJ6ZUb9D=
+qMvvrYjhCfua5ADo%3D" style=3D"border:none;border-radius:60px;display:block;=
+font-size:13px;height:auto;outline:none;text-decoration:none;width:100%;" w=
+idth=3D"60"></td></tr></tbody></table>
+ </td>
+ <td style=3D"padding-left:16px;">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+ <tbody>
+ <tr>
+ <td>
+ <h4 style=3D"color:#000000;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;font-weight:6=
+00;line-height:21px;margin:0;padding:0;text-align:left;"><p style=3D"margin=
+-top:0;margin-bottom:0"> Did you like this post?</p></h4>
+ </td>
+ </tr>
+ <tr>
+ <td style=3D"padding-top:4px;">
+ <div style=3D"color:#626262;font-family:-apple-system, system-ui, BlinkMac=
+SystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:400;line-height:20=
+px;text-align:left;"><p style=3D"margin-top:0;margin-bottom:0"> Share this =
+post with someone who might enjoy it.</p></div>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class=3D"button-cell-mb" style=3D"width:180px;max-width:180px;padding-=
+left:16px;word-break: break-all;" width=3D"180">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;width:100%;"><tbody>=
+<tr><td align=3D"center" bgcolor=3D"#0D0D0D" role=3D"presentation" style=3D=
+"border:1px solid #0D0D0D;border-color:#0D0D0D;background:#0D0D0D;border-ra=
+dius:50px;cursor:auto;mso-padding-alt:8px 20px;" valign=3D"middle"><a class=
+=3D"dys-button-a" href=3D"https://www.patreon.com/posts/inflation-160718424=
+?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D=
+160718424&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXki=
+OiJpYTI6NTAwOGRlNDQtYmIxZS00NWMxLTkyMTktOGI4ZTM0ZTczYjQ0IiwicG9zdF9pZCI6MTY=
+wNzE4NDI0LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.ZuE59ynjbINl-FWlkqn7Q0BIxdxzVJBeLS=
+q-PnIJLEQ&amp;utm_id=3De1293841-fbe6-475c-97d0-76a46d14c5a7&amp;utm_medium=
+=3Demail" rel=3D"noopener noreferrer" style=3D"background:#0D0D0D;border-ra=
+dius:50px;color:#ffffff;display:block;font-family:'SF Pro Display', -apple-=
+system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, =
+'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:14px;fon=
+t-weight:600;line-height:20px;margin:0;mso-padding-alt:0px;padding:8px 20px=
+;text-decoration:none;text-transform:none;" target=3D"_blank">Share</a></td=
+></tr></tbody></table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:28px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:0px;word-br=
+eak:break-word;"><p style=3D"border-top-color:#E8E8E8;border-top-style:soli=
+d;border-top-width:1px;font-size:1px;margin:0px auto;width:100%;"></p><!--[=
+if mso | IE]><table align=3D'center' border=3D'0' cellpadding=3D'0' cellspa=
+cing=3D'0' role=3D'presentation' style=3D'border-top-color:#E8E8E8;border-t=
+op-style:solid;border-top-width:1px;font-size:1px;margin:0px auto;width:592=
+px;' width=3D'592px'><tr><td style=3D'height:0;line-height:0;'>&nbsp</td></=
+tr></table><![endif]--></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:16px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:296px;">
+<![endif]--><div class=3D"dys-column-per-50 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"fnt12" style=3D"font-size:0px;paddi=
+ng:0px 0px 16px;padding-bottom:0;word-break:break-word;"><div style=3D"colo=
+r:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Inter'=
+, Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol';font-size:12px;font-weight:400;line-height:17px;text-align:left;=
+">
+ =C2=A9 2026 InvestAnswers<br><a href=3D"https://privacy.patreon.com/polici=
+es?utm_id=3De1293841-fbe6-475c-97d0-76a46d14c5a7&amp;utm_medium=3Demail" re=
+l=3D"noopener noreferrer" style=3D"color:#666666;text-decoration:underline"=
+ title=3D"Patreon's privacy policy">Privacy policy</a> | <a href=3D"https:/=
+/www.patreon.com/policy/legal?utm_id=3De1293841-fbe6-475c-97d0-76a46d14c5a7=
+&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666=
+;text-decoration:underline" title=3D"Patreon's terms of use">Terms of use</=
+a>
+ 600 Townsend Street<br>San Francisco, CA 94103
+ </div></td></tr>
+=20
+=20
+ </tbody></table></div><!--[if mso | IE]>
+</td><td style=3D"vertical-align:top;width:296px;">
+<![endif]--><div class=3D"dys-column-per-50 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"right" class=3D"footer-text" style=3D"font-size:0p=
+x;padding:0px 0px 16px;padding-bottom:0;word-break:break-word;"><div style=
+=3D"color:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont,=
+ 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol';font-size:12px;font-weight:400;line-height:17px;text-ali=
+gn:right;">Email was sent to <a href=3D"mailto:samin@aianswer.us" rel=3D"no=
+opener noreferrer" style=3D"color:#666666;text-decoration:underline">samin@=
+aianswer.us</a><br><a href=3D"https://www.patreon.com/email-unsubscribe?tok=
+en=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGQiOiJaMEZCUVVGQlFuRkxXSFV0T=
+khKT2FsVmhOR2xpUWxKSlQwdE5SbVpQUzBGTmRtWkVZMkZ1UTNJd1YydG1VMDFVVHpKSVNHaHFk=
+a3BoWlRCaWMwcFFURXRGWWpSbGMydFViVU5HUTJSSlJWUnBSMVJUTkRaaFVERkZXV05UU25aQ1U=
+xaGhWamR5V2w5Nk9HZDZhek4yWVRoR1ptUk5aSGQxWlZOck0xSktXUzE0Uld3NFJFcDBaakpYUl=
+cweFVqQldNVFZKZDJoSU4xOTBTbkJVWVVvNU16ZEJWRGQzY0ZsbVducHRVRmhpWjIwNFUzSm5OV=
+XhwVURSRE1GcGxja1EzZW5NM2QxbEJRVFZOVlZoQ1IzbHdaVVI2ZDBORVVEVXdVRXRwZGxod2NE=
+aFhkRkJMTVdaMWFVRjBOMFY2U25oSE5GZG5iRFZ1VVRRM1UzVlFiVzg1ZDJkbFdrVjRZbHBOWmp=
+GbVgwbG1TemxaYlROYU5VaExka2RvZWtaelpUSTVZa3BSUVhoVlEwUlNlalV3YjBoaFEwUnpZWH=
+BzV2s5Q1Z6ZHRZV1J2T0VORU1sQkdTemxWWkZKcllsWlJOa1IzTmtoSU5uaGhhSGRCWm1GMGQwW=
+jFaR1pqZG1kcE5WVTBkekpNYm10NVkzWkdSVE16Vm1JNVdFcGlZazFCYm1WR2RtdHFTRFI0VERG=
+NlIzWmhZekZ5TTBKdFJsbEtWV1p2TW1ZNWRIVkdPVEZ0U0Rkc2MwZGZRemw0YTNkRlNUUjVhMU5=
+FYldsTmQyRndTRXBzY0hSaFYzUm1OSE01WmtobFpUSlpMWEJqZFZodlMyaG9Sbk5JUnpJM1NXUn=
+pTVVp2YjJabVQyTkxPVnBzYUZjNGVIZ3hZVU5PZDJvdFh6QTkifQ.SZD9kRXLH6x-b6Q93qdQEa=
+ylCy53DTxYa9JdyTwIvN0&amp;utm_campaign=3Dpatron_engagement&amp;utm_source=
+=3Dunsubscribe&amp;utm_id=3De1293841-fbe6-475c-97d0-76a46d14c5a7&amp;utm_me=
+dium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;text-decor=
+ation:underline">Unsubscribe</a> | <a href=3D"https://www.patreon.com/setti=
+ngs/email/InvestAnswers?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dm=
+anage_email_settings&amp;utm_id=3De1293841-fbe6-475c-97d0-76a46d14c5a7&amp;=
+utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;text=
+-decoration:underline">Manage your email settings</a></div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+<!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:16px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"fnt12" style=3D"font-size:0px;paddi=
+ng:0px 0px 16px;padding-top:0px;word-break:break-word;"><div style=3D"color=
+:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Inter',=
+ Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe U=
+I Symbol';font-size:12px;font-weight:400;line-height:17px;text-align:left;"=
+>
+ Download the app - <a href=3D"https://open.patreon.com/posts/inflation-160=
+718424?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post=
+_id=3D160718424&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc1=
+9rZXkiOiJpYTI6NTAwOGRlNDQtYmIxZS00NWMxLTkyMTktOGI4ZTM0ZTczYjQ0IiwicG9zdF9pZ=
+CI6MTYwNzE4NDI0LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.ZuE59ynjbINl-FWlkqn7Q0BIxdxz=
+VJBeLSq-PnIJLEQ&amp;utm_id=3De1293841-fbe6-475c-97d0-76a46d14c5a7&amp;utm_m=
+edium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;text-deco=
+ration:underline">Google Play</a> | <a href=3D"https://open.patreon.com/pos=
+ts/inflation-160718424?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpo=
+st_link&amp;post_id=3D160718424&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6Ikp=
+XVCJ9.eyJyZWRpc19rZXkiOiJpYTI6NTAwOGRlNDQtYmIxZS00NWMxLTkyMTktOGI4ZTM0ZTczY=
+jQ0IiwicG9zdF9pZCI6MTYwNzE4NDI0LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.ZuE59ynjbINl=
+-FWlkqn7Q0BIxdxzVJBeLSq-PnIJLEQ&amp;utm_id=3De1293841-fbe6-475c-97d0-76a46d=
+14c5a7&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#=
+666666;text-decoration:underline">App Store</a>
+ </div></td></tr>=20
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endi=
+f]--></div> <img width=3D"1" height=3D"1" alt=3D"" src=3D"http://email.crea=
+tor.patreon.com/o/eJyMVE2TpCgQ_TV62dAAFC0OHHq2zxNz2DtBQVqV2woGUNVb--s3ULs-p=
+nuj66bw8uXLzJfsT-ObmrwFSUqjp1njwSm0siMd6QkpzSkmPynnnQH5E97jCClB-OVjKpoX2pGe=
+7lrWFs0LI6yrSFdR8gfN_3xXNC-El1aK1gBrSGn9pNEpf4YQ0II0AXTyoZ51CuBdbfxUgqT9jlL=
+ScE5KmDSO6irL6QlkCtpFbRJ6p8cNgVYCZaLZtbQa9tBVbc9NJXpLqr7TbWdpa7juN7TzCQf1Vb=
+H39-kyg7yC1pvZx7SB5oA-YLrImLSzOtjtPF5igkkuP1WEcEYDlTu5v0_mLZbwTwpajf5wQHdQc=
+_BzlEX_o2AMXMJ0UWgLxormxZ3GsWB_FozNAScdLmoFrLdfhtxmscRtt7mMLYixrD__9K8rJoLx=
+WfzGjhB_zx7BWQj3WdeTa9atdffox5wfLbzPe9f7K-5KxFbMMgU0Og96mfwV-RPef22FLMhBO39=
+K91yECtgzoqtOtKLqW9JUO0NNZXSj92Y39NDzVU95lLbbNZZo1ho69D1rWiKM1sDFoAdjtS1RZm=
+uTjhLackFJzWwzGEPawYrWDntRtOQrK6NL4NJqpMfNKTGqIx6ONxeR8qHeZw39EPTZkpsatflwX=
+aAlpppHnQYfpjJ7Iue72mc9WVTjpA-gBhyhDDLqCV3REo3axXcI9SmWQSdQI06Yoiz4j4K_lgEM=
+zpgLj_gvqP3JvEGStIxHfxqtMkftHIwqHYNPaczPznYzPRwmmWDKIkG5a--W_Us6vmXBZGcGYS2=
+pOOUiN0hXojNdJQjjDdVWcErKG8lS-m9MOKE7bAtoxlV00iGphHd-uz1sf90_bHVHRC_arw370d=
+68WOEye3Tpype3RG2mvQ-K31AFMIBnsM-o6-uG8K5rbkuCY4KgbtMZMT5fbctrSghh5Bu-XNkTb=
+F3NBOvp_yz7ARyE9fNpfSsja75lfE4h72pC2_v-ffj2GUUiT0DUpKEd458Y5uDPaNfePTPPzEZJ=
+3VAqmPjEZmHEM4QHluX57l_LU1weakl3nObdFuVZsv8CAAD__5hXf8o"></body></html>

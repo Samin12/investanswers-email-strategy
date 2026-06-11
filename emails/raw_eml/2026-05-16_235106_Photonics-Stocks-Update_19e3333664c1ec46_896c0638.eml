@@ -1,0 +1,1007 @@
+Delivered-To: samin@aianswer.us
+Received: by 2002:a05:7110:4604:b0:300:f046:23cc with SMTP id z4csp1107962gek;
+        Sat, 16 May 2026 16:51:07 -0700 (PDT)
+X-Received: by 2002:a17:90b:1c82:b0:368:a1c2:57fc with SMTP id 98e67ed59e1d1-36951a1d593mr9728188a91.12.1778975467354;
+        Sat, 16 May 2026 16:51:07 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1778975467; cv=none;
+        d=google.com; s=arc-20240605;
+        b=USL1jrygaBYkezx9yw/D97sEs4p4pRq9I0Vf4gOjXhild8pO4CwHpaXTdbex5TBMwc
+         aIizkTlZxGFX6k/BHP0gIjex31pqn0FQ7boLj2C9jzTZznk9qlq7WWlE8iYRobPzzmLp
+         UixSZurWTTq1c0QvhzGrufvzdzWiBNEoP9KigJvaLeIQIm3/KGSwFsM+TLB4RQbJQ43P
+         BSvCANJXGI/TD5N/ej5m7z0FvZZIlZsydEl4MJRsXfY9B7l10zN9Fibamzzm5fnhK1ro
+         dNKRsAvoyCHLTHZiujN5BGt+0U84I0wMk8w4FgzuIlFcC/Cxc6rbrv2h1at3FUcT3Vmr
+         tsbw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=content-transfer-encoding:message-id:list-unsubscribe
+         :list-unsubscribe-post:reply-to:to:from:subject:mime-version:date
+         :dkim-signature;
+        bh=PUu5sC0bDbYniOxuiQCA0yMBW7eC9YOHo56m9+7gEO0=;
+        fh=8CaXxphAXK9mc2ZtT0sDJyShszDCdzjuJnVUV7pcN9M=;
+        b=JlOsHQv/VvLpJieyakHXOj7zYh+otu3IFRUhALjv6qyGBxRpMEdu+bQ6Gnqb81HRHN
+         Z7PFHktporMGEXXwJTU2rfnKCzK0XQc2nUeewu1dxTPktgYPLevN0yTrmDB3ANHiX8Sh
+         xs3zTB+Kpx9RZ9XxEn3ERRbApo1bhGgBJkXPb8Si2WFUstHrNa8FEB9hqKzQdvvwow8e
+         cFVtgNsjXVvUFrvgHlT0BEU0wikKWNBdSailIw06/JSwgHxMXlt+euLo1hpK1IZLC2Zc
+         /Ei+sXo7NrhBuHgLcGC0st882BeDbyeB65GDaaC46diNjLergoLsdo8Mfme3qEJkwua7
+         c7sA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@creator.patreon.com header.s=pdk2 header.b=Z4xLhwpq;
+       spf=pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.191 as permitted sender) smtp.mailfrom="bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=patreon.com
+Return-Path: <bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com>
+Received: from 201-191.static.patreon.com (201-191.static.patreon.com. [161.38.201.191])
+        by mx.google.com with UTF8SMTPS id 98e67ed59e1d1-369a9ee07cbsi660720a91.15.2026.05.16.16.51.06
+        for <samin@aianswer.us>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 16 May 2026 16:51:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.191 as permitted sender) client-ip=161.38.201.191;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@creator.patreon.com header.s=pdk2 header.b=Z4xLhwpq;
+       spf=pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.191 as permitted sender) smtp.mailfrom="bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=patreon.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=creator.patreon.com; q=dns/txt; s=pdk2; t=1778975466; x=1778982666;
+ h=Content-Transfer-Encoding: Content-Type: Message-Id: List-Unsubscribe: List-Unsubscribe-Post: Reply-To: To: To: From: From: Subject: Subject: Mime-Version: Date: Sender;
+ bh=PUu5sC0bDbYniOxuiQCA0yMBW7eC9YOHo56m9+7gEO0=;
+ b=Z4xLhwpq1ZT/2bIr++4wLKcruFzUENniABJaVzDqww9R8AupSao4gZsdteCfm01Yp5tCMJtiRn/0Pht1fytuDETT8CQCekyAqYRrX1xeBqeEYqcYznTg/eNrEH0/M0mbGnZ99tirUpG+JTQFv/s5aWg7dARd591gkYMbFGD1MvBjNQoNCMJ/Q03vWzm9A4myMGuIsntgprNmJtDutPFi9HOH0/wrv48E0OfUgG7q6WooR22dsFz1r3OqoOwugZpmpGl9NkUixb97PFFNSB22FxHKiTYuh/0ty9RCYJo70CuGz+rb985Jk3x15cigR3lYsFl4RCik2kCH99HepehlHA==
+X-Mailgun-Sid: WyJlZTNjZiIsInNhbWluQGFpYW5zd2VyLnVzIiwiOTRjZTIzMCJd
+Received: by 3593deb9c1d2d30103f4a79522d554cd0d80a58dd36c346363d528be8253a276 with HTTP
+ id 6a0902eaefae4a74851903a2; Sat, 16 May 2026 23:51:06 GMT
+X-Mailgun-Sending-Ip: 161.38.201.191
+Date: Sat, 16 May 2026 23:51:06 +0000
+Mime-Version: 1.0
+Subject: Photonics Stocks Update
+From: InvestAnswers <investanswers@creator.patreon.com>
+To: samin@aianswer.us
+X-Mailgun-Tag: template_newsletterpost
+X-Mailgun-Rewrite-Sender-Header: false
+X-Mailgun-Track-Clicks: false
+X-Mailgun-Track-Opens: true
+Reply-To: no-reply@creator.patreon.com
+X-Patreon-Uuid: e0adbaa9-46ca-4d53-b8eb-15ba58ff76c1
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://webhooks.patreon.com/email-unsubscribe?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGQiOiJaMEZCUVVGQlFuRkRVVXh4ZFhjMFMzQklORXBxVDFKeU5rWlpjV0UxY21Ga1VGSmxkSGhCT1ZkNFRFcHRaamhYUVVWU2NtOWxOREp6Ukd0ZldVaDBPWEZuWDJ4d1JraHVMV2RFZUhORk1EVTVWRUp6T1VvMGQzbEZibWxWVVd4Q2NXbEhlV1ZEZWtGeVlsbHJYM2xEYUZSRllpMWFjalpEWnpWa1FuQk9WMWQzWlRWbmFFdGZhMEpuT0RaMllqUnhTSGRpVUdaMmVHUXdiMjVMUVRaNlNVWjVaVXhLY2xsdmNXOUlUazlTU2xOYVRqbEtjR1JHUW1zMlpHdHBVR1JCZWpNMFNGaEJTa1JsTWpkVmJWTTNVMHRRWDFKdVExTnViV2hQWVdsM1lsQlRjRlJ4ZG5CSlpraHVXa3c0WTNsWk9HbzNZbmRYV0ZCM1dsTmZRemRyTjFoNlVXTjNXbEpPZWxoa1FrbDJSR3RFWWxabloyVmpSVFpOWTA5aFRqbFhjSEoyVjNjNWN5MUdXWFpCYVhjeU1WWnZTbXRQU1RSa2RtWkZSRFZNYUZSaGRVWkZTakJqWVdKSGJVeGlSVVZvVjBWWE9FWnlXR1JyTTA1R2NraGtjVjgxY1dWeFYwUTVNREJsUWtKRFdXOVZUbDlNYWtaRlpXWllkelZVZEZWbU9EaE5ObEUzY2kxWlFWVXhURFoxU0ZGMllqRnRNRzlOWVY5SVFVZDNhVWgwY2w5UVl6QmlUVUpKV0ZsdGRFMXpUMG8wV2s5TlowdE9PR3BzVjJweVN6TmxRblZ3Yms1V2NqRmphVTluY3pkdlRuWnRiRlE1U0VnNGJXcGZWMGQyWmpCQk1EWnRiMGxHVms4MVVVUlhjMjVLWkMxSWNVazkifQ.g1voNcxOrcSg5_aqLKwOXDu0pjvU-a08Ow819hrS6P4>
+X-Mailgun-Variables: {"bulk_mode": "0", "campaign_id": "6060700", "custom_nonce":
+ "NewsletterPost:158461031:2026-05-16 23:50:27", "domain_override":
+ "creator.patreon.com", "email_campaign_name": "transactional", "email_id":
+ "2f14731d-0c16-4382-b244-aebee55f1c5f", "email_notif_campaign_id": "6060700",
+ "email_notif_type": "campaign_email_post", "email_priority": "standard",
+ "email_system": "email-service-nunjucks", "extra_logging_props":
+ "{\"entity_id\":null,\"primary_entity\":{\"entity_id\":158461031,\"entity_type\":\"post\"},\"secondary_entities\":null,\"sender\":{\"sender_id\":6060700,\"sender_type\":\"campaign\"},\"campaign_id\":\"6060700\",\"notification_name\":\"NewPost\",\"fanout_id\":\"019e3332-d0df-7593-a3f9-e0b7247025e2\"}",
+ "intent_type": "NewsletterPost", "is_high_priority": "0", "notification_id":
+ "2f14731d-0c16-4382-b244-aebee55f1c5f", "notification_priority": "standard",
+ "patreon_service_name": "notif-platform", "post_id": "158461031",
+ "post_type": "image_file", "rate_limits": "[]", "recipient_size_bucket": "1",
+ "should_channel_throttle": "0", "should_ml_throttle": "0", "task_id":
+ "e0adbaa9-46ca-4d53-b8eb-15ba58ff76c1", "template_name": "newsletterpost",
+ "timing":
+ "{\"client_start_time\":\"2026-05-16T23:50:27.219257\",\"notification_platform_entrypoint\":\"send_fanout_notifications\",\"notification_platform_received_time\":\"2026-05-16T23:50:28.831499\",\"filter_recipient_list_start_time\":\"2026-05-16T23:50:45.801963\",\"filter_recipient_list_end_time\":\"2026-05-16T23:50:48.793077\",\"notification_generation_start_time\":\"2026-05-16T23:50:48.793088\",\"notification_generation_end_time\":\"2026-05-16T23:50:54.505085\",\"channel_start_time\":\"2026-05-16T23:51:06.345530\",\"channel_provider_received_time\":\"2026-05-16T23:51:06.365437\",\"channel_delivered_time\":null}",
+ "user_id": "185171849"}
+Message-Id: <20260516235106.8e229e2d883fb94d@creator.patreon.com>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xml=
+ns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com=
+:office:office" dir=3D"ltr"><head>
+<title>Photonics Stocks Update</title>
+<!--[if !mso]><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />=
+<!--<![endif]-->
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+<style type=3D"text/css">
+#outlook a{padding: 0;}
+=2EReadMsgBody{width: 100%;}
+=2EExternalClass{width: 100%;}
+=2EExternalClass *{line-height: 100%;}
+body{margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%;}
+table, td{border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;}
+img{border: 0; height: auto; line-height: 100%; outline: none; text-decorat=
+ion: none; -ms-interpolation-mode: bicubic;}
+p{display: block; margin: 13px 0;}
+</style>
+<!--[if mso]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type=3D"text/css">
+=2Eoutlook-group-fix{width:100% !important;}
+</style>
+<![endif]-->
+<style type=3D"text/css">=20
+@media only screen and (max-width: 480px) {
+=2Edys-desktop { display: none !important; }
+div.dys-mobile { display: block !important; }
+tr.dys-mobile { display: table-row !important; }=20
+}
+</style>
+ <style type=3D"text/css">
+@media only screen and (min-width:480px) {
+=2Edys-column-per-100 {
+width: 100.000000% !important;
+max-width: 100.000000%;
+}
+=2Edys-column-per-50 {
+width: 50.000000% !important;
+max-width: 50.000000%;
+}
+}
+</style>
+<style type=3D"text/css">
+@media only screen and (max-width:480px) {
+ table.full-width-mobile { width: 100% !important; }
+td.full-width-mobile { width: auto !important; }
+}
+u + #body a {color: #000000;text-decoration: underline;font-size: inherit; =
+font-family: inherit; font-weight: inherit; line-height: inherit; }
+ a {color: #000000;text-decoration: underline;}
+ /* Adds left and right padding to Apple mail */
+ [class^=3D"apple-mail"] #body {
+ padding: 0px 12px !important;=20
+ }=20
+ strong {
+ font-weight:600 !important;
+ }
+ b {
+ font-weight:600 !important;
+ }
+ /* inline image width */
+ td.post-content img {
+ max-width:592px;=20
+ }
+ /* list indentation */
+ td.post-content div ol {
+ margin-left: 5px !important;
+ padding-left: 16px !important;
+ }
+ td.post-content div ul {
+ margin-left:5px !important;
+ padding-left:16px !important;
+ }
+ /* set 20px between paragraphs */
+ td.post-content div p {
+ margin: 20px 0 !important;
+ mso-margin-top-alt: 20px !important;
+ mso-margin-bottom-alt: 20px !important;=20
+ }
+ /* set 10px between list items */
+ td.post-content div ul li,
+ td.post-content div ol li {
+ margin: 0 0 10px 0 !important;=20
+ }
+ /* set 10px between list items */
+ td.post-content li p {
+ margin: 0 0 10px 0 !important;
+ mso-margin-bottom-alt: 10px !important;
+ }
+ td.post-content li {
+ margin: 0 !important;
+ }
+ /* remove extra spacing after the last item in each list */
+ td.post-content div ul li:last-child,
+ td.post-content div ol li:last-child {
+ margin-bottom: 0 !important;
+ }
+ blockquote {
+ border-left:2px solid #070707 !important;
+ margin: 0; padding: 0;
+ padding-left:20px !important;
+ }
+ li p {
+ margin: 12px 0 !important;
+ }
+ @media only screen and (max-width:480px) {
+ td.post-content div p {
+ margin:18px 0 !important;
+ }
+ h1 {
+ font-size: 30px !important;
+ font-weight: 600 !important;
+ line-height:36px !important;
+ }
+ h3 {
+ font-size: 20px !important;
+ font-weight: 600 !important;
+ line-height: 26px !important;=20
+ }
+ h4 {
+ font-size:16px !important;
+ font-weight:600;
+ line-height: 21px !important;
+ }
+ /* padding for titles variant */
+ .pd-bt16 > h1 {
+ padding-bottom:16px !important;
+ }
+ }
+ @media only screen and (max-width: 480px) {
+ .pd-btm {
+ padding-bottom:12px !important;
+ }
+ .mb-pd-wrp > table > tbody > tr > td {
+ padding: 12px 14px !important;
+ }=20
+ .row-mb-pd > table > tbody > tr > td {
+ padding-left:4px !important;
+ padding-right:4px !important;
+ }
+ .stack-mb {
+ display:block !important;
+ }
+ .stack-mb-btn > table {
+ margin-top:16px !important;
+ }
+ }
+ @media only screen and (min-width:480px) {
+ .body-pd {
+ padding:20px 0 !important;
+ }
+ .row-mb-pd > table > tbody > tr > td {
+ padding-left:4px !important;
+ padding-right:4px !important;
+ }
+ }
+ .title-2lines{
+ display:-webkit-box;
+ -webkit-box-orient:vertical;
+ -webkit-line-clamp:2;
+ overflow:hidden;
+ text-overflow:ellipsis;
+ max-height:41.6px;
+ line-height:20.8px;
+ }
+=20
+ .cr-img img {width:42px !important;}
+ @media only screen and (max-width:440px) {
+ .title-mb-sz-26 > h2 {
+ font-size:30px !important;
+ line-height:36px !important;
+ }
+ }
+=20
+ @media only screen and (max-width:440px) {
+ .text-mb-sz-16 > div {
+ font-size:16px !important;
+ line-height:26px !important;
+ }
+ td.post-content li { margin: 0 !important; padding: 0 !important; }
+ /* 10px between paragraphs INSIDE list items (wins over the 16px rule abov=
+e) */
+ td.post-content li p,
+ .text-mb-sz-16 li p {
+ margin: 0 0 10px 0 !important;
+ mso-margin-bottom-alt: 10px !important;
+ }
+ /* 10px between list items */
+ td.post-content ul li,
+ td.post-content ol li,
+ .text-mb-sz-16 ul li,
+ .text-mb-sz-16 ol li {
+ margin: 0 0 10px 0 !important;
+ }
+ /* trim the extra space after the last item */
+ td.post-content ul li:last-child,
+ td.post-content ol li:last-child {
+ margin-bottom: 0 !important;
+ }
+ }=20
+ td.post-content div p li {
+ margin-left:0 !important;
+ padding-left:0 !important;
+ }
+ td.post-content div hr {
+ background-color: #cccccc !important;
+ border: none !important;
+ margin: 32px 0 !important;
+ height: 1px !important;
+ width: 100% !important;
+ }
+ td.post-content div h1 {
+ font-size:26px !important;
+ line-height:34px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div h2 {
+ font-size:22px !important;
+ line-height:29px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div h3 {
+ font-size:18px !important;
+ line-height:23px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div p {
+ font-size:16px !important;
+ line-height:26px !important;
+ }
+ td.post-content div p.caption-text {
+ font-size:14px !important;
+ line-height:20px !important;
+ color: #666 !important;
+ }
+=20
+ .wrp-radius > table {
+ border:1px solid #e8e8e8 !important;
+ border-collapse:initial !important;
+ border-radius: 12px !important;
+ }
+=20
+ @media only screen and (max-width:480px) {
+ .full-width-mb > table {
+ width:100% !important;
+ }
+ .full-width-mb {
+ padding-left: 0 !important;
+ }
+ .mb-crd-pd > table > tbody > tr > td {
+ padding: 24px 16px !important;
+ }
+ .stack-container-mb > tbody > tr > td {
+ display: block !important;
+ width: 100% !important;
+ box-sizing: border-box !important;
+ }
+ .button-cell-mb {
+ padding-top: 16px !important;
+ padding-left: 0 !important;
+ max-width:100% !important;
+ }
+ }
+=20
+ @media only screen and (max-width: 480px) {
+ .footer-text > div {
+ text-align: left !important;
+ margin-top:16px !important;
+ }
+ .fnt12 > div {
+ font-size:12px !important;
+ }
+ }
+=20
+</style>
+
+
+</head>
+<body id=3D"body" style=3D"background-color: transparent;"><span id=3D"dys-=
+ph" style=3D"width:0;opacity:0;max-height:0;mso-hide:all;overflow:hidden;fl=
+oat:left;display:none !important;">Copper worked fine for a while, but AI m=
+odels are getting so big that the amount of data flying between chips is ex=
+ploding. At these insane speeds (80...</span><span style=3D"display: none; =
+max-height: 0px; overflow: hidden;">=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=
+=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+ &nbsp;</span><div style=3D"background-color: transparent;" class=3D"body-p=
+d">
+<!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]-->
+<div style=3D"margin:0px auto; max-width:600px;">
+<table align=3D"center" role=3D"presentation" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%"><tbody><tr><td style=3D"padding:12px 0px=
+ 12px 0px;vertical-align:top;">
+
+=20
+=20
+
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:0px 4px;padding-bottom:0px;padding-left:4px=
+;padding-right:4px;padding-top:16px;text-align:center;vertical-align:top;">=
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:0;word-brea=
+k:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;"><t=
+body><tr><td style=3D"width:592px;"><a href=3D"https://www.patreon.com/post=
+s/photonics-stocks-158461031?utm_campaign=3Dpatron_engagement&amp;utm_sourc=
+e=3Dpost_link&amp;post_id=3D158461031&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5c=
+CI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6OTU2MDUwMDgtNjY4Ni00MDdjLTk4ODctMzdiODI=
+1NDgxYjZlIiwicG9zdF9pZCI6MTU4NDYxMDMxLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.WJB9dl=
+xUantxICAOsa5MI_9UdC8GXqrt0t1zmSjd-jg&amp;utm_id=3D2f14731d-0c16-4382-b244-=
+aebee55f1c5f&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"c=
+olor:#000000;text-decoration:underline;" target=3D"_blank"><span style=3D"c=
+olor:#000000;text-decoration:underline;"><img height=3D"auto" src=3D"https:=
+//c10.patreonusercontent.com/4/patreon-media/p/post/158461031/b0d4b1c0a5ed4=
+a10aa0cabc1c8d61245/eyJ3IjoxMDgwfQ%3D%3D/1.png?token-hash=3DDzN5xqkhv4uqB6G=
+hE5Arp9zaYwuviNvKig8w4V1JJhk%3D&amp;token-time=3D1780185600" style=3D"borde=
+r:none;border-radius:12px;display:block;font-size:13px;height:auto;outline:=
+none;text-decoration:none;width:100%;" width=3D"592"></span></a></td></tr><=
+/tbody></table></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mb-pd-title-outlook row-mb-pd-outlook" style=3D"width:600px;" width=
+=3D"600"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rul=
+e:exactly;">
+<![endif]--><div class=3D"mb-pd-title row-mb-pd" style=3D"margin:0px auto;m=
+ax-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td s=
+tyle=3D"direction:ltr;font-size:0px;padding:0px 4px;padding-bottom:16px;pad=
+ding-top:16px;text-align:center;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"title-mb-sz-30" style=3D"font-size:=
+0px;padding:0px 0px 20px;padding-bottom:16px;padding-top:0px;word-break:bre=
+ak-word;"><h2 style=3D"color:#000000;font-family:'SF Pro Display', -apple-s=
+ystem, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:32px;font=
+-weight:600;line-height:38px;margin:0;padding:0;text-align:left;text-decora=
+tion:none;"><a href=3D"https://www.patreon.com/posts/photonics-stocks-15846=
+1031?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_i=
+d=3D158461031&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19r=
+ZXkiOiJpYTI6OTU2MDUwMDgtNjY4Ni00MDdjLTk4ODctMzdiODI1NDgxYjZlIiwicG9zdF9pZCI=
+6MTU4NDYxMDMxLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.WJB9dlxUantxICAOsa5MI_9UdC8GXq=
+rt0t1zmSjd-jg&amp;utm_id=3D2f14731d-0c16-4382-b244-aebee55f1c5f&amp;utm_med=
+ium=3Demail" style=3D"text-decoration:none;color:#000000;"><span style=3D"t=
+ext-decoration:none;color:#000000;">Photonics Stocks Update</span></a></h2>=
+</td></tr>
+ <tr><td><div>
+ <div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on">
+ <tbody>
+ <tr>
+=20
+ <td class=3D"cr-img" style=3D"max-width:40px;padding-right:12px;" width=3D=
+"40">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:42px;"><a href=3D"https://www.patreon.com/InvestAnswers?utm_c=
+ampaign=3Dpatron_engagement&amp;utm_source=3Dcreator_link&amp;utm_id=3D2f14=
+731d-0c16-4382-b244-aebee55f1c5f&amp;utm_medium=3Demail" rel=3D"noopener no=
+referrer" style=3D"color:#000000;text-decoration:underline;" target=3D"_bla=
+nk"><span style=3D"color:#000000;text-decoration:underline;"><img height=3D=
+"auto" src=3D"https://c10.patreonusercontent.com/4/patreon-media/p/campaign=
+/6060700/1e1c15135a1b458c8c3199bbee7f657b/eyJoIjo3NSwidyI6NzV9/4.png?token-=
+hash=3DSEhhIAk8OLBgPeMkz_-qm_uAyNc-C59l_YTnjpW61RU%3D" style=3D"border:none=
+;border-radius:4px;display:block;font-size:13px;height:auto;outline:none;te=
+xt-decoration:none;width:100%;" width=3D"42"></span></a></td></tr></tbody><=
+/table>
+ </td>
+=20
+ <td>
+=20
+=20
+ <h4 style=3D"color:#000000;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:6=
+00;line-height:18px;margin:0;padding:0;text-align:left;"><a href=3D"https:/=
+/www.patreon.com/InvestAnswers?utm_campaign=3Dpatron_engagement&amp;utm_sou=
+rce=3Dcreator_link&amp;utm_id=3D2f14731d-0c16-4382-b244-aebee55f1c5f&amp;ut=
+m_medium=3Demail" style=3D"text-decoration:none;color:#000000;"><span style=
+=3D"text-decoration:none;color:#000000;">InvestAnswers</span></a></h4>
+=20
+=20
+ <div style=3D"color:#666666;font-family:-apple-system, system-ui, BlinkMac=
+SystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:400;line-height:20=
+px;text-align:left;">May 16, 2026</div>
+=20
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div></td></tr>
+ <tr><td style=3D"font-size:0px;word-break:break-word;"><div style=3D"heigh=
+t:16px;line-height:16px;">=E2=80=8A</div></td></tr>
+ <tr><td><div>
+ <div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"icon-mb-a=
+l">
+ <tbody>
+ <tr style=3D"padding-top 16px;">
+ <td align=3D"left" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/posts/photonics-stocks-158461031?utm_campaign=3Dpatron=
+_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D158461031&amp;token=3D=
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6OTU2MDUwMDgtNj=
+Y4Ni00MDdjLTk4ODctMzdiODI1NDgxYjZlIiwicG9zdF9pZCI6MTU4NDYxMDMxLCJwYXRyb25fa=
+WQiOjE4NTE3MTg0OX0.WJB9dlxUantxICAOsa5MI_9UdC8GXqrt0t1zmSjd-jg&amp;utm_id=
+=3D2f14731d-0c16-4382-b244-aebee55f1c5f&amp;utm_medium=3Demail" rel=3D"noop=
+ener noreferrer" style=3D"background:transparent;border-radius:50px;color:#=
+ffffff;display:inline-block;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;font-weight:6=
+00;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;text-decoratio=
+n:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE]><span styl=
+e=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"like" src=3D"https://cdn=
+-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_01jmdv6s5fevecq2=
+mwr1tmmwss%2FmEPm9PuPRYKykZNvWcmk_HeartOutline.png" style=3D"vertical-align=
+:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></span><![endif]--></a></=
+td></tr></tbody></table>
+ </td>
+ <td align=3D"center" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/posts/photonics-stocks-158461031?utm_campaign=3Dpatron=
+_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D158461031&amp;token=3D=
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6OTU2MDUwMDgtNj=
+Y4Ni00MDdjLTk4ODctMzdiODI1NDgxYjZlIiwicG9zdF9pZCI6MTU4NDYxMDMxLCJwYXRyb25fa=
+WQiOjE4NTE3MTg0OX0.WJB9dlxUantxICAOsa5MI_9UdC8GXqrt0t1zmSjd-jg&amp;utm_id=
+=3D2f14731d-0c16-4382-b244-aebee55f1c5f&amp;utm_medium=3Demail" rel=3D"noop=
+ener noreferrer" style=3D"background:transparent;border-radius:50px;color:#=
+ffffff;display:inline-block;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;font-weight:6=
+00;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;text-decoratio=
+n:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE]><span styl=
+e=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"comment" src=3D"https://=
+cdn-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_01jmdv6s5feve=
+cq2mwr1tmmwss%2FpONe1AzqSS2ydddAswCs_BubbleOutlined%20(1).png" style=3D"ver=
+tical-align:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></span><![endi=
+f]--></a></td></tr></tbody></table>
+ </td>
+ <td align=3D"right" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/posts/photonics-stocks-158461031?utm_campaign=3Dpatron=
+_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D158461031&amp;token=3D=
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6OTU2MDUwMDgtNj=
+Y4Ni00MDdjLTk4ODctMzdiODI1NDgxYjZlIiwicG9zdF9pZCI6MTU4NDYxMDMxLCJwYXRyb25fa=
+WQiOjE4NTE3MTg0OX0.WJB9dlxUantxICAOsa5MI_9UdC8GXqrt0t1zmSjd-jg&amp;utm_id=
+=3D2f14731d-0c16-4382-b244-aebee55f1c5f&amp;utm_medium=3Demail" rel=3D"noop=
+ener noreferrer" style=3D"background:transparent;border-radius:50px;color:#=
+ffffff;display:inline-block;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;font-weight:6=
+00;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;text-decoratio=
+n:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE]><span styl=
+e=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"share" src=3D"https://cd=
+n-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_01jmdv6s5fevecq=
+2mwr1tmmwss%2FFkHQyZCfR8O5oErCuqC4_Share%20(2).png" style=3D"vertical-align=
+:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></span><![endif]--></a></=
+td></tr></tbody></table>
+ </td>
+ <td>
+=20
+ <div class=3D"dys-desktop"><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"border-collapse:separate;line-heigh=
+t:100%;"><tbody><tr><td align=3D"center" bgcolor=3D"transparent" role=3D"pr=
+esentation" style=3D"border:1px solid #CCCCCC;border-color:#CCCCCC;backgrou=
+nd:transparent;border-radius:50px;cursor:auto;mso-padding-alt:8px 20px;" va=
+lign=3D"middle"><a class=3D"dys-button-a" href=3D"https://open.patreon.com/=
+posts/photonics-stocks-158461031?utm_campaign=3Dpatron_engagement&amp;utm_s=
+ource=3Dpost_link&amp;post_id=3D158461031&amp;token=3DeyJhbGciOiJIUzI1NiIsI=
+nR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6OTU2MDUwMDgtNjY4Ni00MDdjLTk4ODctMzd=
+iODI1NDgxYjZlIiwicG9zdF9pZCI6MTU4NDYxMDMxLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.WJ=
+B9dlxUantxICAOsa5MI_9UdC8GXqrt0t1zmSjd-jg&amp;utm_id=3D2f14731d-0c16-4382-b=
+244-aebee55f1c5f&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=
+=3D"background:transparent;border-radius:50px;color:#000000;display:inline-=
+block;font-family:'SF Pro Display', -apple-system, system-ui, BlinkMacSyste=
+mFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol';font-size:14px;font-weight:600;line-height:20px;ma=
+rgin:0;mso-padding-alt:0px;padding:8px 20px;text-decoration:none;text-trans=
+form:none;" target=3D"_blank">View in app</a></td></tr></tbody></table></di=
+v>
+=20
+=20
+ <div><!--[if !mso]--><div class=3D"dys-mobile" style=3D"display:none;"><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td align=
+=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border:1=
+px solid #CCCCCC;border-color:#CCCCCC;background:transparent;border-radius:=
+50px;cursor:auto;mso-padding-alt:8px 20px;" valign=3D"middle"><a class=3D"d=
+ys-button-a" href=3D"https://open.patreon.com/posts/photonics-stocks-158461=
+031?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=
+=3D158461031&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZ=
+XkiOiJpYTI6OTU2MDUwMDgtNjY4Ni00MDdjLTk4ODctMzdiODI1NDgxYjZlIiwicG9zdF9pZCI6=
+MTU4NDYxMDMxLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.WJB9dlxUantxICAOsa5MI_9UdC8GXqr=
+t0t1zmSjd-jg&amp;utm_id=3D2f14731d-0c16-4382-b244-aebee55f1c5f&amp;utm_medi=
+um=3Demail" rel=3D"noopener noreferrer" style=3D"background:transparent;bor=
+der-radius:50px;color:#000000;display:inline-block;font-family:'SF Pro Disp=
+lay', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-=
+size:14px;font-weight:600;line-height:20px;margin:0;mso-padding-alt:0px;pad=
+ding:8px 20px;text-decoration:none;text-transform:none;" target=3D"_blank">=
+View in app</a></td></tr></tbody></table></div><!--[endif]--></div>
+=20
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:0px 4px;padding-bottom:0px;padding-left:12p=
+x;padding-right:12px;padding-top:0px;text-align:center;vertical-align:top;"=
+><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:576px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"text-mb-sz-16 post-content" style=
+=3D"font-size:0px;padding:0px 0px 16px;padding-bottom:0;word-break:break-wo=
+rd;"><div style=3D"color:#000000;font-family:-apple-system, system-ui, Blin=
+kMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol';font-size:18px;font-weight:400;line-heigh=
+t:29px;text-align:left;"><p style=3D"margin-top:0;margin-bottom:0"></p><p s=
+tyle=3D"margin:10px 0">Copper worked fine for a while, but AI models are ge=
+tting so big that the amount of data flying between chips is exploding. At =
+these insane speeds (800 Gbps, 1.6 Tbps+), copper runs into hard physical l=
+imits - like power, heat and signal weakens over distance. </p><p style=3D"=
+margin:10px 0">Photonics on the other hand is sending data at teh speed of =
+light. Photonics has become the new critical bottleneck after the chips the=
+mselves. Why our IA13 names like ALAB AVGO and MRVL have done well.... </p>=
+<p style=3D"margin:10px 0">Re AAOI while it has also been on fire the finan=
+cials are not as solid as the others. </p><p style=3D"margin:10px 0">Re LIT=
+E appears to be diluting and very overvalued. </p><p></p></div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:16px 4px;text-align:center;vertical-align:t=
+op;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exac=
+tly;">
+<![endif]--><!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mb-pd-cr-outlook card-pd-32-outlook mb-crd-pd-outlook" style=3D"widt=
+h:592px;" width=3D"592"><tr><td style=3D"line-height:0px;font-size:0px;mso-=
+line-height-rule:exactly;">
+<![endif]--><div class=3D"mb-pd-cr card-pd-32 mb-crd-pd" style=3D"backgroun=
+d-color:#F5F5F5;border-radius:8px;margin:0px auto;max-width:592px;"><table =
+align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"background-color:#F5F5F5;border-collapse:separate;bor=
+der-radius:8px;width:100%;"><tbody><tr><td style=3D"border-radius:8px;direc=
+tion:ltr;font-size:0px;padding:24px;text-align:center;vertical-align:top;">=
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:544px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td><div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"stack-con=
+tainer-mb" width=3D"100%">
+ <tbody>
+ <tr>
+ <td valign=3D"middle">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+ <tbody>
+ <tr>
+ <td height=3D"60" style=3D"min-width:60px;min-height:60px;width:60px;heigh=
+t:60;" width=3D"60">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:60px;"><img height=3D"auto" src=3D"https://c10.patreonusercon=
+tent.com/4/patreon-media/p/campaign/6060700/1e1c15135a1b458c8c3199bbee7f657=
+b/eyJoIjoxMjAsInciOjEyMH0%3D/4.png?token-hash=3DSCP2JJ3CAyW5eoxpmDCcJ6ZUb9D=
+qMvvrYjhCfua5ADo%3D" style=3D"border:none;border-radius:60px;display:block;=
+font-size:13px;height:auto;outline:none;text-decoration:none;width:100%;" w=
+idth=3D"60"></td></tr></tbody></table>
+ </td>
+ <td style=3D"padding-left:16px;">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+ <tbody>
+ <tr>
+ <td>
+ <h4 style=3D"color:#000000;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;font-weight:6=
+00;line-height:21px;margin:0;padding:0;text-align:left;"><p style=3D"margin=
+-top:0;margin-bottom:0"> Did you like this post?</p></h4>
+ </td>
+ </tr>
+ <tr>
+ <td style=3D"padding-top:4px;">
+ <div style=3D"color:#626262;font-family:-apple-system, system-ui, BlinkMac=
+SystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:400;line-height:20=
+px;text-align:left;"><p style=3D"margin-top:0;margin-bottom:0"> Share this =
+post with someone who might enjoy it.</p></div>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class=3D"button-cell-mb" style=3D"width:180px;max-width:180px;padding-=
+left:16px;word-break: break-all;" width=3D"180">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;width:100%;"><tbody>=
+<tr><td align=3D"center" bgcolor=3D"#0D0D0D" role=3D"presentation" style=3D=
+"border:1px solid #0D0D0D;border-color:#0D0D0D;background:#0D0D0D;border-ra=
+dius:50px;cursor:auto;mso-padding-alt:8px 20px;" valign=3D"middle"><a class=
+=3D"dys-button-a" href=3D"https://www.patreon.com/posts/photonics-stocks-15=
+8461031?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;pos=
+t_id=3D158461031&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc=
+19rZXkiOiJpYTI6OTU2MDUwMDgtNjY4Ni00MDdjLTk4ODctMzdiODI1NDgxYjZlIiwicG9zdF9p=
+ZCI6MTU4NDYxMDMxLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.WJB9dlxUantxICAOsa5MI_9UdC8=
+GXqrt0t1zmSjd-jg&amp;utm_id=3D2f14731d-0c16-4382-b244-aebee55f1c5f&amp;utm_=
+medium=3Demail" rel=3D"noopener noreferrer" style=3D"background:#0D0D0D;bor=
+der-radius:50px;color:#ffffff;display:block;font-family:'SF Pro Display', -=
+apple-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:14=
+px;font-weight:600;line-height:20px;margin:0;mso-padding-alt:0px;padding:8p=
+x 20px;text-decoration:none;text-transform:none;" target=3D"_blank">Share</=
+a></td></tr></tbody></table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:28px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:0px;word-br=
+eak:break-word;"><p style=3D"border-top-color:#E8E8E8;border-top-style:soli=
+d;border-top-width:1px;font-size:1px;margin:0px auto;width:100%;"></p><!--[=
+if mso | IE]><table align=3D'center' border=3D'0' cellpadding=3D'0' cellspa=
+cing=3D'0' role=3D'presentation' style=3D'border-top-color:#E8E8E8;border-t=
+op-style:solid;border-top-width:1px;font-size:1px;margin:0px auto;width:592=
+px;' width=3D'592px'><tr><td style=3D'height:0;line-height:0;'>&nbsp</td></=
+tr></table><![endif]--></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:16px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:296px;">
+<![endif]--><div class=3D"dys-column-per-50 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"fnt12" style=3D"font-size:0px;paddi=
+ng:0px 0px 16px;padding-bottom:0;word-break:break-word;"><div style=3D"colo=
+r:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Inter'=
+, Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol';font-size:12px;font-weight:400;line-height:17px;text-align:left;=
+">
+ =C2=A9 2026 InvestAnswers<br><a href=3D"https://privacy.patreon.com/polici=
+es?utm_id=3D2f14731d-0c16-4382-b244-aebee55f1c5f&amp;utm_medium=3Demail" re=
+l=3D"noopener noreferrer" style=3D"color:#666666;text-decoration:underline"=
+ title=3D"Patreon's privacy policy">Privacy policy</a> | <a href=3D"https:/=
+/www.patreon.com/policy/legal?utm_id=3D2f14731d-0c16-4382-b244-aebee55f1c5f=
+&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666=
+;text-decoration:underline" title=3D"Patreon's terms of use">Terms of use</=
+a>
+ 600 Townsend Street<br>San Francisco, CA 94103
+ </div></td></tr>
+=20
+=20
+ </tbody></table></div><!--[if mso | IE]>
+</td><td style=3D"vertical-align:top;width:296px;">
+<![endif]--><div class=3D"dys-column-per-50 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"right" class=3D"footer-text" style=3D"font-size:0p=
+x;padding:0px 0px 16px;padding-bottom:0;word-break:break-word;"><div style=
+=3D"color:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont,=
+ 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol';font-size:12px;font-weight:400;line-height:17px;text-ali=
+gn:right;">Email was sent to <a href=3D"mailto:samin@aianswer.us" rel=3D"no=
+opener noreferrer" style=3D"color:#666666;text-decoration:underline">samin@=
+aianswer.us</a><br><a href=3D"https://www.patreon.com/email-unsubscribe?tok=
+en=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGQiOiJaMEZCUVVGQlFuRkRVVXh4Z=
+FhjMFMzQklORXBxVDFKeU5rWlpjV0UxY21Ga1VGSmxkSGhCT1ZkNFRFcHRaamhYUVVWU2NtOWxO=
+REp6Ukd0ZldVaDBPWEZuWDJ4d1JraHVMV2RFZUhORk1EVTVWRUp6T1VvMGQzbEZibWxWVVd4Q2N=
+XbEhlV1ZEZWtGeVlsbHJYM2xEYUZSRllpMWFjalpEWnpWa1FuQk9WMWQzWlRWbmFFdGZhMEpuT0=
+RaMllqUnhTSGRpVUdaMmVHUXdiMjVMUVRaNlNVWjVaVXhLY2xsdmNXOUlUazlTU2xOYVRqbEtjR=
+1JHUW1zMlpHdHBVR1JCZWpNMFNGaEJTa1JsTWpkVmJWTTNVMHRRWDFKdVExTnViV2hQWVdsM1ls=
+QlRjRlJ4ZG5CSlpraHVXa3c0WTNsWk9HbzNZbmRYV0ZCM1dsTmZRemRyTjFoNlVXTjNXbEpPZWx=
+oa1FrbDJSR3RFWWxabloyVmpSVFpOWTA5aFRqbFhjSEoyVjNjNWN5MUdXWFpCYVhjeU1WWnZTbX=
+RQU1RSa2RtWkZSRFZNYUZSaGRVWkZTakJqWVdKSGJVeGlSVVZvVjBWWE9FWnlXR1JyTTA1R2Nra=
+GtjVjgxY1dWeFYwUTVNREJsUWtKRFdXOVZUbDlNYWtaRlpXWllkelZVZEZWbU9EaE5ObEUzY2kx=
+WlFWVXhURFoxU0ZGMllqRnRNRzlOWVY5SVFVZDNhVWgwY2w5UVl6QmlUVUpKV0ZsdGRFMXpUMG8=
+wV2s5TlowdE9PR3BzVjJweVN6TmxRblZ3Yms1V2NqRmphVTluY3pkdlRuWnRiRlE1U0VnNGJXcG=
+ZWMGQyWmpCQk1EWnRiMGxHVms4MVVVUlhjMjVLWkMxSWNVazkifQ.g1voNcxOrcSg5_aqLKwOXD=
+u0pjvU-a08Ow819hrS6P4&amp;utm_campaign=3Dpatron_engagement&amp;utm_source=
+=3Dunsubscribe&amp;utm_id=3D2f14731d-0c16-4382-b244-aebee55f1c5f&amp;utm_me=
+dium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;text-decor=
+ation:underline">Unsubscribe</a> | <a href=3D"https://www.patreon.com/setti=
+ngs/email/InvestAnswers?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dm=
+anage_email_settings&amp;utm_id=3D2f14731d-0c16-4382-b244-aebee55f1c5f&amp;=
+utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;text=
+-decoration:underline">Manage your email settings</a></div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+<!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:16px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"fnt12" style=3D"font-size:0px;paddi=
+ng:0px 0px 16px;padding-top:0px;word-break:break-word;"><div style=3D"color=
+:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Inter',=
+ Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe U=
+I Symbol';font-size:12px;font-weight:400;line-height:17px;text-align:left;"=
+>
+ Download the app - <a href=3D"https://open.patreon.com/posts/photonics-sto=
+cks-158461031?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_link&a=
+mp;post_id=3D158461031&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ=
+yZWRpc19rZXkiOiJpYTI6OTU2MDUwMDgtNjY4Ni00MDdjLTk4ODctMzdiODI1NDgxYjZlIiwicG=
+9zdF9pZCI6MTU4NDYxMDMxLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.WJB9dlxUantxICAOsa5MI=
+_9UdC8GXqrt0t1zmSjd-jg&amp;utm_id=3D2f14731d-0c16-4382-b244-aebee55f1c5f&am=
+p;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;te=
+xt-decoration:underline">Google Play</a> | <a href=3D"https://open.patreon.=
+com/posts/photonics-stocks-158461031?utm_campaign=3Dpatron_engagement&amp;u=
+tm_source=3Dpost_link&amp;post_id=3D158461031&amp;token=3DeyJhbGciOiJIUzI1N=
+iIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6OTU2MDUwMDgtNjY4Ni00MDdjLTk4ODc=
+tMzdiODI1NDgxYjZlIiwicG9zdF9pZCI6MTU4NDYxMDMxLCJwYXRyb25faWQiOjE4NTE3MTg0OX=
+0.WJB9dlxUantxICAOsa5MI_9UdC8GXqrt0t1zmSjd-jg&amp;utm_id=3D2f14731d-0c16-43=
+82-b244-aebee55f1c5f&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" st=
+yle=3D"color:#666666;text-decoration:underline">App Store</a>
+ </div></td></tr>=20
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endi=
+f]--></div> <img width=3D"1" height=3D"1" alt=3D"" src=3D"http://email.crea=
+tor.patreon.com/o/eJyMVcty4zYQ_BrykiILTz4OOHjj89YeckeBwFBCTAIsAJSjfH2KD1PS2=
+inrJgI9PT0zPVA3D29y9AYEyrUaJ2VPTlojKlShGqFczzH5UTrvNIif8B4HSAnCLx9TRl8wb1iF=
+EcUZfSGIVAXiBa7-IDSjLxwth3VuRMs0EIpy40dlnfQXCMEaEDqASj6Uk0oBvCu1H3MQuK6btua=
+sqnIYlR3kIcupEUQKykWlk_VODTvCGkF6zGqKTYE0rgpGG1J0hLFCQQfAeY8173e088n28qti7-=
+_TdQJxgLabyce0g6ZgfbDpKmJSzqhg9vN4jQlGsX4UEcLFaijc7P6e9VvM4Z8UlBz86WTdSU7BT=
+1Fk9Y-MEHDJpqu0JiMkoy9uHoaM_JkRMgU7qnCVG2C7_TLkNos1br9dytiDCFn0Lx_164aJoP0i=
+fme3EH_PHsEZCPdZt5Mj6966e_Rjzo8W3ue96_2BO4jIhlmnYLVaBr1O_kD-hPdfeyErslfOz-m=
+eC-EWKKWkMMj0Rc1bWijatwWgriasRoQD2fTkZ0E17VHb91UHWDOqur7HSCNoTNu0fQe5FYu1Ec=
+cVoRyjqmyAkBaIaRrady0zGUNfWdm6BC5tRnrcnNxGeban881FKH-o91lDPwR9tuSuRu4-3BZoj=
+SmmQaXehzFfPLHkO-yznayq7ahOIHs7QB5EVKN1GUPKKhffIZRzzINKIAc72hRFxn9k_DUPoO1k=
+l8Kj_RdkN-s3SALn8eznwUh9Vs7BINM5-JSG5dnZb8aHwyQSjItIkO7o3bp_ScW3RTAgZTql2oJ=
+VWhXMcFp0DXQF5p3iTd_Xlcb5jWQt_TcmO1p32hdQD5vopEKSyd757faw_XX_sJUEt4TXXxv2o7=
+3LYoXr5K1LB9-yJXI37X1Q_IYqgAZ7AfOMuqZsKGZte1sSOyQI8jadwcbnq2W8bBBuK_oN31LZE=
+2xNWbcU1f_TuxM4CNvPp_VtjE3zLeNzCjkrOeKo4Qffh2-fUbT8G6KqpIxzij4xTMFfrNl698w8=
+P9gqzmj9ic3AYC8QHljW57t-zee4PtQCNxzXuGFtfhHkvwAAAP__mVyBYA"></body></html>

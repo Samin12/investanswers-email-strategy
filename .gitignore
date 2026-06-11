@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Local transient files
+.DS_Store
+.tmp/
+
+# Never commit local credentials/secrets if accidentally created here
+.env
+*.key
+*.pem
+credentials*.json
+token*.json
