@@ -10,6 +10,7 @@ Every autonomous trade, trade alert, explicit no-trade decision, and later outco
 |---|---|---|---:|---|---:|---|---|---|---|---|---|---|
 | 2026-06-12 00:43 ET | — | JOURNAL UPDATED | — | — | — | — | AUTONOMOUS_PORTFOLIO_MANAGER.md | Samin authorized autonomous PM mode | — | setup | Replaced proposal-only journal with autonomous execution journal. | Baseline: see STRATEGY.md §5 and triggers.json. |
 | 2026-06-12 setup | — | POLICY UPDATED | — | — | — | Options allowed only with max-loss/breakeven/collateral note; no debt/margin debit/naked risk | AGENT_INSTRUCTIONS.md §0/§3/§4 | Samin enabled options/LEAPS/covered calls | — | setup | Updated mandate: portfolio is agent-managed; tools may include options as long as worst-case exposure is covered. | Future option rows must fill `options_risk_note`. |
+| 2026-06-12 13:56 ET | SPCX/TSLA/SATS | NO-TRADE / SET-WATCH | — | no order | — | No option order; no margin/debt allowed; cash $197.37 vs 10% buffer target ~$1.38K | triggers.json SPCX day-1 never chase; TSLA buy below 400; SATS small stab only below 100 | 2026-06-12 SPCX IPO update, IA TSLA buy at $395, Options Sweep on TSLA, SATS proxy email | — | watch | Fresh IA signal is bullish but current prices fail no-chase/cash guardrails: SPCX ~173.66 above IPO/mean-reversion zone, TSLA ~402 above below-400 zone, SATS ~112.84 above <$100 level. | Watch SPCX $140-$135 retest, TSLA <$400/higher-low or 380-395; no autonomous order placed. |
 
 ## Review cadence
 
