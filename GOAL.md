@@ -13,10 +13,11 @@ The full goal definition, the reverse-engineered playbook, current price ranges,
 
 1. ✅ **Archive** — 345 emails exported (May 5 – Jun 11, 2026) in raw `.eml`, cleaned markdown, and metadata JSON, with manifests.
 2. ✅ **Analysis** — 16-agent extraction + deep research complete: 87 trades, 235 levels, 182 rules, 23 portfolio snapshots, model/framework research, James background research. See `analysis/extracted/` and `STRATEGY.md`.
-3. ⬜ **Monitor** — non-executing cron: parse new InvestAnswers emails daily → classify (Trade Alert / Portfolio / Levels / Nuggets) → Telegram digest with the rule that fired.
-4. ⬜ **Journal** — `analysis/trade-journal.md`: log every action as date / asset / action / level / rule / James's corresponding move.
-5. ⬜ **Refresh loop** — re-run extraction weekly over new emails; keep the STRATEGY.md §5 ranges table current.
+3. ✅ **Autonomous PM mode** — Samin authorized the agent to manage the assigned Alpaca paper account autonomously, notify after trades, and log every check/trade.
+4. ⬜ **Scheduled checks** — daily 9:00, 14:00, and 17:00 ET crons: parse new InvestAnswers emails → classify → check portfolio/levels → trade if the checklist fires → Telegram summary.
+5. ⬜ **Journal + check log** — `analysis/trade-journal.md` logs orders/no-trade decisions; `analysis/check-log.md` logs every scheduled check.
+6. ⬜ **Refresh loop** — re-run extraction weekly over new emails; keep the STRATEGY.md §5 ranges table current.
 
-## Hard boundary
+## Operating boundary
 
-No autonomous trading execution is enabled in this phase. This repo is for archiving, research, learning, alerting, and strategy development first.
+Autonomous execution is enabled for the authenticated Alpaca `paper` profile only, under [`AUTONOMOUS_PORTFOLIO_MANAGER.md`](AUTONOMOUS_PORTFOLIO_MANAGER.md). Live-account trading, options, spreads, margin, perps, and crypto perpetuals remain disabled unless Samin explicitly enables them later.

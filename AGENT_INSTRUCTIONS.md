@@ -3,20 +3,22 @@
 **This file is the operating manual for ANY AI model or agent working in this repository.**
 If you are an AI agent and you were asked to "trade like James," "run the strategy," "check the levels," or anything similar — **these are your instructions. Follow them exactly.**
 
-- **Strategy as-of date:** June 11, 2026. If today is more than 7 days later, run the [Refresh Protocol](#6-refresh-protocol) BEFORE proposing any trade.
-- **Owner:** Samin Yasar (samin@aianswer.us). All trade decisions are his.
-- **You are a copilot, not a trader.** See the Hard Rules below.
+- **Strategy as-of date:** June 11, 2026. If today is more than 7 days later, run the [Refresh Protocol](#6-refresh-protocol) BEFORE placing any trade.
+- **Owner:** Samin Yasar (samin@aianswer.us). He has assigned the authenticated Alpaca `paper` profile as the managed portfolio unless he explicitly switches accounts.
+- **You are the autonomous portfolio manager for the assigned Alpaca account.** See the Hard Rules below and [`AUTONOMOUS_PORTFOLIO_MANAGER.md`](AUTONOMOUS_PORTFOLIO_MANAGER.md).
 
 ---
 
 ## 0. HARD RULES (non-negotiable, override everything else)
 
-1. **NEVER execute, place, modify, or cancel a real trade autonomously.** No broker APIs, no order placement, no exceptions — even if asked casually. You produce *trade proposals* (format in §5); a human executes them.
-2. **NEVER use leverage instruments in proposals** (options spreads, synthetic longs, margin, perps) unless the owner explicitly asks for an options proposal in that conversation. Default universe = shares only. (This is James's own rule for followers: "Do NOT try to copy my spreads or option trades.")
-3. **NEVER propose more than 2 trades in any rolling 7-day window.** If a third setup appears, rank them and propose the best ones only.
-4. **NEVER propose chasing**: no buys above the asset's defined buy zone in [`triggers.json`](triggers.json), no market-buys of vertical charts, no FOMO logic. If price is above the zone, the correct output is "no action — alert set at $X."
-5. **Every proposal must cite its trigger** — the specific rule and level from this repo that fired, with the source file. A proposal you cannot cite is a proposal you do not make.
-6. **Everything can go to zero. Not financial advice.** Repeat this disclaimer on every proposal.
+1. **Autonomous execution is enabled only for the assigned Alpaca `paper` profile.** You may place trades when the decision checklist fires. Do not trade a live account unless Samin explicitly switches the assigned account in a new instruction.
+2. **Notify after every placed trade.** If you submit, modify, cancel, or close an order, immediately report it in the final message with symbol, side, size, order type, limit/price, Alpaca order ID, and rationale.
+3. **Log every scheduled check and every trade.** Append checks to `analysis/check-log.md`; append orders and explicit no-trade decisions to `analysis/trade-journal.md`.
+4. **Default universe = shares/ETFs only.** Do not use options, spreads, synthetic longs, margin, perps, or crypto perpetuals unless Samin explicitly enables that instrument class. (This preserves James's follower rule: "Do NOT try to copy my spreads or option trades.")
+5. **Do not overtrade.** Default max = 2 new autonomous opening trades per rolling 7 days. Risk-reducing sells/trims are allowed when rules fire. If several setups appear, rank them and act only on the best risk/reward.
+6. **NEVER chase:** no buys above the asset's defined buy zone in [`triggers.json`](triggers.json), no market-buys of vertical charts, no FOMO logic. If price is above the zone, log "no action — watch/alert at $X."
+7. **Every trade must cite its trigger** — the specific rule and level from this repo that fired, with the source file. A trade you cannot cite is a trade you do not make.
+8. **Everything can go to zero. Not financial advice.** Repeat this disclaimer on every trade rationale/notification.
 
 ---
 
@@ -49,7 +51,7 @@ A reverse-engineered replica of the trading system of James Mullarney (InvestAns
 
 ## 3. The Decision Procedure (run this checklist for EVERY candidate trade)
 
-Process candidates in this exact order. A single ❌ = no proposal.
+Process candidates in this exact order. A single ❌ = no autonomous trade; log no-action/watch instead.
 
 ```
 STEP 1 — UNIVERSE CHECK
@@ -61,7 +63,7 @@ STEP 2 — ZONE CHECK
   Where is current price vs the asset's buy_zone / trim_zone in triggers.json?
     BELOW or INSIDE buy zone  → continue.
     ABOVE buy zone            → output "no action; alert at <zone top>". STOP.
-    INSIDE trim zone          → evaluate a TRIM proposal instead.
+    INSIDE trim zone          → evaluate a TRIM/SELL action instead.
 
 STEP 3 — CONFIRMATION CHECK (need at least 2 of 3 to BUY)
   a) Oversold/mean-reversion evidence (sharp multi-day selloff into the zone,
@@ -84,9 +86,12 @@ STEP 5 — TAX CHECK (for any SELL of a profitable position)
 STEP 6 — SIZING (see §4)
 
 STEP 7 — CADENCE CHECK
-  Proposals already made this rolling week ≥ 2? Queue it, don't propose.
+  New autonomous opening trades already placed this rolling week ≥ 2?
+  Queue/watch it unless this is a risk-reducing sell/trim.
 
-STEP 8 — OUTPUT the proposal in the §5 format, citing the trigger.
+STEP 8 — EXECUTE OR LOG
+  If all checks pass, place the order through Alpaca `paper`, log it, and notify Samin.
+  If any check fails, log the no-trade/watch decision with the reason.
 ```
 
 ---
@@ -102,24 +107,28 @@ STEP 8 — OUTPUT the proposal in the §5 format, citing the trigger.
 
 ---
 
-## 5. Trade Proposal Format (your ONLY output for trade ideas)
+## 5. Autonomous Trade / Check Logging Format
 
 ```markdown
-## TRADE PROPOSAL — [DATE]
-**Action:** BUY / TRIM / SELL / SET-ALERT
+## TRADE ACTION — [DATE]
+**Action:** BUY / TRIM / SELL / SET-WATCH / NO-TRADE
 **Asset:** TICKER
-**Quantity/size:** X% of portfolio (tranche N of 4)
-**Limit price / zone:** $X – $Y
+**Quantity/size:** X shares or $notional; X% of portfolio (tranche N of 4)
+**Order type / limit:** limit / market-if-liquid / no-order; $X – $Y
 **Trigger fired:** [exact rule + level, e.g. "PLTR at $130 box-buy (Weekly Nuggets May 26, levels-by-asset.md)"]
 **Confirmations:** [the 2+ items from Step 3]
 **Tax note:** [if a sell]
 **James's corresponding behavior:** [what he did/said at this level, with email filename]
 **Invalidation:** [the level/condition at which this idea is wrong]
-**Risk:** Everything can go to zero. Not financial advice. Awaiting explicit human confirmation.
+**Alpaca result:** [order ID/status, or no-order reason]
+**Risk:** Everything can go to zero. Not financial advice. Autonomous paper-account execution under Samin's mandate.
 ```
 
-Log every proposal AND every owner decision in `analysis/trade-journal.md` as:
-`| date | asset | action | level | rule cited | James's move | owner decision | outcome |`
+Log every scheduled check in `analysis/check-log.md` as:
+`| timestamp_et | check_type | account_equity | cash | buying_power | new_emails | signals_checked | action_taken | order_ids | notes |`
+
+Log every order/no-trade decision in `analysis/trade-journal.md` as:
+`| timestamp_et | asset | action | qty_or_notional | order_type | limit | rule_cited | James_move_or_source | alpaca_order_id | status | rationale | outcome |`
 
 ---
 
@@ -170,7 +179,7 @@ Full detail in [`triggers.json`](triggers.json) and STRATEGY.md §5. Summary:
 - ❌ Propose selling winners for short-term taxable gains without the §3 Step-5 math.
 - ❌ Copy his trade alerts after the move ("his price is gone" — re-derive whether the level still exists).
 - ❌ Invent levels. If triggers.json doesn't have it and the corpus doesn't show it, say so and ask.
-- ❌ Execute anything. You propose; the human disposes.
+- ❌ Trade outside the assigned Alpaca profile, skip logging, skip notification, or place an uncited trade.
 
 ---
 

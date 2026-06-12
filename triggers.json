@@ -3,11 +3,13 @@
   "as_of": "2026-06-11",
   "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close)",
   "hard_rules": [
-    "NO autonomous execution — proposals only, human confirms every trade",
-    "Shares only by default — no options/margin/perps unless owner explicitly requests",
-    "Max 2 proposals per rolling 7 days",
-    "Never buy above the buy zone — set an alert instead",
-    "Every proposal cites its trigger + source file"
+    "Autonomous execution enabled for the assigned Alpaca paper profile only",
+    "Notify Samin after every placed/modified/cancelled order",
+    "Log every scheduled check in analysis/check-log.md and every order/no-trade decision in analysis/trade-journal.md",
+    "Shares/ETFs only by default — no options/margin/perps unless owner explicitly enables them",
+    "Max 2 new autonomous opening trades per rolling 7 days unless risk-reducing",
+    "Never buy above the buy zone — watch/alert instead",
+    "Every trade cites its trigger + source file"
   ],
   "sizing": {
     "ai_theme_cap_pct": 25,

@@ -5,8 +5,10 @@ __pycache__/
 # Local transient files
 .DS_Store
 .tmp/
+state/portfolio_manager/*.json
+state/portfolio_manager/*.tmp
 
-# Never commit local credentials/secrets if accidentally created here
+# Local env / credentials
 .env
 *.key
 *.pem

@@ -2,9 +2,9 @@
 **InvestAnswers (James Mullarney) replication system**
 *Built from 345 emails (May 5 – June 11, 2026), deep research on James, and live market data as of June 11, 2026 market close.*
 
-> **Disclaimer:** Research document, not financial advice. James's own words apply doubly here: "My goals are not your goals. This is a VERY AGGRESSIVE PORTFOLIO." and "NOT FINANCIAL ADVICE — EVERYTHING CAN GO TO ZERO." Per [GOAL.md](GOAL.md), no autonomous trade execution is enabled from this repo.
+> **Disclaimer:** Research document and autonomous paper-account operating manual, not generic financial advice. James's own words apply doubly here: "My goals are not your goals. This is a VERY AGGRESSIVE PORTFOLIO." and "NOT FINANCIAL ADVICE — EVERYTHING CAN GO TO ZERO." Per [GOAL.md](GOAL.md), Samin has enabled autonomous execution for the assigned Alpaca `paper` profile only.
 >
-> **🤖 If you are an AI agent tasked with running this strategy:** this document is the strategy *substance*; your binding *operating procedure* (hard rules, decision checklist, sizing, proposal format, refresh protocol) is [`AGENT_INSTRUCTIONS.md`](AGENT_INSTRUCTIONS.md), with the machine-readable levels in [`triggers.json`](triggers.json). Read those first.
+> **🤖 If you are an AI agent tasked with running this strategy:** this document is the strategy *substance*; your binding *operating procedure* (hard rules, decision checklist, sizing, autonomous order/no-trade format, refresh protocol) is [`AGENT_INSTRUCTIONS.md`](AGENT_INSTRUCTIONS.md), with the machine-readable levels in [`triggers.json`](triggers.json). Read those first.
 
 ---
 
@@ -128,7 +128,7 @@ James's own member guidance, repeated constantly, is the bridge between his book
    - **IA Portfolio (weekly)** → drift check vs. our targets.
    - **TA Summary / Weekly Edge** → refresh the §5 ranges table.
    - **Weekly Nuggets** → thesis changes (e.g., "BTC next top maybe $150K" materially changes crypto sizing).
-7. **Hard boundary (unchanged from GOAL.md):** this repo researches and alerts; it never executes. Any future automation = non-executing monitors only.
+7. **Execution boundary (updated by Samin):** autonomous execution is enabled for the assigned Alpaca `paper` profile only; every order must be logged and reported. Live trading/options/margin/perps remain disabled unless explicitly enabled later.
 
 ---
 
@@ -166,8 +166,8 @@ The 20 rules that govern 90% of his decisions — fuller set in [analysis/extrac
 3. **PLTR ~$130:** the one §5 name sitting at its buy trigger right now. AVGO ($385.57) is ~2% above its $350–378 zone — alert at $378. GOOG at $356 is above its $340–350 zone and his latest call (Jun 5) is to let it find a bottom first.
 4. **BTC:** no add until ATR-style buy signal / capitulation wick despite the bottom signals stacking. Alert set at **$50K (add big)** and on a 200-DMA reclaim (~$82K).
 5. **FOMC June 16–17:** no deployment into the print; "good news is bad news" — a hawkish spike into his levels is the entry, not the exit.
-6. **Build the non-executing monitor** (GOAL.md phase 3): cron that parses new InvestAnswers emails daily → classifies (Trade Alert / Portfolio / Levels / Nuggets) → Telegram digest with the rule that fired. Spec in `cron/` (future).
-7. **Start the trade journal** (`analysis/trade-journal.md`): every action logged as *date / asset / action / level / which-rule / his-corresponding-move*. He endorses exactly this loop ("feed your trade journal into an AI tutor and review objectively").
+6. **Run the autonomous monitor/manager** (GOAL.md phase 4): cron that parses new InvestAnswers emails daily → classifies (Trade Alert / Portfolio / Levels / Nuggets) → checks Alpaca portfolio and levels → places a trade only if the checklist fires → Telegram digest with the order/no-trade reason.
+7. **Maintain the trade journal and check log** (`analysis/trade-journal.md`, `analysis/check-log.md`): every order/no-trade decision and every scheduled check gets logged. He endorses exactly this loop ("feed your trade journal into an AI tutor and review objectively").
 
 ---
 
