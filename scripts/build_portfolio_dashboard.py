@@ -231,6 +231,11 @@ def build_data() -> dict:
     acct = latest.get("account") or {}
     positions = latest.get("positions") or []
     equity = dec(acct.get("equity") or acct.get("portfolio_value"))
+    invested_base = dec(portfolio_history.get("base_value") if isinstance(portfolio_history, dict) else None)
+    if invested_base <= 0 and history_points:
+        invested_base = dec(history_points[0].get("equity"))
+    overall_gain = equity - invested_base if invested_base > 0 else Decimal("0")
+    overall_gain_pct = (overall_gain / invested_base) if invested_base > 0 else Decimal("0")
     enriched_positions = []
     for p in positions:
         if not isinstance(p, dict):
@@ -282,6 +287,9 @@ def build_data() -> dict:
             "timestamp_et": latest.get("timestamp_et"),
             "check_type": latest.get("check_type"),
             "cash_pct": float((dec(acct.get("cash")) / equity) if equity else Decimal("0")),
+            "invested_base": float(invested_base),
+            "overall_gain": float(overall_gain),
+            "overall_gain_pct": float(overall_gain_pct),
         },
         "positions": enriched_positions,
         "snapshots": snapshots,
@@ -352,9 +360,9 @@ def html_page(data: dict) -> str:
   </section>
 
   <section class=\"grid\">
+    <div class=\"card metric\"><div class=\"label\">Overall return</div><div class=\"value\" id=\"mOverallReturn\">--</div><div class=\"delta\" id=\"mOverallGain\"></div></div>
     <div class=\"card metric\"><div class=\"label\">Equity</div><div class=\"value\" id=\"mEquity\">--</div><div class=\"delta\" id=\"mEquityDelta\"></div></div>
     <div class=\"card metric\"><div class=\"label\">Cash buffer</div><div class=\"value\" id=\"mCash\">--</div><div class=\"delta\" id=\"mCashPct\"></div></div>
-    <div class=\"card metric\"><div class=\"label\">Open positions</div><div class=\"value\" id=\"mPositions\">--</div><div class=\"delta\">Single-name risk shown below</div></div>
     <div class=\"card metric\"><div class=\"label\">Latest PM call</div><div class=\"value\" style=\"font-size:21px\" id=\"mCall\">--</div><div class=\"delta\">Trade/watch/rebalance ledger</div></div>
 
     <div class=\"card wide\"><div class=\"label\">Growth / fall over months</div><div class=\"delta\" id=\"historyMeta\"></div><div id=\"equityChart\" class=\"chart\"></div></div>
@@ -391,12 +399,14 @@ function firstLastDelta(rows) {{
   return `${{d >= 0 ? '+' : ''}}${{fmt.format(d)}} (${{pc >= 0 ? '+' : ''}}${{(pc*100).toFixed(2)}}%) since first history point`;
 }}
 document.getElementById('mEquity').textContent = fmt.format(data.account.equity || 0);
-document.getElementById('mEquityDelta').textContent = firstLastDelta(data.history || data.snapshots || []);
+document.getElementById('mEquityDelta').textContent = `${{(data.positions || []).length}} open positions · ${{firstLastDelta(data.history || data.snapshots || [])}}`;
+document.getElementById('mOverallReturn').textContent = `${{((data.account.overall_gain_pct || 0) * 100).toFixed(2)}}%`;
+document.getElementById('mOverallReturn').className = `value ${{numClass(data.account.overall_gain || 0)}}`;
+document.getElementById('mOverallGain').textContent = `${{data.account.overall_gain >= 0 ? '+' : ''}}${{fmt.format(data.account.overall_gain || 0)}} since ${{fmt.format(data.account.invested_base || 0)}} base invested`;
 const histMeta = data.history_meta || {{}};
 document.getElementById('historyMeta').textContent = histMeta.ok ? `${{histMeta.period}} daily Alpaca portfolio history · starts ${{histMeta.base_value_asof || 'first funded day'}}` : 'Fallback: local check snapshots only';
 document.getElementById('mCash').textContent = fmt.format(data.account.cash || 0);
 document.getElementById('mCashPct').textContent = `${{pct(data.account.cash_pct || 0)}} of equity · target ~10%`;
-document.getElementById('mPositions').textContent = (data.positions || []).length;
 document.getElementById('mCall').textContent = latestCall();
 
 document.getElementById('reasons').innerHTML = (data.reasons || []).map(r => `<div class=\"reason\">${{escapeHtml(r)}}</div>`).join('');
@@ -438,6 +448,8 @@ def main() -> int:
         "generated_at": data["generated_at"],
         "equity": data["account"]["equity"],
         "cash": data["account"]["cash"],
+        "overall_gain_pct": data["account"]["overall_gain_pct"],
+        "overall_gain": data["account"]["overall_gain"],
         "positions": len(data["positions"]),
         "snapshots": len(data["snapshots"]),
         "history_points": len(data["history"]),
