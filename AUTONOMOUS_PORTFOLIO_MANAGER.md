@@ -33,6 +33,7 @@ Each check must append a row to [`analysis/check-log.md`](analysis/check-log.md)
 5. Refresh current prices for assets in `triggers.json`.
 6. Compare portfolio + market state against `AGENT_INSTRUCTIONS.md`, `STRATEGY.md`, and `triggers.json`.
 7. Decide: place trade, set watch/alert, hold, trim, or do nothing.
+8. Rebuild and deploy the dashboard with `python3 scripts/deploy_portfolio_dashboard.py` whenever a trade is placed, a rebalance/watch decision materially changes, or Samin needs the latest visual link.
 
 ## Autonomous trade permissions
 
@@ -93,4 +94,4 @@ If no order is placed, the final message must begin with:
 
 `NO TRADE — <reason>`
 
-Every final message must include the current equity/cash snapshot and links to the relevant GitHub log files.
+Every final message must include the current equity/cash snapshot, the latest here.now dashboard link from `state/portfolio_manager/dashboard_latest_url.txt`, and links or commit references for the relevant GitHub log files.

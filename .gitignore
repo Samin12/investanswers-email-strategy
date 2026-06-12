@@ -7,6 +7,7 @@ __pycache__/
 .tmp/
 state/portfolio_manager/*.json
 state/portfolio_manager/*.tmp
+public/
 
 # Local env / credentials
 .env
