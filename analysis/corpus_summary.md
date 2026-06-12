@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-12T18:03:01+00:00
+Generated: 2026-06-12T21:03:15+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 357
-- Emails exported: 357
-- Years: {"2026": 357}
+- Message IDs found: 358
+- Emails exported: 358
+- Years: {"2026": 358}
 
 ## Latest 20 subjects
 
+- VIDEO - $4 Trillion Moat
 - That was quick
 - SOL Beginning to Recover
 - Options Sweep on TSLA
@@ -28,4 +29,3 @@ Generated: 2026-06-12T18:03:01+00:00
 - James Check: BTC at cheapest 4% of its entire modeled history vs TABI model
 - Scarcity in the Age of AGI... enter BTC
 - SpaceX IPO Order Cut Off has passed
-- VIDEO - My Trades Set Up
