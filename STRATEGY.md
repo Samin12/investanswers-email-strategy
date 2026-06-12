@@ -10,12 +10,12 @@
 
 ## 1. The Goal
 
-**Replicate James's *decision system*, not his fills.** By the time a trade alert email arrives, his price is usually gone. The edge is not copying him with a lag — it's internalizing his playbook so the same triggers produce the same actions in our account, at our scale, ideally before or simultaneously with his alerts.
+**Replicate James's *decision system*, not his stale fills.** InvestAnswers trade-alert emails are literal gold for this strategy because they reveal what James actually did. The edge is to check them every run, follow fresh alerts when they still match our portfolio, trigger levels, and no-debt guardrails, and re-derive validity when his fill is gone rather than blindly chasing.
 
 Measurable definition of "trading exactly like James":
 
 1. **Same book structure, scaled.** Two-narrative concentration (AI primary, crypto secondary) with a yield-bearing cash buffer — at percentages chosen for our risk (see §6; he explicitly tells members NOT to run his 75% AI / max-leverage book).
-2. **Same triggers.** Every buy/trim/hedge happens at a pre-defined level from his framework (§5 ranges table), never on impulse. "Know your exit before you enter."
+2. **Same triggers.** Every buy/trim/hedge happens at a pre-defined level from his framework (§5 ranges table), never on impulse. Fresh `TRADE_ALERT` emails are highest-priority confirmation when still valid at current price. "Know your exit before you enter."
 3. **Same instruments hierarchy.** Shares first → covered calls once 100+ shares → LEAPS/synthetic longs only at capitulation extremes (his rule for members: don't copy the spreads at all until proven).
 4. **Same cadence.** 1–2 trades per week maximum. He's explicit that overtrading is how retail loses.
 5. **Tracked.** Every action logged in this repo against the rule that justified it, so we can audit whether we're actually trading like him or just feeling like we are.

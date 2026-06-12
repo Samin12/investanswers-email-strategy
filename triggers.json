@@ -7,6 +7,7 @@
     "Notify Samin after every placed/modified/cancelled order",
     "Log every scheduled check in analysis/check-log.md and every order/no-trade decision in analysis/trade-journal.md",
     "Options/LEAPS/covered calls enabled by Samin on 2026-06-12; never create debt, margin debit, naked/undefined option risk, perps, or crypto perpetual exposure",
+    "InvestAnswers TRADE_ALERT emails are priority signal; follow fresh alerts at our scale when they match our portfolio, valid trigger levels, and no-debt guardrails; revalidate instead of chasing stale fills",
     "Max 2 new autonomous opening trades per rolling 7 days unless risk-reducing",
     "Never buy above the buy zone — watch/alert instead",
     "Every trade cites its trigger + source file"

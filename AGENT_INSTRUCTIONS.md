@@ -18,7 +18,8 @@ If you are an AI agent and you were asked to "trade like James," "run the strate
 5. **Do not overtrade.** Default max = 2 new autonomous opening trades per rolling 7 days. Risk-reducing sells/trims are allowed when rules fire. If several setups appear, rank them and act only on the best risk/reward.
 6. **NEVER chase:** no buys above the asset's defined buy zone in [`triggers.json`](triggers.json), no market-buys of vertical charts, no FOMO logic. If price is above the zone, log "no action — watch/alert at $X."
 7. **Every trade must cite its trigger** — the specific rule and level from this repo that fired, with the source file. A trade you cannot cite is a trade you do not make.
-8. **Everything can go to zero. Not financial advice.** Repeat this disclaimer on every trade rationale/notification.
+8. **InvestAnswers trade alerts are priority signal.** New emails from InvestAnswers, especially `TRADE_ALERT` emails, are literal gold for this strategy. Check them every run. If James's fresh trade alert matches our portfolio, valid trigger levels, and no-debt/options guardrails, bias toward following it at our scale; if price has moved, re-derive whether the setup is still valid rather than blindly chasing.
+9. **Everything can go to zero. Not financial advice.** Repeat this disclaimer on every trade rationale/notification.
 
 ---
 
@@ -44,7 +45,7 @@ A reverse-engineered replica of the trading system of James Mullarney (InvestAns
 6. **Cash is raised BEFORE the opportunity**, never in a panic.
 7. Taxes decide the trade as much as the chart: compute after-tax break-even before any taxable sale; prefer holding/hedging over short-term-gain selling.
 8. Risk tools are covered calls, cash-secured/defined-risk options, and discipline — not margin debt, naked risk, stop-loss panic, or shorting momentum.
-9. Follow flows and smart money, fade retail rotation, and check who benefits before acting on any narrative.
+9. Follow flows and smart money, treat fresh InvestAnswers `TRADE_ALERT` emails as highest-priority James-signal, fade retail rotation, and check who benefits before acting on any narrative.
 10. When the trend is down and there is no buy signal: **hold, don't add** — even with conviction.
 
 ---
@@ -70,8 +71,9 @@ STEP 3 — CONFIRMATION CHECK (need at least 2 of 3 to BUY)
      RSI-type extreme, or a capitulation wick on high volume).
   b) Support structure (higher low forming, 200-DMA or 50-DMA test, gap fill,
      prior breakout retest).
-  c) James-signal: his most recent email guidance on this asset is buy/accumulate
-     (check the newest relevant email — LATEST EMAIL ALWAYS WINS over older levels).
+  c) James-signal: his most recent email guidance on this asset is buy/accumulate,
+     especially a fresh `TRADE_ALERT` email (check the newest relevant email —
+     LATEST EMAIL ALWAYS WINS over older levels; trade alerts outrank commentary).
   Exception: scheduled tranche deployments (§4 sizing) need only Step 2.
 
 STEP 4 — TREND VETO
@@ -147,14 +149,14 @@ Log every order/no-trade decision in `analysis/trade-journal.md` as:
 
 ## 6. Refresh Protocol (run when data is >7 days old, or on request)
 
-1. **Pull new emails:** run `scripts/export_investanswers.py` (or search Gmail for `from:investanswers@creator.patreon.com after:<last manifest date>`).
+1. **Pull new emails:** run `scripts/export_investanswers.py` (or search Gmail for `from:investanswers@creator.patreon.com after:<last manifest date>`). This is mandatory on scheduled runs because InvestAnswers trade-alert emails are the highest-priority live signal.
 2. **Classify each new email:** `TRADE_ALERT` (he did something) / `PORTFOLIO` (allocation snapshot) / `LEVELS` (TA Summary, Weekly Edge, Nuggets with prices) / `THESIS` (macro/narrative) / `NOISE` (live-stream links).
 3. **Update [`triggers.json`](triggers.json):** newest email wins; superseded levels move to `history`. Date-stamp every level. Recompute any moving-average-based level (200-DMA etc.) from current data — never reuse a quoted MA older than 2 weeks.
 4. **Update STRATEGY.md §4 (campaign) and §5 (ranges table)** if his posture changed.
 5. **Verify before committing:** spot-check every changed level against the source email. Cite filenames.
 6. Commit with message `refresh: ranges as of <date>` and push.
 
-**Conflict rules:** (a) latest email beats older email; (b) a specific level beats a general statement; (c) his *actions* (trade alerts) beat his *musings*; (d) if his guidance for members differs from his own behavior, follow the MEMBER guidance (he is explicit that his own book is unsuitable for followers).
+**Conflict rules:** (a) latest email beats older email; (b) a specific level beats a general statement; (c) his *actions* (trade alerts) beat his *musings* and are treated as priority signal; (d) if his guidance for members differs from his own behavior, follow the MEMBER guidance (he is explicit that his own book is unsuitable for followers); (e) never chase a trade-alert fill after the move — revalidate the setup at current price.
 
 ---
 

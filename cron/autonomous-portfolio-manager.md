@@ -20,6 +20,8 @@ You may place trades autonomously **only** in Alpaca profile `paper`. Notify Sam
 
 Options are enabled when useful, including LEAPS and covered calls, but the portfolio must never go into debt. No margin debit, naked calls, uncovered puts, undefined-risk structures, perps, or crypto perpetuals.
 
+InvestAnswers trade-alert emails are priority signal. Every run must check new InvestAnswers emails. If a fresh `TRADE_ALERT` matches our current/target portfolio, valid trigger levels, and risk guardrails, bias toward following it at our scale; if the alert fill is gone, revalidate the setup instead of chasing.
+
 ## Every run: exact procedure
 
 1. `git pull --ff-only origin main`
@@ -32,7 +34,7 @@ Options are enabled when useful, including LEAPS and covered calls, but the port
 3. Run deterministic context collection:
    - `python3 scripts/portfolio_check_snapshot.py --check-type <9am|2pm|5pm>`
    - Read `state/portfolio_manager/latest_snapshot.json`.
-4. Inspect new InvestAnswers emails created by the exporter, if any. Latest email wins.
+4. Inspect new InvestAnswers emails created by the exporter. `TRADE_ALERT` emails are priority signal; latest email wins.
 5. Check current Alpaca state:
    - `alpaca --profile paper account get --jq '.'`
    - `alpaca --profile paper position list --jq '.'`

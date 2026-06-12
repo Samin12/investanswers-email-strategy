@@ -8,6 +8,8 @@ This repo now runs as the operating manual for Samin's autonomous Alpaca portfol
 
 Grow the assigned Alpaca account over time by using the InvestAnswers / James decision system as the primary strategy, while learning from every check and every trade.
 
+InvestAnswers emails are not optional context. Every scheduled run must check for new InvestAnswers emails, and `TRADE_ALERT` emails are treated as priority signal: if James's fresh alert matches our portfolio, valid repo triggers, and no-debt/options guardrails, bias toward following it at our scale. If the price has already moved away, revalidate instead of chasing.
+
 The manager may place trades autonomously in the authenticated Alpaca **paper** profile unless Samin explicitly changes the assigned account. Every trade must be logged and reported back to Samin after placement.
 
 ## Scheduled checks

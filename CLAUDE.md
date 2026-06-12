@@ -1,6 +1,6 @@
 # InvestAnswers Email Strategy Repo
 
-**AI agents: your operating manual is [`AGENT_INSTRUCTIONS.md`](AGENT_INSTRUCTIONS.md). Read it in full before doing anything in this repo.** It defines autonomous Alpaca paper-account execution, notification/logging rules, options/LEAPS/covered-call permissions with strict no-debt guardrails, max 2 new opening trades/week, never-chase discipline, the decision checklist, sizing, the order/no-trade output format, and the refresh protocol.
+**AI agents: your operating manual is [`AGENT_INSTRUCTIONS.md`](AGENT_INSTRUCTIONS.md). Read it in full before doing anything in this repo.** It defines autonomous Alpaca paper-account execution, notification/logging rules, InvestAnswers trade-alert priority, options/LEAPS/covered-call permissions with strict no-debt guardrails, max 2 new opening trades/week, never-chase discipline, the decision checklist, sizing, the order/no-trade output format, and the refresh protocol.
 
 Quick map:
 - [`AGENT_INSTRUCTIONS.md`](AGENT_INSTRUCTIONS.md) — how an agent must operate (binding).
@@ -11,4 +11,4 @@ Quick map:
 - `analysis/extracted/` — evidence base (every trade/level/rule cited to a source email).
 - `emails/text_md/` — the 345-email corpus (May 5 – Jun 11, 2026).
 
-Conflict rule: AGENT_INSTRUCTIONS.md governs agent behavior; STRATEGY.md governs strategy substance; the newest email in `emails/` beats both on price levels.
+Conflict rule: AGENT_INSTRUCTIONS.md governs agent behavior; STRATEGY.md governs strategy substance; the newest email in `emails/` beats both on price levels; fresh InvestAnswers `TRADE_ALERT` emails are priority signal when they still fit our portfolio and risk rules.
