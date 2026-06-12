@@ -3,6 +3,8 @@
 *Built from 345 emails (May 5 – June 11, 2026), deep research on James, and live market data as of June 11, 2026 market close.*
 
 > **Disclaimer:** Research document, not financial advice. James's own words apply doubly here: "My goals are not your goals. This is a VERY AGGRESSIVE PORTFOLIO." and "NOT FINANCIAL ADVICE — EVERYTHING CAN GO TO ZERO." Per [GOAL.md](GOAL.md), no autonomous trade execution is enabled from this repo.
+>
+> **🤖 If you are an AI agent tasked with running this strategy:** this document is the strategy *substance*; your binding *operating procedure* (hard rules, decision checklist, sizing, proposal format, refresh protocol) is [`AGENT_INSTRUCTIONS.md`](AGENT_INSTRUCTIONS.md), with the machine-readable levels in [`triggers.json`](triggers.json). Read those first.
 
 ---
 

@@ -1,0 +1,152 @@
+{
+  "$schema_note": "Machine-readable trigger set for AGENT_INSTRUCTIONS.md. Every level cites a source email in emails/text_md/. Rule: latest email wins; recompute moving-average levels older than 14 days.",
+  "as_of": "2026-06-11",
+  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close)",
+  "hard_rules": [
+    "NO autonomous execution — proposals only, human confirms every trade",
+    "Shares only by default — no options/margin/perps unless owner explicitly requests",
+    "Max 2 proposals per rolling 7 days",
+    "Never buy above the buy zone — set an alert instead",
+    "Every proposal cites its trigger + source file"
+  ],
+  "sizing": {
+    "ai_theme_cap_pct": 25,
+    "crypto_assets_allowed": ["BTC", "IBIT", "SOL"],
+    "alt_crypto_cap_pct": 1,
+    "single_name_cap_pct": 10,
+    "cash_buffer_target_pct": 10,
+    "tranches_per_new_position": 4,
+    "tranche_interval_weeks": "4-6, or early on a 10-20% pullback into the buy zone",
+    "speculative_flutter_cap_pct": 1
+  },
+  "assets": {
+    "SPCX": {
+      "narrative": "AI/space — the marquee event",
+      "price_jun11": "IPO priced $135, lists 2026-06-12 on Nasdaq",
+      "buy": [
+        {"condition": "IPO allocation fill at $135", "action": "HOLD as set-and-forget core ('retire-on bag')", "source": "2026-06-09_150035_Key-Retire-on-SPCX-Slides"},
+        {"condition": "post-IPO dips during first ~90 days, layered entries; $135-area retest = gift scenario", "action": "BUY in layers, settled cash only", "source": "2026-06-11_174602_IA-Weekly-Nuggets-June-2-11-2026"}
+      ],
+      "never": "Buy the day-1 open ('Avoid the IPO Trap'); use margin (IPO shares non-marginable); options before it settles",
+      "targets": {"street": "Oppenheimer $190, New Street $165", "james_2030": "$1,527/share ($18.45T EV, 11.3x)", "first_year_ceiling": "~$2.6T cap — 'returns paltry first year'"},
+      "sources": ["2026-06-11_131218_Oppenheimer-first-w-new-SPCX-PT-190", "2026-06-06_152218_Updated-SpaceX"]
+    },
+    "TSLA": {
+      "narrative": "AI — his #1 conviction (separate from IA13)",
+      "price_jun11": 399.15,
+      "buy": [
+        {"zone": "below 400 with higher low ('stacking zone')", "action": "BUY tranche", "source": "2026-05-30_022159_TA-Summary + 2026-06-05_190804_IA-Trade-Alert ('promised myself I would buy under $400')"},
+        {"zone": "360-380 support", "action": "BUY harder ('keep adding the more it dips')", "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready + 2026-06-10_160128_IA-Trade-Alert"}
+      ],
+      "trim": [{"condition": "extreme mean-reversion spike (~+2.5)", "action": "covered calls only if 100+ shares; he rarely trims TSLA", "source": "2026-05-13_020623_IA-Weekly-Nuggets-May-5-12-2026"}],
+      "breakout": {"level": 450, "meaning": "break + hold = third leg; posture flips accumulate→hold", "source": "2026-05-30_022159_TA-Summary"},
+      "targets": {"1yr": 650, "on_500_break": "700 within weeks", "long_term": "$2,000; $4.5T market cap"},
+      "his_recent_fills": [{"date": "2026-06-05", "px": 390.69}, {"date": "2026-06-10", "px": 384}],
+      "note": "Do NOT rotate TSLA into SPCX beyond a few percent"
+    },
+    "PLTR": {
+      "narrative": "AI (IA13)",
+      "price_jun11": 131.08,
+      "buy": [{"zone": "~130 (box trade buy side); deeper adds 100-110", "action": "BUY tranche — AT TRIGGER NOW; caution: 200-DMA rejection bias down toward 100", "source": "2026-05-26_182045_IA-Weekly-Nuggets ('Buy at $130') + 2026-05-29_151606_Huge-POP-in-PLTR + 2026-06-05_222805_Get-Sniper-Rifles-Ready"}],
+      "trim": [{"zone": "156-160 (box sell side; 200-day ~160)", "action": "SELL the box portion", "source": "2026-05-29_151606_Huge-POP-in-PLTR"}],
+      "breakout": {"level": 160, "meaning": "break + hold opens 200"}
+    },
+    "NVDA": {
+      "narrative": "AI (IA13)",
+      "price_jun11": 204.87,
+      "buy": [
+        {"zone": "below 200 (his alerts: 200/190/185)", "action": "BUY tranche ('fantastic, screaming buy')", "source": "2026-05-30_022159_TA-Summary + 2026-06-05_222805_Get-Sniper-Rifles-Ready"},
+        {"zone": "below 190 in panic", "action": "BUY harder ('an absolute gift')", "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready"}
+      ],
+      "note": "Fails his 3x market-cap test — core holding, not a max bet"
+    },
+    "AVGO": {
+      "narrative": "AI (IA13)",
+      "price_jun11": 385.57,
+      "buy": [{"zone": "350-378 heavy support (long-term zone 350-380)", "action": "BUY tranche; currently ~2% ABOVE zone — alert at 378", "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready + 2026-05-23_040405_Space-Quantum-Vibes"}],
+      "targets": {"continuation": "the 500s"}
+    },
+    "GOOG": {
+      "narrative": "AI (IA13)",
+      "price_jun11": 356.56,
+      "buy": [{"zone": "340-350 (gap + 50-DMA) AND bottoming confirmation required", "action": "WAIT — Jun 5 guidance: uptrend broke at 380, 'let it roll over and find a bottom before jumping in'", "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready supersedes 2026-05-30_TA-Summary entry zone"}],
+      "income_note": "His GOOG covered-call theta trade: sold 385s for ~$15, bought back $9"
+    },
+    "AMD": {
+      "narrative": "AI (IA13)",
+      "price_jun11": 488.45,
+      "buy": [{"zone": "~350-360 (gap fill / ATR L5) or tier-4/5 pullback to 50-DMA", "action": "WAIT — far above zone", "source": "2026-05-16_TA-Weekly-Edge + 2026-05-23_Space-Quantum-Vibes + 2026-05-30_TA-Summary"}],
+      "trim": [{"zone": "455-500 (LILO 9-10)", "action": "trim/covered calls", "source": "2026-05-08_214106_TA-Playbook"}]
+    },
+    "MU": {
+      "narrative": "AI (IA13) — his big-3 gainer",
+      "price_jun11": 995.87,
+      "buy": [{"zone": "650-675 ('love to be a buyer'); anywhere in the 700s OK (ATR L5 ~750)", "action": "WAIT — far above zone; if owned, hold to 2028", "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready + 2026-05-30_TA-Summary"}],
+      "targets": {"james_2030": 1250, "ubs_1yr": 1650, "jensen": 3000}
+    },
+    "MRVL": {
+      "narrative": "AI (IA13) — hold to 2028",
+      "price_jun11": 280.71,
+      "buy": [{"condition": "sideways consolidation after the +37% S&P-inclusion spike", "action": "WAIT for consolidation, then tranche", "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready"}]
+    },
+    "ALAB": {
+      "narrative": "AI (IA13)",
+      "price_jun11": 367.47,
+      "buy": [{"condition": "no defined zone at current levels — extended", "action": "WAIT", "source": "2026-05-30_TA-Summary ('not interested at these levels')"}]
+    },
+    "BTC": {
+      "narrative": "Crypto core (scarcity in the age of AGI)",
+      "price_jun11": 63449,
+      "buy": [
+        {"condition": "ATR-style buy signal OR massive high-volume capitulation wick + consolidation", "action": "re-engage tranches", "source": "2026-06-05_035933_BTC-hits-200-WMA ('no buy signal yet') + 2026-06-05_222805_Get-Sniper-Rifles-Ready"},
+        {"level": 50000, "action": "ADD BIG ('risk/reward phenomenal')", "source": "2026-06-11_174602_IA-Weekly-Nuggets-June-2-11-2026"}
+      ],
+      "hold_dont_add": "Trend down + no buy signal = hold, don't add — despite bottom signals (supply-in-loss 10.5M peak, cheapest 4% of power-law history, 200-WMA ~$62K)",
+      "regime": {"200dma_reclaim": "= liftoff regime; last quoted $82.5K on May 12-13 — RECOMPUTE, MA is downward-sloping", "next_top_if_diminishing": 150000, "12mo_model": "EV $117.5K (range $96K-$139K)"}
+    },
+    "SOL": {
+      "narrative": "Crypto secondary (BTC+SOL only)",
+      "price_jun11": 66.79,
+      "buy": [{"zone": "45 ('deep value if the market truly panics'); his last add was 15% at $80", "action": "HOLD; add only at capitulation or trend turn", "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready + 2026-05-20_181832_Weekly-Nuggets"}],
+      "resistance": "97-100 then 110 (200-DMA); 200-DMA itself must turn UP for bull confirmation"
+    },
+    "MSTR": {
+      "narrative": "Leveraged BTC proxy",
+      "price_jun11": 120.15,
+      "buy": [{"condition": "NO SIGNAL — $150 'line in the sand' broke; analyze BTC first, MSTR second", "action": "WAIT", "source": "2026-05-30_TA-Summary + 2026-06-11_Weekly-Nuggets ('NAV premium never coming back')"}],
+      "target_conditional": "$300 when BTC > $120K"
+    },
+    "STRC": {
+      "narrative": "Cash buffer / yield (11.5%)",
+      "price_jun11": 96.49,
+      "buy": [{"condition": "core buffer position — hold; optional scalp: buy $98 / sell $100 (~10 days)", "action": "HOLD", "source": "2026-06-01_233621_STRC-Dip + 2026-06-11_Weekly-Nuggets (his breakeven <$90)"}]
+    },
+    "SATS": {
+      "narrative": "SpaceX proxy",
+      "price_jun11": 128.13,
+      "buy": [{"level": 100, "action": "small stab only below $100; at $120+ = NO", "source": "2026-06-11_174602_IA-Weekly-Nuggets-June-2-11-2026"}],
+      "note": "Proxies get rotated into the real thing (SPCX) — as he did with STM at $74.25"
+    },
+    "TSM": {
+      "narrative": "AI",
+      "buy": [{"level": 340, "action": "'a gift — take it' (limit-order mentality)", "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready"}]
+    },
+    "CPER": {
+      "narrative": "Edge trade (copper, 'only metal he owns')",
+      "buy": [{"condition": "holds since 2025", "action": "HOLD", "source": "2026-06-02_164543_Liquidity-Alpha-Copper"}],
+      "target": "$13/lb spot (from ~$6.50 Jun 2)"
+    },
+    "CLSK": {
+      "narrative": "BTC miner",
+      "price_jun11": 16.17,
+      "note": "He is EXITING via sell limits — not an add candidate", "source": "2026-06-09_144052_IA-Portfolio-June-9-2026"
+    }
+  },
+  "macro_standing_orders": {
+    "iran_hormuz": "Oil headlines drive CPI → Fed → everything. Peace headlines = risk-on; escalation dips INTO buy zones = entries, not exits.",
+    "fomc": "No new deployment into FOMC days (next: 2026-06-16/17, ~98% hold priced, hikes possible from Sep/Oct).",
+    "good_news_is_bad_news": "Hot jobs/CPI = yield spike = AI-multiple compression = watch the buy zones.",
+    "cpi_latest": "May 2026: 4.2% headline (oil-driven), core 2.9%"
+  },
+  "refresh_protocol": "See AGENT_INSTRUCTIONS.md §6 — mandatory when as_of is >7 days old"
+}

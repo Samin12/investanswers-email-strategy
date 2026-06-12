@@ -6,7 +6,11 @@ Local research repository for exporting and analyzing InvestAnswers Patreon/Gmai
 
 **Trade like James.** See [`STRATEGY.md`](STRATEGY.md) — the goal, his reverse-engineered operating system, the current price ranges to watch, and the action plan. [`GOAL.md`](GOAL.md) tracks phase status.
 
-## Start here
+## 🤖 AI agents start HERE
+
+**[`AGENT_INSTRUCTIONS.md`](AGENT_INSTRUCTIONS.md)** — the binding operating manual for any model/agent running this strategy: hard rules (proposals only — never autonomous execution), the step-by-step decision checklist, sizing, proposal format, and the refresh protocol. Paired with **[`triggers.json`](triggers.json)** — the machine-readable level set (check `as_of` before use). `CLAUDE.md` auto-points Claude-family agents at these.
+
+## Humans start here
 
 1. [`STRATEGY.md`](STRATEGY.md) — goal + playbook + ranges (the main deliverable).
 2. [`analysis/extracted/levels-by-asset.md`](analysis/extracted/levels-by-asset.md) — every price level he mentioned, by asset.
@@ -15,6 +19,9 @@ Local research repository for exporting and analyzing InvestAnswers Patreon/Gmai
 
 ## Repository layout
 
+- `AGENT_INSTRUCTIONS.md` — binding operating manual for AI agents (decision checklist, hard rules, proposal format).
+- `triggers.json` — machine-readable buy/trim/alert levels with sources and `as_of` date.
+- `CLAUDE.md` — auto-loaded pointer for Claude-family agents.
 - `STRATEGY.md` — goal + strategy + current ranges (main deliverable).
 - `emails/raw_eml/` — raw RFC822 `.eml` exports from Gmail.
 - `emails/text_md/` — cleaned markdown versions for reading and LLM analysis.
