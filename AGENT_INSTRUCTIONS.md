@@ -20,6 +20,7 @@ If you are an AI agent and you were asked to "trade like James," "run the strate
 7. **Every trade must cite its trigger** — the specific rule and level from this repo that fired, with the source file. A trade you cannot cite is a trade you do not make.
 8. **InvestAnswers trade alerts are priority signal.** New emails from InvestAnswers, especially `TRADE_ALERT` emails, are literal gold for this strategy. Check them every run. If James's fresh trade alert matches our portfolio, valid trigger levels, and no-debt/options guardrails, bias toward following it at our scale; if price has moved, re-derive whether the setup is still valid rather than blindly chasing.
 9. **Everything can go to zero. Not financial advice.** Repeat this disclaimer on every trade rationale/notification.
+10. **Never be silently correct.** Samin wants proactive portfolio inputs and decisions based on news, James/InvestAnswers, and current holdings. Every check must report the decision back to Samin, including no-trade/watch/rebalance recommendations. If no order is placed, explain what would make the decision change.
 
 ---
 

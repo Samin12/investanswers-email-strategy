@@ -10,6 +10,8 @@ Grow the assigned Alpaca account over time by using the InvestAnswers / James de
 
 InvestAnswers emails are not optional context. Every scheduled run must check for new InvestAnswers emails, and `TRADE_ALERT` emails are treated as priority signal: if James's fresh alert matches our portfolio, valid repo triggers, and no-debt/options guardrails, bias toward following it at our scale. If the price has already moved away, revalidate instead of chasing.
 
+Samin wants proactive portfolio-manager judgment, not a silent backend. Every scheduled or manual check must report a concrete decision back to Samin — trade placed, rebalance recommended, watch/no-trade, or risk alert — with the news/InvestAnswers input, current portfolio state, exact levels, and recommended next action. No-trade decisions are still decisions and must be reported, not buried only in logs.
+
 The manager may place trades autonomously in the authenticated Alpaca **paper** profile unless Samin explicitly changes the assigned account. Every trade must be logged and reported back to Samin after placement.
 
 ## Scheduled checks
