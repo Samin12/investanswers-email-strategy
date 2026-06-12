@@ -35,15 +35,16 @@ Each check must append a row to [`analysis/check-log.md`](analysis/check-log.md)
 Allowed by default:
 
 - US equities and ETFs supported by Alpaca.
+- Options supported by the assigned Alpaca `paper` account when they improve risk/reward, including long calls/LEAPS, covered calls, protective puts, cash-secured puts, and defined-risk option structures.
 - Limit orders during regular market hours.
 - Small paper-account sized orders that respect repo sizing rules.
 - Risk-reducing sells/trims when a rule fires.
 - Buys that either mirror a fresh InvestAnswers trade alert at a still-valid level or satisfy the repo decision checklist.
 
-Not allowed without Samin explicitly enabling it in a new instruction:
+Not allowed:
 
 - Live-account trading.
-- Options, spreads, synthetic longs, margin, perps, or crypto perpetuals.
+- Margin debt, naked calls, uncovered short puts, undefined-risk option structures, perps, or crypto perpetuals.
 - Trading outside the assigned Alpaca profile.
 - Using secrets or credentials from inside the repo.
 - Blindly copying a stale James trade after price has moved away from the valid zone.
@@ -52,6 +53,8 @@ Not allowed without Samin explicitly enabling it in a new instruction:
 
 - Preserve roughly a 10% cash buffer unless Samin says otherwise.
 - Default new order size: up to 1% of portfolio value per check.
+- Never go into debt. Do not place any order that would create or depend on a margin debit. Every option order needs a written max-loss, breakeven, and collateral/coverage note in the journal.
+- LEAPS are allowed only on checklist-approved underlying entries, with liquid chains and defined premium-at-risk. Covered calls must be covered by 100 shares or a clearly eligible long option/LEAP with defined max risk. Cash-secured puts must reserve enough cash for assignment.
 - Speculative flutters: max 0.5–1% and sized to go to zero.
 - Do not open more than 2 new positions per rolling 7 days unless the trade is a risk-reducing close/trim.
 - Do not duplicate an open order or already-filled position just because the same signal appears again.
@@ -73,7 +76,7 @@ Append every scheduled run to [`analysis/check-log.md`](analysis/check-log.md):
 Append every placed order or explicit no-trade decision to [`analysis/trade-journal.md`](analysis/trade-journal.md):
 
 ```markdown
-| timestamp_et | asset | action | qty_or_notional | order_type | limit | rule_cited | James_move_or_source | alpaca_order_id | status | rationale | outcome |
+| timestamp_et | asset | action | qty_or_notional | order_type | limit | options_risk_note | rule_cited | James_move_or_source | alpaca_order_id | status | rationale | outcome |
 ```
 
 ## Notification rule

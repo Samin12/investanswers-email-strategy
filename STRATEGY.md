@@ -128,7 +128,7 @@ James's own member guidance, repeated constantly, is the bridge between his book
    - **IA Portfolio (weekly)** → drift check vs. our targets.
    - **TA Summary / Weekly Edge** → refresh the §5 ranges table.
    - **Weekly Nuggets** → thesis changes (e.g., "BTC next top maybe $150K" materially changes crypto sizing).
-7. **Execution boundary (updated by Samin):** autonomous execution is enabled for the assigned Alpaca `paper` profile only; every order must be logged and reported. Live trading/options/margin/perps remain disabled unless explicitly enabled later.
+7. **Execution boundary (updated by Samin):** autonomous execution is enabled for the assigned Alpaca `paper` profile only; every order must be logged and reported. Options are enabled when useful, including LEAPS and covered calls, but the account must never go into debt: no margin debit, naked/undefined option risk, perps, crypto perpetuals, or live trading.
 
 ---
 

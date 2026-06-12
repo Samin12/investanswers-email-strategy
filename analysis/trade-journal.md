@@ -6,9 +6,10 @@ Every autonomous trade, trade alert, explicit no-trade decision, and later outco
 
 ## Log
 
-| timestamp_et | asset | action | qty_or_notional | order_type | limit | rule_cited | James_move_or_source | alpaca_order_id | status | rationale | outcome |
-|---|---|---|---:|---|---:|---|---|---|---|---|---|
-| 2026-06-12 00:43 ET | — | JOURNAL UPDATED | — | — | — | AUTONOMOUS_PORTFOLIO_MANAGER.md | Samin authorized autonomous PM mode | — | setup | Replaced proposal-only journal with autonomous execution journal. | Baseline: see STRATEGY.md §5 and triggers.json. |
+| timestamp_et | asset | action | qty_or_notional | order_type | limit | options_risk_note | rule_cited | James_move_or_source | alpaca_order_id | status | rationale | outcome |
+|---|---|---|---:|---|---:|---|---|---|---|---|---|---|
+| 2026-06-12 00:43 ET | — | JOURNAL UPDATED | — | — | — | — | AUTONOMOUS_PORTFOLIO_MANAGER.md | Samin authorized autonomous PM mode | — | setup | Replaced proposal-only journal with autonomous execution journal. | Baseline: see STRATEGY.md §5 and triggers.json. |
+| 2026-06-12 setup | — | POLICY UPDATED | — | — | — | Options allowed only with max-loss/breakeven/collateral note; no debt/margin debit/naked risk | AGENT_INSTRUCTIONS.md §0/§3/§4 | Samin enabled options/LEAPS/covered calls | — | setup | Updated mandate: portfolio is agent-managed; tools may include options as long as worst-case exposure is covered. | Future option rows must fill `options_risk_note`. |
 
 ## Review cadence
 

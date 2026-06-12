@@ -1,6 +1,6 @@
 # InvestAnswers Email Strategy Repo
 
-**AI agents: your operating manual is [`AGENT_INSTRUCTIONS.md`](AGENT_INSTRUCTIONS.md). Read it in full before doing anything in this repo.** It defines autonomous Alpaca paper-account execution, notification/logging rules, max 2 new opening trades/week, never-chase discipline, the decision checklist, sizing, the order/no-trade output format, and the refresh protocol.
+**AI agents: your operating manual is [`AGENT_INSTRUCTIONS.md`](AGENT_INSTRUCTIONS.md). Read it in full before doing anything in this repo.** It defines autonomous Alpaca paper-account execution, notification/logging rules, options/LEAPS/covered-call permissions with strict no-debt guardrails, max 2 new opening trades/week, never-chase discipline, the decision checklist, sizing, the order/no-trade output format, and the refresh protocol.
 
 Quick map:
 - [`AGENT_INSTRUCTIONS.md`](AGENT_INSTRUCTIONS.md) — how an agent must operate (binding).

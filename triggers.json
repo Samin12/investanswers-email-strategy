@@ -6,7 +6,7 @@
     "Autonomous execution enabled for the assigned Alpaca paper profile only",
     "Notify Samin after every placed/modified/cancelled order",
     "Log every scheduled check in analysis/check-log.md and every order/no-trade decision in analysis/trade-journal.md",
-    "Shares/ETFs only by default — no options/margin/perps unless owner explicitly enables them",
+    "Options/LEAPS/covered calls enabled by Samin on 2026-06-12; never create debt, margin debit, naked/undefined option risk, perps, or crypto perpetual exposure",
     "Max 2 new autonomous opening trades per rolling 7 days unless risk-reducing",
     "Never buy above the buy zone — watch/alert instead",
     "Every trade cites its trigger + source file"

@@ -20,4 +20,4 @@ The full goal definition, the reverse-engineered playbook, current price ranges,
 
 ## Operating boundary
 
-Autonomous execution is enabled for the authenticated Alpaca `paper` profile only, under [`AUTONOMOUS_PORTFOLIO_MANAGER.md`](AUTONOMOUS_PORTFOLIO_MANAGER.md). Live-account trading, options, spreads, margin, perps, and crypto perpetuals remain disabled unless Samin explicitly enables them later.
+Autonomous execution is enabled for the authenticated Alpaca `paper` profile only, under [`AUTONOMOUS_PORTFOLIO_MANAGER.md`](AUTONOMOUS_PORTFOLIO_MANAGER.md). Samin explicitly enabled options/LEAPS/covered calls on 2026-06-12. The non-negotiable boundary is no debt: no margin debit, naked/undefined option risk, perps, crypto perpetuals, or live-account trading unless Samin explicitly switches accounts.

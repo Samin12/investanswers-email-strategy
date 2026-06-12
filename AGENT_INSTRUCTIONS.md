@@ -14,7 +14,7 @@ If you are an AI agent and you were asked to "trade like James," "run the strate
 1. **Autonomous execution is enabled only for the assigned Alpaca `paper` profile.** You may place trades when the decision checklist fires. Do not trade a live account unless Samin explicitly switches the assigned account in a new instruction.
 2. **Notify after every placed trade.** If you submit, modify, cancel, or close an order, immediately report it in the final message with symbol, side, size, order type, limit/price, Alpaca order ID, and rationale.
 3. **Log every scheduled check and every trade.** Append checks to `analysis/check-log.md`; append orders and explicit no-trade decisions to `analysis/trade-journal.md`.
-4. **Default universe = shares/ETFs only.** Do not use options, spreads, synthetic longs, margin, perps, or crypto perpetuals unless Samin explicitly enables that instrument class. (This preserves James's follower rule: "Do NOT try to copy my spreads or option trades.")
+4. **Instrument toolkit now includes options, with no-debt guardrails.** Samin explicitly enabled options/LEAPS/covered calls on 2026-06-12. You may use shares/ETFs, long calls/LEAPS, covered calls, protective puts, cash-secured puts, and defined-risk option structures when they improve risk/reward. Never create margin debt, naked short-call risk, uncovered short-put risk, perps, crypto perpetuals, or any position whose worst-case obligation cannot be covered by current cash/collateral.
 5. **Do not overtrade.** Default max = 2 new autonomous opening trades per rolling 7 days. Risk-reducing sells/trims are allowed when rules fire. If several setups appear, rank them and act only on the best risk/reward.
 6. **NEVER chase:** no buys above the asset's defined buy zone in [`triggers.json`](triggers.json), no market-buys of vertical charts, no FOMO logic. If price is above the zone, log "no action — watch/alert at $X."
 7. **Every trade must cite its trigger** — the specific rule and level from this repo that fired, with the source file. A trade you cannot cite is a trade you do not make.
@@ -43,7 +43,7 @@ A reverse-engineered replica of the trading system of James Mullarney (InvestAns
 5. Trim into euphoria: when an asset is statistically extended, take profit in layers (or sell covered calls if 100+ shares); when everything is extended, raise cash.
 6. **Cash is raised BEFORE the opportunity**, never in a panic.
 7. Taxes decide the trade as much as the chart: compute after-tax break-even before any taxable sale; prefer holding/hedging over short-term-gain selling.
-8. Risk tools are covered calls and discipline — not puts, not stop-loss panic, not shorting momentum.
+8. Risk tools are covered calls, cash-secured/defined-risk options, and discipline — not margin debt, naked risk, stop-loss panic, or shorting momentum.
 9. Follow flows and smart money, fade retail rotation, and check who benefits before acting on any narrative.
 10. When the trend is down and there is no buy signal: **hold, don't add** — even with conviction.
 
@@ -85,6 +85,15 @@ STEP 5 — TAX CHECK (for any SELL of a profitable position)
 
 STEP 6 — SIZING (see §4)
 
+STEP 6A — OPTIONS / NO-DEBT CHECK (required for any option order)
+  a) Confirm Alpaca `paper` options_approved_level/options_trading_level supports the structure.
+  b) Compute max loss, net debit/credit, collateral/assignment obligation, expiration, bid/ask spread,
+     and breakeven. If max loss or assignment obligation could exceed available cash/collateral: STOP.
+  c) Allowed default structures: long calls/LEAPS, covered calls, protective puts, cash-secured puts,
+     and defined-risk spreads/synthetic-long equivalents with fully funded worst-case exposure.
+  d) Forbidden: naked calls, uncovered puts, margin debit, undefined-risk spreads, perps,
+     crypto perpetuals, and any order relying on borrowing to survive assignment/exercise.
+
 STEP 7 — CADENCE CHECK
   New autonomous opening trades already placed this rolling week ≥ 2?
   Queue/watch it unless this is a risk-reducing sell/trim.
@@ -104,6 +113,9 @@ STEP 8 — EXECUTE OR LOG
 - **Speculative flutters** (quantum-type themes): ≤1% each, sized to go to zero, only names with real revenue.
 - **Mirroring James's adds:** he publishes adds as portfolio fractions (e.g., +0.0048 = 0.48%). Mirror the *fraction*, never the dollar amount.
 - **IPO events:** settled cash only (IPO shares are non-marginable), order ≤ what you'd hold "set and forget," expect partial fills, never buy the day-1 open, layer the post-IPO dips.
+- **Options/LEAPS:** long-option premium at risk should default to ≤1% of portfolio per new idea unless the trade is explicitly replacing a share tranche with lower defined risk. LEAPS require a valid underlying buy zone/capitulation trigger, long-dated expiry, liquid chain, and a written max-loss/breakeven note.
+- **Covered calls:** only sell calls against 100-share lots or a clearly eligible long option/LEAP with defined max risk. Use conservative strikes; never risk being called out of a core winner cheaply. Buy back short calls when the thesis/mean-reversion setup changes.
+- **Cash-secured puts / defined-risk structures:** allowed only when assignment would be acceptable at the effective entry price and cash/collateral is reserved. No uncovered obligations. No margin debit.
 
 ---
 
@@ -114,7 +126,8 @@ STEP 8 — EXECUTE OR LOG
 **Action:** BUY / TRIM / SELL / SET-WATCH / NO-TRADE
 **Asset:** TICKER
 **Quantity/size:** X shares or $notional; X% of portfolio (tranche N of 4)
-**Order type / limit:** limit / market-if-liquid / no-order; $X – $Y
+**Order type / limit:** stock/option, limit / market-if-liquid / no-order; $X – $Y
+**Options risk note:** [if options: expiry, strike(s), premium/credit, max loss, breakeven, collateral/coverage]
 **Trigger fired:** [exact rule + level, e.g. "PLTR at $130 box-buy (Weekly Nuggets May 26, levels-by-asset.md)"]
 **Confirmations:** [the 2+ items from Step 3]
 **Tax note:** [if a sell]
@@ -128,7 +141,7 @@ Log every scheduled check in `analysis/check-log.md` as:
 `| timestamp_et | check_type | account_equity | cash | buying_power | new_emails | signals_checked | action_taken | order_ids | notes |`
 
 Log every order/no-trade decision in `analysis/trade-journal.md` as:
-`| timestamp_et | asset | action | qty_or_notional | order_type | limit | rule_cited | James_move_or_source | alpaca_order_id | status | rationale | outcome |`
+`| timestamp_et | asset | action | qty_or_notional | order_type | limit | options_risk_note | rule_cited | James_move_or_source | alpaca_order_id | status | rationale | outcome |`
 
 ---
 
