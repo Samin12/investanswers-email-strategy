@@ -4,14 +4,22 @@ Local research repository for exporting and analyzing InvestAnswers Patreon/Gmai
 
 ## Current goal
 
-See [`GOAL.md`](GOAL.md). Short version: put the full email corpus, exporter scripts, metadata, and manifests into git first. Analysis and cron monitoring come after the corpus is safely archived.
+**Trade like James.** See [`STRATEGY.md`](STRATEGY.md) — the goal, his reverse-engineered operating system, the current price ranges to watch, and the action plan. [`GOAL.md`](GOAL.md) tracks phase status.
+
+## Start here
+
+1. [`STRATEGY.md`](STRATEGY.md) — goal + playbook + ranges (the main deliverable).
+2. [`analysis/extracted/levels-by-asset.md`](analysis/extracted/levels-by-asset.md) — every price level he mentioned, by asset.
+3. [`analysis/extracted/rules.md`](analysis/extracted/rules.md) — his 182 trading rules with citations.
+4. [`analysis/extracted/trade-log.md`](analysis/extracted/trade-log.md) — all 87 trades, chronological.
 
 ## Repository layout
 
+- `STRATEGY.md` — goal + strategy + current ranges (main deliverable).
 - `emails/raw_eml/` — raw RFC822 `.eml` exports from Gmail.
 - `emails/text_md/` — cleaned markdown versions for reading and LLM analysis.
 - `emails/metadata/` — one metadata JSON file per email.
-- `analysis/` — future strategy, indicators, thesis, and trade-alert docs.
+- `analysis/extracted/` — structured extraction from all 345 emails (trades, levels, rules, frameworks, macro, portfolios, quotes) + research briefs (James profile, his models, market snapshot) + completeness audit + raw JSON.
 - `cron/` — future non-executing monitor scripts/config.
 - `scripts/` — export/processing scripts.
 - `state/` — local run state and progress files.
