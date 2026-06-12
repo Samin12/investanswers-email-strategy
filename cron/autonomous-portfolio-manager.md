@@ -1,14 +1,16 @@
-# Autonomous Portfolio Manager Cron Runbook
+# Autonomous Portfolio Manager Automation Runbook
 
-This file is the self-contained procedure for the Hermes cron jobs that run the assigned Alpaca paper portfolio.
+This file is the self-contained procedure for the Multica autopilots that run the assigned Alpaca paper portfolio. Legacy Hermes-native cron jobs are paused so the schedule has one owner: Multica Trading Ops.
 
 ## Schedule
 
 Daily checks in Eastern time:
 
-- `9am` — market-open/pre-market context check
-- `2pm` — intraday opportunity/risk check
-- `5pm` — post-close review and next-watch setup
+- `9am` — market-open/pre-market context check — Multica autopilot `10bbe766-ae48-40fe-a1c8-9d38245e20c9`
+- `2pm` — intraday opportunity/risk check — Multica autopilot `6074c047-94e6-4ce0-9b05-4046741c54ab`
+- `5pm` — post-close review and next-watch setup — Multica autopilot `5ef13f06-8c1a-4304-bebc-807e552dfe9f`
+
+Multica project: `Trading Ops` (`2471ad46-60cc-41a5-92f9-34e3751abfd8`), linked to `https://github.com/Samin12/investanswers-email-strategy`.
 
 ## Cron agent mandate
 
@@ -47,10 +49,11 @@ Options are enabled when useful, including LEAPS and covered calls, but the port
     - `git add analysis/check-log.md analysis/trade-journal.md manifest.json message_ids.json emails scripts cron *.md triggers.json .gitignore state/portfolio_manager/.gitkeep`
     - `git commit -m "chore: portfolio manager check <timestamp>"` if there are changes
     - `git push origin main`
-12. Final message format:
+12. Final issue comment / alert format:
     - If order placed: `TRADE PLACED — <symbol> <side> <qty/notional>`
     - If no order: `NO TRADE — <reason>`
-    - Include equity, cash, buying power, new emails count, signals checked, order IDs if any, and GitHub log links.
+    - Include equity, cash, buying power, options buying power, new emails count, signals checked, order IDs if any, and GitHub log links.
+    - If an order is placed/modified/cancelled, also send Samin a Telegram alert from the Multica/Hermes run if messaging is available.
 
 ## Hard stop conditions
 
