@@ -10,7 +10,8 @@ from __future__ import annotations
 import html
 import json
 import re
-from datetime import datetime
+import subprocess
+from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
@@ -58,6 +59,71 @@ def parse_ts(raw: str) -> datetime | None:
     if m:
         return datetime.strptime("".join(m.groups()), "%Y%m%d%H%M%S")
     return None
+
+
+def load_alpaca_portfolio_history(period: str = "6M", timeframe: str = "1D") -> dict:
+    """Return sanitized multi-month Alpaca portfolio history for the public chart.
+
+    Uses the Alpaca CLI paper profile and stores only timestamp/equity/P&L series.
+    If Alpaca is unavailable, the dashboard falls back to local snapshots.
+    """
+    try:
+        proc = subprocess.run(
+            [
+                "alpaca",
+                "--profile",
+                "paper",
+                "account",
+                "portfolio",
+                "--period",
+                period,
+                "--timeframe",
+                timeframe,
+                "--jq",
+                ".",
+            ],
+            cwd=str(ROOT),
+            text=True,
+            capture_output=True,
+            timeout=90,
+            check=True,
+        )
+        raw = json.loads(proc.stdout)
+    except Exception as exc:
+        return {"ok": False, "error": type(exc).__name__, "period": period, "timeframe": timeframe, "points": []}
+
+    timestamps = raw.get("timestamp") or []
+    equities = raw.get("equity") or []
+    profit_loss = raw.get("profit_loss") or []
+    profit_loss_pct = raw.get("profit_loss_pct") or []
+    points: list[dict] = []
+    for i, ts_raw in enumerate(timestamps):
+        equity = dec(equities[i] if i < len(equities) else None)
+        # Alpaca returns zero rows for days before the paper account was funded.
+        # Hide those so the chart is a real multi-month performance curve, not a fake zero baseline.
+        if equity <= 0:
+            continue
+        try:
+            ts = datetime.fromtimestamp(int(ts_raw), tz=timezone.utc).astimezone()
+        except Exception:
+            continue
+        points.append(
+            {
+                "timestamp": ts.isoformat(timespec="seconds"),
+                "timestamp_short": ts.strftime("%b %-d"),
+                "equity": float(equity),
+                "profit_loss": float(dec(profit_loss[i] if i < len(profit_loss) else None)),
+                "profit_loss_pct": float(dec(profit_loss_pct[i] if i < len(profit_loss_pct) else None)),
+            }
+        )
+    return {
+        "ok": bool(points),
+        "period": period,
+        "timeframe": timeframe,
+        "base_value": raw.get("base_value"),
+        "base_value_asof": raw.get("base_value_asof"),
+        "points": points,
+    }
 
 
 def load_snapshots() -> list[dict]:
@@ -156,6 +222,10 @@ def summarize_reasons(latest: dict, trades: list[dict], checks: list[dict]) -> l
 def build_data() -> dict:
     latest = load_json(STATE / "latest_snapshot.json") or {}
     snapshots = load_snapshots()
+    portfolio_history = load_alpaca_portfolio_history()
+    history_points = portfolio_history.get("points") or []
+    if not history_points:
+        history_points = snapshots
     checks = parse_markdown_table(CHECK_LOG)
     trades = parse_markdown_table(TRADE_JOURNAL)
     acct = latest.get("account") or {}
@@ -215,6 +285,8 @@ def build_data() -> dict:
         },
         "positions": enriched_positions,
         "snapshots": snapshots,
+        "history": history_points,
+        "history_meta": portfolio_history,
         "checks": checks[-20:],
         "trades": trades[-20:],
         "watch": watch,
@@ -233,16 +305,16 @@ def html_page(data: dict) -> str:
   <title>InvestAnswers Portfolio PM Dashboard</title>
   <script src=\"https://cdn.plot.ly/plotly-2.35.2.min.js\"></script>
   <style>
-    :root {{ color-scheme: dark; --bg:#070A12; --panel:#101624; --panel2:#151D2E; --ink:#F6F8FF; --muted:#9CA9C3; --line:#26334D; --green:#5CF2A5; --red:#FF6B7D; --gold:#FFD166; --blue:#73A7FF; --purple:#B891FF; }}
+    :root {{ color-scheme: light; --bg:#FAF7F0; --paper:#FFFDF8; --panel:#FFFFFF; --ink:#191919; --muted:#6F6760; --line:#E8DED2; --green:#4F8F64; --red:#B85C5C; --gold:#B88746; --blue:#526E8F; --purple:#8B6F9F; --clay:#CC785C; }}
     * {{ box-sizing:border-box; }}
-    body {{ margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; background: radial-gradient(circle at top left, #1B2440 0, #070A12 38%, #05070D 100%); color:var(--ink); }}
-    main {{ width:min(1240px, 94vw); margin:0 auto; padding:28px 0 60px; }}
-    .hero {{ display:flex; gap:20px; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; margin-bottom:20px; }}
-    .eyebrow {{ color:var(--green); font-size:12px; letter-spacing:.14em; text-transform:uppercase; font-weight:800; }}
-    h1 {{ margin:8px 0 8px; font-size:clamp(30px, 5vw, 58px); letter-spacing:-.05em; line-height:.95; }}
-    .sub {{ color:var(--muted); max-width:760px; line-height:1.5; }}
-    .grid {{ display:grid; grid-template-columns:repeat(12,1fr); gap:16px; }}
-    .card {{ grid-column:span 12; background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.025)); border:1px solid rgba(255,255,255,.10); border-radius:22px; padding:18px; box-shadow: 0 22px 70px rgba(0,0,0,.25); }}
+    body {{ margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; background:var(--bg); color:var(--ink); }}
+    main {{ width:min(1180px, 94vw); margin:0 auto; padding:30px 0 58px; }}
+    .hero {{ display:flex; gap:20px; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; margin-bottom:18px; }}
+    .eyebrow {{ color:var(--clay); font-size:12px; letter-spacing:.12em; text-transform:uppercase; font-weight:750; }}
+    h1 {{ margin:8px 0 8px; font-size:clamp(30px, 5vw, 54px); letter-spacing:-.045em; line-height:.98; font-weight:820; }}
+    .sub {{ color:var(--muted); max-width:760px; line-height:1.55; }}
+    .grid {{ display:grid; grid-template-columns:repeat(12,1fr); gap:14px; }}
+    .card {{ grid-column:span 12; background:var(--panel); border:1px solid var(--line); border-radius:18px; padding:18px; box-shadow: 0 12px 32px rgba(54, 45, 38, .08); }}
     .metric {{ grid-column:span 3; min-height:126px; }}
     .wide {{ grid-column:span 8; }} .side {{ grid-column:span 4; }} .half {{ grid-column:span 6; }}
     .label {{ color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.1em; font-weight:800; }}
@@ -254,11 +326,11 @@ def html_page(data: dict) -> str:
     th,td {{ text-align:left; border-bottom:1px solid var(--line); padding:12px 8px; white-space:nowrap; }}
     th {{ color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.08em; }}
     tr:last-child td {{ border-bottom:0; }}
-    .pill {{ display:inline-flex; align-items:center; border:1px solid var(--line); background:rgba(255,255,255,.05); border-radius:999px; padding:6px 10px; font-size:12px; color:var(--muted); gap:6px; }}
+    .pill {{ display:inline-flex; align-items:center; border:1px solid var(--line); background:var(--paper); border-radius:999px; padding:6px 10px; font-size:12px; color:var(--muted); gap:6px; }}
     .stack {{ display:flex; flex-direction:column; gap:12px; }}
-    .reason {{ padding:12px 14px; background:rgba(255,255,255,.05); border:1px solid var(--line); border-radius:16px; color:#DDE6FA; line-height:1.45; }}
+    .reason {{ padding:12px 14px; background:var(--paper); border:1px solid var(--line); border-radius:14px; color:var(--ink); line-height:1.45; }}
     .timeline {{ display:flex; flex-direction:column; gap:10px; max-height:520px; overflow:auto; padding-right:4px; }}
-    .event {{ border-left:3px solid var(--blue); background:rgba(255,255,255,.045); border-radius:14px; padding:11px 12px; }}
+    .event {{ border-left:3px solid var(--clay); background:var(--paper); border-radius:14px; padding:11px 12px; }}
     .event strong {{ display:block; margin-bottom:5px; }}
     .event small {{ color:var(--muted); }}
     .watch {{ display:grid; grid-template-columns:90px 90px 1fr; gap:10px; align-items:center; border-bottom:1px solid var(--line); padding:10px 0; }}
@@ -274,7 +346,7 @@ def html_page(data: dict) -> str:
     <div>
       <div class=\"eyebrow\">Alpaca paper · InvestAnswers PM</div>
       <h1>Portfolio dashboard</h1>
-      <div class=\"sub\">Live-ish visual ledger built from real Alpaca paper snapshots and the strategy repo. It updates when I run checks/trades and redeploy it to here.now.</div>
+      <div class=\"sub\">Simple, light portfolio ledger built from real Alpaca paper data plus the strategy repo. The performance chart uses multi-month daily Alpaca portfolio history, not just today's snapshots.</div>
     </div>
     <div class=\"pill\">Generated {generated}</div>
   </section>
@@ -285,7 +357,7 @@ def html_page(data: dict) -> str:
     <div class=\"card metric\"><div class=\"label\">Open positions</div><div class=\"value\" id=\"mPositions\">--</div><div class=\"delta\">Single-name risk shown below</div></div>
     <div class=\"card metric\"><div class=\"label\">Latest PM call</div><div class=\"value\" style=\"font-size:21px\" id=\"mCall\">--</div><div class=\"delta\">Trade/watch/rebalance ledger</div></div>
 
-    <div class=\"card wide\"><div class=\"label\">Growth / fall over time</div><div id=\"equityChart\" class=\"chart\"></div></div>
+    <div class=\"card wide\"><div class=\"label\">Growth / fall over months</div><div class=\"delta\" id=\"historyMeta\"></div><div id=\"equityChart\" class=\"chart\"></div></div>
     <div class=\"card side\"><div class=\"label\">Allocation</div><div id=\"allocChart\"></div></div>
 
     <div class=\"card half\"><div class=\"label\">What changed / why it matters</div><div class=\"stack\" id=\"reasons\"></div></div>
@@ -316,10 +388,12 @@ function firstLastDelta(rows) {{
   const first = rows[0].equity, last = rows[rows.length-1].equity;
   const d = last - first;
   const pc = first ? d/first : 0;
-  return `${{d >= 0 ? '+' : ''}}${{fmt.format(d)}} (${{pc >= 0 ? '+' : ''}}${{(pc*100).toFixed(2)}}%) since first snapshot`;
+  return `${{d >= 0 ? '+' : ''}}${{fmt.format(d)}} (${{pc >= 0 ? '+' : ''}}${{(pc*100).toFixed(2)}}%) since first history point`;
 }}
 document.getElementById('mEquity').textContent = fmt.format(data.account.equity || 0);
-document.getElementById('mEquityDelta').textContent = firstLastDelta(data.snapshots || []);
+document.getElementById('mEquityDelta').textContent = firstLastDelta(data.history || data.snapshots || []);
+const histMeta = data.history_meta || {{}};
+document.getElementById('historyMeta').textContent = histMeta.ok ? `${{histMeta.period}} daily Alpaca portfolio history · starts ${{histMeta.base_value_asof || 'first funded day'}}` : 'Fallback: local check snapshots only';
 document.getElementById('mCash').textContent = fmt.format(data.account.cash || 0);
 document.getElementById('mCashPct').textContent = `${{pct(data.account.cash_pct || 0)}} of equity · target ~10%`;
 document.getElementById('mPositions').textContent = (data.positions || []).length;
@@ -334,16 +408,16 @@ function numClass(v) {{ return v >= 0 ? 'green' : 'red'; }}
 const rows = data.positions || [];
 document.getElementById('positionsTable').innerHTML = `<thead><tr><th>Symbol</th><th>Qty</th><th>Price</th><th>Value</th><th>Weight</th><th>Cost</th><th>Unrealized</th><th>Today</th></tr></thead><tbody>` + rows.map(p => `<tr><td><strong>${{p.symbol}}</strong></td><td>${{p.qty.toFixed(4)}}</td><td>${{fmt.format(p.current_price)}}</td><td>${{fmt.format(p.market_value)}}</td><td>${{pct(p.weight)}}</td><td>${{fmt.format(p.cost_basis)}}</td><td class=\"${{numClass(p.unrealized_pl)}}\">${{fmt.format(p.unrealized_pl)}} · ${{pct(p.unrealized_plpc)}}</td><td class=\"${{numClass(p.change_today)}}\">${{pct(p.change_today)}}</td></tr>`).join('') + `</tbody>`;
 
-const snaps = data.snapshots || [];
+const snaps = data.history || data.snapshots || [];
 const x = snaps.map(s => s.timestamp_short || s.timestamp);
 Plotly.newPlot('equityChart', [
-  {{x, y: snaps.map(s => s.equity), name:'Equity', mode:'lines+markers', line:{{color:green, width:3}}, marker:{{size:8}}}},
-  {{x, y: snaps.map(s => s.cash), name:'Cash', mode:'lines+markers', line:{{color:gold, width:3}}, marker:{{size:7}}}}
-], {{paper_bgcolor:'rgba(0,0,0,0)', plot_bgcolor:'rgba(0,0,0,0)', font:{{color:'#DDE6FA'}}, margin:{{l:55,r:18,t:20,b:55}}, hovermode:'x unified', yaxis:{{gridcolor:'#26334D', tickprefix:'$'}}, xaxis:{{gridcolor:'#26334D', rangeslider:{{visible:true}}}}, legend:{{orientation:'h'}}}}, {{responsive:true, displaylogo:false}});
+  {{x, y: snaps.map(s => s.equity), name:'Equity', mode:'lines', line:{{color:blue, width:3}}, fill:'tozeroy', fillcolor:'rgba(82,110,143,.10)'}},
+  {{x, y: snaps.map(s => s.profit_loss || 0), name:'Daily P/L', mode:'lines', yaxis:'y2', line:{{color:gold, width:1.7, dash:'dot'}}}}
+], {{paper_bgcolor:'rgba(0,0,0,0)', plot_bgcolor:'rgba(0,0,0,0)', font:{{color:'#191919'}}, margin:{{l:55,r:18,t:20,b:55}}, hovermode:'x unified', yaxis:{{gridcolor:'#E8DED2', tickprefix:'$'}}, yaxis2:{{overlaying:'y', side:'right', showgrid:false, tickprefix:'$', zeroline:false}}, xaxis:{{gridcolor:'#E8DED2', rangeslider:{{visible:true}}}}, legend:{{orientation:'h'}}}}, {{responsive:true, displaylogo:false}});
 
-Plotly.newPlot('allocChart', [{{labels: rows.map(p=>p.symbol), values: rows.map(p=>p.market_value), type:'pie', hole:.55, textinfo:'label+percent', marker:{{colors:[blue,green,purple,gold,'#FF8FAB','#8BD3DD','#CDB4DB']}}}}], {{paper_bgcolor:'rgba(0,0,0,0)', plot_bgcolor:'rgba(0,0,0,0)', font:{{color:'#DDE6FA'}}, margin:{{l:10,r:10,t:20,b:20}}, showlegend:false}}, {{responsive:true, displaylogo:false}});
+Plotly.newPlot('allocChart', [{{labels: rows.map(p=>p.symbol), values: rows.map(p=>p.market_value), type:'pie', hole:.58, textinfo:'label+percent', marker:{{colors:[blue,'#7C8F66','#B88746','#CC785C','#8B6F9F','#A76E5E','#6F8795']}}}}], {{paper_bgcolor:'rgba(0,0,0,0)', plot_bgcolor:'rgba(0,0,0,0)', font:{{color:'#191919'}}, margin:{{l:10,r:10,t:20,b:20}}, showlegend:false}}, {{responsive:true, displaylogo:false}});
 
-Plotly.newPlot('plChart', [{{x: rows.map(p=>p.symbol), y: rows.map(p=>p.unrealized_pl), type:'bar', marker:{{color: rows.map(p => p.unrealized_pl >= 0 ? green : red)}}}}], {{paper_bgcolor:'rgba(0,0,0,0)', plot_bgcolor:'rgba(0,0,0,0)', font:{{color:'#DDE6FA'}}, margin:{{l:55,r:18,t:20,b:55}}, yaxis:{{gridcolor:'#26334D', tickprefix:'$'}}, xaxis:{{gridcolor:'#26334D'}}}}, {{responsive:true, displaylogo:false}});
+Plotly.newPlot('plChart', [{{x: rows.map(p=>p.symbol), y: rows.map(p=>p.unrealized_pl), type:'bar', marker:{{color: rows.map(p => p.unrealized_pl >= 0 ? green : red)}}}}], {{paper_bgcolor:'rgba(0,0,0,0)', plot_bgcolor:'rgba(0,0,0,0)', font:{{color:'#191919'}}, margin:{{l:55,r:18,t:20,b:55}}, yaxis:{{gridcolor:'#E8DED2', tickprefix:'$'}}, xaxis:{{gridcolor:'#E8DED2'}}}}, {{responsive:true, displaylogo:false}});
 
 const events = [...(data.trades || [])].reverse().slice(0, 12);
 document.getElementById('timeline').innerHTML = events.map(e => `<div class=\"event\"><strong>${{escapeHtml(e.timestamp_et || '')}} · ${{escapeHtml(e.asset || '')}}</strong><div>${{escapeHtml(e.action || '')}} · ${{escapeHtml(e.status || '')}}</div><small>${{escapeHtml(e.rationale || e.outcome || '').slice(0,260)}}</small></div>`).join('');
@@ -366,6 +440,8 @@ def main() -> int:
         "cash": data["account"]["cash"],
         "positions": len(data["positions"]),
         "snapshots": len(data["snapshots"]),
+        "history_points": len(data["history"]),
+        "history_period": (data.get("history_meta") or {}).get("period"),
         "trades": len(data["trades"]),
     }, indent=2))
     return 0
