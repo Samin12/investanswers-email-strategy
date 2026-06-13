@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-06-12T21:03:15+00:00
+Generated: 2026-06-13T13:03:10+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 358
-- Emails exported: 358
-- Years: {"2026": 358}
+- Message IDs found: 360
+- Emails exported: 360
+- Years: {"2026": 360}
 
 ## Latest 20 subjects
 
+- Ark did end up buying SpaceX today
+- EXCLUSIVE VIDEO - Bouncy Week
 - VIDEO - $4 Trillion Moat
 - That was quick
 - SOL Beginning to Recover
@@ -27,5 +29,3 @@ Generated: 2026-06-12T21:03:15+00:00
 - IA Trade Alert
 - Oppenheimer first w new $SPCX PT $190
 - James Check: BTC at cheapest 4% of its entire modeled history vs TABI model
-- Scarcity in the Age of AGI... enter BTC
-- SpaceX IPO Order Cut Off has passed
