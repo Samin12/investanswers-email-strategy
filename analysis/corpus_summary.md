@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-06-13T13:03:10+00:00
+Generated: 2026-06-13T18:02:40+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 360
-- Emails exported: 360
-- Years: {"2026": 360}
+- Message IDs found: 363
+- Emails exported: 363
+- Years: {"2026": 363}
 
 ## Latest 20 subjects
 
+- Costly Bubbles
+- MSTR update + STRC concerns
+- RECORD DUMPAGE... yet price held $60K
 - Ark did end up buying SpaceX today
 - EXCLUSIVE VIDEO - Bouncy Week
 - VIDEO - $4 Trillion Moat
@@ -26,6 +29,3 @@ Generated: 2026-06-13T13:03:10+00:00
 - ARK Sell Only Day
 - VIDEO - Cyberbulls: Master Plan
 - IA Weekly Nuggets (June 2-11, 2026)
-- IA Trade Alert
-- Oppenheimer first w new $SPCX PT $190
-- James Check: BTC at cheapest 4% of its entire modeled history vs TABI model
