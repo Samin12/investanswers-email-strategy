@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-14T18:02:44+00:00
+Generated: 2026-06-14T21:01:52+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 366
-- Emails exported: 366
-- Years: {"2026": 366}
+- Message IDs found: 367
+- Emails exported: 367
+- Years: {"2026": 367}
 
 ## Latest 20 subjects
 
+- VIDEO - Live Q&A: Next 10X Move
 - AI Pause and Geopolitics
 - Solana Treasuries - Nav Premium
 - AVGO vicious sell off
@@ -28,4 +29,3 @@ Generated: 2026-06-14T18:02:44+00:00
 - Copper vs Gold
 - EXCLUSIVE VIDEO - How to Layer Into Assets & Find Bottoms - aka Crisis Prep
 - SpaceX Proxy SATS ripping overnite
-- SPCX IPO Buy Experience

@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 366,
-  "message_id_count": 366,
-  "generated_at": "2026-06-14T18:02:44+00:00",
+  "count": 367,
+  "message_id_count": 367,
+  "generated_at": "2026-06-14T21:01:52+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -9518,6 +9518,33 @@
       "text_chars": 2783,
       "raw_bytes": 53701,
       "sizeEstimate": 53701,
+      "attachments": []
+    },
+    {
+      "messageId": "19ec767832e0af26",
+      "threadId": "19ec767832e0af26",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ec767832e0af26",
+      "subject": "VIDEO - Live Q&A: Next 10X Move",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 14 Jun 2026 18:31:49 +0000",
+      "date_iso": "2026-06-14T18:31:49+00:00",
+      "message_id_header": "<20260614183149.88b9803a09f239c1@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "Label_9",
+        "INBOX"
+      ],
+      "snippet": "Live at 11:40am Pacific: https://youtube.com/live/fB0E9WoRC_M... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-14_183149_VIDEO-Live-QA-Next-10X-Move_19ec767832e0af26_1865f59e",
+      "raw_path": "emails/raw_eml/2026-06-14_183149_VIDEO-Live-QA-Next-10X-Move_19ec767832e0af26_1865f59e.eml",
+      "text_path": "emails/text_md/2026-06-14_183149_VIDEO-Live-QA-Next-10X-Move_19ec767832e0af26_1865f59e.md",
+      "meta_path": "emails/metadata/2026-06-14_183149_VIDEO-Live-QA-Next-10X-Move_19ec767832e0af26_1865f59e.json",
+      "text_chars": 1870,
+      "raw_bytes": 55639,
+      "sizeEstimate": 55639,
       "attachments": []
     }
   ]
