@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 363,
-  "message_id_count": 363,
-  "generated_at": "2026-06-14T13:02:19+00:00",
+  "count": 366,
+  "message_id_count": 366,
+  "generated_at": "2026-06-14T18:02:44+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -9440,6 +9440,84 @@
       "text_chars": 2906,
       "raw_bytes": 56597,
       "sizeEstimate": 56597,
+      "attachments": []
+    },
+    {
+      "messageId": "19ec66e6d9bbe665",
+      "threadId": "19ec66e6d9bbe665",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ec66e6d9bbe665",
+      "subject": "AVGO vicious sell off",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 14 Jun 2026 13:59:45 +0000",
+      "date_iso": "2026-06-14T13:59:45+00:00",
+      "message_id_header": "<20260614135945.ee2ef152ef05f75e@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Broadcom is looking to clean up its balance sheet. They are looking to buy back some of its own older bonds from investors for cash. They want to spe... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-14_135945_AVGO-vicious-sell-off_19ec66e6d9bbe665_e2a80791",
+      "raw_path": "emails/raw_eml/2026-06-14_135945_AVGO-vicious-sell-off_19ec66e6d9bbe665_e2a80791.eml",
+      "text_path": "emails/text_md/2026-06-14_135945_AVGO-vicious-sell-off_19ec66e6d9bbe665_e2a80791.md",
+      "meta_path": "emails/metadata/2026-06-14_135945_AVGO-vicious-sell-off_19ec66e6d9bbe665_e2a80791.json",
+      "text_chars": 2360,
+      "raw_bytes": 56000,
+      "sizeEstimate": 56000,
+      "attachments": []
+    },
+    {
+      "messageId": "19ec7173ad62ae80",
+      "threadId": "19ec7173ad62ae80",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ec7173ad62ae80",
+      "subject": "Solana Treasuries - Nav Premium",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 14 Jun 2026 17:04:07 +0000",
+      "date_iso": "2026-06-14T17:04:07+00:00",
+      "message_id_header": "<20260614170407.c387737391b9b037@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Have not shared this in a while... so here we go. I will update the ETH treasuries and BTC treasuries shortly. ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-14_170407_Solana-Treasuries-Nav-Premium_19ec7173ad62ae80_07887c86",
+      "raw_path": "emails/raw_eml/2026-06-14_170407_Solana-Treasuries-Nav-Premium_19ec7173ad62ae80_07887c86.eml",
+      "text_path": "emails/text_md/2026-06-14_170407_Solana-Treasuries-Nav-Premium_19ec7173ad62ae80_07887c86.md",
+      "meta_path": "emails/metadata/2026-06-14_170407_Solana-Treasuries-Nav-Premium_19ec7173ad62ae80_07887c86.json",
+      "text_chars": 1871,
+      "raw_bytes": 52621,
+      "sizeEstimate": 52621,
+      "attachments": []
+    },
+    {
+      "messageId": "19ec721b237502a1",
+      "threadId": "19ec721b237502a1",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ec721b237502a1",
+      "subject": "AI Pause and Geopolitics",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 14 Jun 2026 17:15:33 +0000",
+      "date_iso": "2026-06-14T17:15:33+00:00",
+      "message_id_header": "<20260614171533.9ea4afe0e5ccf010@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Washington has issued an export control order that prevents Anthropic from offering its Fable and Mythos models to non-US citizens, including Anthropi... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-14_171533_AI-Pause-and-Geopolitics_19ec721b237502a1_a09829ea",
+      "raw_path": "emails/raw_eml/2026-06-14_171533_AI-Pause-and-Geopolitics_19ec721b237502a1_a09829ea.eml",
+      "text_path": "emails/text_md/2026-06-14_171533_AI-Pause-and-Geopolitics_19ec721b237502a1_a09829ea.md",
+      "meta_path": "emails/metadata/2026-06-14_171533_AI-Pause-and-Geopolitics_19ec721b237502a1_a09829ea.json",
+      "text_chars": 2783,
+      "raw_bytes": 53701,
+      "sizeEstimate": 53701,
       "attachments": []
     }
   ]

@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-06-14T13:02:19+00:00
+Generated: 2026-06-14T18:02:44+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 363
-- Emails exported: 363
-- Years: {"2026": 363}
+- Message IDs found: 366
+- Emails exported: 366
+- Years: {"2026": 366}
 
 ## Latest 20 subjects
 
+- AI Pause and Geopolitics
+- Solana Treasuries - Nav Premium
+- AVGO vicious sell off
 - Costly Bubbles
 - MSTR update + STRC concerns
 - RECORD DUMPAGE... yet price held $60K
@@ -26,6 +29,3 @@ Generated: 2026-06-14T13:02:19+00:00
 - EXCLUSIVE VIDEO - How to Layer Into Assets & Find Bottoms - aka Crisis Prep
 - SpaceX Proxy SATS ripping overnite
 - SPCX IPO Buy Experience
-- ARK Sell Only Day
-- VIDEO - Cyberbulls: Master Plan
-- IA Weekly Nuggets (June 2-11, 2026)

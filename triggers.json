@@ -1,6 +1,6 @@
 {
   "$schema_note": "Machine-readable trigger set for AGENT_INSTRUCTIONS.md. Every level cites a source email in emails/text_md/. Rule: latest email wins; recompute moving-average levels older than 14 days.",
-  "as_of": "2026-06-11",
+  "as_of": "2026-06-14",
   "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close)",
   "hard_rules": [
     "Autonomous execution enabled for the assigned Alpaca paper profile only",
@@ -66,7 +66,9 @@
     "AVGO": {
       "narrative": "AI (IA13)",
       "price_jun11": 385.57,
-      "buy": [{"zone": "350-378 heavy support (long-term zone 350-380)", "action": "BUY tranche; currently ~2% ABOVE zone — alert at 378", "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready + 2026-05-23_040405_Space-Quantum-Vibes"}],
+      "price_jun14": 382.31,
+      "buy": [{"zone": "low 300s; approaching kill zone soon", "action": "WAIT until a deeper low-300s dip before adding; current ~382 is above latest add zone", "source": "2026-06-14_135945_AVGO-vicious-sell-off"}],
+      "history": [{"superseded_on": "2026-06-14", "prior_buy_zone": "350-378 heavy support (long-term zone 350-380)", "prior_source": "2026-06-05_222805_Get-Sniper-Rifles-Ready + 2026-05-23_040405_Space-Quantum-Vibes", "reason": "Latest InvestAnswers AVGO note says add more in the low 300s / approaching kill zone soon; latest email wins."}],
       "targets": {"continuation": "the 500s"}
     },
     "GOOG": {
