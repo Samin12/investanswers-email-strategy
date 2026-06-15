@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 372,
-  "message_id_count": 372,
-  "generated_at": "2026-06-15T13:01:37+00:00",
+  "count": 375,
+  "message_id_count": 375,
+  "generated_at": "2026-06-15T18:01:33+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -9675,6 +9675,84 @@
       "text_chars": 2056,
       "raw_bytes": 52972,
       "sizeEstimate": 52972,
+      "attachments": []
+    },
+    {
+      "messageId": "19ecc101555d56db",
+      "threadId": "19ecc101555d56db",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ecc101555d56db",
+      "subject": "Micron flying again",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 15 Jun 2026 16:14:23 +0000",
+      "date_iso": "2026-06-15T16:14:23+00:00",
+      "message_id_header": "<20260615161423.20fe810c9dfd462c@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Micron shot up another 10% today. TD Cowen raised its price target on Micron shares to $1500 from $660, and RBC Capital lifted its target to $1200.... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-15_161423_Micron-flying-again_19ecc101555d56db_edc83ed1",
+      "raw_path": "emails/raw_eml/2026-06-15_161423_Micron-flying-again_19ecc101555d56db_edc83ed1.eml",
+      "text_path": "emails/text_md/2026-06-15_161423_Micron-flying-again_19ecc101555d56db_edc83ed1.md",
+      "meta_path": "emails/metadata/2026-06-15_161423_Micron-flying-again_19ecc101555d56db_edc83ed1.json",
+      "text_chars": 2012,
+      "raw_bytes": 52822,
+      "sizeEstimate": 52822,
+      "attachments": []
+    },
+    {
+      "messageId": "19ecc21bebdbc14a",
+      "threadId": "19ecc21bebdbc14a",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ecc21bebdbc14a",
+      "subject": "MSTR buys again and adds more cash",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 15 Jun 2026 16:33:43 +0000",
+      "date_iso": "2026-06-15T16:33:43+00:00",
+      "message_id_header": "<20260615163343.f0a5e19ac9f4cebb@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Strategy has acquired 1587 BTC for $100 million - BTC Reserve now ₿846842. They also increased USD Reserve by $100 million to $1.1 billion. Nav Pre... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-15_163343_MSTR-buys-again-and-adds-more-cash_19ecc21bebdbc14a_1a9f675d",
+      "raw_path": "emails/raw_eml/2026-06-15_163343_MSTR-buys-again-and-adds-more-cash_19ecc21bebdbc14a_1a9f675d.eml",
+      "text_path": "emails/text_md/2026-06-15_163343_MSTR-buys-again-and-adds-more-cash_19ecc21bebdbc14a_1a9f675d.md",
+      "meta_path": "emails/metadata/2026-06-15_163343_MSTR-buys-again-and-adds-more-cash_19ecc21bebdbc14a_1a9f675d.json",
+      "text_chars": 2111,
+      "raw_bytes": 55456,
+      "sizeEstimate": 55456,
+      "attachments": []
+    },
+    {
+      "messageId": "19ecc25aae9616fe",
+      "threadId": "19ecc25aae9616fe",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ecc25aae9616fe",
+      "subject": "SpaceX IPO Raise & Unlock Update",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 15 Jun 2026 16:38:00 +0000",
+      "date_iso": "2026-06-15T16:38:00+00:00",
+      "message_id_header": "<20260615163800.a515b3fe078df5f0@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "So they did not raise $75BN afterall. They ended up raising $11bn more. This will go into Terafab to build out data centers in space. Above is the tim... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-15_163800_SpaceX-IPO-Raise-Unlock-Update_19ecc25aae9616fe_70e35d30",
+      "raw_path": "emails/raw_eml/2026-06-15_163800_SpaceX-IPO-Raise-Unlock-Update_19ecc25aae9616fe_70e35d30.eml",
+      "text_path": "emails/text_md/2026-06-15_163800_SpaceX-IPO-Raise-Unlock-Update_19ecc25aae9616fe_70e35d30.md",
+      "meta_path": "emails/metadata/2026-06-15_163800_SpaceX-IPO-Raise-Unlock-Update_19ecc25aae9616fe_70e35d30.json",
+      "text_chars": 2142,
+      "raw_bytes": 54279,
+      "sizeEstimate": 54279,
       "attachments": []
     }
   ]
