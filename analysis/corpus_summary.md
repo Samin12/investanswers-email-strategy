@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-15T18:01:33+00:00
+Generated: 2026-06-15T21:02:56+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 375
-- Emails exported: 375
-- Years: {"2026": 375}
+- Message IDs found: 376
+- Emails exported: 376
+- Years: {"2026": 376}
 
 ## Latest 20 subjects
 
+- VIDEO - Bitcoin: Everybody Bought the Dip
 - SpaceX IPO Raise & Unlock Update
 - MSTR buys again and adds more cash
 - Micron flying again
@@ -28,4 +29,3 @@ Generated: 2026-06-15T18:01:33+00:00
 - EXCLUSIVE VIDEO - Bouncy Week
 - VIDEO - $4 Trillion Moat
 - That was quick
-- SOL Beginning to Recover
