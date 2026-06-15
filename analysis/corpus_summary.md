@@ -1,14 +1,19 @@
 # Corpus Summary
 
-Generated: 2026-06-14T21:01:52+00:00
+Generated: 2026-06-15T13:01:37+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 367
-- Emails exported: 367
-- Years: {"2026": 367}
+- Message IDs found: 372
+- Emails exported: 372
+- Years: {"2026": 372}
 
 ## Latest 20 subjects
 
+- BTC on Optimized Trend
+- New SPCX X Rev Forecast... from Elon
+- Record 100+ Cybercabs at outbound lot in Giga Texas
+- Cancer Breakthrough: From early detection to true primary prevention
+- Rumors of Peace
 - VIDEO - Live Q&A: Next 10X Move
 - AI Pause and Geopolitics
 - Solana Treasuries - Nav Premium
@@ -24,8 +29,3 @@ Generated: 2026-06-14T21:01:52+00:00
 - Options Sweep on TSLA
 - IA Trade Alert
 - ALAB getting added to NASDAQ 100
-- SPCX IPO Update - IA Trade Alert and Trade Plan
-- How to invest in Copper $CPER
-- Copper vs Gold
-- EXCLUSIVE VIDEO - How to Layer Into Assets & Find Bottoms - aka Crisis Prep
-- SpaceX Proxy SATS ripping overnite

@@ -1,6 +1,6 @@
 {
   "$schema_note": "Machine-readable trigger set for AGENT_INSTRUCTIONS.md. Every level cites a source email in emails/text_md/. Rule: latest email wins; recompute moving-average levels older than 14 days.",
-  "as_of": "2026-06-14",
+  "as_of": "2026-06-15",
   "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close)",
   "hard_rules": [
     "Autonomous execution enabled for the assigned Alpaca paper profile only",
@@ -103,10 +103,11 @@
       "narrative": "Crypto core (scarcity in the age of AGI)",
       "price_jun11": 63449,
       "buy": [
-        {"condition": "ATR-style buy signal OR massive high-volume capitulation wick + consolidation", "action": "re-engage tranches", "source": "2026-06-05_035933_BTC-hits-200-WMA ('no buy signal yet') + 2026-06-05_222805_Get-Sniper-Rifles-Ready"},
+        {"condition": "Optimized Trend flipped back up at ~$64K OR ATR-style buy signal; avoid chasing if cash/FOMC/no-debt guardrails block deployment", "action": "RE-ENGAGE tranches / consider IBIT proxy only when cash buffer and no-debt rules are satisfied", "source": "2026-06-15_014528_BTC-on-Optimized-Trend (latest signal supersedes prior 'no buy signal yet')"},
         {"level": 50000, "action": "ADD BIG ('risk/reward phenomenal')", "source": "2026-06-11_174602_IA-Weekly-Nuggets-June-2-11-2026"}
       ],
-      "hold_dont_add": "Trend down + no buy signal = hold, don't add — despite bottom signals (supply-in-loss 10.5M peak, cheapest 4% of power-law history, 200-WMA ~$62K)",
+      "hold_dont_add": "Superseded on 2026-06-15 by Optimized Trend flip back up at ~$64K; still do not chase or spend below cash buffer/FOMC guardrails. $50K remains add-big capitulation level.",
+      "history": [{"superseded_on": "2026-06-15", "prior_condition": "Trend down + no buy signal / wait for ATR-style buy signal or capitulation wick", "new_signal": "Optimized Trend flipped back up at $64K", "source": "2026-06-15_014528_BTC-on-Optimized-Trend"}],
       "regime": {"200dma_reclaim": "= liftoff regime; last quoted $82.5K on May 12-13 — RECOMPUTE, MA is downward-sloping", "next_top_if_diminishing": 150000, "12mo_model": "EV $117.5K (range $96K-$139K)"}
     },
     "SOL": {
