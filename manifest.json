@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 376,
-  "message_id_count": 376,
-  "generated_at": "2026-06-16T13:03:39+00:00",
+  "count": 379,
+  "message_id_count": 379,
+  "generated_at": "2026-06-16T18:03:13+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -9779,6 +9779,84 @@
       "text_chars": 1854,
       "raw_bytes": 55587,
       "sizeEstimate": 55587,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed0af61b39ea27",
+      "threadId": "19ed0af61b39ea27",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed0af61b39ea27",
+      "subject": "SpaceX buys Cursor",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 16 Jun 2026 13:46:53 +0000",
+      "date_iso": "2026-06-16T13:46:53+00:00",
+      "message_id_header": "<20260616134653.37eab04b23dc7007@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "They had 2 mths to do the deal after IPO but did it after 2 days. The all stock deal values Cursor at $60 billion in equity. Cursor shareholders will... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-16_134653_SpaceX-buys-Cursor_19ed0af61b39ea27_24763c89",
+      "raw_path": "emails/raw_eml/2026-06-16_134653_SpaceX-buys-Cursor_19ed0af61b39ea27_24763c89.eml",
+      "text_path": "emails/text_md/2026-06-16_134653_SpaceX-buys-Cursor_19ed0af61b39ea27_24763c89.md",
+      "meta_path": "emails/metadata/2026-06-16_134653_SpaceX-buys-Cursor_19ed0af61b39ea27_24763c89.json",
+      "text_chars": 2414,
+      "raw_bytes": 54499,
+      "sizeEstimate": 54499,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed0d81533cb85f",
+      "threadId": "19ed0d81533cb85f",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed0d81533cb85f",
+      "subject": "Tesla’s Implied Price in a SpaceX Merger",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 16 Jun 2026 14:31:21 +0000",
+      "date_iso": "2026-06-16T14:31:21+00:00",
+      "message_id_header": "<20260616143121.5984b2278a40d49d@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "A lot of so-called experts out there are claiming a merger between SpaceX and Tesla is imminent. I don&#39;t buy it. In my view, any potential tie-up is s... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-16_143121_Teslas-Implied-Price-in-a-SpaceX-Merger_19ed0d81533cb85f_5a9a38eb",
+      "raw_path": "emails/raw_eml/2026-06-16_143121_Teslas-Implied-Price-in-a-SpaceX-Merger_19ed0d81533cb85f_5a9a38eb.eml",
+      "text_path": "emails/text_md/2026-06-16_143121_Teslas-Implied-Price-in-a-SpaceX-Merger_19ed0d81533cb85f_5a9a38eb.md",
+      "meta_path": "emails/metadata/2026-06-16_143121_Teslas-Implied-Price-in-a-SpaceX-Merger_19ed0d81533cb85f_5a9a38eb.json",
+      "text_chars": 2644,
+      "raw_bytes": 54852,
+      "sizeEstimate": 54852,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed1978fa9285f2",
+      "threadId": "19ed1978fa9285f2",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed1978fa9285f2",
+      "subject": "Buy, Borrow, Never Sell",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 16 Jun 2026 18:00:30 +0000",
+      "date_iso": "2026-06-16T18:00:30+00:00",
+      "message_id_header": "<20260616180030.0279537c64878b54@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Welcome to the quiet engine behind generational wealth. The ultra-rich solved this generations ago:Buy scarce, appreciating assets (Tesla, SpaceX, rea... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-16_180030_Buy-Borrow-Never-Sell_19ed1978fa9285f2_5bdf1a2b",
+      "raw_path": "emails/raw_eml/2026-06-16_180030_Buy-Borrow-Never-Sell_19ed1978fa9285f2_5bdf1a2b.eml",
+      "text_path": "emails/text_md/2026-06-16_180030_Buy-Borrow-Never-Sell_19ed1978fa9285f2_5bdf1a2b.md",
+      "meta_path": "emails/metadata/2026-06-16_180030_Buy-Borrow-Never-Sell_19ed1978fa9285f2_5bdf1a2b.json",
+      "text_chars": 2399,
+      "raw_bytes": 53535,
+      "sizeEstimate": 53535,
       "attachments": []
     }
   ]
