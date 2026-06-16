@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-06-16T18:03:13+00:00
+Generated: 2026-06-16T21:03:55+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 379
-- Emails exported: 379
-- Years: {"2026": 379}
+- Message IDs found: 383
+- Emails exported: 383
+- Years: {"2026": 383}
 
 ## Latest 20 subjects
 
+- OCTA Postponed Until Tommorrow (Wednesday)
+- IA Portfolio June 16, 2026
+- The Elon Cluster: Most Bullish Call Premium Flows
+- Best AI agents at Investing?
 - Buy, Borrow, Never Sell
 - Tesla’s Implied Price in a SpaceX Merger
 - SpaceX buys Cursor
@@ -25,7 +29,3 @@ Generated: 2026-06-16T18:03:13+00:00
 - AI Pause and Geopolitics
 - Solana Treasuries - Nav Premium
 - AVGO vicious sell off
-- Costly Bubbles
-- MSTR update + STRC concerns
-- RECORD DUMPAGE... yet price held $60K
-- Ark did end up buying SpaceX today

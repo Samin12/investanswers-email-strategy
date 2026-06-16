@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 379,
-  "message_id_count": 379,
-  "generated_at": "2026-06-16T18:03:13+00:00",
+  "count": 383,
+  "message_id_count": 383,
+  "generated_at": "2026-06-16T21:03:55+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -9857,6 +9857,110 @@
       "text_chars": 2399,
       "raw_bytes": 53535,
       "sizeEstimate": 53535,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed19e7716db8f2",
+      "threadId": "19ed19e7716db8f2",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed19e7716db8f2",
+      "subject": "Best AI agents at Investing?",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 16 Jun 2026 18:08:02 +0000",
+      "date_iso": "2026-06-16T18:08:02+00:00",
+      "message_id_header": "<20260616180802.be2921eb3ed7b2ff@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "What happens when AI agents are applied to investing? Seven frontier AI models each managed $10000 in real capital with zero human intervention at Al... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-16_180802_Best-AI-agents-at-Investing_19ed19e7716db8f2_9c0cec13",
+      "raw_path": "emails/raw_eml/2026-06-16_180802_Best-AI-agents-at-Investing_19ed19e7716db8f2_9c0cec13.eml",
+      "text_path": "emails/text_md/2026-06-16_180802_Best-AI-agents-at-Investing_19ed19e7716db8f2_9c0cec13.md",
+      "meta_path": "emails/metadata/2026-06-16_180802_Best-AI-agents-at-Investing_19ed19e7716db8f2_9c0cec13.json",
+      "text_chars": 1979,
+      "raw_bytes": 52804,
+      "sizeEstimate": 52804,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed1a473678a422",
+      "threadId": "19ed1a473678a422",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed1a473678a422",
+      "subject": "The Elon Cluster: Most Bullish Call Premium Flows",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 16 Jun 2026 18:14:34 +0000",
+      "date_iso": "2026-06-16T18:14:34+00:00",
+      "message_id_header": "<20260616181434.a158fe5a592472df@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "The Elon cluster (SPCX + TSLA + SATS) SPCX (SpaceX): #1 bullish flowTSLA: 139 orders (2nd highest count) — lots of activity, even if average size is s... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-16_181434_The-Elon-Cluster-Most-Bullish-Call-Premium-Flows_19ed1a473678a422_bff79d8d",
+      "raw_path": "emails/raw_eml/2026-06-16_181434_The-Elon-Cluster-Most-Bullish-Call-Premium-Flows_19ed1a473678a422_bff79d8d.eml",
+      "text_path": "emails/text_md/2026-06-16_181434_The-Elon-Cluster-Most-Bullish-Call-Premium-Flows_19ed1a473678a422_bff79d8d.md",
+      "meta_path": "emails/metadata/2026-06-16_181434_The-Elon-Cluster-Most-Bullish-Call-Premium-Flows_19ed1a473678a422_bff79d8d.json",
+      "text_chars": 2393,
+      "raw_bytes": 53355,
+      "sizeEstimate": 53355,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed1aa9e5eeb7fb",
+      "threadId": "19ed1aa9e5eeb7fb",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed1aa9e5eeb7fb",
+      "subject": "IA Portfolio June 16, 2026",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 16 Jun 2026 18:21:19 +0000",
+      "date_iso": "2026-06-16T18:21:19+00:00",
+      "message_id_header": "<20260616182119.3a0fe901e4f3e186@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "The big takeaway here is how 3 very small cash outlays became huge positions.... MRVL MU and ALAB now make up nearly 10% of my portfolio Note spaceX p... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-16_182119_IA-Portfolio-June-16-2026_19ed1aa9e5eeb7fb_61c4a958",
+      "raw_path": "emails/raw_eml/2026-06-16_182119_IA-Portfolio-June-16-2026_19ed1aa9e5eeb7fb_61c4a958.eml",
+      "text_path": "emails/text_md/2026-06-16_182119_IA-Portfolio-June-16-2026_19ed1aa9e5eeb7fb_61c4a958.md",
+      "meta_path": "emails/metadata/2026-06-16_182119_IA-Portfolio-June-16-2026_19ed1aa9e5eeb7fb_61c4a958.json",
+      "text_chars": 2037,
+      "raw_bytes": 55541,
+      "sizeEstimate": 55541,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed20881ac1c7b2",
+      "threadId": "19ed20881ac1c7b2",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed20881ac1c7b2",
+      "subject": "OCTA Postponed Until Tommorrow (Wednesday)",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 16 Jun 2026 20:03:52 +0000",
+      "date_iso": "2026-06-16T20:03:52+00:00",
+      "message_id_header": "<20260616200352.e26e8b8c048c093d@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "James is tied up with real estate transactions and OCTA will be postponed until Wednesday. The 21 Charts show which is normally Wed will happen on Thu... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-16_200352_OCTA-Postponed-Until-Tommorrow-Wednesday_19ed20881ac1c7b2_52584940",
+      "raw_path": "emails/raw_eml/2026-06-16_200352_OCTA-Postponed-Until-Tommorrow-Wednesday_19ed20881ac1c7b2_52584940.eml",
+      "text_path": "emails/text_md/2026-06-16_200352_OCTA-Postponed-Until-Tommorrow-Wednesday_19ed20881ac1c7b2_52584940.md",
+      "meta_path": "emails/metadata/2026-06-16_200352_OCTA-Postponed-Until-Tommorrow-Wednesday_19ed20881ac1c7b2_52584940.json",
+      "text_chars": 1961,
+      "raw_bytes": 50168,
+      "sizeEstimate": 50168,
       "attachments": []
     }
   ]
