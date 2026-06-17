@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-06-16T21:03:55+00:00
+Generated: 2026-06-17T13:02:02+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 383
-- Emails exported: 383
-- Years: {"2026": 383}
+- Message IDs found: 386
+- Emails exported: 386
+- Years: {"2026": 386}
 
 ## Latest 20 subjects
 
+- SpaceX Continues To Take Oxygen from other Stocks
+- MSTRs STRC is Struggling
+- MSFT and ORCL Breakup
 - OCTA Postponed Until Tommorrow (Wednesday)
 - IA Portfolio June 16, 2026
 - The Elon Cluster: Most Bullish Call Premium Flows
@@ -26,6 +29,3 @@ Generated: 2026-06-16T21:03:55+00:00
 - Cancer Breakthrough: From early detection to true primary prevention
 - Rumors of Peace
 - VIDEO - Live Q&A: Next 10X Move
-- AI Pause and Geopolitics
-- Solana Treasuries - Nav Premium
-- AVGO vicious sell off

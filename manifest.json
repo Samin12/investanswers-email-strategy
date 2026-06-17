@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 383,
-  "message_id_count": 383,
-  "generated_at": "2026-06-16T21:03:55+00:00",
+  "count": 386,
+  "message_id_count": 386,
+  "generated_at": "2026-06-17T13:02:02+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -9961,6 +9961,84 @@
       "text_chars": 1961,
       "raw_bytes": 50168,
       "sizeEstimate": 50168,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed3102be714cfc",
+      "threadId": "19ed3102be714cfc",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed3102be714cfc",
+      "subject": "MSFT and ORCL Breakup",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Wed, 17 Jun 2026 00:51:51 +0000",
+      "date_iso": "2026-06-17T00:51:51+00:00",
+      "message_id_header": "<20260617005151.a58c75abf0c25d0d@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Harsh reality of AI boom: even the world&#39;s largest technology companies are running short on computing power. As demand for AI services soars, cloud p... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-17_005151_MSFT-and-ORCL-Breakup_19ed3102be714cfc_ecdc524a",
+      "raw_path": "emails/raw_eml/2026-06-17_005151_MSFT-and-ORCL-Breakup_19ed3102be714cfc_ecdc524a.eml",
+      "text_path": "emails/text_md/2026-06-17_005151_MSFT-and-ORCL-Breakup_19ed3102be714cfc_ecdc524a.md",
+      "meta_path": "emails/metadata/2026-06-17_005151_MSFT-and-ORCL-Breakup_19ed3102be714cfc_ecdc524a.json",
+      "text_chars": 2627,
+      "raw_bytes": 53576,
+      "sizeEstimate": 53576,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed313de7fefd51",
+      "threadId": "19ed313de7fefd51",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed313de7fefd51",
+      "subject": "MSTRs STRC is Struggling",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Wed, 17 Jun 2026 00:55:54 +0000",
+      "date_iso": "2026-06-17T00:55:54+00:00",
+      "message_id_header": "<20260617005554.96f38f23c0ce218f@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "STRC is trading at 91$ w/ 11.5$ dividend. Strives SATA is trading close to 100$ w/ 14$ dividend. MSTR needs to jack the Dividend on STRC and do it f... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-17_005554_MSTRs-STRC-is-Struggling_19ed313de7fefd51_73e7d20a",
+      "raw_path": "emails/raw_eml/2026-06-17_005554_MSTRs-STRC-is-Struggling_19ed313de7fefd51_73e7d20a.eml",
+      "text_path": "emails/text_md/2026-06-17_005554_MSTRs-STRC-is-Struggling_19ed313de7fefd51_73e7d20a.md",
+      "meta_path": "emails/metadata/2026-06-17_005554_MSTRs-STRC-is-Struggling_19ed313de7fefd51_73e7d20a.json",
+      "text_chars": 1980,
+      "raw_bytes": 52801,
+      "sizeEstimate": 52801,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed35038b942554",
+      "threadId": "19ed35038b942554",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed35038b942554",
+      "subject": "SpaceX Continues To Take Oxygen from other Stocks",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Wed, 17 Jun 2026 02:01:49 +0000",
+      "date_iso": "2026-06-17T02:01:49+00:00",
+      "message_id_header": "<20260617020149.c53802b0267144ba@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Retail investors are pouring money into SpaceX stock so fast that it&#39;s leaving almost nothing for other companies. In just the past two trading days, ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-17_020149_SpaceX-Continues-To-Take-Oxygen-from-other-Stocks_19ed35038b942554_26d9231a",
+      "raw_path": "emails/raw_eml/2026-06-17_020149_SpaceX-Continues-To-Take-Oxygen-from-other-Stocks_19ed35038b942554_26d9231a.eml",
+      "text_path": "emails/text_md/2026-06-17_020149_SpaceX-Continues-To-Take-Oxygen-from-other-Stocks_19ed35038b942554_26d9231a.md",
+      "meta_path": "emails/metadata/2026-06-17_020149_SpaceX-Continues-To-Take-Oxygen-from-other-Stocks_19ed35038b942554_26d9231a.json",
+      "text_chars": 2439,
+      "raw_bytes": 53381,
+      "sizeEstimate": 53381,
       "attachments": []
     }
   ]
