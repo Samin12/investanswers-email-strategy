@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-06-17T18:03:56+00:00
+Generated: 2026-06-17T21:03:40+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 389
-- Emails exported: 389
-- Years: {"2026": 389}
+- Message IDs found: 391
+- Emails exported: 391
+- Years: {"2026": 391}
 
 ## Latest 20 subjects
 
+- VIDEO - OCTA: Ugly Truth Rising
+- Fed/FOMC freak out then AI Rally
 - Tokenized Stocks Exploding
 - Record ETF Flows
 - 93% of STRC Price Explained by BTC Price
@@ -27,5 +29,3 @@ Generated: 2026-06-17T18:03:56+00:00
 - MSTR buys again and adds more cash
 - Micron flying again
 - BTC on Optimized Trend
-- New SPCX X Rev Forecast... from Elon
-- Record 100+ Cybercabs at outbound lot in Giga Texas
