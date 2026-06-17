@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-06-17T13:02:02+00:00
+Generated: 2026-06-17T18:03:56+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 386
-- Emails exported: 386
-- Years: {"2026": 386}
+- Message IDs found: 389
+- Emails exported: 389
+- Years: {"2026": 389}
 
 ## Latest 20 subjects
 
+- Tokenized Stocks Exploding
+- Record ETF Flows
+- 93% of STRC Price Explained by BTC Price
 - SpaceX Continues To Take Oxygen from other Stocks
 - MSTRs STRC is Struggling
 - MSFT and ORCL Breakup
@@ -26,6 +29,3 @@ Generated: 2026-06-17T13:02:02+00:00
 - BTC on Optimized Trend
 - New SPCX X Rev Forecast... from Elon
 - Record 100+ Cybercabs at outbound lot in Giga Texas
-- Cancer Breakthrough: From early detection to true primary prevention
-- Rumors of Peace
-- VIDEO - Live Q&A: Next 10X Move

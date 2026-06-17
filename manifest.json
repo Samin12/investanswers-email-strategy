@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 386,
-  "message_id_count": 386,
-  "generated_at": "2026-06-17T13:02:02+00:00",
+  "count": 389,
+  "message_id_count": 389,
+  "generated_at": "2026-06-17T18:03:56+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -10039,6 +10039,84 @@
       "text_chars": 2439,
       "raw_bytes": 53381,
       "sizeEstimate": 53381,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed5dfcd32fb020",
+      "threadId": "19ed5dfcd32fb020",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed5dfcd32fb020",
+      "subject": "93% of STRC Price Explained by BTC Price",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Wed, 17 Jun 2026 13:57:53 +0000",
+      "date_iso": "2026-06-17T13:57:53+00:00",
+      "message_id_header": "<20260617135753.4994943f6d75b9c4@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "When Bitcoin is weak, market gets rattled. Note also the bi weekly Dividend was approved. Note also at the current STRC price of $92 the return is act... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-17_135753_93-of-STRC-Price-Explained-by-BTC-Price_19ed5dfcd32fb020_4acbea80",
+      "raw_path": "emails/raw_eml/2026-06-17_135753_93-of-STRC-Price-Explained-by-BTC-Price_19ed5dfcd32fb020_4acbea80.eml",
+      "text_path": "emails/text_md/2026-06-17_135753_93-of-STRC-Price-Explained-by-BTC-Price_19ed5dfcd32fb020_4acbea80.md",
+      "meta_path": "emails/metadata/2026-06-17_135753_93-of-STRC-Price-Explained-by-BTC-Price_19ed5dfcd32fb020_4acbea80.json",
+      "text_chars": 2035,
+      "raw_bytes": 52898,
+      "sizeEstimate": 52898,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed5ebd380cbcc8",
+      "threadId": "19ed5ebd380cbcc8",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed5ebd380cbcc8",
+      "subject": "Record ETF Flows",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Wed, 17 Jun 2026 14:11:01 +0000",
+      "date_iso": "2026-06-17T14:11:01+00:00",
+      "message_id_header": "<20260617141101.96252dc3087f195c@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "ETF flows have toched $1 trillion YTD, it&#39;s still June. $DRAM also makes the top 10... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-17_141101_Record-ETF-Flows_19ed5ebd380cbcc8_3102e490",
+      "raw_path": "emails/raw_eml/2026-06-17_141101_Record-ETF-Flows_19ed5ebd380cbcc8_3102e490.eml",
+      "text_path": "emails/text_md/2026-06-17_141101_Record-ETF-Flows_19ed5ebd380cbcc8_3102e490.md",
+      "meta_path": "emails/metadata/2026-06-17_141101_Record-ETF-Flows_19ed5ebd380cbcc8_3102e490.json",
+      "text_chars": 1785,
+      "raw_bytes": 52586,
+      "sizeEstimate": 52586,
+      "attachments": []
+    },
+    {
+      "messageId": "19ed5eea5cd2254f",
+      "threadId": "19ed5eea5cd2254f",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ed5eea5cd2254f",
+      "subject": "Tokenized Stocks Exploding",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Wed, 17 Jun 2026 14:14:06 +0000",
+      "date_iso": "2026-06-17T14:14:06+00:00",
+      "message_id_header": "<20260617141406.5682dbae27ecac92@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Oh also all happening on SolanaNote the delta up 3300%No faster adoption case in CryptoNote also RWA second. ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-17_141406_Tokenized-Stocks-Exploding_19ed5eea5cd2254f_672118ed",
+      "raw_path": "emails/raw_eml/2026-06-17_141406_Tokenized-Stocks-Exploding_19ed5eea5cd2254f_672118ed.eml",
+      "text_path": "emails/text_md/2026-06-17_141406_Tokenized-Stocks-Exploding_19ed5eea5cd2254f_672118ed.md",
+      "meta_path": "emails/metadata/2026-06-17_141406_Tokenized-Stocks-Exploding_19ed5eea5cd2254f_672118ed.json",
+      "text_chars": 1863,
+      "raw_bytes": 52732,
+      "sizeEstimate": 52732,
       "attachments": []
     }
   ]
