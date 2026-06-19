@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-19T17:02:14+00:00
+Generated: 2026-06-19T17:31:30+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 35
-- Emails exported: 413
-- Years: {"2026": 413}
+- Message IDs found: 36
+- Emails exported: 414
+- Years: {"2026": 414}
 
 ## Latest 20 subjects
 
+- IA Weekly Nuggets (June 12-17, 2026)
 - Micron Degen buys $2M in FAR OOM Calls
 - My Summer Game Plan
 - EXCLUSIVE VIDEO - Weekly Edge Top How-Tos & Trading Lessons
@@ -28,4 +29,3 @@ Generated: 2026-06-19T17:02:14+00:00
 - Moody’s has rolled out credit ratings on Solana
 - What it means if Elon can pull off Terafab
 - The 11m Sq Ft Optimus Factory going up fast
-- What SpaceX Cursor have shipped in literally 1 day - 10 years or more of work
