@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-19T15:46:42+00:00
+Generated: 2026-06-19T16:02:25+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 34
-- Emails exported: 412
-- Years: {"2026": 412}
+- Message IDs found: 35
+- Emails exported: 413
+- Years: {"2026": 413}
 
 ## Latest 20 subjects
 
+- Micron Degen buys $2M in FAR OOM Calls
 - My Summer Game Plan
 - EXCLUSIVE VIDEO - Weekly Edge Top How-Tos & Trading Lessons
 - The Leopold 10xs
@@ -28,4 +29,3 @@ Generated: 2026-06-19T15:46:42+00:00
 - What it means if Elon can pull off Terafab
 - The 11m Sq Ft Optimus Factory going up fast
 - What SpaceX Cursor have shipped in literally 1 day - 10 years or more of work
-- I am waiting for a dip to get more Micron
