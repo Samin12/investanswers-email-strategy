@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-19T18:31:59+00:00
+Generated: 2026-06-19T19:03:21+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 415
-- Emails exported: 415
-- Years: {"2026": 415}
+- Message IDs found: 416
+- Emails exported: 416
+- Years: {"2026": 416}
 
 ## Latest 20 subjects
 
+- VIDEO - Crypto Flips NYSE
 - SOL does more VOL than NYSE
 - IA Weekly Nuggets (June 12-17, 2026)
 - Micron Degen buys $2M in FAR OOM Calls
@@ -28,4 +29,3 @@ Generated: 2026-06-19T18:31:59+00:00
 - AMZN chooses Solana for AI Agent Commerce
 - SPCX Valuation
 - Moody’s has rolled out credit ratings on Solana
-- What it means if Elon can pull off Terafab
