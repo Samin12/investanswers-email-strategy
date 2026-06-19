@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 406,
-  "message_id_count": 30,
-  "generated_at": "2026-06-19T00:48:36+00:00",
+  "count": 407,
+  "message_id_count": 31,
+  "generated_at": "2026-06-19T11:02:01+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -10560,6 +10560,32 @@
       "text_chars": 2516,
       "raw_bytes": 56621,
       "sizeEstimate": 56621,
+      "attachments": []
+    },
+    {
+      "messageId": "19eddf46928cfc30",
+      "threadId": "19eddf46928cfc30",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19eddf46928cfc30",
+      "subject": "Interesting Tesla Trades Today",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 19 Jun 2026 03:37:22 +0000",
+      "date_iso": "2026-06-19T03:37:22+00:00",
+      "message_id_header": "<20260619033722.d8ca51ddd2ecda34@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Ark bought Tesla todayA secret Darkpool also bought 775000 shares off the record, kinda like OTC in Crypto where you dont move the market after such ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-19_033722_Interesting-Tesla-Trades-Today_19eddf46928cfc30_8de463e2",
+      "raw_path": "emails/raw_eml/2026-06-19_033722_Interesting-Tesla-Trades-Today_19eddf46928cfc30_8de463e2.eml",
+      "text_path": "emails/text_md/2026-06-19_033722_Interesting-Tesla-Trades-Today_19eddf46928cfc30_8de463e2.md",
+      "meta_path": "emails/metadata/2026-06-19_033722_Interesting-Tesla-Trades-Today_19eddf46928cfc30_8de463e2.json",
+      "text_chars": 2487,
+      "raw_bytes": 57275,
+      "sizeEstimate": 57275,
       "attachments": []
     }
   ]
