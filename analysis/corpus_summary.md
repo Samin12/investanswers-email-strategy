@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-19T14:46:34+00:00
+Generated: 2026-06-19T15:02:32+00:00
 
-- Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 31
-- Emails exported: 409
-- Years: {"2026": 409}
+- Query: `from:investanswers@creator.patreon.com`
+- Message IDs found: 410
+- Emails exported: 410
+- Years: {"2026": 410}
 
 ## Latest 20 subjects
 
+- The Leopold 10xs
 - Petrol/Gas in USA at 4 mth low but Hormuz closed again... allegedly
 - The "Advisor's Paradox"
 - Interesting Tesla Trades Today
@@ -28,4 +29,3 @@ Generated: 2026-06-19T14:46:34+00:00
 - I am waiting for a dip to get more Micron
 - Tether USDT booted from the EU - good for $CRCL USDC
 - VIDEO - OCTA: Ugly Truth Rising
-- Fed/FOMC freak out then AI Rally
