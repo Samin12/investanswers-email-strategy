@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-19T14:33:24+00:00
+Generated: 2026-06-19T14:46:34+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 30
-- Emails exported: 408
-- Years: {"2026": 408}
+- Message IDs found: 31
+- Emails exported: 409
+- Years: {"2026": 409}
 
 ## Latest 20 subjects
 
+- Petrol/Gas in USA at 4 mth low but Hormuz closed again... allegedly
 - The "Advisor's Paradox"
 - Interesting Tesla Trades Today
 - EXCLUSIVE VIDEO - 5 Must Know Magical How To's When Optimized Trend Trading
@@ -28,4 +29,3 @@ Generated: 2026-06-19T14:33:24+00:00
 - Tether USDT booted from the EU - good for $CRCL USDC
 - VIDEO - OCTA: Ugly Truth Rising
 - Fed/FOMC freak out then AI Rally
-- Tokenized Stocks Exploding
