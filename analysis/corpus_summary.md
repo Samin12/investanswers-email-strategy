@@ -1,9 +1,9 @@
 # Corpus Summary
 
-Generated: 2026-06-19T17:47:14+00:00
+Generated: 2026-06-19T18:18:42+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 37
+- Message IDs found: 34
 - Emails exported: 415
 - Years: {"2026": 415}
 
