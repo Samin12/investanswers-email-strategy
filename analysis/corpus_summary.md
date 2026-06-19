@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-19T15:02:32+00:00
+Generated: 2026-06-19T15:33:43+00:00
 
-- Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 410
-- Emails exported: 410
-- Years: {"2026": 410}
+- Query: `from:investanswers@creator.patreon.com newer_than:3d`
+- Message IDs found: 33
+- Emails exported: 411
+- Years: {"2026": 411}
 
 ## Latest 20 subjects
 
+- EXCLUSIVE VIDEO - Weekly Edge Top How-Tos & Trading Lessons
 - The Leopold 10xs
 - Petrol/Gas in USA at 4 mth low but Hormuz closed again... allegedly
 - The "Advisor's Paradox"
@@ -28,4 +29,3 @@ Generated: 2026-06-19T15:02:32+00:00
 - What SpaceX Cursor have shipped in literally 1 day - 10 years or more of work
 - I am waiting for a dip to get more Micron
 - Tether USDT booted from the EU - good for $CRCL USDC
-- VIDEO - OCTA: Ugly Truth Rising
