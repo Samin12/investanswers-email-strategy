@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-19T17:31:30+00:00
+Generated: 2026-06-19T17:47:14+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 36
-- Emails exported: 414
-- Years: {"2026": 414}
+- Message IDs found: 37
+- Emails exported: 415
+- Years: {"2026": 415}
 
 ## Latest 20 subjects
 
+- SOL does more VOL than NYSE
 - IA Weekly Nuggets (June 12-17, 2026)
 - Micron Degen buys $2M in FAR OOM Calls
 - My Summer Game Plan
@@ -28,4 +29,3 @@ Generated: 2026-06-19T17:31:30+00:00
 - SPCX Valuation
 - Moody’s has rolled out credit ratings on Solana
 - What it means if Elon can pull off Terafab
-- The 11m Sq Ft Optimus Factory going up fast

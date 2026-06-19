@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 414,
-  "message_id_count": 36,
-  "generated_at": "2026-06-19T17:31:30+00:00",
+  "count": 415,
+  "message_id_count": 37,
+  "generated_at": "2026-06-19T17:47:14+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -10768,6 +10768,32 @@
       "text_chars": 5576,
       "raw_bytes": 55491,
       "sizeEstimate": 55491,
+      "attachments": []
+    },
+    {
+      "messageId": "19ee0f6bb6b4b9d2",
+      "threadId": "19ee0f6bb6b4b9d2",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ee0f6bb6b4b9d2",
+      "subject": "SOL does more VOL than NYSE",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 19 Jun 2026 17:38:45 +0000",
+      "date_iso": "2026-06-19T17:38:45+00:00",
+      "message_id_header": "<20260619173845.d1218883620a3539@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Solana spot volume has started clearing TradFi exchange benchmarks. Last week,SOL processed $11.6B of spot DEX volume, above NY Stock Exchanges $10.5B... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-19_173845_SOL-does-more-VOL-than-NYSE_19ee0f6bb6b4b9d2_4791be7e",
+      "raw_path": "emails/raw_eml/2026-06-19_173845_SOL-does-more-VOL-than-NYSE_19ee0f6bb6b4b9d2_4791be7e.eml",
+      "text_path": "emails/text_md/2026-06-19_173845_SOL-does-more-VOL-than-NYSE_19ee0f6bb6b4b9d2_4791be7e.md",
+      "meta_path": "emails/metadata/2026-06-19_173845_SOL-does-more-VOL-than-NYSE_19ee0f6bb6b4b9d2_4791be7e.json",
+      "text_chars": 2064,
+      "raw_bytes": 52914,
+      "sizeEstimate": 52914,
       "attachments": []
     }
   ]
