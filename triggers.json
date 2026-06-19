@@ -1,7 +1,7 @@
 {
   "$schema_note": "Machine-readable trigger set for AGENT_INSTRUCTIONS.md. Every level cites a source email in emails/text_md/. Rule: latest email wins; recompute moving-average levels older than 14 days.",
-  "as_of": "2026-06-15",
-  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close)",
+  "as_of": "2026-06-19",
+  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan",
   "hard_rules": [
     "Autonomous execution enabled for the assigned Alpaca paper profile only",
     "Notify Samin after every placed/modified/cancelled order",
@@ -38,19 +38,19 @@
       "narrative": "AI — his #1 conviction (separate from IA13)",
       "price_jun11": 399.15,
       "buy": [
-        {"zone": "below 400 with higher low ('stacking zone')", "action": "BUY tranche", "source": "2026-05-30_022159_TA-Summary + 2026-06-05_190804_IA-Trade-Alert ('promised myself I would buy under $400')"},
-        {"zone": "360-380 support", "action": "BUY harder ('keep adding the more it dips')", "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready + 2026-06-10_160128_IA-Trade-Alert"}
+        {"zone": "around 380; 360-380 support remains the better-entry band", "action": "BUY/ADD tranche only if cash buffer remains intact and confirmation/fresh alert supports it", "source": "2026-06-19_153803_My-Summer-Game-Plan + 2026-06-05_222805_Get-Sniper-Rifles-Ready"},
+        {"zone": "below 400 is watch/confirmation territory, not automatic chase", "action": "WATCH unless closer to $380 or fresh explicit James buy alert", "source": "2026-06-19_153803_My-Summer-Game-Plan supersedes automatic <$400 stacking bias"}
       ],
       "trim": [{"condition": "extreme mean-reversion spike (~+2.5)", "action": "covered calls only if 100+ shares; he rarely trims TSLA", "source": "2026-05-13_020623_IA-Weekly-Nuggets-May-5-12-2026"}],
       "breakout": {"level": 450, "meaning": "break + hold = third leg; posture flips accumulate→hold", "source": "2026-05-30_022159_TA-Summary"},
       "targets": {"1yr": 650, "on_500_break": "700 within weeks", "long_term": "$2,000; $4.5T market cap"},
       "his_recent_fills": [{"date": "2026-06-05", "px": 390.69}, {"date": "2026-06-10", "px": 384}],
-      "note": "Do NOT rotate TSLA into SPCX beyond a few percent"
+      "note": "Do NOT rotate TSLA into SPCX beyond a few percent; Jun 19 update says he is already happy with TSLA amount and waiting for better entries"
     },
     "PLTR": {
       "narrative": "AI (IA13)",
       "price_jun11": 131.08,
-      "buy": [{"zone": "~130 (box trade buy side); deeper adds 100-110", "action": "BUY tranche — AT TRIGGER NOW; caution: 200-DMA rejection bias down toward 100", "source": "2026-05-26_182045_IA-Weekly-Nuggets ('Buy at $130') + 2026-05-29_151606_Huge-POP-in-PLTR + 2026-06-05_222805_Get-Sniper-Rifles-Ready"}],
+      "buy": [{"zone": "around 100 (deeper add zone); prior ~$130 box-buy is no longer an autonomous add level without fresh confirmation", "action": "WAIT/HOLD existing position; do not add at ~$128 just because prior box level exists", "source": "2026-06-19_153803_My-Summer-Game-Plan supersedes prior ~$130 box-buy bias"}],
       "trim": [{"zone": "156-160 (box sell side; 200-day ~160)", "action": "SELL the box portion", "source": "2026-05-29_151606_Huge-POP-in-PLTR"}],
       "breakout": {"level": 160, "meaning": "break + hold opens 200"}
     },
@@ -86,7 +86,7 @@
     "MU": {
       "narrative": "AI (IA13) — his big-3 gainer",
       "price_jun11": 995.87,
-      "buy": [{"zone": "650-675 ('love to be a buyer'); anywhere in the 700s OK (ATR L5 ~750)", "action": "WAIT — far above zone; if owned, hold to 2028", "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready + 2026-05-30_TA-Summary"}],
+      "buy": [{"zone": "around 700; deeper 650-675 remains preferred gift zone", "action": "WAIT — far above zone at ~$1139.94 latest trade", "source": "2026-06-19_153803_My-Summer-Game-Plan"}],
       "targets": {"james_2030": 1250, "ubs_1yr": 1650, "jensen": 3000}
     },
     "MRVL": {
@@ -125,7 +125,7 @@
     "STRC": {
       "narrative": "Cash buffer / yield (11.5%)",
       "price_jun11": 96.49,
-      "buy": [{"condition": "core buffer position — hold; optional scalp: buy $98 / sell $100 (~10 days)", "action": "HOLD", "source": "2026-06-01_233621_STRC-Dip + 2026-06-11_Weekly-Nuggets (his breakeven <$90)"}]
+      "buy": [{"condition": "watch carefully; not a priority deployment for fresh cash", "action": "HOLD/WATCH only; no autonomous buy unless explicitly replacing idle cash/yield buffer with no-debt proof", "source": "2026-06-19_153803_My-Summer-Game-Plan"}]
     },
     "SATS": {
       "narrative": "SpaceX proxy",
