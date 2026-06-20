@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-20T16:03:04+00:00
+Generated: 2026-06-20T16:33:11+00:00
 
-- Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 419
-- Emails exported: 419
-- Years: {"2026": 419}
+- Query: `from:investanswers@creator.patreon.com newer_than:3d`
+- Message IDs found: 31
+- Emails exported: 420
+- Years: {"2026": 420}
 
 ## Latest 20 subjects
 
+- IA13: Marvelous Marvell
 - Mert on Solana Roadmap and Physics
 - AI Bubble... revisiting again
 - Rule du Jour: #113 - Multi-Year Plan Beats Timing
@@ -28,4 +29,3 @@ Generated: 2026-06-20T16:03:04+00:00
 - All Waymos Recalled
 - IA Trade Alert
 - SPCX Entry?
-- Top Chains for Tokenized stocks
