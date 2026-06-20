@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-20T19:46:52+00:00
+Generated: 2026-06-20T20:35:42+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 421
-- Emails exported: 421
-- Years: {"2026": 421}
+- Message IDs found: 422
+- Emails exported: 422
+- Years: {"2026": 422}
 
 ## Latest 20 subjects
 
+- AI Stocks go from 25% to 45% of SPX
 - CZ and Armstrong on State of Bitcoin
 - IA13: Marvelous Marvell
 - Mert on Solana Roadmap and Physics
@@ -28,4 +29,3 @@ Generated: 2026-06-20T19:46:52+00:00
 - Global Estimated Living Standards
 - VIDEO - 21 Charts: My Trades Set Up
 - All Waymos Recalled
-- IA Trade Alert

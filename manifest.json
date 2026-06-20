@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 421,
-  "message_id_count": 421,
-  "generated_at": "2026-06-20T19:46:52+00:00",
+  "count": 422,
+  "message_id_count": 422,
+  "generated_at": "2026-06-20T20:35:42+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -10950,6 +10950,32 @@
       "text_chars": 2711,
       "raw_bytes": 51056,
       "sizeEstimate": 51056,
+      "attachments": []
+    },
+    {
+      "messageId": "19ee6b874ac37f48",
+      "threadId": "19ee6b874ac37f48",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ee6b874ac37f48",
+      "subject": "AI Stocks go from 25% to 45% of SPX",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sat, 20 Jun 2026 20:28:27 +0000",
+      "date_iso": "2026-06-20T20:28:27+00:00",
+      "message_id_header": "<20260620202827.8acd6563f0bdf866@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Crazy concentration in AI Stocks all of a sudden. Some stats:AI-linked stocks now make up ~39–45% of the entire S&amp;amp;P 500 by market value, accordin... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-20_202827_AI-Stocks-go-from-25-to-45-of-SPX_19ee6b874ac37f48_dfcb1e54",
+      "raw_path": "emails/raw_eml/2026-06-20_202827_AI-Stocks-go-from-25-to-45-of-SPX_19ee6b874ac37f48_dfcb1e54.eml",
+      "text_path": "emails/text_md/2026-06-20_202827_AI-Stocks-go-from-25-to-45-of-SPX_19ee6b874ac37f48_dfcb1e54.md",
+      "meta_path": "emails/metadata/2026-06-20_202827_AI-Stocks-go-from-25-to-45-of-SPX_19ee6b874ac37f48_dfcb1e54.json",
+      "text_chars": 2275,
+      "raw_bytes": 50928,
+      "sizeEstimate": 50928,
       "attachments": []
     }
   ]
