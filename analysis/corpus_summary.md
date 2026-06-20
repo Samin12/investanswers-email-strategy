@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-20T13:01:18+00:00
+Generated: 2026-06-20T15:16:16+00:00
 
-- Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 416
-- Emails exported: 416
-- Years: {"2026": 416}
+- Query: `from:investanswers@creator.patreon.com newer_than:3d`
+- Message IDs found: 28
+- Emails exported: 417
+- Years: {"2026": 417}
 
 ## Latest 20 subjects
 
+- Rule du Jour: #113 - Multi-Year Plan Beats Timing
 - VIDEO - Crypto Flips NYSE
 - SOL does more VOL than NYSE
 - IA Weekly Nuggets (June 12-17, 2026)
@@ -28,4 +29,3 @@ Generated: 2026-06-20T13:01:18+00:00
 - Top Chains for Tokenized stocks
 - AMZN chooses Solana for AI Agent Commerce
 - SPCX Valuation
-- Moody’s has rolled out credit ratings on Solana
