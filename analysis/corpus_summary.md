@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-06-20T15:16:16+00:00
+Generated: 2026-06-20T16:03:04+00:00
 
-- Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 28
-- Emails exported: 417
-- Years: {"2026": 417}
+- Query: `from:investanswers@creator.patreon.com`
+- Message IDs found: 419
+- Emails exported: 419
+- Years: {"2026": 419}
 
 ## Latest 20 subjects
 
+- Mert on Solana Roadmap and Physics
+- AI Bubble... revisiting again
 - Rule du Jour: #113 - Multi-Year Plan Beats Timing
 - VIDEO - Crypto Flips NYSE
 - SOL does more VOL than NYSE
@@ -27,5 +29,3 @@ Generated: 2026-06-20T15:16:16+00:00
 - IA Trade Alert
 - SPCX Entry?
 - Top Chains for Tokenized stocks
-- AMZN chooses Solana for AI Agent Commerce
-- SPCX Valuation
