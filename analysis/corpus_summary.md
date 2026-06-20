@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-20T16:33:11+00:00
+Generated: 2026-06-20T17:17:33+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 31
-- Emails exported: 420
-- Years: {"2026": 420}
+- Message IDs found: 32
+- Emails exported: 421
+- Years: {"2026": 421}
 
 ## Latest 20 subjects
 
+- CZ and Armstrong on State of Bitcoin
 - IA13: Marvelous Marvell
 - Mert on Solana Roadmap and Physics
 - AI Bubble... revisiting again
@@ -28,4 +29,3 @@ Generated: 2026-06-20T16:33:11+00:00
 - VIDEO - 21 Charts: My Trades Set Up
 - All Waymos Recalled
 - IA Trade Alert
-- SPCX Entry?
