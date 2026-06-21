@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-21T14:18:15+00:00
+Generated: 2026-06-21T15:02:22+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 26
-- Emails exported: 423
-- Years: {"2026": 423}
+- Message IDs found: 25
+- Emails exported: 424
+- Years: {"2026": 424}
 
 ## Latest 20 subjects
 
+- Tons of Solana news this week
 - NSA confirms Mythos “broke into almost all of our classified systems"
 - AI Stocks go from 25% to 45% of SPX
 - CZ and Armstrong on State of Bitcoin
@@ -28,4 +29,3 @@ Generated: 2026-06-21T14:18:15+00:00
 - Interesting Tesla Trades Today
 - EXCLUSIVE VIDEO - 5 Must Know Magical How To's When Optimized Trend Trading
 - Global Estimated Living Standards
-- VIDEO - 21 Charts: My Trades Set Up

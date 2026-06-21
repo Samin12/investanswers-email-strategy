@@ -1,9 +1,13 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 26,
-  "generated_at": "2026-06-21T14:18:15+00:00",
+  "count": 25,
+  "generated_at": "2026-06-21T15:02:22+00:00",
   "messages": [
+    {
+      "messageId": "19eeaaaf3a40ca2b",
+      "threadId": "19eeaaaf3a40ca2b"
+    },
     {
       "messageId": "19eea879364626a6",
       "threadId": "19eea879364626a6"
@@ -99,14 +103,6 @@
     {
       "messageId": "19edb8ae6e1569c5",
       "threadId": "19edb8ae6e1569c5"
-    },
-    {
-      "messageId": "19edb25ce98cc463",
-      "threadId": "19edb25ce98cc463"
-    },
-    {
-      "messageId": "19edb1ee42e0bc24",
-      "threadId": "19edb1ee42e0bc24"
     }
   ]
 }
