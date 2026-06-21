@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-21T13:03:20+00:00
+Generated: 2026-06-21T14:18:15+00:00
 
-- Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 422
-- Emails exported: 422
-- Years: {"2026": 422}
+- Query: `from:investanswers@creator.patreon.com newer_than:3d`
+- Message IDs found: 26
+- Emails exported: 423
+- Years: {"2026": 423}
 
 ## Latest 20 subjects
 
+- NSA confirms Mythos “broke into almost all of our classified systems"
 - AI Stocks go from 25% to 45% of SPX
 - CZ and Armstrong on State of Bitcoin
 - IA13: Marvelous Marvell
@@ -28,4 +29,3 @@ Generated: 2026-06-21T13:03:20+00:00
 - EXCLUSIVE VIDEO - 5 Must Know Magical How To's When Optimized Trend Trading
 - Global Estimated Living Standards
 - VIDEO - 21 Charts: My Trades Set Up
-- All Waymos Recalled

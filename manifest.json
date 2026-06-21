@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
-  "query": "from:investanswers@creator.patreon.com",
-  "count": 422,
-  "message_id_count": 422,
-  "generated_at": "2026-06-21T13:03:20+00:00",
+  "query": "from:investanswers@creator.patreon.com newer_than:3d",
+  "count": 423,
+  "message_id_count": 26,
+  "generated_at": "2026-06-21T14:18:15+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -10976,6 +10976,32 @@
       "text_chars": 2275,
       "raw_bytes": 50928,
       "sizeEstimate": 50928,
+      "attachments": []
+    },
+    {
+      "messageId": "19eea879364626a6",
+      "threadId": "19eea879364626a6",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19eea879364626a6",
+      "subject": "NSA confirms Mythos “broke into almost all of our classified systems\"",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 21 Jun 2026 14:13:32 +0000",
+      "date_iso": "2026-06-21T14:13:32+00:00",
+      "message_id_header": "<20260621141332.872c25c010cebf3a@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "The singularity has arrived. During authorized internal red-teaming (the NSA deliberately testing its own defenses using Mythos as the attacker AI), t... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-21_141332_NSA-confirms-Mythos-broke-into-almost-all-of-our-classified-systems_19eea879364626a6_9cfd3af5",
+      "raw_path": "emails/raw_eml/2026-06-21_141332_NSA-confirms-Mythos-broke-into-almost-all-of-our-classified-systems_19eea879364626a6_9cfd3af5.eml",
+      "text_path": "emails/text_md/2026-06-21_141332_NSA-confirms-Mythos-broke-into-almost-all-of-our-classified-systems_19eea879364626a6_9cfd3af5.md",
+      "meta_path": "emails/metadata/2026-06-21_141332_NSA-confirms-Mythos-broke-into-almost-all-of-our-classified-systems_19eea879364626a6_9cfd3af5.json",
+      "text_chars": 2530,
+      "raw_bytes": 54766,
+      "sizeEstimate": 54766,
       "attachments": []
     }
   ]
