@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 424,
-  "message_id_count": 25,
-  "generated_at": "2026-06-21T16:01:45+00:00",
+  "count": 426,
+  "message_id_count": 27,
+  "generated_at": "2026-06-21T16:17:41+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -11028,6 +11028,58 @@
       "text_chars": 3378,
       "raw_bytes": 62182,
       "sizeEstimate": 62182,
+      "attachments": []
+    },
+    {
+      "messageId": "19eeaf3202c6d27f",
+      "threadId": "19eeaf3202c6d27f",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19eeaf3202c6d27f",
+      "subject": "AI just crossed a line... \"Useful AI has arrived\"",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 21 Jun 2026 16:11:01 +0000",
+      "date_iso": "2026-06-21T16:11:01+00:00",
+      "message_id_header": "<20260621161101.3334554c6e7a7c3b@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Jensen Huang says AI just crossed the line where tokens became profitable - and that flips the whole compute market. We are just getting started. How... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-21_161101_AI-just-crossed-a-line...-Useful-AI-has-arrived_19eeaf3202c6d27f_373e59ab",
+      "raw_path": "emails/raw_eml/2026-06-21_161101_AI-just-crossed-a-line...-Useful-AI-has-arrived_19eeaf3202c6d27f_373e59ab.eml",
+      "text_path": "emails/text_md/2026-06-21_161101_AI-just-crossed-a-line...-Useful-AI-has-arrived_19eeaf3202c6d27f_373e59ab.md",
+      "meta_path": "emails/metadata/2026-06-21_161101_AI-just-crossed-a-line...-Useful-AI-has-arrived_19eeaf3202c6d27f_373e59ab.json",
+      "text_chars": 2673,
+      "raw_bytes": 53802,
+      "sizeEstimate": 53802,
+      "attachments": []
+    },
+    {
+      "messageId": "19eeaf53c2f710c4",
+      "threadId": "19eeaf53c2f710c4",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19eeaf53c2f710c4",
+      "subject": "Jupiter Staking Rewards",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 21 Jun 2026 16:13:19 +0000",
+      "date_iso": "2026-06-21T16:13:19+00:00",
+      "message_id_header": "<20260621161319.fe7d8b14d3c32271@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "A good reminder staking rewards are available. https://jup.ag/rewards/asr-2026-q1 ht to Riley for the heads up... i also forgot.... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-21_161319_Jupiter-Staking-Rewards_19eeaf53c2f710c4_4d7a55da",
+      "raw_path": "emails/raw_eml/2026-06-21_161319_Jupiter-Staking-Rewards_19eeaf53c2f710c4_4d7a55da.eml",
+      "text_path": "emails/text_md/2026-06-21_161319_Jupiter-Staking-Rewards_19eeaf53c2f710c4_4d7a55da.md",
+      "meta_path": "emails/metadata/2026-06-21_161319_Jupiter-Staking-Rewards_19eeaf53c2f710c4_4d7a55da.json",
+      "text_chars": 1894,
+      "raw_bytes": 52713,
+      "sizeEstimate": 52713,
       "attachments": []
     }
   ]

@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-06-21T16:01:45+00:00
+Generated: 2026-06-21T16:17:41+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 25
-- Emails exported: 424
-- Years: {"2026": 424}
+- Message IDs found: 27
+- Emails exported: 426
+- Years: {"2026": 426}
 
 ## Latest 20 subjects
 
+- Jupiter Staking Rewards
+- AI just crossed a line... "Useful AI has arrived"
 - Tons of Solana news this week
 - NSA confirms Mythos “broke into almost all of our classified systems"
 - AI Stocks go from 25% to 45% of SPX
@@ -27,5 +29,3 @@ Generated: 2026-06-21T16:01:45+00:00
 - Petrol/Gas in USA at 4 mth low but Hormuz closed again... allegedly
 - The "Advisor's Paradox"
 - Interesting Tesla Trades Today
-- EXCLUSIVE VIDEO - 5 Must Know Magical How To's When Optimized Trend Trading
-- Global Estimated Living Standards
