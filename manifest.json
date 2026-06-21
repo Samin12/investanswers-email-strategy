@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 427,
-  "message_id_count": 427,
-  "generated_at": "2026-06-21T18:19:20+00:00",
+  "count": 428,
+  "message_id_count": 428,
+  "generated_at": "2026-06-21T19:21:17+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -11106,6 +11106,33 @@
       "text_chars": 2414,
       "raw_bytes": 53408,
       "sizeEstimate": 53408,
+      "attachments": []
+    },
+    {
+      "messageId": "19eeb93444fe1117",
+      "threadId": "19eeb93444fe1117",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19eeb93444fe1117",
+      "subject": "VIDEO - Live Q&A: 2 Late 2 Rotate?",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 21 Jun 2026 19:05:56 +0000",
+      "date_iso": "2026-06-21T19:05:56+00:00",
+      "message_id_header": "<20260621190556.2b22991215d1f3ca@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "Label_9",
+        "INBOX"
+      ],
+      "snippet": "Live at 12:15pm Pacific: https://youtube.com/live/CoFaw_Gu7aA... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-21_190556_VIDEO-Live-QA-2-Late-2-Rotate_19eeb93444fe1117_2fb87652",
+      "raw_path": "emails/raw_eml/2026-06-21_190556_VIDEO-Live-QA-2-Late-2-Rotate_19eeb93444fe1117_2fb87652.eml",
+      "text_path": "emails/text_md/2026-06-21_190556_VIDEO-Live-QA-2-Late-2-Rotate_19eeb93444fe1117_2fb87652.md",
+      "meta_path": "emails/metadata/2026-06-21_190556_VIDEO-Live-QA-2-Late-2-Rotate_19eeb93444fe1117_2fb87652.json",
+      "text_chars": 1892,
+      "raw_bytes": 55659,
+      "sizeEstimate": 55659,
       "attachments": []
     }
   ]

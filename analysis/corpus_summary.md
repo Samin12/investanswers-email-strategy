@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-21T18:19:20+00:00
+Generated: 2026-06-21T19:21:17+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 427
-- Emails exported: 427
-- Years: {"2026": 427}
+- Message IDs found: 428
+- Emails exported: 428
+- Years: {"2026": 428}
 
 ## Latest 20 subjects
 
+- VIDEO - Live Q&A: 2 Late 2 Rotate?
 - Tesla MEGAPOD Time
 - Jupiter Staking Rewards
 - AI just crossed a line... "Useful AI has arrived"
@@ -28,4 +29,3 @@ Generated: 2026-06-21T18:19:20+00:00
 - EXCLUSIVE VIDEO - Weekly Edge Top How-Tos & Trading Lessons
 - The Leopold 10xs
 - Petrol/Gas in USA at 4 mth low but Hormuz closed again... allegedly
-- The "Advisor's Paradox"
