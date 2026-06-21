@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-21T17:01:48+00:00
+Generated: 2026-06-21T17:19:37+00:00
 
-- Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 25
-- Emails exported: 426
-- Years: {"2026": 426}
+- Query: `from:investanswers@creator.patreon.com`
+- Message IDs found: 427
+- Emails exported: 427
+- Years: {"2026": 427}
 
 ## Latest 20 subjects
 
+- Tesla MEGAPOD Time
 - Jupiter Staking Rewards
 - AI just crossed a line... "Useful AI has arrived"
 - Tons of Solana news this week
@@ -28,4 +29,3 @@ Generated: 2026-06-21T17:01:48+00:00
 - The Leopold 10xs
 - Petrol/Gas in USA at 4 mth low but Hormuz closed again... allegedly
 - The "Advisor's Paradox"
-- Interesting Tesla Trades Today
