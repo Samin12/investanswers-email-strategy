@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-22T14:19:17+00:00
+Generated: 2026-06-22T14:34:25+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 431
-- Emails exported: 431
-- Years: {"2026": 431}
+- Message IDs found: 432
+- Emails exported: 432
+- Years: {"2026": 432}
 
 ## Latest 20 subjects
 
+- MSTR and STRC
 - Bitcoin Miners Pumping
 - Micron invests in Anthropic
 - US Household Wealth Exceeds $200 Trillion for first time
@@ -28,4 +29,3 @@ Generated: 2026-06-22T14:19:17+00:00
 - SOL does more VOL than NYSE
 - IA Weekly Nuggets (June 12-17, 2026)
 - Micron Degen buys $2M in FAR OOM Calls
-- My Summer Game Plan
