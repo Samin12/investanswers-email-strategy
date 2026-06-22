@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-22T21:32:37+00:00
+Generated: 2026-06-22T21:48:42+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 21
-- Emails exported: 437
-- Years: {"2026": 437}
+- Message IDs found: 22
+- Emails exported: 438
+- Years: {"2026": 438}
 
 ## Latest 20 subjects
 
+- Interesting Wealth Transfer Update
 - Media Blames Tesla FSD Again — But the Driver Did It Intentionally
 - VIDEO - BTC/MSTR: Don't Panic?
 - Google Loses $250BN in Market Cap over 1 Engineer
@@ -28,4 +29,3 @@ Generated: 2026-06-22T21:32:37+00:00
 - CZ and Armstrong on State of Bitcoin
 - IA13: Marvelous Marvell
 - Mert on Solana Roadmap and Physics
-- AI Bubble... revisiting again
