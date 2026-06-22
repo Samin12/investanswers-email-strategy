@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-22T13:33:57+00:00
+Generated: 2026-06-22T13:46:29+00:00
 
-- Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 429
-- Emails exported: 429
-- Years: {"2026": 429}
+- Query: `from:investanswers@creator.patreon.com newer_than:3d`
+- Message IDs found: 23
+- Emails exported: 430
+- Years: {"2026": 430}
 
 ## Latest 20 subjects
 
+- Micron invests in Anthropic
 - US Household Wealth Exceeds $200 Trillion for first time
 - VIDEO - Live Q&A: 2 Late 2 Rotate?
 - Tesla MEGAPOD Time
@@ -28,4 +29,3 @@ Generated: 2026-06-22T13:33:57+00:00
 - Micron Degen buys $2M in FAR OOM Calls
 - My Summer Game Plan
 - EXCLUSIVE VIDEO - Weekly Edge Top How-Tos & Trading Lessons
-- The Leopold 10xs
