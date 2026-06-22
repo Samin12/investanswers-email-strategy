@@ -1,15 +1,14 @@
 # Corpus Summary
 
-Generated: 2026-06-22T00:32:19+00:00
+Generated: 2026-06-21T21:03:32+00:00
 
-- Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 23
-- Emails exported: 429
-- Years: {"2026": 429}
+- Query: `from:investanswers@creator.patreon.com`
+- Message IDs found: 428
+- Emails exported: 428
+- Years: {"2026": 428}
 
 ## Latest 20 subjects
 
-- US Household Wealth Exceeds $200 Trillion for first time
 - VIDEO - Live Q&A: 2 Late 2 Rotate?
 - Tesla MEGAPOD Time
 - Jupiter Staking Rewards
@@ -29,3 +28,4 @@ Generated: 2026-06-22T00:32:19+00:00
 - My Summer Game Plan
 - EXCLUSIVE VIDEO - Weekly Edge Top How-Tos & Trading Lessons
 - The Leopold 10xs
+- Petrol/Gas in USA at 4 mth low but Hormuz closed again... allegedly
