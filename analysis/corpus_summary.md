@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-22T19:06:16+00:00
+Generated: 2026-06-22T19:47:47+00:00
 
-- Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 435
-- Emails exported: 435
-- Years: {"2026": 435}
+- Query: `from:investanswers@creator.patreon.com newer_than:3d`
+- Message IDs found: 20
+- Emails exported: 436
+- Years: {"2026": 436}
 
 ## Latest 20 subjects
 
+- VIDEO - BTC/MSTR: Don't Panic?
 - Google Loses $250BN in Market Cap over 1 Engineer
 - Best Performers over next 30 Years
 - SpaceX Compute adds 3rd Customer
@@ -28,4 +29,3 @@ Generated: 2026-06-22T19:06:16+00:00
 - Mert on Solana Roadmap and Physics
 - AI Bubble... revisiting again
 - Rule du Jour: #113 - Multi-Year Plan Beats Timing
-- VIDEO - Crypto Flips NYSE
