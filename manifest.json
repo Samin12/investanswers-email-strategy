@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 433,
-  "message_id_count": 433,
-  "generated_at": "2026-06-22T17:04:59+00:00",
+  "count": 435,
+  "message_id_count": 435,
+  "generated_at": "2026-06-22T19:06:16+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -11263,6 +11263,58 @@
       "text_chars": 2003,
       "raw_bytes": 52797,
       "sizeEstimate": 52797,
+      "attachments": []
+    },
+    {
+      "messageId": "19ef05d4d0fda025",
+      "threadId": "19ef05d4d0fda025",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ef05d4d0fda025",
+      "subject": "Best Performers over next 30 Years",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 22 Jun 2026 17:25:05 +0000",
+      "date_iso": "2026-06-22T17:25:05+00:00",
+      "message_id_header": "<20260622172505.954e66c631de3410@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "I asked Grok what best performers would. be over the next 30 years. The AI answer gave me some comfort given my allocations. The Joint Winners&quot;Bitcoi... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-22_172505_Best-Performers-over-next-30-Years_19ef05d4d0fda025_498d61e0",
+      "raw_path": "emails/raw_eml/2026-06-22_172505_Best-Performers-over-next-30-Years_19ef05d4d0fda025_498d61e0.eml",
+      "text_path": "emails/text_md/2026-06-22_172505_Best-Performers-over-next-30-Years_19ef05d4d0fda025_498d61e0.md",
+      "meta_path": "emails/metadata/2026-06-22_172505_Best-Performers-over-next-30-Years_19ef05d4d0fda025_498d61e0.json",
+      "text_chars": 2593,
+      "raw_bytes": 53597,
+      "sizeEstimate": 53597,
+      "attachments": []
+    },
+    {
+      "messageId": "19ef0a96a7b1992e",
+      "threadId": "19ef0a96a7b1992e",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ef0a96a7b1992e",
+      "subject": "Google Loses $250BN in Market Cap over 1 Engineer",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 22 Jun 2026 18:48:14 +0000",
+      "date_iso": "2026-06-22T18:48:14+00:00",
+      "message_id_header": "<20260622184814.a9bd206badd4e0bf@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "John Jumper is a top notch Google AI Engineer. Well he just quit to leave for Anthropic. He co-led the development of AlphaFold at Google DeepMind — ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-22_184814_Google-Loses-250BN-in-Market-Cap-over-1-Engineer_19ef0a96a7b1992e_0b301412",
+      "raw_path": "emails/raw_eml/2026-06-22_184814_Google-Loses-250BN-in-Market-Cap-over-1-Engineer_19ef0a96a7b1992e_0b301412.eml",
+      "text_path": "emails/text_md/2026-06-22_184814_Google-Loses-250BN-in-Market-Cap-over-1-Engineer_19ef0a96a7b1992e_0b301412.md",
+      "meta_path": "emails/metadata/2026-06-22_184814_Google-Loses-250BN-in-Market-Cap-over-1-Engineer_19ef0a96a7b1992e_0b301412.json",
+      "text_chars": 2759,
+      "raw_bytes": 53772,
+      "sizeEstimate": 53772,
       "attachments": []
     }
   ]

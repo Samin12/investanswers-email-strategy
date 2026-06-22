@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-06-22T17:04:59+00:00
+Generated: 2026-06-22T19:06:16+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 433
-- Emails exported: 433
-- Years: {"2026": 433}
+- Message IDs found: 435
+- Emails exported: 435
+- Years: {"2026": 435}
 
 ## Latest 20 subjects
 
+- Google Loses $250BN in Market Cap over 1 Engineer
+- Best Performers over next 30 Years
 - SpaceX Compute adds 3rd Customer
 - MSTR and STRC
 - Bitcoin Miners Pumping
@@ -27,5 +29,3 @@ Generated: 2026-06-22T17:04:59+00:00
 - AI Bubble... revisiting again
 - Rule du Jour: #113 - Multi-Year Plan Beats Timing
 - VIDEO - Crypto Flips NYSE
-- SOL does more VOL than NYSE
-- IA Weekly Nuggets (June 12-17, 2026)
