@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-22T14:47:28+00:00
+Generated: 2026-06-22T17:04:59+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 432
-- Emails exported: 432
-- Years: {"2026": 432}
+- Message IDs found: 433
+- Emails exported: 433
+- Years: {"2026": 433}
 
 ## Latest 20 subjects
 
+- SpaceX Compute adds 3rd Customer
 - MSTR and STRC
 - Bitcoin Miners Pumping
 - Micron invests in Anthropic
@@ -28,4 +29,3 @@ Generated: 2026-06-22T14:47:28+00:00
 - VIDEO - Crypto Flips NYSE
 - SOL does more VOL than NYSE
 - IA Weekly Nuggets (June 12-17, 2026)
-- Micron Degen buys $2M in FAR OOM Calls

@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 432,
-  "message_id_count": 432,
-  "generated_at": "2026-06-22T14:47:28+00:00",
+  "count": 433,
+  "message_id_count": 433,
+  "generated_at": "2026-06-22T17:04:59+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -11237,6 +11237,32 @@
       "text_chars": 2196,
       "raw_bytes": 50451,
       "sizeEstimate": 50451,
+      "attachments": []
+    },
+    {
+      "messageId": "19ef03c1d68d30b5",
+      "threadId": "19ef03c1d68d30b5",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ef03c1d68d30b5",
+      "subject": "SpaceX Compute adds 3rd Customer",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 22 Jun 2026 16:48:50 +0000",
+      "date_iso": "2026-06-22T16:48:50+00:00",
+      "message_id_header": "<20260622164850.acb5544c51cbadfa@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "SPCX adds a new customer, AI startup Reflection AI.SPCX will be generating $2.33 billion per month (28bn a year) in AI compute revenue from its major ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-22_164850_SpaceX-Compute-adds-3rd-Customer_19ef03c1d68d30b5_acdcfc42",
+      "raw_path": "emails/raw_eml/2026-06-22_164850_SpaceX-Compute-adds-3rd-Customer_19ef03c1d68d30b5_acdcfc42.eml",
+      "text_path": "emails/text_md/2026-06-22_164850_SpaceX-Compute-adds-3rd-Customer_19ef03c1d68d30b5_acdcfc42.md",
+      "meta_path": "emails/metadata/2026-06-22_164850_SpaceX-Compute-adds-3rd-Customer_19ef03c1d68d30b5_acdcfc42.json",
+      "text_chars": 2003,
+      "raw_bytes": 52797,
+      "sizeEstimate": 52797,
       "attachments": []
     }
   ]
