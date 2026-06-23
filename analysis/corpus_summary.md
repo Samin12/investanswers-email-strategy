@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-23T16:48:29+00:00
+Generated: 2026-06-23T18:03:52+00:00
 
-- Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 22
-- Emails exported: 442
-- Years: {"2026": 442}
+- Query: `from:investanswers@creator.patreon.com`
+- Message IDs found: 443
+- Emails exported: 443
+- Years: {"2026": 443}
 
 ## Latest 20 subjects
 
+- BTC Skipping Along the 200 WMA since 4th June
 - Year to Date Sector Returns
 - Korean Markets Tank... not for AI Bubble Reasons
 - BTC ETFs are back
@@ -28,4 +29,3 @@ Generated: 2026-06-23T16:48:29+00:00
 - Jupiter Staking Rewards
 - AI just crossed a line... "Useful AI has arrived"
 - Tons of Solana news this week
-- NSA confirms Mythos “broke into almost all of our classified systems"

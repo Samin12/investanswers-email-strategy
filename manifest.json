@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
-  "query": "from:investanswers@creator.patreon.com newer_than:3d",
+  "query": "from:investanswers@creator.patreon.com",
   "count": 443,
-  "message_id_count": 23,
-  "generated_at": "2026-06-23T17:01:57+00:00",
+  "message_id_count": 443,
+  "generated_at": "2026-06-23T18:03:52+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
