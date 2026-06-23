@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-23T20:02:23+00:00
+Generated: 2026-06-23T20:33:36+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
 - Message IDs found: 24
-- Emails exported: 445
-- Years: {"2026": 445}
+- Emails exported: 446
+- Years: {"2026": 446}
 
 ## Latest 20 subjects
 
+- VIDEO - OCTA: Selling Slowing
 - IA Trade Alert
 - US President and Quantum & $INFQ
 - BTC Skipping Along the 200 WMA since 4th June
@@ -28,4 +29,3 @@ Generated: 2026-06-23T20:02:23+00:00
 - US Household Wealth Exceeds $200 Trillion for first time
 - VIDEO - Live Q&A: 2 Late 2 Rotate?
 - Tesla MEGAPOD Time
-- Jupiter Staking Rewards
