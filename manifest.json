@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 442,
-  "message_id_count": 22,
-  "generated_at": "2026-06-23T16:48:29+00:00",
+  "count": 443,
+  "message_id_count": 23,
+  "generated_at": "2026-06-23T17:01:57+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -11497,6 +11497,32 @@
       "text_chars": 1951,
       "raw_bytes": 52715,
       "sizeEstimate": 52715,
+      "attachments": []
+    },
+    {
+      "messageId": "19ef568a53170909",
+      "threadId": "19ef568a53170909",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ef568a53170909",
+      "subject": "BTC Skipping Along the 200 WMA since 4th June",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 23 Jun 2026 16:55:35 +0000",
+      "date_iso": "2026-06-23T16:55:35+00:00",
+      "message_id_header": "<20260623165535.2912e5fb51d5aab6@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "It looked like the ETFs were going to return yesterday but Blackrock sold off tons once again. The sell pressure is easing but the inflow is not happe... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-23_165535_BTC-Skipping-Along-the-200-WMA-since-4th-June_19ef568a53170909_ef2bc114",
+      "raw_path": "emails/raw_eml/2026-06-23_165535_BTC-Skipping-Along-the-200-WMA-since-4th-June_19ef568a53170909_ef2bc114.eml",
+      "text_path": "emails/text_md/2026-06-23_165535_BTC-Skipping-Along-the-200-WMA-since-4th-June_19ef568a53170909_ef2bc114.md",
+      "meta_path": "emails/metadata/2026-06-23_165535_BTC-Skipping-Along-the-200-WMA-since-4th-June_19ef568a53170909_ef2bc114.json",
+      "text_chars": 2092,
+      "raw_bytes": 52951,
+      "sizeEstimate": 52951,
       "attachments": []
     }
   ]
