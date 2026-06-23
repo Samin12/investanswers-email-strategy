@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-23T18:03:52+00:00
+Generated: 2026-06-23T19:02:51+00:00
 
-- Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 443
-- Emails exported: 443
-- Years: {"2026": 443}
+- Query: `from:investanswers@creator.patreon.com newer_than:3d`
+- Message IDs found: 23
+- Emails exported: 444
+- Years: {"2026": 444}
 
 ## Latest 20 subjects
 
+- US President and Quantum & $INFQ
 - BTC Skipping Along the 200 WMA since 4th June
 - Year to Date Sector Returns
 - Korean Markets Tank... not for AI Bubble Reasons
@@ -28,4 +29,3 @@ Generated: 2026-06-23T18:03:52+00:00
 - Tesla MEGAPOD Time
 - Jupiter Staking Rewards
 - AI just crossed a line... "Useful AI has arrived"
-- Tons of Solana news this week
