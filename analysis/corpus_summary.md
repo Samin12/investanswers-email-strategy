@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-23T15:20:13+00:00
+Generated: 2026-06-23T15:46:31+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 23
-- Emails exported: 440
-- Years: {"2026": 440}
+- Message IDs found: 24
+- Emails exported: 441
+- Years: {"2026": 441}
 
 ## Latest 20 subjects
 
+- Korean Markets Tank... not for AI Bubble Reasons
 - BTC ETFs are back
 - Sometimes "cheap" is not a bargain
 - Interesting Wealth Transfer Update
@@ -28,4 +29,3 @@ Generated: 2026-06-23T15:20:13+00:00
 - Tons of Solana news this week
 - NSA confirms Mythos “broke into almost all of our classified systems"
 - AI Stocks go from 25% to 45% of SPX
-- CZ and Armstrong on State of Bitcoin
