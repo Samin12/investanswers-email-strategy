@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 438,
-  "message_id_count": 22,
-  "generated_at": "2026-06-22T23:48:39+00:00",
+  "count": 439,
+  "message_id_count": 23,
+  "generated_at": "2026-06-23T00:00:56+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -11393,6 +11393,32 @@
       "text_chars": 2805,
       "raw_bytes": 53888,
       "sizeEstimate": 53888,
+      "attachments": []
+    },
+    {
+      "messageId": "19ef1c521052e0cc",
+      "threadId": "19ef1c521052e0cc",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19ef1c521052e0cc",
+      "subject": "Sometimes \"cheap\" is not a bargain",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 22 Jun 2026 23:58:07 +0000",
+      "date_iso": "2026-06-22T23:58:07+00:00",
+      "message_id_header": "<20260622235807.458cfd8d63051f7b@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Sometimes &quot;cheap&quot; is not a bargain — it&#39;s a warning sign.Re the diff between Crowdstrike and Accenture is AI makes strong cybersecurity more necessary... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-22_235807_Sometimes-cheap-is-not-a-bargain_19ef1c521052e0cc_1dfb485b",
+      "raw_path": "emails/raw_eml/2026-06-22_235807_Sometimes-cheap-is-not-a-bargain_19ef1c521052e0cc_1dfb485b.eml",
+      "text_path": "emails/text_md/2026-06-22_235807_Sometimes-cheap-is-not-a-bargain_19ef1c521052e0cc_1dfb485b.md",
+      "meta_path": "emails/metadata/2026-06-22_235807_Sometimes-cheap-is-not-a-bargain_19ef1c521052e0cc_1dfb485b.json",
+      "text_chars": 2960,
+      "raw_bytes": 53972,
+      "sizeEstimate": 53972,
       "attachments": []
     }
   ]
