@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-23T19:02:51+00:00
+Generated: 2026-06-23T19:18:59+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 23
-- Emails exported: 444
-- Years: {"2026": 444}
+- Message IDs found: 24
+- Emails exported: 445
+- Years: {"2026": 445}
 
 ## Latest 20 subjects
 
+- IA Trade Alert
 - US President and Quantum & $INFQ
 - BTC Skipping Along the 200 WMA since 4th June
 - Year to Date Sector Returns
@@ -28,4 +29,3 @@ Generated: 2026-06-23T19:02:51+00:00
 - VIDEO - Live Q&A: 2 Late 2 Rotate?
 - Tesla MEGAPOD Time
 - Jupiter Staking Rewards
-- AI just crossed a line... "Useful AI has arrived"
