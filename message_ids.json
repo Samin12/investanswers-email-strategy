@@ -1,9 +1,53 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 24,
-  "generated_at": "2026-06-24T00:31:32+00:00",
+  "count": 29,
+  "generated_at": "2026-06-24T21:33:49+00:00",
   "messages": [
+    {
+      "messageId": "19efb6fdbacac059",
+      "threadId": "19efb6fdbacac059"
+    },
+    {
+      "messageId": "19efb2806bdc980f",
+      "threadId": "19efb2806bdc980f"
+    },
+    {
+      "messageId": "19efb08ca7453b6a",
+      "threadId": "19efb08ca7453b6a"
+    },
+    {
+      "messageId": "19efafd093976acc",
+      "threadId": "19efafd093976acc"
+    },
+    {
+      "messageId": "19efac29522e0ee0",
+      "threadId": "19efac29522e0ee0"
+    },
+    {
+      "messageId": "19efac1cfbd060fd",
+      "threadId": "19efac1cfbd060fd"
+    },
+    {
+      "messageId": "19efa68c53fc7953",
+      "threadId": "19efa68c53fc7953"
+    },
+    {
+      "messageId": "19efa59a771a73c8",
+      "threadId": "19efa59a771a73c8"
+    },
+    {
+      "messageId": "19efa4642f646680",
+      "threadId": "19efa4642f646680"
+    },
+    {
+      "messageId": "19efa3fd5ed4f86e",
+      "threadId": "19efa3fd5ed4f86e"
+    },
+    {
+      "messageId": "19ef7382fb950044",
+      "threadId": "19ef7382fb950044"
+    },
     {
       "messageId": "19ef6285f42dd736",
       "threadId": "19ef6285f42dd736"
@@ -75,30 +119,6 @@
     {
       "messageId": "19eecb5a3ef6c52d",
       "threadId": "19eecb5a3ef6c52d"
-    },
-    {
-      "messageId": "19eeb93444fe1117",
-      "threadId": "19eeb93444fe1117"
-    },
-    {
-      "messageId": "19eeb263c32c5810",
-      "threadId": "19eeb263c32c5810"
-    },
-    {
-      "messageId": "19eeaf53c2f710c4",
-      "threadId": "19eeaf53c2f710c4"
-    },
-    {
-      "messageId": "19eeaf3202c6d27f",
-      "threadId": "19eeaf3202c6d27f"
-    },
-    {
-      "messageId": "19eeaaaf3a40ca2b",
-      "threadId": "19eeaaaf3a40ca2b"
-    },
-    {
-      "messageId": "19eea879364626a6",
-      "threadId": "19eea879364626a6"
     }
   ]
 }
