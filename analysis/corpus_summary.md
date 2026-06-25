@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-25T21:16:35+00:00
+Generated: 2026-06-25T21:32:15+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
 - Message IDs found: 27
-- Emails exported: 463
-- Years: {"2026": 463}
+- Emails exported: 464
+- Years: {"2026": 464}
 
 ## Latest 20 subjects
 
+- VIDEO - Memory Winners & Losers
 - IA Trade Alert
 - Money vs AI
 - Melius Raises Micron PT to $2200
@@ -28,4 +29,3 @@ Generated: 2026-06-25T21:16:35+00:00
 - Dow is Modernizing
 - VIDEO - OCTA: Selling Slowing
 - IA Trade Alert
-- US President and Quantum & $INFQ
