@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-25T00:03:38+00:00
+Generated: 2026-06-25T11:01:10+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
 - Message IDs found: 30
-- Emails exported: 458
-- Years: {"2026": 458}
+- Emails exported: 459
+- Years: {"2026": 459}
 
 ## Latest 20 subjects
 
+- EXCLUSIVE VIDEO - TSLA Trade Breakdown - Allocations Matter edition
 - MU Memory, Optimus and FSD Convergence
 - Micron Monster earnings beat.
 - VIDEO - Should We Buy Now?
@@ -28,4 +29,3 @@ Generated: 2026-06-25T00:03:38+00:00
 - Year to Date Sector Returns
 - Korean Markets Tank... not for AI Bubble Reasons
 - BTC ETFs are back
-- Sometimes "cheap" is not a bargain

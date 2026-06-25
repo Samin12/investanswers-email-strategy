@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 458,
+  "count": 459,
   "message_id_count": 30,
-  "generated_at": "2026-06-25T00:03:38+00:00",
+  "generated_at": "2026-06-25T11:01:10+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -11913,6 +11913,32 @@
       "text_chars": 2371,
       "raw_bytes": 53348,
       "sizeEstimate": 53348,
+      "attachments": []
+    },
+    {
+      "messageId": "19efc8174c3a1583",
+      "threadId": "19efc8174c3a1583",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19efc8174c3a1583",
+      "subject": "EXCLUSIVE VIDEO - TSLA Trade Breakdown - Allocations Matter edition",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 25 Jun 2026 02:00:01 +0000",
+      "date_iso": "2026-06-25T02:00:01+00:00",
+      "message_id_header": "<20260625020001.92caae81ff98296f@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Jacob breaks down my TSLA trade from June 23: https://www.youtube.com/watch?v=TLlVGX8sTSoTop &quot;How Tos&quot; from the video 1. Don&#39;t Go Too Hard Too Early (... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-25_020001_EXCLUSIVE-VIDEO-TSLA-Trade-Breakdown-Allocations-Matter-edition_19efc8174c3a1583_ce64230a",
+      "raw_path": "emails/raw_eml/2026-06-25_020001_EXCLUSIVE-VIDEO-TSLA-Trade-Breakdown-Allocations-Matter-edition_19efc8174c3a1583_ce64230a.eml",
+      "text_path": "emails/text_md/2026-06-25_020001_EXCLUSIVE-VIDEO-TSLA-Trade-Breakdown-Allocations-Matter-edition_19efc8174c3a1583_ce64230a.md",
+      "meta_path": "emails/metadata/2026-06-25_020001_EXCLUSIVE-VIDEO-TSLA-Trade-Breakdown-Allocations-Matter-edition_19efc8174c3a1583_ce64230a.json",
+      "text_chars": 2454,
+      "raw_bytes": 56655,
+      "sizeEstimate": 56655,
       "attachments": []
     }
   ]
