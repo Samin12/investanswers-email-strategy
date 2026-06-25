@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-25T13:46:42+00:00
+Generated: 2026-06-25T14:17:23+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
 - Message IDs found: 31
-- Emails exported: 461
-- Years: {"2026": 461}
+- Emails exported: 462
+- Years: {"2026": 462}
 
 ## Latest 20 subjects
 
+- Money vs AI
 - Melius Raises Micron PT to $2200
 - Inflation Sticky, Disinflation Stalled
 - EXCLUSIVE VIDEO - TSLA Trade Breakdown - Allocations Matter edition
@@ -28,4 +29,3 @@ Generated: 2026-06-25T13:46:42+00:00
 - IA Trade Alert
 - US President and Quantum & $INFQ
 - BTC Skipping Along the 200 WMA since 4th June
-- Year to Date Sector Returns
