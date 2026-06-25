@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-25T13:03:43+00:00
+Generated: 2026-06-25T13:30:54+00:00
 
-- Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 459
-- Emails exported: 459
-- Years: {"2026": 459}
+- Query: `from:investanswers@creator.patreon.com newer_than:3d`
+- Message IDs found: 31
+- Emails exported: 460
+- Years: {"2026": 460}
 
 ## Latest 20 subjects
 
+- Inflation Sticky, Disinflation Stalled
 - EXCLUSIVE VIDEO - TSLA Trade Breakdown - Allocations Matter edition
 - MU Memory, Optimus and FSD Convergence
 - Micron Monster earnings beat.
@@ -28,4 +29,3 @@ Generated: 2026-06-25T13:03:43+00:00
 - BTC Skipping Along the 200 WMA since 4th June
 - Year to Date Sector Returns
 - Korean Markets Tank... not for AI Bubble Reasons
-- BTC ETFs are back
