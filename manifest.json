@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 460,
+  "count": 461,
   "message_id_count": 31,
-  "generated_at": "2026-06-25T13:30:54+00:00",
+  "generated_at": "2026-06-25T13:46:42+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -11965,6 +11965,32 @@
       "text_chars": 2206,
       "raw_bytes": 53251,
       "sizeEstimate": 53251,
+      "attachments": []
+    },
+    {
+      "messageId": "19eff006c8044012",
+      "threadId": "19eff006c8044012",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19eff006c8044012",
+      "subject": "Melius Raises Micron PT to $2200",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 25 Jun 2026 13:37:57 +0000",
+      "date_iso": "2026-06-25T13:37:57+00:00",
+      "message_id_header": "<20260625133757.d2a988ff918fdc63@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "This is a wall st high. Micron up $200... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-25_133757_Melius-Raises-Micron-PT-to-2200_19eff006c8044012_45369ea1",
+      "raw_path": "emails/raw_eml/2026-06-25_133757_Melius-Raises-Micron-PT-to-2200_19eff006c8044012_45369ea1.eml",
+      "text_path": "emails/text_md/2026-06-25_133757_Melius-Raises-Micron-PT-to-2200_19eff006c8044012_45369ea1.md",
+      "meta_path": "emails/metadata/2026-06-25_133757_Melius-Raises-Micron-PT-to-2200_19eff006c8044012_45369ea1.json",
+      "text_chars": 1760,
+      "raw_bytes": 53845,
+      "sizeEstimate": 53845,
       "attachments": []
     }
   ]
