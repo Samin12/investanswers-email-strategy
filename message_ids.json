@@ -1,8 +1,8 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 27,
-  "generated_at": "2026-06-25T21:32:15+00:00",
+  "count": 26,
+  "generated_at": "2026-06-25T21:47:58+00:00",
   "messages": [
     {
       "messageId": "19f00aed30d51441",
@@ -107,10 +107,6 @@
     {
       "messageId": "19ef1c521052e0cc",
       "threadId": "19ef1c521052e0cc"
-    },
-    {
-      "messageId": "19ef14412edcfbd9",
-      "threadId": "19ef14412edcfbd9"
     }
   ]
 }
