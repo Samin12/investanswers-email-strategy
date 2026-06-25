@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-25T19:32:41+00:00
+Generated: 2026-06-25T19:49:01+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
 - Message IDs found: 27
-- Emails exported: 462
-- Years: {"2026": 462}
+- Emails exported: 463
+- Years: {"2026": 463}
 
 ## Latest 20 subjects
 
+- IA Trade Alert
 - Money vs AI
 - Melius Raises Micron PT to $2200
 - Inflation Sticky, Disinflation Stalled
@@ -28,4 +29,3 @@ Generated: 2026-06-25T19:32:41+00:00
 - VIDEO - OCTA: Selling Slowing
 - IA Trade Alert
 - US President and Quantum & $INFQ
-- BTC Skipping Along the 200 WMA since 4th June
