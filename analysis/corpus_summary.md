@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-25T22:16:04+00:00
+Generated: 2026-06-25T22:31:49+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 26
-- Emails exported: 464
-- Years: {"2026": 464}
+- Message IDs found: 27
+- Emails exported: 465
+- Years: {"2026": 465}
 
 ## Latest 20 subjects
 
+- Bitcoin ETFs non stop dumpage
 - VIDEO - Memory Winners & Losers
 - IA Trade Alert
 - Money vs AI
@@ -28,4 +29,3 @@ Generated: 2026-06-25T22:16:04+00:00
 - IA Portfolio Allocations June 24, 2026
 - Dow is Modernizing
 - VIDEO - OCTA: Selling Slowing
-- IA Trade Alert
