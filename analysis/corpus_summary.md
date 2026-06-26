@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-06-26T13:04:03+00:00
+Generated: 2026-06-26T15:17:26+00:00
 
-- Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 468
-- Emails exported: 468
-- Years: {"2026": 468}
+- Query: `from:investanswers@creator.patreon.com newer_than:3d`
+- Message IDs found: 30
+- Emails exported: 470
+- Years: {"2026": 470}
 
 ## Latest 20 subjects
 
+- Top Compute Builders thru 2030
+- EU needs to Start Building Compute ASAP
 - US Real Estate Status
 - JP Morgan Raises S&P500 Target
 - What the future could look like!
@@ -27,5 +29,3 @@ Generated: 2026-06-26T13:04:03+00:00
 - Bitcoin Marks new ATL and bounces
 - Hyperscaler AI Investments will Eat up all FCF
 - STRC is Ugly
-- Houston Robotaxi Hub update
-- SpaceX Index Addition Timeline
