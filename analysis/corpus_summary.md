@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-25T23:47:02+00:00
+Generated: 2026-06-26T00:02:52+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
 - Message IDs found: 27
-- Emails exported: 465
-- Years: {"2026": 465}
+- Emails exported: 466
+- Years: {"2026": 466}
 
 ## Latest 20 subjects
 
+- What the future could look like!
 - Bitcoin ETFs non stop dumpage
 - VIDEO - Memory Winners & Losers
 - IA Trade Alert
@@ -28,4 +29,3 @@ Generated: 2026-06-25T23:47:02+00:00
 - SpaceX Index Addition Timeline
 - IA Portfolio Allocations June 24, 2026
 - Dow is Modernizing
-- VIDEO - OCTA: Selling Slowing
