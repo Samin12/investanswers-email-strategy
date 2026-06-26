@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-26T18:49:10+00:00
+Generated: 2026-06-26T19:00:40+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
 - Message IDs found: 28
-- Emails exported: 471
-- Years: {"2026": 471}
+- Emails exported: 472
+- Years: {"2026": 472}
 
 ## Latest 20 subjects
 
+- VIDEO - Real Estate: Should I Buy?
 - Tesla Semi will sell like HOT CAKES
 - Top Compute Builders thru 2030
 - EU needs to Start Building Compute ASAP
@@ -28,4 +29,3 @@ Generated: 2026-06-26T18:49:10+00:00
 - IA Trade Alert - here I go
 - MSTR Nav Premium - Lowest since 2022/2023
 - Bitcoin Marks new ATL and bounces
-- Hyperscaler AI Investments will Eat up all FCF

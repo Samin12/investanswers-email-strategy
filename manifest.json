@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 471,
+  "count": 472,
   "message_id_count": 28,
-  "generated_at": "2026-06-26T18:49:10+00:00",
+  "generated_at": "2026-06-26T19:00:40+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -12251,6 +12251,32 @@
       "text_chars": 2402,
       "raw_bytes": 54617,
       "sizeEstimate": 54617,
+      "attachments": []
+    },
+    {
+      "messageId": "19f0548e2dc03e75",
+      "threadId": "19f0548e2dc03e75",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f0548e2dc03e75",
+      "subject": "VIDEO - Real Estate: Should I Buy?",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 26 Jun 2026 18:54:48 +0000",
+      "date_iso": "2026-06-26T18:54:48+00:00",
+      "message_id_header": "<20260626185448.36d8baa1e08a985a@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Live at 12pm Pacific: https://youtube.com/live/4eIQyZCVxS4... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-26_185448_VIDEO-Real-Estate-Should-I-Buy_19f0548e2dc03e75_80375036",
+      "raw_path": "emails/raw_eml/2026-06-26_185448_VIDEO-Real-Estate-Should-I-Buy_19f0548e2dc03e75_80375036.eml",
+      "text_path": "emails/text_md/2026-06-26_185448_VIDEO-Real-Estate-Should-I-Buy_19f0548e2dc03e75_80375036.md",
+      "meta_path": "emails/metadata/2026-06-26_185448_VIDEO-Real-Estate-Should-I-Buy_19f0548e2dc03e75_80375036.json",
+      "text_chars": 1881,
+      "raw_bytes": 55658,
+      "sizeEstimate": 55658,
       "attachments": []
     }
   ]
