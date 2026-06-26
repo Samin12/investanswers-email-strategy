@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-06-26T00:46:28+00:00
+Generated: 2026-06-26T11:01:09+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 27
-- Emails exported: 466
-- Years: {"2026": 466}
+- Message IDs found: 28
+- Emails exported: 468
+- Years: {"2026": 468}
 
 ## Latest 20 subjects
 
+- US Real Estate Status
+- JP Morgan Raises S&P500 Target
 - What the future could look like!
 - Bitcoin ETFs non stop dumpage
 - VIDEO - Memory Winners & Losers
@@ -27,5 +29,3 @@ Generated: 2026-06-26T00:46:28+00:00
 - STRC is Ugly
 - Houston Robotaxi Hub update
 - SpaceX Index Addition Timeline
-- IA Portfolio Allocations June 24, 2026
-- Dow is Modernizing

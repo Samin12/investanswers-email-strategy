@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com newer_than:3d",
-  "count": 466,
-  "message_id_count": 27,
-  "generated_at": "2026-06-26T00:46:28+00:00",
+  "count": 468,
+  "message_id_count": 28,
+  "generated_at": "2026-06-26T11:01:09+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -12121,6 +12121,57 @@
       "text_chars": 3178,
       "raw_bytes": 54150,
       "sizeEstimate": 54150,
+      "attachments": []
+    },
+    {
+      "messageId": "19f016787af09a31",
+      "threadId": "19f016787af09a31",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f016787af09a31",
+      "subject": "JP Morgan Raises S&P500 Target",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 26 Jun 2026 00:49:48 +0000",
+      "date_iso": "2026-06-26T00:49:48+00:00",
+      "message_id_header": "<20260626004948.aec1e4ddfb0c8fbc@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "But dont get too excited - it is only 6% upside from where we are. I still expect lots of bumps between now and end of SEP. Hoard that cash. ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-26_004948_JP-Morgan-Raises-SP500-Target_19f016787af09a31_76434152",
+      "raw_path": "emails/raw_eml/2026-06-26_004948_JP-Morgan-Raises-SP500-Target_19f016787af09a31_76434152.eml",
+      "text_path": "emails/text_md/2026-06-26_004948_JP-Morgan-Raises-SP500-Target_19f016787af09a31_76434152.md",
+      "meta_path": "emails/metadata/2026-06-26_004948_JP-Morgan-Raises-SP500-Target_19f016787af09a31_76434152.json",
+      "text_chars": 1932,
+      "raw_bytes": 52788,
+      "sizeEstimate": 52788,
+      "attachments": []
+    },
+    {
+      "messageId": "19f019125b694bb7",
+      "threadId": "19f019125b694bb7",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f019125b694bb7",
+      "subject": "US Real Estate Status",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 26 Jun 2026 01:35:16 +0000",
+      "date_iso": "2026-06-26T01:35:16+00:00",
+      "message_id_header": "<20260626013516.9be2caa09801d9b9@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "A few amazing stats from this beautiful cahrt. Red = High percentage of sellers cutting prices (sellers are giving in) - Blue = Low percentage (selle... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-26_013516_US-Real-Estate-Status_19f019125b694bb7_a2ae8f4f",
+      "raw_path": "emails/raw_eml/2026-06-26_013516_US-Real-Estate-Status_19f019125b694bb7_a2ae8f4f.eml",
+      "text_path": "emails/text_md/2026-06-26_013516_US-Real-Estate-Status_19f019125b694bb7_a2ae8f4f.md",
+      "meta_path": "emails/metadata/2026-06-26_013516_US-Real-Estate-Status_19f019125b694bb7_a2ae8f4f.json",
+      "text_chars": 2142,
+      "raw_bytes": 53102,
+      "sizeEstimate": 53102,
       "attachments": []
     }
   ]
