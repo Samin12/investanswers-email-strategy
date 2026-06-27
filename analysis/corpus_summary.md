@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-27T16:17:17+00:00
+Generated: 2026-06-27T16:32:41+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 24
-- Emails exported: 475
-- Years: {"2026": 475}
+- Message IDs found: 25
+- Emails exported: 476
+- Years: {"2026": 476}
 
 ## Latest 20 subjects
 
+- Are Blackrock trying to bring MSTR Down?
 - IBM CEO Says AI Math don't Math
 - Nobody talking about XMoney and SOLANA
 - EXCLUSIVE VIDEO: IA13 Layers for Shopping
@@ -28,4 +29,3 @@ Generated: 2026-06-27T16:17:17+00:00
 - EXCLUSIVE VIDEO - TSLA Trade Breakdown - Allocations Matter edition
 - MU Memory, Optimus and FSD Convergence
 - Micron Monster earnings beat.
-- VIDEO - Should We Buy Now?
