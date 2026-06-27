@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-06-26T21:03:01+00:00
+Generated: 2026-06-27T13:04:14+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 472
-- Emails exported: 472
-- Years: {"2026": 472}
+- Message IDs found: 474
+- Emails exported: 474
+- Years: {"2026": 474}
 
 ## Latest 20 subjects
 
+- Nobody talking about XMoney and SOLANA
+- EXCLUSIVE VIDEO: IA13 Layers for Shopping
 - VIDEO - Real Estate: Should I Buy?
 - Tesla Semi will sell like HOT CAKES
 - Top Compute Builders thru 2030
@@ -27,5 +29,3 @@ Generated: 2026-06-26T21:03:01+00:00
 - Micron Monster earnings beat.
 - VIDEO - Should We Buy Now?
 - IA Trade Alert - here I go
-- MSTR Nav Premium - Lowest since 2022/2023
-- Bitcoin Marks new ATL and bounces
