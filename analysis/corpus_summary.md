@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-27T18:04:01+00:00
+Generated: 2026-06-27T18:16:34+00:00
 
-- Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 477
-- Emails exported: 477
-- Years: {"2026": 477}
+- Query: `from:investanswers@creator.patreon.com newer_than:3d`
+- Message IDs found: 25
+- Emails exported: 478
+- Years: {"2026": 478}
 
 ## Latest 20 subjects
 
+- AI Capex Upped Again
 - Politicians always protect donors
 - Are Blackrock trying to bring MSTR Down?
 - IBM CEO Says AI Math don't Math
@@ -28,4 +29,3 @@ Generated: 2026-06-27T18:04:01+00:00
 - Melius Raises Micron PT to $2200
 - Inflation Sticky, Disinflation Stalled
 - EXCLUSIVE VIDEO - TSLA Trade Breakdown - Allocations Matter edition
-- MU Memory, Optimus and FSD Convergence

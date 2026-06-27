@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
-  "query": "from:investanswers@creator.patreon.com",
-  "count": 477,
-  "message_id_count": 477,
-  "generated_at": "2026-06-27T18:04:01+00:00",
+  "query": "from:investanswers@creator.patreon.com newer_than:3d",
+  "count": 478,
+  "message_id_count": 25,
+  "generated_at": "2026-06-27T18:16:34+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -12407,6 +12407,32 @@
       "text_chars": 3032,
       "raw_bytes": 55357,
       "sizeEstimate": 55357,
+      "attachments": []
+    },
+    {
+      "messageId": "19f0a422591feb06",
+      "threadId": "19f0a422591feb06",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f0a422591feb06",
+      "subject": "AI Capex Upped Again",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sat, 27 Jun 2026 18:05:33 +0000",
+      "date_iso": "2026-06-27T18:05:33+00:00",
+      "message_id_header": "<20260627180533.72aa13dff955273a@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Capex forecasts for the five hyperscalers Amazon, Alphabet, Meta, Microsoft, and Oracle have been upped again ie to blow $805bn in 2026 up from $765bn... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-06-27_180533_AI-Capex-Upped-Again_19f0a422591feb06_24583664",
+      "raw_path": "emails/raw_eml/2026-06-27_180533_AI-Capex-Upped-Again_19f0a422591feb06_24583664.eml",
+      "text_path": "emails/text_md/2026-06-27_180533_AI-Capex-Upped-Again_19f0a422591feb06_24583664.md",
+      "meta_path": "emails/metadata/2026-06-27_180533_AI-Capex-Upped-Again_19f0a422591feb06_24583664.json",
+      "text_chars": 2040,
+      "raw_bytes": 52891,
+      "sizeEstimate": 52891,
       "attachments": []
     }
   ]
