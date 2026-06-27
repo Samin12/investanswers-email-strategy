@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-27T13:04:14+00:00
+Generated: 2026-06-27T16:17:17+00:00
 
-- Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 474
-- Emails exported: 474
-- Years: {"2026": 474}
+- Query: `from:investanswers@creator.patreon.com newer_than:3d`
+- Message IDs found: 24
+- Emails exported: 475
+- Years: {"2026": 475}
 
 ## Latest 20 subjects
 
+- IBM CEO Says AI Math don't Math
 - Nobody talking about XMoney and SOLANA
 - EXCLUSIVE VIDEO: IA13 Layers for Shopping
 - VIDEO - Real Estate: Should I Buy?
@@ -28,4 +29,3 @@ Generated: 2026-06-27T13:04:14+00:00
 - MU Memory, Optimus and FSD Convergence
 - Micron Monster earnings beat.
 - VIDEO - Should We Buy Now?
-- IA Trade Alert - here I go
