@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-06-27T16:32:41+00:00
+Generated: 2026-06-27T17:02:17+00:00
 
 - Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 25
-- Emails exported: 476
-- Years: {"2026": 476}
+- Message IDs found: 26
+- Emails exported: 477
+- Years: {"2026": 477}
 
 ## Latest 20 subjects
 
+- Politicians always protect donors
 - Are Blackrock trying to bring MSTR Down?
 - IBM CEO Says AI Math don't Math
 - Nobody talking about XMoney and SOLANA
@@ -28,4 +29,3 @@ Generated: 2026-06-27T16:32:41+00:00
 - Inflation Sticky, Disinflation Stalled
 - EXCLUSIVE VIDEO - TSLA Trade Breakdown - Allocations Matter edition
 - MU Memory, Optimus and FSD Convergence
-- Micron Monster earnings beat.
