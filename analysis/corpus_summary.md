@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-07-05T18:03:59+00:00
+Generated: 2026-07-05T21:02:00+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 550
-- Emails exported: 550
-- Years: {"2026": 550}
+- Message IDs found: 554
+- Emails exported: 554
+- Years: {"2026": 554}
 
 ## Latest 20 subjects
 
+- China's AI Chip Independence
+- USA vs China AI
+- Unprecedented Deltas in US Real Estate Rentals
+- VIDEO - Live Q&A: $7 Million Mistake
 - Rule du Jour: Rule #114 Know your Wiring
 - AI Capex Spend about to Eclipse Defense Spending
 - CAGR Since US Independence Day 250 Years
@@ -25,7 +29,3 @@ Generated: 2026-07-05T18:03:59+00:00
 - SALE: 2 Months Free for Annual Patreon Memberships
 - EXCLUSIVE VIDEO - Rotations & Consolidations & Still Making Killer Trades
 - BTC RSI just bounced
-- Neptune Digital Nav Prem at 1%
-- HODL Spike Visual
-- Robotaxi just launched in Miami Florida
-- OMG he has done it again.... now short $MU
