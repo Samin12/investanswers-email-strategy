@@ -1,0 +1,1051 @@
+Delivered-To: samin@aianswer.us
+Received: by 2002:a05:66bc:8101:20b0:328:25ea:b95d with SMTP id k1-n2csp2876665gea;
+        Sun, 28 Jun 2026 11:00:20 -0700 (PDT)
+X-Received: by 2002:a05:6a21:7308:b0:3bf:6c04:a812 with SMTP id adf61e73a8af0-3bf6c04ac7bmr7055467637.51.1782669620627;
+        Sun, 28 Jun 2026 11:00:20 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1782669620; cv=none;
+        d=google.com; s=arc-20260327;
+        b=YIrGzA3/8beHJ5VczQdRFiQVhW02LkQTC2Lqwp1QeV+PHJgFPyk2O/A7HKY/WG/Yl4
+         2zZIBRRVAOic93l12S40wnWE6ESmnEvNQMCdyjcX4UeaRPAwpaRZKRhJx/J8rHmrrklW
+         1txq584XTNLVKYyFzohVxKvdHUs3+EP05Zy/H8XRcalTWpWS7/SfEO5Jsm7Ijs//OzsH
+         CKTqQ6/X2XJ1s7xZ78jpHqf6lSiuj5Df4xNE+nvSOS8eEmXuuKF9j2xgckEpFXhbctvv
+         slaxMVld31xKuxUvdK+KXjIid/3Fb4cNqSyChU42DoENCLUUUoZHFjzIxROi/7mfsOWe
+         Hh0Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=content-transfer-encoding:message-id:list-unsubscribe
+         :list-unsubscribe-post:reply-to:to:from:subject:mime-version:date
+         :dkim-signature;
+        bh=/A237atHLMHoPQEvugmgF6goK4oTfhna1IELam2nDsU=;
+        fh=8CaXxphAXK9mc2ZtT0sDJyShszDCdzjuJnVUV7pcN9M=;
+        b=KdfbLNN6WLDb+FhIDm99QpIymoYsHnKY1Cwf6INmHyl0OrmhF+SD5+tCgwQGhaW3fM
+         7LRxgn6SQf5x0J75t61Y4JjsF/JQVe1tsYuQjG6fozJFoHDmnzjQTZUwjHihTyq0Acyv
+         1ieowI5fmiiLxRzi6BzG0fCYrVrNOaxf5FEd+FpjkXAkupwxSGC50TG7b87zWusH7sq3
+         KcotVo50+ciN/LTNhznR/SOIoj3TssIRfUS3tpiDTYun+tEkG+C6wVHTLSlWRgTOeiK8
+         CTI1/xsGauYiNNIbHdJ1vr3w5joJsMeWH4IA2Sly5oLva8fSCFtUQ9q/ZJ7Kgauo0ZGS
+         wLHQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@creator.patreon.com header.s=pdk2 header.b=XlQ8nfxi;
+       spf=pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.188 as permitted sender) smtp.mailfrom="bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=patreon.com
+Return-Path: <bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com>
+Received: from 201-188.static.patreon.com (201-188.static.patreon.com. [161.38.201.188])
+        by mx.google.com with UTF8SMTPS id 41be03b00d2f7-c96a8c1dac4si5176643a12.58.2026.06.28.11.00.20
+        for <samin@aianswer.us>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 28 Jun 2026 11:00:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.188 as permitted sender) client-ip=161.38.201.188;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@creator.patreon.com header.s=pdk2 header.b=XlQ8nfxi;
+       spf=pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.188 as permitted sender) smtp.mailfrom="bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=patreon.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=creator.patreon.com; q=dns/txt; s=pdk2; t=1782669619; x=1782676819;
+ h=Content-Transfer-Encoding: Content-Type: Message-Id: List-Unsubscribe: List-Unsubscribe-Post: Reply-To: To: To: From: From: Subject: Subject: Mime-Version: Date: Sender;
+ bh=/A237atHLMHoPQEvugmgF6goK4oTfhna1IELam2nDsU=;
+ b=XlQ8nfxipOKiDnc74frK6gr7+4yam1UQYq1l0ha8UtFJsbd6UPGIUSmR3UWe/7qrCTC0Kz+ettLMPUKJQnCsAHw+IzSjFHiHPA7arKjzBV/jTgJXaKK0bax9fRAmiJf7rqx6oxh+kt4yBTOwgH5eXoT02AOk4hYF57RmKF1TcPTsjF5ZqSShEX7ftRhAsHJLvSb+3Q71l1VxCy9h1QsuJE8ByimY51qEyAbRO/mIJh37NBfyCF8ME1AMc16eJlWFIvlq3EWsNm1OYMEdOxbICjzZacmgBO9lEG+9FrojnBcoRi8zChUuq7jMAsVBL96qQ7JDfmmqO6ffakDG8AkZvQ==
+X-Mailgun-Sid: WyJlZTNjZiIsInNhbWluQGFpYW5zd2VyLnVzIiwiOTRjZTIzMCJd
+Received: by 216f964d66a2bfb9adbe983927ca2c57fdbdd01db950c8036d61bc85aa26a5aa with HTTP
+ id 6a416133a82daeb8b5cfc95f; Sun, 28 Jun 2026 18:00:19 GMT
+X-Mailgun-Sending-Ip: 161.38.201.188
+Date: Sun, 28 Jun 2026 18:00:19 +0000
+Mime-Version: 1.0
+Subject: VIDEO - Live Q&A: How to Avoid Retail Traps
+From: InvestAnswers <investanswers@creator.patreon.com>
+To: samin@aianswer.us
+X-Mailgun-Tag: template_newsletterpost
+X-Mailgun-Rewrite-Sender-Header: false
+X-Mailgun-Track-Clicks: false
+X-Mailgun-Track-Opens: true
+Reply-To: no-reply@creator.patreon.com
+X-Patreon-Uuid: fc986aeb-052e-468a-a64f-e5953e714521
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://webhooks.patreon.com/email-unsubscribe?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGQiOiJaMEZCUVVGQlFuRlJWMFY2Y1hwcE1qSnJNakJrYjBwVmFuUnRjMkpNV0RsbWRqQlljamxLWW1aRlNXRjZTbVZ6TFVrNVRtOVVTRTUyWDFsR1pWUTJlSEprVkU5UFpsRjBObkpzYURKc09FTlNURWh1TFdOWGNqQkdZbGxGYW1vMGRWODFNMnhCUVVscGJrOXpVRTB4VG0xUlZXbDJlR2RqT0hvNGRrbDZaVzlPVURsNWVYYzJaMHhRZEc5ZldrbFdORXRHWW1WRU4yZHNXR2x4TUhKVVpuaFBUMGd3VERNNExUWnFSR1U1VFdOYWNYZFpSbVpVU2pkZmVuQTViMmRYV0VreVNHVTVMVFI1TjJaNlIwaGpaMlJoT1dWMWIzQTVjR2QyZDBreVpVZE9jWE5ETVUwNE4xY3RNMkpOVm5aZk1UY3pUMVZ3TTBOalQzbFBjWEZIYUY5RmFYaHhOMjlMV0ZJM1lsWllSR2h5VEY5NU9IWmtPVzQzVTJRemRESXhUVFE0TmtKcldXazFWbWxqYzJ0a2FtcE1TR1ZUT0VocVluTkdlbUpTYlZSamEwOXdiV2t4TFY5V2RXVk1lbEozZUhCR1UxbHlVMWRFVERoa1FtVk1ZM0ZQUzAxMmFtcGpRVE15ZFdWdWNubFhVekpDVWpBeWJGTlZiRUpGYkc1bFZuTjNVMEl3VVhjdFltZEpObE5PWTNrd1lsbFROV2RzWDNVMGRIVlpWVXBmVUhWVlRETlhSbE54YlU5aWExaFBhSFpEWkRZeExVNWtSWE0xYTFRdGEyVlJNbG93WVhjMlVrWlNOMlU1UjFoQ1lrUm1ZbUp0TVRaeFNGcHNjMk15YUU5NVJXTjVSRFp1YVVKcVUzWmxlVjlvU2pJdFFtYzkifQ.nWBcIIXaI3rc9k78TEvVwpmuRkgdG_YlOh0L_I00FXI>
+X-Mailgun-Variables: {"bulk_mode": "0", "campaign_id": "6060700", "custom_nonce":
+ "NewsletterPost:162325791:2026-06-28 17:59:26", "domain_override":
+ "creator.patreon.com", "email_campaign_name": "transactional", "email_id":
+ "171bb417-3f40-4b40-8c3b-3ac8c02b0f48", "email_notif_campaign_id": "6060700",
+ "email_notif_type": "campaign_email_post", "email_priority": "standard",
+ "email_system": "email-service-nunjucks", "extra_logging_props":
+ "{\"entity_id\":null,\"primary_entity\":{\"entity_id\":162325791,\"entity_type\":\"post\"},\"secondary_entities\":null,\"sender\":{\"sender_id\":6060700,\"sender_type\":\"campaign\"},\"campaign_id\":\"6060700\",\"notification_name\":\"NewPost\",\"fanout_id\":\"019f0f62-e838-7192-97a8-452dd6f0b311\",\"is_bundleable\":null}",
+ "intent_type": "NewsletterPost", "is_high_priority": "0", "notification_id":
+ "171bb417-3f40-4b40-8c3b-3ac8c02b0f48", "notification_priority": "standard",
+ "patreon_service_name": "notif-platform", "post_id": "162325791",
+ "post_type": "video_embed", "rate_limits": "[]", "recipient_size_bucket":
+ "1", "should_channel_throttle": "0", "should_ml_throttle": "0", "task_id":
+ "fc986aeb-052e-468a-a64f-e5953e714521", "template_name": "newsletterpost",
+ "timing":
+ "{\"client_start_time\":\"2026-06-28T17:59:26.359380\",\"notification_platform_entrypoint\":\"send_fanout_notifications\",\"notification_platform_received_time\":\"2026-06-28T17:59:31.281269\",\"filter_recipient_list_start_time\":\"2026-06-28T17:59:50.543601\",\"filter_recipient_list_end_time\":\"2026-06-28T17:59:52.938911\",\"notification_generation_start_time\":\"2026-06-28T17:59:52.938922\",\"notification_generation_end_time\":\"2026-06-28T17:59:59.264723\",\"channel_start_time\":\"2026-06-28T18:00:18.866532\",\"channel_provider_received_time\":\"2026-06-28T18:00:19.157127\",\"channel_delivered_time\":null}",
+ "user_id": "185171849"}
+Message-Id: <20260628180019.12f8ddbc0dd97e0e@creator.patreon.com>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xml=
+ns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com=
+:office:office" dir=3D"ltr"><head>
+<title>VIDEO - Live Q&amp;A: How to Avoid Retail Traps</title>
+<!--[if !mso]><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />=
+<!--<![endif]-->
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+<style type=3D"text/css">
+#outlook a{padding: 0;}
+=2EReadMsgBody{width: 100%;}
+=2EExternalClass{width: 100%;}
+=2EExternalClass *{line-height: 100%;}
+body{margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%;}
+table, td{border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;}
+img{border: 0; height: auto; line-height: 100%; outline: none; text-decorat=
+ion: none; -ms-interpolation-mode: bicubic;}
+p{display: block; margin: 13px 0;}
+</style>
+<!--[if mso]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type=3D"text/css">
+=2Eoutlook-group-fix{width:100% !important;}
+</style>
+<![endif]-->
+<style type=3D"text/css">=20
+@media only screen and (max-width: 480px) {
+=2Edys-desktop { display: none !important; }
+div.dys-mobile { display: block !important; }
+tr.dys-mobile { display: table-row !important; }=20
+}
+</style>
+ <style type=3D"text/css">
+@media only screen and (min-width:480px) {
+=2Edys-column-per-100 {
+width: 100.000000% !important;
+max-width: 100.000000%;
+}
+=2Edys-column-per-50 {
+width: 50.000000% !important;
+max-width: 50.000000%;
+}
+}
+</style>
+<style type=3D"text/css">
+@media only screen and (max-width:480px) {
+ table.full-width-mobile { width: 100% !important; }
+td.full-width-mobile { width: auto !important; }
+}
+u + #body a {color: #000000;text-decoration: underline;font-size: inherit; =
+font-family: inherit; font-weight: inherit; line-height: inherit; }
+ a {color: #000000;text-decoration: underline;}
+ /* Adds left and right padding to Apple mail */
+ [class^=3D"apple-mail"] #body {
+ padding: 0px 12px !important;=20
+ }=20
+ strong {
+ font-weight:600 !important;
+ }
+ b {
+ font-weight:600 !important;
+ }
+ /* inline image width */
+ td.post-content img {
+ max-width:592px;=20
+ }
+ /* list indentation */
+ td.post-content div ol {
+ margin-left: 5px !important;
+ padding-left: 16px !important;
+ }
+ td.post-content div ul {
+ margin-left:5px !important;
+ padding-left:16px !important;
+ }
+ /* set 20px between paragraphs */
+ td.post-content div p {
+ margin: 20px 0 !important;
+ mso-margin-top-alt: 20px !important;
+ mso-margin-bottom-alt: 20px !important;=20
+ }
+ /* set 10px between list items */
+ td.post-content div ul li,
+ td.post-content div ol li {
+ margin: 0 0 10px 0 !important;=20
+ }
+ /* set 10px between list items */
+ td.post-content li p {
+ margin: 0 0 10px 0 !important;
+ mso-margin-bottom-alt: 10px !important;
+ }
+ td.post-content li {
+ margin: 0 !important;
+ }
+ /* remove extra spacing after the last item in each list */
+ td.post-content div ul li:last-child,
+ td.post-content div ol li:last-child {
+ margin-bottom: 0 !important;
+ }
+ blockquote {
+ border-left:2px solid #070707 !important;
+ margin: 0; padding: 0;
+ padding-left:20px !important;
+ }
+ li p {
+ margin: 12px 0 !important;
+ }
+ @media only screen and (max-width:480px) {
+ td.post-content div p {
+ margin:18px 0 !important;
+ }
+ h1 {
+ font-size: 30px !important;
+ font-weight: 600 !important;
+ line-height:36px !important;
+ }
+ h3 {
+ font-size: 20px !important;
+ font-weight: 600 !important;
+ line-height: 26px !important;=20
+ }
+ h4 {
+ font-size:16px !important;
+ font-weight:600;
+ line-height: 21px !important;
+ }
+ /* padding for titles variant */
+ .pd-bt16 > h1 {
+ padding-bottom:16px !important;
+ }
+ }
+ @media only screen and (max-width: 480px) {
+ .pd-btm {
+ padding-bottom:12px !important;
+ }
+ .mb-pd-wrp > table > tbody > tr > td {
+ padding: 12px 14px !important;
+ }=20
+ .row-mb-pd > table > tbody > tr > td {
+ padding-left:4px !important;
+ padding-right:4px !important;
+ }
+ .stack-mb {
+ display:block !important;
+ }
+ .stack-mb-btn > table {
+ margin-top:16px !important;
+ }
+ }
+ @media only screen and (min-width:480px) {
+ .body-pd {
+ padding:20px 0 !important;
+ }
+ .row-mb-pd > table > tbody > tr > td {
+ padding-left:4px !important;
+ padding-right:4px !important;
+ }
+ }
+ .title-2lines{
+ display:-webkit-box;
+ -webkit-box-orient:vertical;
+ -webkit-line-clamp:2;
+ overflow:hidden;
+ text-overflow:ellipsis;
+ max-height:41.6px;
+ line-height:20.8px;
+ }
+=20
+ .cr-img img {width:42px !important;}
+ @media only screen and (max-width:440px) {
+ .title-mb-sz-26 > h2 {
+ font-size:30px !important;
+ line-height:36px !important;
+ }
+ }
+=20
+ @media only screen and (max-width:440px) {
+ .text-mb-sz-16 > div {
+ font-size:16px !important;
+ line-height:26px !important;
+ }
+ td.post-content li { margin: 0 !important; padding: 0 !important; }
+ /* 10px between paragraphs INSIDE list items (wins over the 16px rule abov=
+e) */
+ td.post-content li p,
+ .text-mb-sz-16 li p {
+ margin: 0 0 10px 0 !important;
+ mso-margin-bottom-alt: 10px !important;
+ }
+ /* 10px between list items */
+ td.post-content ul li,
+ td.post-content ol li,
+ .text-mb-sz-16 ul li,
+ .text-mb-sz-16 ol li {
+ margin: 0 0 10px 0 !important;
+ }
+ /* trim the extra space after the last item */
+ td.post-content ul li:last-child,
+ td.post-content ol li:last-child {
+ margin-bottom: 0 !important;
+ }
+ }=20
+ td.post-content div p li {
+ margin-left:0 !important;
+ padding-left:0 !important;
+ }
+ td.post-content div hr {
+ background-color: #cccccc !important;
+ border: none !important;
+ margin: 32px 0 !important;
+ height: 1px !important;
+ width: 100% !important;
+ }
+ td.post-content div h1 {
+ font-size:26px !important;
+ line-height:34px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div h2 {
+ font-size:22px !important;
+ line-height:29px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div h3 {
+ font-size:18px !important;
+ line-height:23px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div p {
+ font-size:16px !important;
+ line-height:26px !important;
+ }
+ td.post-content div p.caption-text {
+ font-size:14px !important;
+ line-height:20px !important;
+ color: #666 !important;
+ }
+=20
+ .wrp-radius > table {
+ border:1px solid #e8e8e8 !important;
+ border-collapse:initial !important;
+ border-radius: 12px !important;
+ }
+=20
+ @media only screen and (max-width:480px) {
+ .full-width-mb > table {
+ width:100% !important;
+ }
+ .full-width-mb {
+ padding-left: 0 !important;
+ }
+ .mb-crd-pd > table > tbody > tr > td {
+ padding: 24px 16px !important;
+ }
+ .stack-container-mb > tbody > tr > td {
+ display: block !important;
+ width: 100% !important;
+ box-sizing: border-box !important;
+ }
+ .button-cell-mb {
+ padding-top: 16px !important;
+ padding-left: 0 !important;
+ max-width:100% !important;
+ }
+ }
+=20
+ @media only screen and (max-width: 480px) {
+ .footer-text > div {
+ text-align: left !important;
+ margin-top:16px !important;
+ }
+ .fnt12 > div {
+ font-size:12px !important;
+ }
+ }
+=20
+</style>
+
+
+</head>
+<body id=3D"body" style=3D"background-color: transparent;"><span id=3D"dys-=
+ph" style=3D"width:0;opacity:0;max-height:0;mso-hide:all;overflow:hidden;fl=
+oat:left;display:none !important;">Live at 11:10am Pacific: https://youtube=
+=2Ecom/live/0Hc5OM-6e4I...</span><span=
+ style=3D"display: none; max-height: 0p=
+x; overflow: hidden;">=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=
+=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+ &nbsp;</span><div style=3D"background-color: transparent;" class=3D"body-p=
+d">
+<!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]-->
+<div style=3D"margin:0px auto; max-width:600px;">
+<table align=3D"center" role=3D"presentation" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%"><tbody><tr><td style=3D"padding:12px 0px=
+ 12px 0px;vertical-align:top;">
+
+=20
+=20
+
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:0px 4px;padding-bottom:0px;padding-left:4px=
+;padding-right:4px;padding-top:16px;text-align:center;vertical-align:top;">=
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:0;word-brea=
+k:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;"><t=
+body><tr><td style=3D"width:592px;"><a href=3D"https://www.patreon.com/Inve=
+stAnswers/posts/video-live-q-how-162325791?utm_campaign=3Dpatron_engagement=
+&amp;utm_source=3Dpost_link&amp;post_id=3D162325791&amp;token=3DeyJhbGciOiJ=
+IUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6YTg5NTZkNDQtZmY2MC00MTliL=
+WIzZDktNWRiYmFlMjVlZTdkIiwicG9zdF9pZCI6MTYyMzI1NzkxLCJwYXRyb25faWQiOjE4NTE3=
+MTg0OX0.GDQHzuBaTCBkoV2ssOle7WkwnrbOk8SnVgVn5eCkPPc&amp;utm_id=3D171bb417-3=
+f40-4b40-8c3b-3ac8c02b0f48&amp;utm_medium=3Demail" rel=3D"noopener noreferr=
+er" style=3D"color:#000000;text-decoration:underline;" target=3D"_blank"><s=
+pan style=3D"color:#000000;text-decoration:underline;"><img height=3D"auto"=
+ src=3D"https://www.patreon.com/media-u/v3/689312532" style=3D"border:none;=
+border-radius:12px;display:block;font-size:13px;height:auto;outline:none;te=
+xt-decoration:none;width:100%;" width=3D"592"></span></a></td></tr></tbody>=
+</table></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px;padding-bottom:16px;padding-top:16px;t=
+ext-align:center;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" style=3D"font-size:0px;padding:0px;word-brea=
+k:break-word;" vertical-align=3D"middle"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse:separa=
+te;line-height:100%;width:100%;"><tbody><tr><td align=3D"center" bgcolor=3D=
+"#F5F5F5" role=3D"presentation" style=3D"border:0px;border-color:none;backg=
+round:#F5F5F5;border-radius:12px;cursor:auto;mso-padding-alt:12px;text-alig=
+n:left;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"https://www.pa=
+treon.com/InvestAnswers/posts/video-live-q-how-162325791?utm_campaign=3Dpat=
+ron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D162325791&amp;token=
+=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6YTg5NTZkNDQ=
+tZmY2MC00MTliLWIzZDktNWRiYmFlMjVlZTdkIiwicG9zdF9pZCI6MTYyMzI1NzkxLCJwYXRyb2=
+5faWQiOjE4NTE3MTg0OX0.GDQHzuBaTCBkoV2ssOle7WkwnrbOk8SnVgVn5eCkPPc&amp;utm_i=
+d=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f48&amp;utm_medium=3Demail" rel=3D"noo=
+pener noreferrer" style=3D"background:#F5F5F5;border-radius:12px;color:#000=
+000;display:block;font-family:-apple-system, system-ui, BlinkMacSystemFont,=
+ 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol';font-size:14px;font-weight:400;line-height:20px;margin:0=
+;mso-padding-alt:0px;padding:12px;text-decoration:underline;text-transform:=
+none;" target=3D"_blank"><!--[if mso | IE]><span style=3D"mso-text-raise:-6=
+px;"><![endif]--><img src=3D"https://cdn-web-assets.dyspatch.io/org_01gvh8m=
+wwb22j90stngkwjbkvx/fdr_01h7zhh6bdgg3c5yt8dxq4cdkf%2FkBVvJgOTa94yuy0d7eIQ_L=
+ink%20Icon%402x.png" style=3D"padding-right:6px;vertical-align:-6px;width:2=
+4px;" width=3D"24"><!--[if mso]><span>&nbsp;&nbsp;</span><![endif]--><!--[i=
+f mso | IE]></span><![endif]-->=F0=9F=92=A5 SATS/SPCX Math, Decentralizatio=
+n, Zombie Alert &amp; Brutal AI Stock Truths! =F0=9F=9A=80</a></td></tr></t=
+body></table></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mb-pd-title-outlook row-mb-pd-outlook" style=3D"width:600px;" width=
+=3D"600"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rul=
+e:exactly;">
+<![endif]--><div class=3D"mb-pd-title row-mb-pd" style=3D"margin:0px auto;m=
+ax-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td s=
+tyle=3D"direction:ltr;font-size:0px;padding:0px 4px;padding-bottom:16px;pad=
+ding-top:16px;text-align:center;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"title-mb-sz-30" style=3D"font-size:=
+0px;padding:0px 0px 20px;padding-bottom:16px;padding-top:0px;word-break:bre=
+ak-word;"><h2 style=3D"color:#000000;font-family:'SF Pro Display', -apple-s=
+ystem, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:32px;font=
+-weight:600;line-height:38px;margin:0;padding:0;text-align:left;text-decora=
+tion:none;"><a href=3D"https://www.patreon.com/InvestAnswers/posts/video-li=
+ve-q-how-162325791?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_l=
+ink&amp;post_id=3D162325791&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ=
+9.eyJyZWRpc19rZXkiOiJpYTI6YTg5NTZkNDQtZmY2MC00MTliLWIzZDktNWRiYmFlMjVlZTdkI=
+iwicG9zdF9pZCI6MTYyMzI1NzkxLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GDQHzuBaTCBkoV2s=
+sOle7WkwnrbOk8SnVgVn5eCkPPc&amp;utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f=
+48&amp;utm_medium=3Demail" style=3D"text-decoration:none;color:#000000;"><s=
+pan style=3D"text-decoration:none;color:#000000;">VIDEO - Live Q&amp;A: How=
+ to Avoid Retail Traps</span></a></h2></td></tr>
+ <tr><td><div>
+ <div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on">
+ <tbody>
+ <tr>
+=20
+ <td class=3D"cr-img" style=3D"max-width:40px;padding-right:12px;" width=3D=
+"40">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:42px;"><a href=3D"https://www.patreon.com/InvestAnswers?utm_c=
+ampaign=3Dpatron_engagement&amp;utm_source=3Dcreator_link&amp;utm_id=3D171b=
+b417-3f40-4b40-8c3b-3ac8c02b0f48&amp;utm_medium=3Demail" rel=3D"noopener no=
+referrer" style=3D"color:#000000;text-decoration:underline;" target=3D"_bla=
+nk"><span style=3D"color:#000000;text-decoration:underline;"><img height=3D=
+"auto" src=3D"https://c10.patreonusercontent.com/4/patreon-media/p/campaign=
+/6060700/1e1c15135a1b458c8c3199bbee7f657b/eyJoIjo3NSwidyI6NzV9/4.png?token-=
+hash=3DSEhhIAk8OLBgPeMkz_-qm_uAyNc-C59l_YTnjpW61RU%3D" style=3D"border:none=
+;border-radius:4px;display:block;font-size:13px;height:auto;outline:none;te=
+xt-decoration:none;width:100%;" width=3D"42"></span></a></td></tr></tbody><=
+/table>
+ </td>
+=20
+ <td>
+=20
+=20
+ <h4 style=3D"color:#000000;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:6=
+00;line-height:18px;margin:0;padding:0;text-align:left;"><a href=3D"https:/=
+/www.patreon.com/InvestAnswers?utm_campaign=3Dpatron_engagement&amp;utm_sou=
+rce=3Dcreator_link&amp;utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f48&amp;ut=
+m_medium=3Demail" style=3D"text-decoration:none;color:#000000;"><span style=
+=3D"text-decoration:none;color:#000000;">InvestAnswers</span></a></h4>
+=20
+=20
+ <div style=3D"color:#666666;font-family:-apple-system, system-ui, BlinkMac=
+SystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:400;line-height:20=
+px;text-align:left;">Jun 28, 2026</div>
+=20
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div></td></tr>
+ <tr><td style=3D"font-size:0px;word-break:break-word;"><div style=3D"heigh=
+t:16px;line-height:16px;">=E2=80=8A</div></td></tr>
+ <tr><td><div>
+ <div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"icon-mb-a=
+l">
+ <tbody>
+ <tr style=3D"padding-top 16px;">
+ <td align=3D"left" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/InvestAnswers/posts/video-live-q-how-162325791?utm_cam=
+paign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D16232579=
+1&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6=
+YTg5NTZkNDQtZmY2MC00MTliLWIzZDktNWRiYmFlMjVlZTdkIiwicG9zdF9pZCI6MTYyMzI1Nzk=
+xLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GDQHzuBaTCBkoV2ssOle7WkwnrbOk8SnVgVn5eCkPP=
+c&amp;utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f48&amp;utm_medium=3Demail"=
+ rel=3D"noopener noreferrer" style=3D"background:transparent;border-radius:=
+50px;color:#ffffff;display:inline-block;font-family:'SF Pro Display', -appl=
+e-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;f=
+ont-weight:600;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;te=
+xt-decoration:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE=
+]><span style=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"like" src=3D=
+"https://cdn-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_01jm=
+dv6s5fevecq2mwr1tmmwss%2FmEPm9PuPRYKykZNvWcmk_HeartOutline.png" style=3D"ve=
+rtical-align:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></span><![end=
+if]--></a></td></tr></tbody></table>
+ </td>
+ <td align=3D"center" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/InvestAnswers/posts/video-live-q-how-162325791?utm_cam=
+paign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D16232579=
+1&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6=
+YTg5NTZkNDQtZmY2MC00MTliLWIzZDktNWRiYmFlMjVlZTdkIiwicG9zdF9pZCI6MTYyMzI1Nzk=
+xLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GDQHzuBaTCBkoV2ssOle7WkwnrbOk8SnVgVn5eCkPP=
+c&amp;utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f48&amp;utm_medium=3Demail"=
+ rel=3D"noopener noreferrer" style=3D"background:transparent;border-radius:=
+50px;color:#ffffff;display:inline-block;font-family:'SF Pro Display', -appl=
+e-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;f=
+ont-weight:600;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;te=
+xt-decoration:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE=
+]><span style=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"comment" src=
+=3D"https://cdn-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_0=
+1jmdv6s5fevecq2mwr1tmmwss%2FpONe1AzqSS2ydddAswCs_BubbleOutlined%20(1).png" =
+style=3D"vertical-align:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></=
+span><![endif]--></a></td></tr></tbody></table>
+ </td>
+ <td align=3D"right" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/InvestAnswers/posts/video-live-q-how-162325791?utm_cam=
+paign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D16232579=
+1&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6=
+YTg5NTZkNDQtZmY2MC00MTliLWIzZDktNWRiYmFlMjVlZTdkIiwicG9zdF9pZCI6MTYyMzI1Nzk=
+xLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GDQHzuBaTCBkoV2ssOle7WkwnrbOk8SnVgVn5eCkPP=
+c&amp;utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f48&amp;utm_medium=3Demail"=
+ rel=3D"noopener noreferrer" style=3D"background:transparent;border-radius:=
+50px;color:#ffffff;display:inline-block;font-family:'SF Pro Display', -appl=
+e-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;f=
+ont-weight:600;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;te=
+xt-decoration:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE=
+]><span style=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"share" src=
+=3D"https://cdn-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_0=
+1jmdv6s5fevecq2mwr1tmmwss%2FFkHQyZCfR8O5oErCuqC4_Share%20(2).png" style=3D"=
+vertical-align:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></span><![e=
+ndif]--></a></td></tr></tbody></table>
+ </td>
+ <td>
+=20
+ <div class=3D"dys-desktop"><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"border-collapse:separate;line-heigh=
+t:100%;"><tbody><tr><td align=3D"center" bgcolor=3D"transparent" role=3D"pr=
+esentation" style=3D"border:1px solid #CCCCCC;border-color:#CCCCCC;backgrou=
+nd:transparent;border-radius:50px;cursor:auto;mso-padding-alt:8px 20px;" va=
+lign=3D"middle"><a class=3D"dys-button-a" href=3D"https://open.patreon.com/=
+InvestAnswers/posts/video-live-q-how-162325791?utm_campaign=3Dpatron_engage=
+ment&amp;utm_source=3Dpost_link&amp;post_id=3D162325791&amp;token=3DeyJhbGc=
+iOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6YTg5NTZkNDQtZmY2MC00M=
+TliLWIzZDktNWRiYmFlMjVlZTdkIiwicG9zdF9pZCI6MTYyMzI1NzkxLCJwYXRyb25faWQiOjE4=
+NTE3MTg0OX0.GDQHzuBaTCBkoV2ssOle7WkwnrbOk8SnVgVn5eCkPPc&amp;utm_id=3D171bb4=
+17-3f40-4b40-8c3b-3ac8c02b0f48&amp;utm_medium=3Demail" rel=3D"noopener nore=
+ferrer" style=3D"background:transparent;border-radius:50px;color:#000000;di=
+splay:inline-block;font-family:'SF Pro Display', -apple-system, system-ui, =
+BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:600;line-h=
+eight:20px;margin:0;mso-padding-alt:0px;padding:8px 20px;text-decoration:no=
+ne;text-transform:none;" target=3D"_blank">View in app</a></td></tr></tbody=
+></table></div>
+=20
+=20
+ <div><!--[if !mso]--><div class=3D"dys-mobile" style=3D"display:none;"><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td align=
+=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border:1=
+px solid #CCCCCC;border-color:#CCCCCC;background:transparent;border-radius:=
+50px;cursor:auto;mso-padding-alt:8px 20px;" valign=3D"middle"><a class=3D"d=
+ys-button-a" href=3D"https://open.patreon.com/InvestAnswers/posts/video-liv=
+e-q-how-162325791?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_li=
+nk&amp;post_id=3D162325791&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9=
+=2EeyJyZWRpc19rZXkiOiJpYTI6YTg5NTZkNDQt=
+ZmY2MC00MTliLWIzZDktNWRiYmFlMjVlZTdkIi=
+wicG9zdF9pZCI6MTYyMzI1NzkxLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GDQHzuBaTCBkoV2ss=
+Ole7WkwnrbOk8SnVgVn5eCkPPc&amp;utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f4=
+8&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"background:t=
+ransparent;border-radius:50px;color:#000000;display:inline-block;font-famil=
+y:'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', =
+Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI=
+ Symbol';font-size:14px;font-weight:600;line-height:20px;margin:0;mso-paddi=
+ng-alt:0px;padding:8px 20px;text-decoration:none;text-transform:none;" targ=
+et=3D"_blank">View in app</a></td></tr></tbody></table></div><!--[endif]-->=
+</div>
+=20
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:0px 4px;padding-bottom:0px;padding-left:12p=
+x;padding-right:12px;padding-top:0px;text-align:center;vertical-align:top;"=
+><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:576px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"text-mb-sz-16 post-content" style=
+=3D"font-size:0px;padding:0px 0px 16px;padding-bottom:0;word-break:break-wo=
+rd;"><div style=3D"color:#000000;font-family:-apple-system, system-ui, Blin=
+kMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol';font-size:18px;font-weight:400;line-heigh=
+t:29px;text-align:left;"><p style=3D"margin-top:0;margin-bottom:0"></p><p s=
+tyle=3D"margin:10px 0"></p><p style=3D"margin:10px 0">Live at 11:10am Pacif=
+ic: <strong><a href=3D"https://youtube.com/live/0Hc5OM-6e4I" target=3D"_bla=
+nk">https://youtube.com/live/0Hc5OM-6e4I</a></strong></p><p></p></div></td>=
+</tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:16px 4px;text-align:center;vertical-align:t=
+op;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exac=
+tly;">
+<![endif]--><!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mb-pd-cr-outlook card-pd-32-outlook mb-crd-pd-outlook" style=3D"widt=
+h:592px;" width=3D"592"><tr><td style=3D"line-height:0px;font-size:0px;mso-=
+line-height-rule:exactly;">
+<![endif]--><div class=3D"mb-pd-cr card-pd-32 mb-crd-pd" style=3D"backgroun=
+d-color:#F5F5F5;border-radius:8px;margin:0px auto;max-width:592px;"><table =
+align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"background-color:#F5F5F5;border-collapse:separate;bor=
+der-radius:8px;width:100%;"><tbody><tr><td style=3D"border-radius:8px;direc=
+tion:ltr;font-size:0px;padding:24px;text-align:center;vertical-align:top;">=
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:544px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td><div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"stack-con=
+tainer-mb" width=3D"100%">
+ <tbody>
+ <tr>
+ <td valign=3D"middle">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+ <tbody>
+ <tr>
+ <td height=3D"60" style=3D"min-width:60px;min-height:60px;width:60px;heigh=
+t:60;" width=3D"60">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:60px;"><img height=3D"auto" src=3D"https://c10.patreonusercon=
+tent.com/4/patreon-media/p/campaign/6060700/1e1c15135a1b458c8c3199bbee7f657=
+b/eyJoIjoxMjAsInciOjEyMH0%3D/4.png?token-hash=3DSCP2JJ3CAyW5eoxpmDCcJ6ZUb9D=
+qMvvrYjhCfua5ADo%3D" style=3D"border:none;border-radius:60px;display:block;=
+font-size:13px;height:auto;outline:none;text-decoration:none;width:100%;" w=
+idth=3D"60"></td></tr></tbody></table>
+ </td>
+ <td style=3D"padding-left:16px;">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+ <tbody>
+ <tr>
+ <td>
+ <h4 style=3D"color:#000000;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;font-weight:6=
+00;line-height:21px;margin:0;padding:0;text-align:left;"><p style=3D"margin=
+-top:0;margin-bottom:0"> Did you like this post?</p></h4>
+ </td>
+ </tr>
+ <tr>
+ <td style=3D"padding-top:4px;">
+ <div style=3D"color:#626262;font-family:-apple-system, system-ui, BlinkMac=
+SystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:400;line-height:20=
+px;text-align:left;"><p style=3D"margin-top:0;margin-bottom:0"> Share this =
+post with someone who might enjoy it.</p></div>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class=3D"button-cell-mb" style=3D"width:180px;max-width:180px;padding-=
+left:16px;word-break: break-all;" width=3D"180">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;width:100%;"><tbody>=
+<tr><td align=3D"center" bgcolor=3D"#0D0D0D" role=3D"presentation" style=3D=
+"border:1px solid #0D0D0D;border-color:#0D0D0D;background:#0D0D0D;border-ra=
+dius:50px;cursor:auto;mso-padding-alt:8px 20px;" valign=3D"middle"><a class=
+=3D"dys-button-a" href=3D"https://www.patreon.com/InvestAnswers/posts/video=
+-live-q-how-162325791?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpos=
+t_link&amp;post_id=3D162325791&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpX=
+VCJ9.eyJyZWRpc19rZXkiOiJpYTI6YTg5NTZkNDQtZmY2MC00MTliLWIzZDktNWRiYmFlMjVlZT=
+dkIiwicG9zdF9pZCI6MTYyMzI1NzkxLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GDQHzuBaTCBko=
+V2ssOle7WkwnrbOk8SnVgVn5eCkPPc&amp;utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02=
+b0f48&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"backgrou=
+nd:#0D0D0D;border-radius:50px;color:#ffffff;display:block;font-family:'SF P=
+ro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto,=
+ Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol=
+';font-size:14px;font-weight:600;line-height:20px;margin:0;mso-padding-alt:=
+0px;padding:8px 20px;text-decoration:none;text-transform:none;" target=3D"_=
+blank">Share</a></td></tr></tbody></table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:28px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:0px;word-br=
+eak:break-word;"><p style=3D"border-top-color:#E8E8E8;border-top-style:soli=
+d;border-top-width:1px;font-size:1px;margin:0px auto;width:100%;"></p><!--[=
+if mso | IE]><table align=3D'center' border=3D'0' cellpadding=3D'0' cellspa=
+cing=3D'0' role=3D'presentation' style=3D'border-top-color:#E8E8E8;border-t=
+op-style:solid;border-top-width:1px;font-size:1px;margin:0px auto;width:592=
+px;' width=3D'592px'><tr><td style=3D'height:0;line-height:0;'>&nbsp</td></=
+tr></table><![endif]--></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:16px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:296px;">
+<![endif]--><div class=3D"dys-column-per-50 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"fnt12" style=3D"font-size:0px;paddi=
+ng:0px 0px 16px;padding-bottom:0;word-break:break-word;"><div style=3D"colo=
+r:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Inter'=
+, Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol';font-size:12px;font-weight:400;line-height:17px;text-align:left;=
+">
+ =C2=A9 2026 InvestAnswers<br><a href=3D"https://privacy.patreon.com/polici=
+es?utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f48&amp;utm_medium=3Demail" re=
+l=3D"noopener noreferrer" style=3D"color:#666666;text-decoration:underline"=
+ title=3D"Patreon's privacy policy">Privacy policy</a> | <a href=3D"https:/=
+/www.patreon.com/policy/legal?utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f48=
+&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666=
+;text-decoration:underline" title=3D"Patreon's terms of use">Terms of use</=
+a>
+ 600 Townsend Street<br>San Francisco, CA 94103
+ </div></td></tr>
+=20
+=20
+ </tbody></table></div><!--[if mso | IE]>
+</td><td style=3D"vertical-align:top;width:296px;">
+<![endif]--><div class=3D"dys-column-per-50 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"right" class=3D"footer-text" style=3D"font-size:0p=
+x;padding:0px 0px 16px;padding-bottom:0;word-break:break-word;"><div style=
+=3D"color:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont,=
+ 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol';font-size:12px;font-weight:400;line-height:17px;text-ali=
+gn:right;">Email was sent to <a href=3D"mailto:samin@aianswer.us" rel=3D"no=
+opener noreferrer" style=3D"color:#666666;text-decoration:underline">samin@=
+aianswer.us</a><br><a href=3D"https://www.patreon.com/email-unsubscribe?tok=
+en=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGQiOiJaMEZCUVVGQlFuRlJWMFY2Y=
+1hwcE1qSnJNakJrYjBwVmFuUnRjMkpNV0RsbWRqQlljamxLWW1aRlNXRjZTbVZ6TFVrNVRtOVVT=
+RTUyWDFsR1pWUTJlSEprVkU5UFpsRjBObkpzYURKc09FTlNURWh1TFdOWGNqQkdZbGxGYW1vMGR=
+WODFNMnhCUVVscGJrOXpVRTB4VG0xUlZXbDJlR2RqT0hvNGRrbDZaVzlPVURsNWVYYzJaMHhRZE=
+c5ZldrbFdORXRHWW1WRU4yZHNXR2x4TUhKVVpuaFBUMGd3VERNNExUWnFSR1U1VFdOYWNYZFpSb=
+VpVU2pkZmVuQTViMmRYV0VreVNHVTVMVFI1TjJaNlIwaGpaMlJoT1dWMWIzQTVjR2QyZDBreVpV=
+ZE9jWE5ETVUwNE4xY3RNMkpOVm5aZk1UY3pUMVZ3TTBOalQzbFBjWEZIYUY5RmFYaHhOMjlMV0Z=
+JM1lsWllSR2h5VEY5NU9IWmtPVzQzVTJRemRESXhUVFE0TmtKcldXazFWbWxqYzJ0a2FtcE1TR1=
+ZUT0VocVluTkdlbUpTYlZSamEwOXdiV2t4TFY5V2RXVk1lbEozZUhCR1UxbHlVMWRFVERoa1FtV=
+k1ZM0ZQUzAxMmFtcGpRVE15ZFdWdWNubFhVekpDVWpBeWJGTlZiRUpGYkc1bFZuTjNVMEl3VVhj=
+dFltZEpObE5PWTNrd1lsbFROV2RzWDNVMGRIVlpWVXBmVUhWVlRETlhSbE54YlU5aWExaFBhSFp=
+EWkRZeExVNWtSWE0xYTFRdGEyVlJNbG93WVhjMlVrWlNOMlU1UjFoQ1lrUm1ZbUp0TVRaeFNGcH=
+NjMk15YUU5NVJXTjVSRFp1YVVKcVUzWmxlVjlvU2pJdFFtYzkifQ.nWBcIIXaI3rc9k78TEvVwp=
+muRkgdG_YlOh0L_I00FXI&amp;utm_campaign=3Dpatron_engagement&amp;utm_source=
+=3Dunsubscribe&amp;utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f48&amp;utm_me=
+dium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;text-decor=
+ation:underline">Unsubscribe</a> | <a href=3D"https://www.patreon.com/setti=
+ngs/email/InvestAnswers?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dm=
+anage_email_settings&amp;utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f48&amp;=
+utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;text=
+-decoration:underline">Manage your email settings</a></div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+<!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:16px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"fnt12" style=3D"font-size:0px;paddi=
+ng:0px 0px 16px;padding-top:0px;word-break:break-word;"><div style=3D"color=
+:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Inter',=
+ Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe U=
+I Symbol';font-size:12px;font-weight:400;line-height:17px;text-align:left;"=
+>
+ Download the app - <a href=3D"https://open.patreon.com/InvestAnswers/posts=
+/video-live-q-how-162325791?utm_campaign=3Dpatron_engagement&amp;utm_source=
+=3Dpost_link&amp;post_id=3D162325791&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cC=
+I6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6YTg5NTZkNDQtZmY2MC00MTliLWIzZDktNWRiYmFl=
+MjVlZTdkIiwicG9zdF9pZCI6MTYyMzI1NzkxLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GDQHzuB=
+aTCBkoV2ssOle7WkwnrbOk8SnVgVn5eCkPPc&amp;utm_id=3D171bb417-3f40-4b40-8c3b-3=
+ac8c02b0f48&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"co=
+lor:#666666;text-decoration:underline">Google Play</a> | <a href=3D"https:/=
+/open.patreon.com/InvestAnswers/posts/video-live-q-how-162325791?utm_campai=
+gn=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D162325791&a=
+mp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6YTg=
+5NTZkNDQtZmY2MC00MTliLWIzZDktNWRiYmFlMjVlZTdkIiwicG9zdF9pZCI6MTYyMzI1NzkxLC=
+JwYXRyb25faWQiOjE4NTE3MTg0OX0.GDQHzuBaTCBkoV2ssOle7WkwnrbOk8SnVgVn5eCkPPc&a=
+mp;utm_id=3D171bb417-3f40-4b40-8c3b-3ac8c02b0f48&amp;utm_medium=3Demail" re=
+l=3D"noopener noreferrer" style=3D"color:#666666;text-decoration:underline"=
+>App Store</a>
+ </div></td></tr>=20
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endi=
+f]--></div> <img width=3D"1" height=3D"1" alt=3D"" src=3D"http://email.crea=
+tor.patreon.com/o/eJyMVE2TpCgQ_TV62dDgQxEPHHq2zxNz2DuBkFaxrWAAVm_tr9_wo6us6=
+d7ouim8fLzMfJndPLzJ0RsQKNdqnJQ9OWmNYIihBqFczzH5UTrvNIif8B4HSAnCLx9TRl8wI5TU=
+TYsz-kIQYQViBeF_4CajL3W7HLLciLbSQCjKjR-VddJfIARrQOgAKvlQTioF8K7UfsxB4IYTxlq=
+G2xxGZQd5k-XUCCIF5aLSyXqnhh1hjcAN7roKNwXtK1RUXYUKrmlXUKW5RqRDfcV3tPPJ9vKrZI=
+_36TqBuIG2m8nHtIOmYH2w6SpiUs6oYPbzeI0JRrH-FBHCxWoo3Oz-nvVbzOGfFJQc_Olk3UlOw=
+U9RZM2PjBBwyaartCYjJKMvbh6GjPyZETIFO6pwlRtgu_0y5N6LNW6_XdLYgwhZ9C8_zeuGiaD9=
+In5ntxB_fz2CMxCOr24nt1f30h3Rj29-lPD47qH2N9yNiGyYtQtWq6XRa-dvyJ_w_mtPZEX2yvk=
+5HbkQbnvUM1IAp7xocEuKtlG8qGpiDOtRRzG-hdsou9mZAVQ3wCH_5jU_i74yvQENfd1o3qOmpn=
+VVM9ZWxlSUUsitWHyPGOGYI4TbEpOeG9NpZEzbAIKsQl_53LoELm0uexyr3EZ5tqfz3WIofyjGs=
+25_CPrs112N3E26TdcaU0yDSr0PY74YZn3vw1vbyar6Yg14CWMHJg8iqtG6rELKKhffIZRzzINK=
+IAc72hRFVv_I6tc8gLaTXTKP9l-Q3azfIAmcx7OfByP1WTkHg0zn4FMalqW034wPh0kkGBeVIN2=
+teOt0JhXfFsW9bjlT0BWoJlBUjKtCsaovoG5rCg2uaoLzO8ma-29MdrTutI-nHjbRSYUkkz248b=
+72_jquvZLWLeX_Y-eP-i5jF66Tty7d-JYZkrulj0HxG6oAGuwFzBPqKC4Jx4S19xGyQ4Ig790Zb=
+Hw-2xqVdUUZwt_wLZk9wUbKlvL2MKEPCZ_AQdg-n9a3MS503zA-qbAtCasaQm98H779RhHP6AtC=
+y67mJWespuQTwxT8MljhiX7e2doS1w0mzSc2A4O9QHhg-Vhuc1zXuMC8xg3mVZtfBPkvAAD__1T=
+1ibc"></body></html>

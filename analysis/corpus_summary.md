@@ -1,31 +1,31 @@
 # Corpus Summary
 
-Generated: 2026-06-27T22:16:24+00:00
+Generated: 2026-07-05T18:03:59+00:00
 
-- Query: `from:investanswers@creator.patreon.com newer_than:3d`
-- Message IDs found: 21
-- Emails exported: 478
-- Years: {"2026": 478}
+- Query: `from:investanswers@creator.patreon.com`
+- Message IDs found: 550
+- Emails exported: 550
+- Years: {"2026": 550}
 
 ## Latest 20 subjects
 
-- AI Capex Upped Again
-- Politicians always protect donors
-- Are Blackrock trying to bring MSTR Down?
-- IBM CEO Says AI Math don't Math
-- Nobody talking about XMoney and SOLANA
-- EXCLUSIVE VIDEO: IA13 Layers for Shopping
-- VIDEO - Real Estate: Should I Buy?
-- Tesla Semi will sell like HOT CAKES
-- Top Compute Builders thru 2030
-- EU needs to Start Building Compute ASAP
-- US Real Estate Status
-- JP Morgan Raises S&P500 Target
-- What the future could look like!
-- Bitcoin ETFs non stop dumpage
-- VIDEO - Memory Winners & Losers
-- IA Trade Alert
-- Money vs AI
-- Melius Raises Micron PT to $2200
-- Inflation Sticky, Disinflation Stalled
-- EXCLUSIVE VIDEO - TSLA Trade Breakdown - Allocations Matter edition
+- Rule du Jour: Rule #114 Know your Wiring
+- AI Capex Spend about to Eclipse Defense Spending
+- CAGR Since US Independence Day 250 Years
+- Can Terafab Actually Happen? The Bare Minimum Semiconductor Supply Chain
+- Jensen: "We are $1 Trillion in to a $20 Trillion Investment"
+- Global Work hours vs GDP Per Capita
+- UPDATE: Tesla now 20 LOBs
+- Clarity Act back on the Table
+- US Debt is Ripping.... Rem Debasement
+- The new Tesla 19 LOBs
+- VIDEO - Buy Signals Galore
+- SpaceX Compute Genius
+- Got Stocks?
+- SALE: 2 Months Free for Annual Patreon Memberships
+- EXCLUSIVE VIDEO - Rotations & Consolidations & Still Making Killer Trades
+- BTC RSI just bounced
+- Neptune Digital Nav Prem at 1%
+- HODL Spike Visual
+- Robotaxi just launched in Miami Florida
+- OMG he has done it again.... now short $MU

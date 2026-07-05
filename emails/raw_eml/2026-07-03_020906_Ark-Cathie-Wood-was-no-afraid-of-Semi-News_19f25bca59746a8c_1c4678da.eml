@@ -1,0 +1,1003 @@
+Delivered-To: samin@aianswer.us
+Received: by 2002:a05:7110:3484:b0:329:5a7f:ba0d with SMTP id q4csp600041ged;
+        Thu, 2 Jul 2026 19:09:08 -0700 (PDT)
+X-Received: by 2002:a05:6a00:2918:b0:845:c373:6525 with SMTP id d2e1a72fcca58-847c09344f7mr8277095b3a.41.1783044547745;
+        Thu, 02 Jul 2026 19:09:07 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1783044547; cv=none;
+        d=google.com; s=arc-20260327;
+        b=mO2pqIUxakkK71ZMeGvjkWjMFhHnkOhYWBwMKmWfBKU/GQp3HeMsOkt3XVkiylx4nA
+         XxckG3QqHUwdDoBL8PPdtV641XNx0kCbeBrD8ae9KBLiyxBmO6oec5r0RZWQ35Cfrz6H
+         wagwfzw2dqBokJILPZ9KELZ1Sre6khbBxZ84lApfDHNXZVJkzlml/XbeKKR9JJgzj0Dn
+         L7aPqgJvTSWB6g308JhyLtmmdgH2pTzsJS7cH0yzwIShk3Cuk4HvfVq6/OW359dretlU
+         SFgusob4V/U1yddV/nYBQ5+iXr2WszuE8gZr4hia/2xa8hIiT4SlxgNRMsRARk701xql
+         8Bfw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=content-transfer-encoding:message-id:list-unsubscribe
+         :list-unsubscribe-post:reply-to:to:from:subject:mime-version:date
+         :dkim-signature;
+        bh=gIjqbACOZDXw/VJInRWrxiMVNWvGw74IUNiR3MKDpws=;
+        fh=8CaXxphAXK9mc2ZtT0sDJyShszDCdzjuJnVUV7pcN9M=;
+        b=dy/GILAq/OFjUSU1kVf6emi90cMkRJZVDnbdtRsuUh4VqbMgKq8GpTizerJ+/N6x7K
+         1cvYxE9/s9efAVBnngoQsCaJzXeJciPDx/6QMhePFxiy1stHdJE3OoEyISbejG7eJSwt
+         OkY96qltGL0xm6+bx4NoXp6Kc0oU6UHO/hqpQvfXlsJPEJVR4x3ygd5HAIyHtljJnONR
+         +HZMvRVfBSXKMvTFBhWr/yszFQGUfYsnPPl3yfkB76yU64LiJDIP+57gmuH9cDrUQ4WK
+         au3DtE3Do2zduNanDTEAy77NT/G4n/JZKsGXeGYrcn6vjsZTn2I4y5aRef4KFENd9oSf
+         +uCg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@creator.patreon.com header.s=pdk2 header.b=kqSOKLE1;
+       spf=pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.191 as permitted sender) smtp.mailfrom="bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=patreon.com
+Return-Path: <bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com>
+Received: from 201-191.static.patreon.com (201-191.static.patreon.com. [161.38.201.191])
+        by mx.google.com with UTF8SMTPS id 41be03b00d2f7-c9e929927cbsi6746746a12.293.2026.07.02.19.09.07
+        for <samin@aianswer.us>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 02 Jul 2026 19:09:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.191 as permitted sender) client-ip=161.38.201.191;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@creator.patreon.com header.s=pdk2 header.b=kqSOKLE1;
+       spf=pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.191 as permitted sender) smtp.mailfrom="bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=patreon.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=creator.patreon.com; q=dns/txt; s=pdk2; t=1783044546; x=1783051746;
+ h=Content-Transfer-Encoding: Content-Type: Message-Id: List-Unsubscribe: List-Unsubscribe-Post: Reply-To: To: To: From: From: Subject: Subject: Mime-Version: Date: Sender;
+ bh=gIjqbACOZDXw/VJInRWrxiMVNWvGw74IUNiR3MKDpws=;
+ b=kqSOKLE1FuG4uhRA8U1CZDdghUmg6VLOmkqVumpXzAYk/YjF3h6WNg2p1/Dvx35LFWE47W2flWvfOEC4D/g/wK4jVNS6uMO4LOKuvmwDxEyglexBswBfRrXS00qbldazq/3tzLlFu2KdfAmyRzM2MjLJBRdxAMyN9Ya868XtADOcBWNgPMve2mHWuHSAMCWWt49PxSsFREa79VpySDm/Ct0Rl5jCUwtSccYBji+SdRjgSM33SqdAWcD5v7cKgylOUOKOxWzUAwvZWEjK6YB8hh9ZNaCXziGjynsrwlXPbA6z9aCgPNpgjuPqw+Hser8aGvvhx8Q+E3JYkdjc53YObg==
+X-Mailgun-Sid: WyJlZTNjZiIsInNhbWluQGFpYW5zd2VyLnVzIiwiOTRjZTIzMCJd
+Received: by 9f73747e8a5e02f249b785ed0650fe5162b3d0b762a30726de6699bb163c4280 with HTTP
+ id 6a4719c288b790c1077a6138; Fri, 03 Jul 2026 02:09:06 GMT
+X-Mailgun-Sending-Ip: 161.38.201.191
+Date: Fri, 03 Jul 2026 02:09:06 +0000
+Mime-Version: 1.0
+Subject: Ark Cathie Wood was no afraid of Semi News
+From: InvestAnswers <investanswers@creator.patreon.com>
+To: samin@aianswer.us
+X-Mailgun-Tag: template_newsletterpost
+X-Mailgun-Rewrite-Sender-Header: false
+X-Mailgun-Track-Clicks: false
+X-Mailgun-Track-Opens: true
+Reply-To: no-reply@creator.patreon.com
+X-Patreon-Uuid: f251bba8-32c8-4b08-86ed-a3afa49cf829
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://webhooks.patreon.com/email-unsubscribe?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGQiOiJaMEZCUVVGQlFuRlNlRzVEY1VONFowOUJNak5HT0d4WmJFTkVOakp2V0Uxc04wTmtZbmxOU21OdWF6QTBTRFI0VDBWcVJYRkpNMU5uYUZwVVozSk5PRmhqUzFnNWFucGxPVWRGVXpBMVQxcFpaWGhxVEc1RVVsOTJOMWhqUkUxelFtdHJkRmxLVUU5WE9IcGxRVlI2V0hFelV5MXpkV2RvY1VacWVVSm9lbFpqTlUxSVdFUXpWbmRSWW5GQmNGZHpjMHBSUVhGaWNWOXNhbUZ3WTBwNU5UQTBaMU5pTW14YWJsaGlRbmxMZW04M0xVWnZTV3N3YXpNNFlsTkhOblJzWkhkUlRHbzFVMnMxUjFadVV6RkJVbkI2U21oRVVEVXliVzVsY2s4NE5IWjRUVEp6WjB4cFl6ZDNiSE5MYVMxV1pETTViR1ExV1VaSU9FeDBZbWh2TTI1dFpYRjZkRVZSZWtveVMwOTVZM0ZLY2tOT1EyMWpjRGMyWnpSbFgxaGFhRk01TkRCNVJrdzRiUzF2T1hSWVZIVkpPWEpFY0RsRFowVlRPWGh4VEhremVWaElSWHB1WTBaZmRXTnhibGt6UW5NemMzSm9ZVlJaUWxJelRYWlNZV3B0ZGpOdlkyeEpUMjFyWVdVelJsZDBlSGhuUlVabk9FeHpla1ExV1VvNVNVbG1WMkY0UXprdGNGRlZVWGxyZW5GU2NHSnFVR3BmU1dwRVgxRklPVlpVWnkxbVRFeDNUWHAxZDFoc00wb3RiakZvY21ZNFMzZHpWRFJtTlVNd1ZETjVkMHR1V0dveWFEVjZOMFF0UVc5cloycHZXRTlwU1U5UVNpMWlWM0ZSYldSTmVUUnVjbmczUjB3eGVtUlZkMlpITFVKdmQxRTkifQ.QC6dB25s9uJv-6vy4V9gzH7gCPPicBcpW4rie0NjZQ0>
+X-Mailgun-Variables: {"bulk_mode": "0", "campaign_id": "6060700", "custom_nonce":
+ "NewsletterPost:162759611:2026-07-03 02:08:53", "domain_override":
+ "creator.patreon.com", "email_campaign_name": "transactional", "email_id":
+ "292f75be-9fc4-41bb-a0ef-16dc94506584", "email_notif_campaign_id": "6060700",
+ "email_notif_type": "campaign_email_post", "email_priority": "standard",
+ "email_system": "email-service-nunjucks", "extra_logging_props":
+ "{\"entity_id\":null,\"primary_entity\":{\"entity_id\":162759611,\"entity_type\":\"post\"},\"secondary_entities\":null,\"sender\":{\"sender_id\":6060700,\"sender_type\":\"campaign\"},\"campaign_id\":\"6060700\",\"notification_name\":\"NewPost\",\"fanout_id\":\"019f25bc-724a-7f80-8194-5bf94a6efb5e\",\"bundle_id\":null,\"is_bundleable\":null}",
+ "intent_type": "NewsletterPost", "is_high_priority": "0", "notification_id":
+ "292f75be-9fc4-41bb-a0ef-16dc94506584", "notification_priority": "standard",
+ "patreon_service_name": "notif-platform", "post_id": "162759611",
+ "post_type": "image_file", "rate_limits": "[]", "recipient_size_bucket": "1",
+ "should_channel_throttle": "0", "should_ml_throttle": "0", "task_id":
+ "f251bba8-32c8-4b08-86ed-a3afa49cf829", "template_name": "newsletterpost",
+ "timing":
+ "{\"client_start_time\":\"2026-07-03T02:08:53.461705\",\"notification_platform_entrypoint\":\"send_fanout_notifications\",\"notification_platform_received_time\":\"2026-07-03T02:09:01.823281\",\"filter_recipient_list_start_time\":\"2026-07-03T02:09:02.037528\",\"filter_recipient_list_end_time\":\"2026-07-03T02:09:02.210083\",\"notification_generation_start_time\":\"2026-07-03T02:09:02.210097\",\"notification_generation_end_time\":\"2026-07-03T02:09:03.027916\",\"channel_start_time\":\"2026-07-03T02:09:05.650978\",\"channel_provider_received_time\":\"2026-07-03T02:09:06.747157\",\"channel_delivered_time\":null}",
+ "user_id": "185171849"}
+Message-Id: <20260703020906.71068b86ce8a3b1a@creator.patreon.com>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xml=
+ns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com=
+:office:office" dir=3D"ltr"><head>
+<title>Ark Cathie Wood was no afraid of Semi News</title>
+<!--[if !mso]><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />=
+<!--<![endif]-->
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+<style type=3D"text/css">
+#outlook a{padding: 0;}
+=2EReadMsgBody{width: 100%;}
+=2EExternalClass{width: 100%;}
+=2EExternalClass *{line-height: 100%;}
+body{margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%;}
+table, td{border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;}
+img{border: 0; height: auto; line-height: 100%; outline: none; text-decorat=
+ion: none; -ms-interpolation-mode: bicubic;}
+p{display: block; margin: 13px 0;}
+</style>
+<!--[if mso]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type=3D"text/css">
+=2Eoutlook-group-fix{width:100% !important;}
+</style>
+<![endif]-->
+<style type=3D"text/css">=20
+@media only screen and (max-width: 480px) {
+=2Edys-desktop { display: none !important; }
+div.dys-mobile { display: block !important; }
+tr.dys-mobile { display: table-row !important; }=20
+}
+</style>
+ <style type=3D"text/css">
+@media only screen and (min-width:480px) {
+=2Edys-column-per-100 {
+width: 100.000000% !important;
+max-width: 100.000000%;
+}
+=2Edys-column-per-50 {
+width: 50.000000% !important;
+max-width: 50.000000%;
+}
+}
+</style>
+<style type=3D"text/css">
+@media only screen and (max-width:480px) {
+ table.full-width-mobile { width: 100% !important; }
+td.full-width-mobile { width: auto !important; }
+}
+u + #body a {color: #000000;text-decoration: underline;font-size: inherit; =
+font-family: inherit; font-weight: inherit; line-height: inherit; }
+ a {color: #000000;text-decoration: underline;}
+ /* Adds left and right padding to Apple mail */
+ [class^=3D"apple-mail"] #body {
+ padding: 0px 12px !important;=20
+ }=20
+ strong {
+ font-weight:600 !important;
+ }
+ b {
+ font-weight:600 !important;
+ }
+ /* inline image width */
+ td.post-content img {
+ max-width:592px;=20
+ }
+ /* list indentation */
+ td.post-content div ol {
+ margin-left: 5px !important;
+ padding-left: 16px !important;
+ }
+ td.post-content div ul {
+ margin-left:5px !important;
+ padding-left:16px !important;
+ }
+ /* set 20px between paragraphs */
+ td.post-content div p {
+ margin: 20px 0 !important;
+ mso-margin-top-alt: 20px !important;
+ mso-margin-bottom-alt: 20px !important;=20
+ }
+ /* set 10px between list items */
+ td.post-content div ul li,
+ td.post-content div ol li {
+ margin: 0 0 10px 0 !important;=20
+ }
+ /* set 10px between list items */
+ td.post-content li p {
+ margin: 0 0 10px 0 !important;
+ mso-margin-bottom-alt: 10px !important;
+ }
+ td.post-content li {
+ margin: 0 !important;
+ }
+ /* remove extra spacing after the last item in each list */
+ td.post-content div ul li:last-child,
+ td.post-content div ol li:last-child {
+ margin-bottom: 0 !important;
+ }
+ blockquote {
+ border-left:2px solid #070707 !important;
+ margin: 0; padding: 0;
+ padding-left:20px !important;
+ }
+ li p {
+ margin: 12px 0 !important;
+ }
+ @media only screen and (max-width:480px) {
+ td.post-content div p {
+ margin:18px 0 !important;
+ }
+ h1 {
+ font-size: 30px !important;
+ font-weight: 600 !important;
+ line-height:36px !important;
+ }
+ h3 {
+ font-size: 20px !important;
+ font-weight: 600 !important;
+ line-height: 26px !important;=20
+ }
+ h4 {
+ font-size:16px !important;
+ font-weight:600;
+ line-height: 21px !important;
+ }
+ /* padding for titles variant */
+ .pd-bt16 > h1 {
+ padding-bottom:16px !important;
+ }
+ }
+ @media only screen and (max-width: 480px) {
+ .pd-btm {
+ padding-bottom:12px !important;
+ }
+ .mb-pd-wrp > table > tbody > tr > td {
+ padding: 12px 14px !important;
+ }=20
+ .row-mb-pd > table > tbody > tr > td {
+ padding-left:4px !important;
+ padding-right:4px !important;
+ }
+ .stack-mb {
+ display:block !important;
+ }
+ .stack-mb-btn > table {
+ margin-top:16px !important;
+ }
+ }
+ @media only screen and (min-width:480px) {
+ .body-pd {
+ padding:20px 0 !important;
+ }
+ .row-mb-pd > table > tbody > tr > td {
+ padding-left:4px !important;
+ padding-right:4px !important;
+ }
+ }
+ .title-2lines{
+ display:-webkit-box;
+ -webkit-box-orient:vertical;
+ -webkit-line-clamp:2;
+ overflow:hidden;
+ text-overflow:ellipsis;
+ max-height:41.6px;
+ line-height:20.8px;
+ }
+=20
+ .cr-img img {width:42px !important;}
+ @media only screen and (max-width:440px) {
+ .title-mb-sz-26 > h2 {
+ font-size:30px !important;
+ line-height:36px !important;
+ }
+ }
+=20
+ @media only screen and (max-width:440px) {
+ .text-mb-sz-16 > div {
+ font-size:16px !important;
+ line-height:26px !important;
+ }
+ td.post-content li { margin: 0 !important; padding: 0 !important; }
+ /* 10px between paragraphs INSIDE list items (wins over the 16px rule abov=
+e) */
+ td.post-content li p,
+ .text-mb-sz-16 li p {
+ margin: 0 0 10px 0 !important;
+ mso-margin-bottom-alt: 10px !important;
+ }
+ /* 10px between list items */
+ td.post-content ul li,
+ td.post-content ol li,
+ .text-mb-sz-16 ul li,
+ .text-mb-sz-16 ol li {
+ margin: 0 0 10px 0 !important;
+ }
+ /* trim the extra space after the last item */
+ td.post-content ul li:last-child,
+ td.post-content ol li:last-child {
+ margin-bottom: 0 !important;
+ }
+ }=20
+ td.post-content div p li {
+ margin-left:0 !important;
+ padding-left:0 !important;
+ }
+ td.post-content div hr {
+ background-color: #cccccc !important;
+ border: none !important;
+ margin: 32px 0 !important;
+ height: 1px !important;
+ width: 100% !important;
+ }
+ td.post-content div h1 {
+ font-size:26px !important;
+ line-height:34px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div h2 {
+ font-size:22px !important;
+ line-height:29px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div h3 {
+ font-size:18px !important;
+ line-height:23px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div p {
+ font-size:16px !important;
+ line-height:26px !important;
+ }
+ td.post-content div p.caption-text {
+ font-size:14px !important;
+ line-height:20px !important;
+ color: #666 !important;
+ }
+=20
+ .wrp-radius > table {
+ border:1px solid #e8e8e8 !important;
+ border-collapse:initial !important;
+ border-radius: 12px !important;
+ }
+=20
+ @media only screen and (max-width:480px) {
+ .full-width-mb > table {
+ width:100% !important;
+ }
+ .full-width-mb {
+ padding-left: 0 !important;
+ }
+ .mb-crd-pd > table > tbody > tr > td {
+ padding: 24px 16px !important;
+ }
+ .stack-container-mb > tbody > tr > td {
+ display: block !important;
+ width: 100% !important;
+ box-sizing: border-box !important;
+ }
+ .button-cell-mb {
+ padding-top: 16px !important;
+ padding-left: 0 !important;
+ max-width:100% !important;
+ }
+ }
+=20
+ @media only screen and (max-width: 480px) {
+ .footer-text > div {
+ text-align: left !important;
+ margin-top:16px !important;
+ }
+ .fnt12 > div {
+ font-size:12px !important;
+ }
+ }
+=20
+</style>
+
+
+</head>
+<body id=3D"body" style=3D"background-color: transparent;"><span id=3D"dys-=
+ph" style=3D"width:0;opacity:0;max-height:0;mso-hide:all;overflow:hidden;fl=
+oat:left;display:none !important;">She bought 100,000 shares today on the d=
+ip across her funds. $42M worth...</span><span style=3D"display: none; max-=
+height: 0px; overflow: hidden;">=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+ &nbsp;</span><div style=3D"background-color: transparent;" class=3D"body-p=
+d">
+<!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]-->
+<div style=3D"margin:0px auto; max-width:600px;">
+<table align=3D"center" role=3D"presentation" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%"><tbody><tr><td style=3D"padding:12px 0px=
+ 12px 0px;vertical-align:top;">
+
+=20
+=20
+
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:0px 4px;padding-bottom:0px;padding-left:4px=
+;padding-right:4px;padding-top:16px;text-align:center;vertical-align:top;">=
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:0;word-brea=
+k:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;"><t=
+body><tr><td style=3D"width:592px;"><a href=3D"https://www.patreon.com/Inve=
+stAnswers/posts/ark-cathie-wood-162759611?utm_campaign=3Dpatron_engagement&=
+amp;utm_source=3Dpost_link&amp;post_id=3D162759611&amp;token=3DeyJhbGciOiJI=
+UzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6NGMxN2NiYWItNTFjNi00NzI3LT=
+g3ZDYtYmM2MzRmZjUzZmMzIiwicG9zdF9pZCI6MTYyNzU5NjExLCJwYXRyb25faWQiOjE4NTE3M=
+Tg0OX0.l2ltZ31YjRtc99B9MWA7t3LGhgA6CVty7cW7tQUs83Y&amp;utm_id=3D292f75be-9f=
+c4-41bb-a0ef-16dc94506584&amp;utm_medium=3Demail" rel=3D"noopener noreferre=
+r" style=3D"color:#000000;text-decoration:underline;" target=3D"_blank"><sp=
+an style=3D"color:#000000;text-decoration:underline;"><img height=3D"auto" =
+src=3D"https://c10.patreonusercontent.com/4/patreon-media/p/post/162759611/=
+807794029fe243309eab88d80413aff5/eyJ3IjoxMDgwfQ%3D%3D/1.png?token-hash=3Dz3=
+tMmbP3aL78zhPCw77uqXwdg-pylBpClsPX9OtlX_8%3D&amp;token-time=3D1784332800" s=
+tyle=3D"border:none;border-radius:12px;display:block;font-size:13px;height:=
+auto;outline:none;text-decoration:none;width:100%;" width=3D"592"></span></=
+a></td></tr></tbody></table></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mb-pd-title-outlook row-mb-pd-outlook" style=3D"width:600px;" width=
+=3D"600"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rul=
+e:exactly;">
+<![endif]--><div class=3D"mb-pd-title row-mb-pd" style=3D"margin:0px auto;m=
+ax-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td s=
+tyle=3D"direction:ltr;font-size:0px;padding:0px 4px;padding-bottom:16px;pad=
+ding-top:16px;text-align:center;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"title-mb-sz-30" style=3D"font-size:=
+0px;padding:0px 0px 20px;padding-bottom:16px;padding-top:0px;word-break:bre=
+ak-word;"><h2 style=3D"color:#000000;font-family:'SF Pro Display', -apple-s=
+ystem, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:32px;font=
+-weight:600;line-height:38px;margin:0;padding:0;text-align:left;text-decora=
+tion:none;"><a href=3D"https://www.patreon.com/InvestAnswers/posts/ark-cath=
+ie-wood-162759611?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_li=
+nk&amp;post_id=3D162759611&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9=
+=2EeyJyZWRpc19rZXkiOiJpYTI6NGMxN2NiYWIt=
+NTFjNi00NzI3LTg3ZDYtYmM2MzRmZjUzZmMzIi=
+wicG9zdF9pZCI6MTYyNzU5NjExLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.l2ltZ31YjRtc99B9M=
+WA7t3LGhgA6CVty7cW7tQUs83Y&amp;utm_id=3D292f75be-9fc4-41bb-a0ef-16dc9450658=
+4&amp;utm_medium=3Demail" style=3D"text-decoration:none;color:#000000;"><sp=
+an style=3D"text-decoration:none;color:#000000;">Ark Cathie Wood was no afr=
+aid of Semi News</span></a></h2></td></tr>
+ <tr><td><div>
+ <div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on">
+ <tbody>
+ <tr>
+=20
+ <td class=3D"cr-img" style=3D"max-width:40px;padding-right:12px;" width=3D=
+"40">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:42px;"><a href=3D"https://www.patreon.com/InvestAnswers?utm_c=
+ampaign=3Dpatron_engagement&amp;utm_source=3Dcreator_link&amp;utm_id=3D292f=
+75be-9fc4-41bb-a0ef-16dc94506584&amp;utm_medium=3Demail" rel=3D"noopener no=
+referrer" style=3D"color:#000000;text-decoration:underline;" target=3D"_bla=
+nk"><span style=3D"color:#000000;text-decoration:underline;"><img height=3D=
+"auto" src=3D"https://c10.patreonusercontent.com/4/patreon-media/p/campaign=
+/6060700/1e1c15135a1b458c8c3199bbee7f657b/eyJoIjo3NSwidyI6NzV9/4.png?token-=
+hash=3DSEhhIAk8OLBgPeMkz_-qm_uAyNc-C59l_YTnjpW61RU%3D" style=3D"border:none=
+;border-radius:4px;display:block;font-size:13px;height:auto;outline:none;te=
+xt-decoration:none;width:100%;" width=3D"42"></span></a></td></tr></tbody><=
+/table>
+ </td>
+=20
+ <td>
+=20
+=20
+ <h4 style=3D"color:#000000;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:6=
+00;line-height:18px;margin:0;padding:0;text-align:left;"><a href=3D"https:/=
+/www.patreon.com/InvestAnswers?utm_campaign=3Dpatron_engagement&amp;utm_sou=
+rce=3Dcreator_link&amp;utm_id=3D292f75be-9fc4-41bb-a0ef-16dc94506584&amp;ut=
+m_medium=3Demail" style=3D"text-decoration:none;color:#000000;"><span style=
+=3D"text-decoration:none;color:#000000;">InvestAnswers</span></a></h4>
+=20
+=20
+ <div style=3D"color:#666666;font-family:-apple-system, system-ui, BlinkMac=
+SystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:400;line-height:20=
+px;text-align:left;">Jul 3, 2026</div>
+=20
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div></td></tr>
+ <tr><td style=3D"font-size:0px;word-break:break-word;"><div style=3D"heigh=
+t:16px;line-height:16px;">=E2=80=8A</div></td></tr>
+ <tr><td><div>
+ <div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"icon-mb-a=
+l">
+ <tbody>
+ <tr style=3D"padding-top 16px;">
+ <td align=3D"left" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/InvestAnswers/posts/ark-cathie-wood-162759611?utm_camp=
+aign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D162759611=
+&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6N=
+GMxN2NiYWItNTFjNi00NzI3LTg3ZDYtYmM2MzRmZjUzZmMzIiwicG9zdF9pZCI6MTYyNzU5NjEx=
+LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.l2ltZ31YjRtc99B9MWA7t3LGhgA6CVty7cW7tQUs83Y=
+&amp;utm_id=3D292f75be-9fc4-41bb-a0ef-16dc94506584&amp;utm_medium=3Demail" =
+rel=3D"noopener noreferrer" style=3D"background:transparent;border-radius:5=
+0px;color:#ffffff;display:inline-block;font-family:'SF Pro Display', -apple=
+-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;fo=
+nt-weight:600;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;tex=
+t-decoration:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE]=
+><span style=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"like" src=3D"=
+https://cdn-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_01jmd=
+v6s5fevecq2mwr1tmmwss%2FmEPm9PuPRYKykZNvWcmk_HeartOutline.png" style=3D"ver=
+tical-align:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></span><![endi=
+f]--></a></td></tr></tbody></table>
+ </td>
+ <td align=3D"center" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/InvestAnswers/posts/ark-cathie-wood-162759611?utm_camp=
+aign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D162759611=
+&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6N=
+GMxN2NiYWItNTFjNi00NzI3LTg3ZDYtYmM2MzRmZjUzZmMzIiwicG9zdF9pZCI6MTYyNzU5NjEx=
+LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.l2ltZ31YjRtc99B9MWA7t3LGhgA6CVty7cW7tQUs83Y=
+&amp;utm_id=3D292f75be-9fc4-41bb-a0ef-16dc94506584&amp;utm_medium=3Demail" =
+rel=3D"noopener noreferrer" style=3D"background:transparent;border-radius:5=
+0px;color:#ffffff;display:inline-block;font-family:'SF Pro Display', -apple=
+-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;fo=
+nt-weight:600;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;tex=
+t-decoration:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE]=
+><span style=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"comment" src=
+=3D"https://cdn-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_0=
+1jmdv6s5fevecq2mwr1tmmwss%2FpONe1AzqSS2ydddAswCs_BubbleOutlined%20(1).png" =
+style=3D"vertical-align:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></=
+span><![endif]--></a></td></tr></tbody></table>
+ </td>
+ <td align=3D"right" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/InvestAnswers/posts/ark-cathie-wood-162759611?utm_camp=
+aign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D162759611=
+&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6N=
+GMxN2NiYWItNTFjNi00NzI3LTg3ZDYtYmM2MzRmZjUzZmMzIiwicG9zdF9pZCI6MTYyNzU5NjEx=
+LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.l2ltZ31YjRtc99B9MWA7t3LGhgA6CVty7cW7tQUs83Y=
+&amp;utm_id=3D292f75be-9fc4-41bb-a0ef-16dc94506584&amp;utm_medium=3Demail" =
+rel=3D"noopener noreferrer" style=3D"background:transparent;border-radius:5=
+0px;color:#ffffff;display:inline-block;font-family:'SF Pro Display', -apple=
+-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;fo=
+nt-weight:600;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;tex=
+t-decoration:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE]=
+><span style=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"share" src=3D=
+"https://cdn-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_01jm=
+dv6s5fevecq2mwr1tmmwss%2FFkHQyZCfR8O5oErCuqC4_Share%20(2).png" style=3D"ver=
+tical-align:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></span><![endi=
+f]--></a></td></tr></tbody></table>
+ </td>
+ <td>
+=20
+ <div class=3D"dys-desktop"><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"border-collapse:separate;line-heigh=
+t:100%;"><tbody><tr><td align=3D"center" bgcolor=3D"transparent" role=3D"pr=
+esentation" style=3D"border:1px solid #CCCCCC;border-color:#CCCCCC;backgrou=
+nd:transparent;border-radius:50px;cursor:auto;mso-padding-alt:8px 20px;" va=
+lign=3D"middle"><a class=3D"dys-button-a" href=3D"https://open.patreon.com/=
+InvestAnswers/posts/ark-cathie-wood-162759611?utm_campaign=3Dpatron_engagem=
+ent&amp;utm_source=3Dpost_link&amp;post_id=3D162759611&amp;token=3DeyJhbGci=
+OiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6NGMxN2NiYWItNTFjNi00Nz=
+I3LTg3ZDYtYmM2MzRmZjUzZmMzIiwicG9zdF9pZCI6MTYyNzU5NjExLCJwYXRyb25faWQiOjE4N=
+TE3MTg0OX0.l2ltZ31YjRtc99B9MWA7t3LGhgA6CVty7cW7tQUs83Y&amp;utm_id=3D292f75b=
+e-9fc4-41bb-a0ef-16dc94506584&amp;utm_medium=3Demail" rel=3D"noopener noref=
+errer" style=3D"background:transparent;border-radius:50px;color:#000000;dis=
+play:inline-block;font-family:'SF Pro Display', -apple-system, system-ui, B=
+linkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:600;line-he=
+ight:20px;margin:0;mso-padding-alt:0px;padding:8px 20px;text-decoration:non=
+e;text-transform:none;" target=3D"_blank">View in app</a></td></tr></tbody>=
+</table></div>
+=20
+=20
+ <div><!--[if !mso]--><div class=3D"dys-mobile" style=3D"display:none;"><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td align=
+=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border:1=
+px solid #CCCCCC;border-color:#CCCCCC;background:transparent;border-radius:=
+50px;cursor:auto;mso-padding-alt:8px 20px;" valign=3D"middle"><a class=3D"d=
+ys-button-a" href=3D"https://open.patreon.com/InvestAnswers/posts/ark-cathi=
+e-wood-162759611?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_lin=
+k&amp;post_id=3D162759611&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.=
+eyJyZWRpc19rZXkiOiJpYTI6NGMxN2NiYWItNTFjNi00NzI3LTg3ZDYtYmM2MzRmZjUzZmMzIiw=
+icG9zdF9pZCI6MTYyNzU5NjExLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.l2ltZ31YjRtc99B9MW=
+A7t3LGhgA6CVty7cW7tQUs83Y&amp;utm_id=3D292f75be-9fc4-41bb-a0ef-16dc94506584=
+&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"background:tr=
+ansparent;border-radius:50px;color:#000000;display:inline-block;font-family=
+:'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', R=
+oboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol';font-size:14px;font-weight:600;line-height:20px;margin:0;mso-paddin=
+g-alt:0px;padding:8px 20px;text-decoration:none;text-transform:none;" targe=
+t=3D"_blank">View in app</a></td></tr></tbody></table></div><!--[endif]--><=
+/div>
+=20
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:0px 4px;padding-bottom:0px;padding-left:12p=
+x;padding-right:12px;padding-top:0px;text-align:center;vertical-align:top;"=
+><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:576px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"text-mb-sz-16 post-content" style=
+=3D"font-size:0px;padding:0px 0px 16px;padding-bottom:0;word-break:break-wo=
+rd;"><div style=3D"color:#000000;font-family:-apple-system, system-ui, Blin=
+kMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol';font-size:18px;font-weight:400;line-heigh=
+t:29px;text-align:left;"><p style=3D"margin-top:0;margin-bottom:0"></p><p s=
+tyle=3D"margin:10px 0">She bought 100,000 shares today on the dip across he=
+r funds. </p><p style=3D"margin:10px 0">$42M worth</p><p></p></div></td></t=
+r>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:16px 4px;text-align:center;vertical-align:t=
+op;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exac=
+tly;">
+<![endif]--><!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mb-pd-cr-outlook card-pd-32-outlook mb-crd-pd-outlook" style=3D"widt=
+h:592px;" width=3D"592"><tr><td style=3D"line-height:0px;font-size:0px;mso-=
+line-height-rule:exactly;">
+<![endif]--><div class=3D"mb-pd-cr card-pd-32 mb-crd-pd" style=3D"backgroun=
+d-color:#F5F5F5;border-radius:8px;margin:0px auto;max-width:592px;"><table =
+align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"background-color:#F5F5F5;border-collapse:separate;bor=
+der-radius:8px;width:100%;"><tbody><tr><td style=3D"border-radius:8px;direc=
+tion:ltr;font-size:0px;padding:24px;text-align:center;vertical-align:top;">=
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:544px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td><div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"stack-con=
+tainer-mb" width=3D"100%">
+ <tbody>
+ <tr>
+ <td valign=3D"middle">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+ <tbody>
+ <tr>
+ <td height=3D"60" style=3D"min-width:60px;min-height:60px;width:60px;heigh=
+t:60;" width=3D"60">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:60px;"><img height=3D"auto" src=3D"https://c10.patreonusercon=
+tent.com/4/patreon-media/p/campaign/6060700/1e1c15135a1b458c8c3199bbee7f657=
+b/eyJoIjoxMjAsInciOjEyMH0%3D/4.png?token-hash=3DSCP2JJ3CAyW5eoxpmDCcJ6ZUb9D=
+qMvvrYjhCfua5ADo%3D" style=3D"border:none;border-radius:60px;display:block;=
+font-size:13px;height:auto;outline:none;text-decoration:none;width:100%;" w=
+idth=3D"60"></td></tr></tbody></table>
+ </td>
+ <td style=3D"padding-left:16px;">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+ <tbody>
+ <tr>
+ <td>
+ <h4 style=3D"color:#000000;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;font-weight:6=
+00;line-height:21px;margin:0;padding:0;text-align:left;"><p style=3D"margin=
+-top:0;margin-bottom:0"> Did you like this post?</p></h4>
+ </td>
+ </tr>
+ <tr>
+ <td style=3D"padding-top:4px;">
+ <div style=3D"color:#626262;font-family:-apple-system, system-ui, BlinkMac=
+SystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:400;line-height:20=
+px;text-align:left;"><p style=3D"margin-top:0;margin-bottom:0"> Share this =
+post with someone who might enjoy it.</p></div>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class=3D"button-cell-mb" style=3D"width:180px;max-width:180px;padding-=
+left:16px;word-break: break-all;" width=3D"180">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;width:100%;"><tbody>=
+<tr><td align=3D"center" bgcolor=3D"#0D0D0D" role=3D"presentation" style=3D=
+"border:1px solid #0D0D0D;border-color:#0D0D0D;background:#0D0D0D;border-ra=
+dius:50px;cursor:auto;mso-padding-alt:8px 20px;" valign=3D"middle"><a class=
+=3D"dys-button-a" href=3D"https://www.patreon.com/InvestAnswers/posts/ark-c=
+athie-wood-162759611?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost=
+_link&amp;post_id=3D162759611&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXV=
+CJ9.eyJyZWRpc19rZXkiOiJpYTI6NGMxN2NiYWItNTFjNi00NzI3LTg3ZDYtYmM2MzRmZjUzZmM=
+zIiwicG9zdF9pZCI6MTYyNzU5NjExLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.l2ltZ31YjRtc99=
+B9MWA7t3LGhgA6CVty7cW7tQUs83Y&amp;utm_id=3D292f75be-9fc4-41bb-a0ef-16dc9450=
+6584&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"backgroun=
+d:#0D0D0D;border-radius:50px;color:#ffffff;display:block;font-family:'SF Pr=
+o Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+;font-size:14px;font-weight:600;line-height:20px;margin:0;mso-padding-alt:0=
+px;padding:8px 20px;text-decoration:none;text-transform:none;" target=3D"_b=
+lank">Share</a></td></tr></tbody></table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:28px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:0px;word-br=
+eak:break-word;"><p style=3D"border-top-color:#E8E8E8;border-top-style:soli=
+d;border-top-width:1px;font-size:1px;margin:0px auto;width:100%;"></p><!--[=
+if mso | IE]><table align=3D'center' border=3D'0' cellpadding=3D'0' cellspa=
+cing=3D'0' role=3D'presentation' style=3D'border-top-color:#E8E8E8;border-t=
+op-style:solid;border-top-width:1px;font-size:1px;margin:0px auto;width:592=
+px;' width=3D'592px'><tr><td style=3D'height:0;line-height:0;'>&nbsp</td></=
+tr></table><![endif]--></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:16px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:296px;">
+<![endif]--><div class=3D"dys-column-per-50 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"fnt12" style=3D"font-size:0px;paddi=
+ng:0px 0px 16px;padding-bottom:0;word-break:break-word;"><div style=3D"colo=
+r:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Inter'=
+, Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol';font-size:12px;font-weight:400;line-height:17px;text-align:left;=
+">
+ =C2=A9 2026 InvestAnswers<br><a href=3D"https://privacy.patreon.com/polici=
+es?utm_id=3D292f75be-9fc4-41bb-a0ef-16dc94506584&amp;utm_medium=3Demail" re=
+l=3D"noopener noreferrer" style=3D"color:#666666;text-decoration:underline"=
+ title=3D"Patreon's privacy policy">Privacy policy</a> | <a href=3D"https:/=
+/www.patreon.com/policy/legal?utm_id=3D292f75be-9fc4-41bb-a0ef-16dc94506584=
+&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666=
+;text-decoration:underline" title=3D"Patreon's terms of use">Terms of use</=
+a>
+ 600 Townsend Street<br>San Francisco, CA 94103
+ </div></td></tr>
+=20
+=20
+ </tbody></table></div><!--[if mso | IE]>
+</td><td style=3D"vertical-align:top;width:296px;">
+<![endif]--><div class=3D"dys-column-per-50 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"right" class=3D"footer-text" style=3D"font-size:0p=
+x;padding:0px 0px 16px;padding-bottom:0;word-break:break-word;"><div style=
+=3D"color:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont,=
+ 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol';font-size:12px;font-weight:400;line-height:17px;text-ali=
+gn:right;">Email was sent to <a href=3D"mailto:samin@aianswer.us" rel=3D"no=
+opener noreferrer" style=3D"color:#666666;text-decoration:underline">samin@=
+aianswer.us</a><br><a href=3D"https://www.patreon.com/email-unsubscribe?tok=
+en=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGQiOiJaMEZCUVVGQlFuRlNlRzVEY=
+1VONFowOUJNak5HT0d4WmJFTkVOakp2V0Uxc04wTmtZbmxOU21OdWF6QTBTRFI0VDBWcVJYRkpN=
+MU5uYUZwVVozSk5PRmhqUzFnNWFucGxPVWRGVXpBMVQxcFpaWGhxVEc1RVVsOTJOMWhqUkUxelF=
+tdHJkRmxLVUU5WE9IcGxRVlI2V0hFelV5MXpkV2RvY1VacWVVSm9lbFpqTlUxSVdFUXpWbmRSWW=
+5GQmNGZHpjMHBSUVhGaWNWOXNhbUZ3WTBwNU5UQTBaMU5pTW14YWJsaGlRbmxMZW04M0xVWnZTV=
+3N3YXpNNFlsTkhOblJzWkhkUlRHbzFVMnMxUjFadVV6RkJVbkI2U21oRVVEVXliVzVsY2s4NE5I=
+WjRUVEp6WjB4cFl6ZDNiSE5MYVMxV1pETTViR1ExV1VaSU9FeDBZbWh2TTI1dFpYRjZkRVZSZWt=
+veVMwOTVZM0ZLY2tOT1EyMWpjRGMyWnpSbFgxaGFhRk01TkRCNVJrdzRiUzF2T1hSWVZIVkpPWE=
+pFY0RsRFowVlRPWGh4VEhremVWaElSWHB1WTBaZmRXTnhibGt6UW5NemMzSm9ZVlJaUWxJelRYW=
+lNZV3B0ZGpOdlkyeEpUMjFyWVdVelJsZDBlSGhuUlVabk9FeHpla1ExV1VvNVNVbG1WMkY0UXpr=
+dGNGRlZVWGxyZW5GU2NHSnFVR3BmU1dwRVgxRklPVlpVWnkxbVRFeDNUWHAxZDFoc00wb3RiakZ=
+vY21ZNFMzZHpWRFJtTlVNd1ZETjVkMHR1V0dveWFEVjZOMFF0UVc5cloycHZXRTlwU1U5UVNpMW=
+lWM0ZSYldSTmVUUnVjbmczUjB3eGVtUlZkMlpITFVKdmQxRTkifQ.QC6dB25s9uJv-6vy4V9gzH=
+7gCPPicBcpW4rie0NjZQ0&amp;utm_campaign=3Dpatron_engagement&amp;utm_source=
+=3Dunsubscribe&amp;utm_id=3D292f75be-9fc4-41bb-a0ef-16dc94506584&amp;utm_me=
+dium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;text-decor=
+ation:underline">Unsubscribe</a> | <a href=3D"https://www.patreon.com/setti=
+ngs/email/InvestAnswers?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dm=
+anage_email_settings&amp;utm_id=3D292f75be-9fc4-41bb-a0ef-16dc94506584&amp;=
+utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;text=
+-decoration:underline">Manage your email settings</a></div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+<!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:16px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"fnt12" style=3D"font-size:0px;paddi=
+ng:0px 0px 16px;padding-top:0px;word-break:break-word;"><div style=3D"color=
+:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Inter',=
+ Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe U=
+I Symbol';font-size:12px;font-weight:400;line-height:17px;text-align:left;"=
+>
+ Download the app - <a href=3D"https://open.patreon.com/InvestAnswers/posts=
+/ark-cathie-wood-162759611?utm_campaign=3Dpatron_engagement&amp;utm_source=
+=3Dpost_link&amp;post_id=3D162759611&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cC=
+I6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6NGMxN2NiYWItNTFjNi00NzI3LTg3ZDYtYmM2MzRm=
+ZjUzZmMzIiwicG9zdF9pZCI6MTYyNzU5NjExLCJwYXRyb25faWQiOjE4NTE3MTg0OX0.l2ltZ31=
+YjRtc99B9MWA7t3LGhgA6CVty7cW7tQUs83Y&amp;utm_id=3D292f75be-9fc4-41bb-a0ef-1=
+6dc94506584&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"co=
+lor:#666666;text-decoration:underline">Google Play</a> | <a href=3D"https:/=
+/open.patreon.com/InvestAnswers/posts/ark-cathie-wood-162759611?utm_campaig=
+n=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D162759611&am=
+p;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6NGMx=
+N2NiYWItNTFjNi00NzI3LTg3ZDYtYmM2MzRmZjUzZmMzIiwicG9zdF9pZCI6MTYyNzU5NjExLCJ=
+wYXRyb25faWQiOjE4NTE3MTg0OX0.l2ltZ31YjRtc99B9MWA7t3LGhgA6CVty7cW7tQUs83Y&am=
+p;utm_id=3D292f75be-9fc4-41bb-a0ef-16dc94506584&amp;utm_medium=3Demail" rel=
+=3D"noopener noreferrer" style=3D"color:#666666;text-decoration:underline">=
+App Store</a>
+ </div></td></tr>=20
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endi=
+f]--></div> <img width=3D"1" height=3D"1" alt=3D"" src=3D"http://email.crea=
+tor.patreon.com/o/eJyUVE2P4ygQ_TX2ZeUIsA34wKFn5zyaw94RhnLCtg0W4Mxmf_3KH-040=
+5E6e4li6tWrV5_t1L_LwRsQKNdqGJU9O2mNoIgihlCup5j8IJ13GsQP-BV7SAnCTx9TVr5hSljd=
+UIyz8o0gQgvEClT-gUhWviGelW91mRvRVBpIiXLjB2Wd9FcIwRoQOoBKPpxGlQJ4d9J-yEFgxkt=
+UVXVFcxiU7eUuy6kBRArKRaWT9U71G8IaQRrSsbqFoul0VVS4bQuFoCswNbqpakRrXm1o55Pt5L=
+Nkj_Z0G0HsoNUy-pg20BisDzbdREzKGRXM9h5vMcEglo8iQrhaDYWb3N-Tfo85_JOCkr0_n607y=
+zH4MYqMfcsIAZdsuklrMjIXz019n5E_M0LGYAcVbnIFrNanLvdeLH6bdU5jcyJk1j9_sO8rJoL2=
+s_iN3UL8PXoEZyAco64ve9StdEf0Y8yPEh7jHmq_43YismKWLlit5kYvnd-RP-DXzy2RBdkp56d=
+05EK46Ujd6oKRShWs46jguKmKuu2aSlHo2hp293ZypocnlbdRrjbV9nAwsu_5RWhkSsY5UgZxBS=
+2FzhhOFSVE85ZCmVsxLwRiqEQENYieGEaUt5xq4Kpsscoq9GwBrEvg0jp-j_uW2ygv9ny5zx7KH=
+6r06ho8OH0e5E2N3KZ3XbvFpxh7lTofhnyepDnePnTry6LaDuoMsrM95EFENViXVUhZ5eIvCKcp=
+5kElkL0dbIoiq79l9fc8gLajnROP9l-Q7aTfIQmcx4ufeiP1RTkHvUyX4FPq52O1WYaHxyQSDLN=
+IkG6v3bK1ScX3WXBHaty2ihcl0byoWsQLTsEUqlSdqhrdcdLkd5Il9d-Y7GDdeVtb3a-ikwpJJn=
+uY0vs5_Ot4Dk8VxQzVz8f8o7zzOobb6K1LO9-8W3Ib9aNT_IIqgAZ7BfOFumb-wSdOSsLxfbVsn=
+yDIe3d6G1_LduEjJ1SymvAv-ObMXmIjGCFePk_4DA7C-vd_6JsZG_Yl44sKyxMirMF05_uY25cV=
+1Sdao4bxTwxj8Fdr1tq93E96YhXDNfvEZqC3VwgPLB-3bYrLeReY15hhXjX5VZD_AgAA__8JxJH=
+M"></body></html>
