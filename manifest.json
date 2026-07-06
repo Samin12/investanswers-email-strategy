@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 554,
-  "message_id_count": 554,
-  "generated_at": "2026-07-05T21:02:00+00:00",
+  "count": 557,
+  "message_id_count": 557,
+  "generated_at": "2026-07-06T13:03:03+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -14411,6 +14411,84 @@
       "text_chars": 2147,
       "raw_bytes": 53059,
       "sizeEstimate": 53059,
+      "attachments": []
+    },
+    {
+      "messageId": "19f34714b37c77ad",
+      "threadId": "19f34714b37c77ad",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f34714b37c77ad",
+      "subject": "Futures and BTC looking good so far",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 05 Jul 2026 22:41:06 +0000",
+      "date_iso": "2026-07-05T22:41:06+00:00",
+      "message_id_header": "<20260705224106.d73bd2efc41a8a38@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Bitcoin breaks $63KNasdaq Futures up 1.3%S&amp;amp;P Futures up 0.43%I had a feeling Thursday was deeply oversold and of course Friday was closed. ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-05_224106_Futures-and-BTC-looking-good-so-far_19f34714b37c77ad_c6356d9e",
+      "raw_path": "emails/raw_eml/2026-07-05_224106_Futures-and-BTC-looking-good-so-far_19f34714b37c77ad_c6356d9e.eml",
+      "text_path": "emails/text_md/2026-07-05_224106_Futures-and-BTC-looking-good-so-far_19f34714b37c77ad_c6356d9e.md",
+      "meta_path": "emails/metadata/2026-07-05_224106_Futures-and-BTC-looking-good-so-far_19f34714b37c77ad_c6356d9e.json",
+      "text_chars": 1944,
+      "raw_bytes": 52873,
+      "sizeEstimate": 52873,
+      "attachments": []
+    },
+    {
+      "messageId": "19f3589049734b59",
+      "threadId": "19f3589049734b59",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f3589049734b59",
+      "subject": "Legacy automakers are in serious trouble.",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 06 Jul 2026 03:46:38 +0000",
+      "date_iso": "2026-07-06T03:46:38+00:00",
+      "message_id_header": "<20260706034638.4b10e62828db6f64@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Zero Legacy Auto in the Top EV Brands - ZERO - Just Tesla and Chinese Brands. Ford, GM, and Honda are basically done. Even Toyota is fading fast. The ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-06_034638_Legacy-automakers-are-in-serious-trouble_19f3589049734b59_0113131c",
+      "raw_path": "emails/raw_eml/2026-07-06_034638_Legacy-automakers-are-in-serious-trouble_19f3589049734b59_0113131c.eml",
+      "text_path": "emails/text_md/2026-07-06_034638_Legacy-automakers-are-in-serious-trouble_19f3589049734b59_0113131c.md",
+      "meta_path": "emails/metadata/2026-07-06_034638_Legacy-automakers-are-in-serious-trouble_19f3589049734b59_0113131c.json",
+      "text_chars": 2562,
+      "raw_bytes": 53529,
+      "sizeEstimate": 53529,
+      "attachments": []
+    },
+    {
+      "messageId": "19f35acc5c769a2b",
+      "threadId": "19f35acc5c769a2b",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f35acc5c769a2b",
+      "subject": "Florida on Sale",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 06 Jul 2026 04:25:41 +0000",
+      "date_iso": "2026-07-06T04:25:41+00:00",
+      "message_id_header": "<20260706042541.aa17cd82043da738@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "As of tonight, 1 in 7 homes for sale in America is in Florida — a state with 8% of the nation&#39;s housing stock.The Florida for-sale market is flashing ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-06_042541_Florida-on-Sale_19f35acc5c769a2b_851e9f9a",
+      "raw_path": "emails/raw_eml/2026-07-06_042541_Florida-on-Sale_19f35acc5c769a2b_851e9f9a.eml",
+      "text_path": "emails/text_md/2026-07-06_042541_Florida-on-Sale_19f35acc5c769a2b_851e9f9a.md",
+      "meta_path": "emails/metadata/2026-07-06_042541_Florida-on-Sale_19f35acc5c769a2b_851e9f9a.json",
+      "text_chars": 2468,
+      "raw_bytes": 53524,
+      "sizeEstimate": 53524,
       "attachments": []
     }
   ]

@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-07-05T21:02:00+00:00
+Generated: 2026-07-06T13:03:03+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 554
-- Emails exported: 554
-- Years: {"2026": 554}
+- Message IDs found: 557
+- Emails exported: 557
+- Years: {"2026": 557}
 
 ## Latest 20 subjects
 
+- Florida on Sale
+- Legacy automakers are in serious trouble.
+- Futures and BTC looking good so far
 - China's AI Chip Independence
 - USA vs China AI
 - Unprecedented Deltas in US Real Estate Rentals
@@ -26,6 +29,3 @@ Generated: 2026-07-05T21:02:00+00:00
 - VIDEO - Buy Signals Galore
 - SpaceX Compute Genius
 - Got Stocks?
-- SALE: 2 Months Free for Annual Patreon Memberships
-- EXCLUSIVE VIDEO - Rotations & Consolidations & Still Making Killer Trades
-- BTC RSI just bounced
