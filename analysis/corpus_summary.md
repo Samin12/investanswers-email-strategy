@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-07-06T13:03:03+00:00
+Generated: 2026-07-06T18:02:57+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 557
-- Emails exported: 557
-- Years: {"2026": 557}
+- Message IDs found: 561
+- Emails exported: 561
+- Years: {"2026": 561}
 
 ## Latest 20 subjects
 
+- SPCX Added to Nasdaq 100 Tomorrow
+- Key Industries to Watch & Future Oppty
+- JPM Maintains Tesla PT
+- MSTR Inoculates again
 - Florida on Sale
 - Legacy automakers are in serious trouble.
 - Futures and BTC looking good so far
@@ -25,7 +29,3 @@ Generated: 2026-07-06T13:03:03+00:00
 - UPDATE: Tesla now 20 LOBs
 - Clarity Act back on the Table
 - US Debt is Ripping.... Rem Debasement
-- The new Tesla 19 LOBs
-- VIDEO - Buy Signals Galore
-- SpaceX Compute Genius
-- Got Stocks?
