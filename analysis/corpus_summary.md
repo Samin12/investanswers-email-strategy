@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-07-06T18:02:57+00:00
+Generated: 2026-07-06T21:04:00+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 561
-- Emails exported: 561
-- Years: {"2026": 561}
+- Message IDs found: 564
+- Emails exported: 564
+- Years: {"2026": 564}
 
 ## Latest 20 subjects
 
+- VIDEO - Bitcoin: Reloading Zone
+- BTC back above the 200 Week Moving Avg
+- Avg Annual CAGR by Top Asset the last 10 years
 - SPCX Added to Nasdaq 100 Tomorrow
 - Key Industries to Watch & Future Oppty
 - JPM Maintains Tesla PT
@@ -26,6 +29,3 @@ Generated: 2026-07-06T18:02:57+00:00
 - Can Terafab Actually Happen? The Bare Minimum Semiconductor Supply Chain
 - Jensen: "We are $1 Trillion in to a $20 Trillion Investment"
 - Global Work hours vs GDP Per Capita
-- UPDATE: Tesla now 20 LOBs
-- Clarity Act back on the Table
-- US Debt is Ripping.... Rem Debasement
