@@ -1,0 +1,1018 @@
+Delivered-To: samin@aianswer.us
+Received: by 2002:a05:7110:3484:b0:329:5a7f:ba0d with SMTP id q4csp3168962ged;
+        Tue, 7 Jul 2026 09:50:45 -0700 (PDT)
+X-Received: by 2002:a05:6a00:9aa:b0:847:87bd:6021 with SMTP id d2e1a72fcca58-84826e2394bmr5776394b3a.39.1783443045589;
+        Tue, 07 Jul 2026 09:50:45 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1783443045; cv=none;
+        d=google.com; s=arc-20260327;
+        b=oWbhMb+U2wIbsslNIFu4EYaT+fU+yCeE05OHSMibHZGWK7Hi6eN1xAq7U7JVQ5weoN
+         EzPWWoDc30vbTnoWEv0PwaAlSOIM1PSz33i/jGoeEhSQ8xnyOVX2p+lMUfuoybionUDu
+         e7nDVOhyXROK6zzFrQ+gpjz9AGtEIl1BKfrdIbgwLlm5eWKvJhy+APO5UK+t9FvfFqdm
+         ILMdfZpFxwCwxr7HbA6H2W6j0N41IDPULJ6rki9Czw7whc7J9I7hNHyThSoRWZ2A4R5s
+         2muXrKo/f3nleID+PJPZTe0KxNfmafwCU//Y41cxjQAvpNWiC4q66PGYtWKuOdN9zfHc
+         64Tw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=content-transfer-encoding:message-id:list-unsubscribe
+         :list-unsubscribe-post:reply-to:to:from:subject:mime-version:date
+         :dkim-signature;
+        bh=7sKG4wKuT4G2v0LWpZfIPLaLkb2W8ia9ASkEVGnYicE=;
+        fh=8CaXxphAXK9mc2ZtT0sDJyShszDCdzjuJnVUV7pcN9M=;
+        b=E07HjoMez16RPh4WDcvKNmvASoZYWs2HkCRkbkP4FW/xEs8InP2B3DwhnfxwhuAwto
+         sD5gJRE6sPdKXIJxaTg5vAu/9EdX74TVRTVBT/Ipexk1cD2DBGkagTPxGuTVdWvmm696
+         fw9M/FSzUpFGOBRDdLetg3iBsAHVOter5NCwu25mkTbuDA2/r6OgOr4pHnSeslRNWTpo
+         VtWdkaylfaNh6djW4ZY/rADXVEalpGfIL0NUlIyDU+0EO1FJ50wEX80o4RLL3HbnO3Eo
+         RPm8lSUHyN4056IJhu5waUR3G/fT9mgQ9P2zvCykGqPkgU4AvylgZDzvkaJvO5bqvm6Q
+         GtyQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@creator.patreon.com header.s=pdk2 header.b=nmP7vI3D;
+       spf=pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.197 as permitted sender) smtp.mailfrom="bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=patreon.com
+Return-Path: <bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com>
+Received: from 201-197.static.patreon.com (201-197.static.patreon.com. [161.38.201.197])
+        by mx.google.com with UTF8SMTPS id d2e1a72fcca58-847f6df392dsi20243652b3a.202.2026.07.07.09.50.44
+        for <samin@aianswer.us>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Jul 2026 09:50:45 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.197 as permitted sender) client-ip=161.38.201.197;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@creator.patreon.com header.s=pdk2 header.b=nmP7vI3D;
+       spf=pass (google.com: domain of bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com designates 161.38.201.197 as permitted sender) smtp.mailfrom="bounce+a137c0.94ce230-samin=aianswer.us@creator.patreon.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=patreon.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=creator.patreon.com; q=dns/txt; s=pdk2; t=1783443044; x=1783450244;
+ h=Content-Transfer-Encoding: Content-Type: Message-Id: List-Unsubscribe: List-Unsubscribe-Post: Reply-To: To: To: From: From: Subject: Subject: Mime-Version: Date: Sender;
+ bh=7sKG4wKuT4G2v0LWpZfIPLaLkb2W8ia9ASkEVGnYicE=;
+ b=nmP7vI3Dl1Yf8y0MaVWp1AMCvqHxGk4lCvNo/8fFYJHkuLN0RrQshekRCVEWKph/eTznROpc0TdHe+0pXoVAg8TX8l680DescshoWgBKsOaI/3GVpAcHqoKp38WMLKjw0YyqF7M+rokgjd04JApm+NGqrj8E8O+AQ9+PEpB9seFQxKwIuDheynsm5H2vegMDql6xyXlz4OXTSNaPsjOu6NTTmfbMdch2S7EAtAA0XVv3Zjf8m0qZrTCBXr++mAerTZvT9ux7a9T9m9y4zcF6KPP/hetxYvej8Kk95jK0Z/Qp9f4lfjs5rQvDPF8elUx2Kw4Mw/hIqLhw0OW6c2J5sQ==
+X-Mailgun-Sid: WyJlZTNjZiIsInNhbWluQGFpYW5zd2VyLnVzIiwiOTRjZTIzMCJd
+Received: by e58bc8ee85e0e2e3dd01a1a69e29b1208d11cab01b31e3da1186dc722366708a with HTTP
+ id 6a4d2e6405dbfd276eeb20d1; Tue, 07 Jul 2026 16:50:44 GMT
+X-Mailgun-Sending-Ip: 161.38.201.197
+Date: Tue, 07 Jul 2026 16:50:44 +0000
+Mime-Version: 1.0
+Subject: End of Cheap Money Era in Japan
+From: InvestAnswers <investanswers@creator.patreon.com>
+To: samin@aianswer.us
+X-Mailgun-Tag: template_newsletterpost
+X-Mailgun-Rewrite-Sender-Header: false
+X-Mailgun-Track-Clicks: false
+X-Mailgun-Track-Opens: true
+Reply-To: no-reply@creator.patreon.com
+X-Patreon-Uuid: e81a2062-cbbd-419a-b0c7-96acaac9085a
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://webhooks.patreon.com/email-unsubscribe?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGQiOiJaMEZCUVVGQlFuRlVVelZyV1daV1dGa3pSR2N0VUhWdE0xaHFZbFZCV1dkbWRtRlZWREoyWTFWT1lUQldTMHBEV1VObGIxbDRVRW8yWnpGdWIxcEVZemhHWjJwbk9GbE9UM0kyVEVOMGJHRlNVREJKVkZVNFRucHJWa05yVlZacVRUVnBWalYyVDNGNUxXcHhSbkZzVW5OTWFqSmtTMDh6UzBWTlprZG1ibGhUWm0xcmFXaDBTVTgyWmtONk1sbElSalZDWmpCSmJFRXphbVJHVGtkV1pGTkxiVGh3VW5wd2FUWk5hRlIyWTFoc2FUZDJXRGg1TlRWWk9WWjVVWEEwZFVWdGJsY3dTMUZVYTJneFVVVjFiVUp1TVVoVGRVeGxOMmhPYTNCV1UwMXRWbGh2Ym5kc2NUbE5jWEF0VWpSRGNITXlRWFZmYjNCWk1TMVZaVlF3Tlc1dlFqQXliWGMzTlcxbVFqUlRjMUV0VEZBMU1rOHlSMGgxYzNkVlkyUnpPRXAxVVZGSFRrUnBZMHB3VTFWR2NXVkpiSFZ2VVRnNWQweHJiSGhUV1hBMU1EVTNMV2xJUTNCRVJrdFlWVGhMVjBoT1dWUjBVM1ZKVVRZMVRrTTJZbWhIYVRSWk4ySjZUa0prVVZaUlVGaEdlbTg1U3pSeVVEQjBla2RJZFhoMVJYTnFRemsxYm1abmVsSkJkWGcyTTJRdGQwNDJXbnBsUWxkNGIwcERMWEJwYTFGa1pIUjBNRzB3YURObWRVNHhkVGxxUmpOSVJFZGxVbEl0ZURWa2RIUXRWR1p1TWxkc1YyaHlZbGhXWlVoNGFGUjVXVWhHU0U5S05rNXRUbHBqYzIxV2NETmpkalF3TTJsVlVEbE9PV1JpY21oeE5EQTkifQ.k-lolKaVqoz6iMMoQr6-NiOYsUQfrcAmM6_1J2yt8yk>
+X-Mailgun-Variables: {"bulk_mode": "0", "campaign_id": "6060700", "custom_nonce":
+ "NewsletterPost:163165725:2026-07-07 16:49:37", "domain_override":
+ "creator.patreon.com", "email_campaign_name": "transactional", "email_id":
+ "f7068406-6471-482c-b4f1-b3c2eae07997", "email_notif_campaign_id": "6060700",
+ "email_notif_type": "campaign_email_post", "email_priority": "standard",
+ "email_system": "email-service-nunjucks", "extra_logging_props":
+ "{\"entity_id\":null,\"primary_entity\":{\"entity_id\":163165725,\"entity_type\":\"post\"},\"secondary_entities\":null,\"sender\":{\"sender_id\":6060700,\"sender_type\":\"campaign\"},\"campaign_id\":\"6060700\",\"notification_name\":\"NewPost\",\"fanout_id\":\"019f3d7c-3589-7942-a059-f62fad7652ba\",\"bundle_id\":null,\"is_bundleable\":null}",
+ "intent_type": "NewsletterPost", "is_high_priority": "0", "notification_id":
+ "f7068406-6471-482c-b4f1-b3c2eae07997", "notification_priority": "standard",
+ "patreon_service_name": "notif-platform", "post_id": "163165725",
+ "post_type": "image_file", "rate_limits": "[]", "recipient_size_bucket": "1",
+ "should_channel_throttle": "0", "should_ml_throttle": "0", "task_id":
+ "e81a2062-cbbd-419a-b0c7-96acaac9085a", "template_name": "newsletterpost",
+ "timing":
+ "{\"client_start_time\":\"2026-07-07T16:49:37.415576\",\"notification_platform_entrypoint\":\"send_fanout_notifications\",\"notification_platform_received_time\":\"2026-07-07T16:49:40.944580\",\"filter_recipient_list_start_time\":\"2026-07-07T16:49:57.598810\",\"filter_recipient_list_end_time\":\"2026-07-07T16:50:03.035796\",\"notification_generation_start_time\":\"2026-07-07T16:50:03.035806\",\"notification_generation_end_time\":\"2026-07-07T16:50:08.798510\",\"channel_start_time\":\"2026-07-07T16:50:43.788770\",\"channel_provider_received_time\":\"2026-07-07T16:50:44.130779\",\"channel_delivered_time\":null}",
+ "user_id": "185171849"}
+Message-Id: <20260707165044.6ad16a0b39c193a8@creator.patreon.com>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xml=
+ns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com=
+:office:office" dir=3D"ltr"><head>
+<title>End of Cheap Money Era in Japan</title>
+<!--[if !mso]><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />=
+<!--<![endif]-->
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+<style type=3D"text/css">
+#outlook a{padding: 0;}
+=2EReadMsgBody{width: 100%;}
+=2EExternalClass{width: 100%;}
+=2EExternalClass *{line-height: 100%;}
+body{margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%;}
+table, td{border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;}
+img{border: 0; height: auto; line-height: 100%; outline: none; text-decorat=
+ion: none; -ms-interpolation-mode: bicubic;}
+p{display: block; margin: 13px 0;}
+</style>
+<!--[if mso]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type=3D"text/css">
+=2Eoutlook-group-fix{width:100% !important;}
+</style>
+<![endif]-->
+<style type=3D"text/css">=20
+@media only screen and (max-width: 480px) {
+=2Edys-desktop { display: none !important; }
+div.dys-mobile { display: block !important; }
+tr.dys-mobile { display: table-row !important; }=20
+}
+</style>
+ <style type=3D"text/css">
+@media only screen and (min-width:480px) {
+=2Edys-column-per-100 {
+width: 100.000000% !important;
+max-width: 100.000000%;
+}
+=2Edys-column-per-50 {
+width: 50.000000% !important;
+max-width: 50.000000%;
+}
+}
+</style>
+<style type=3D"text/css">
+@media only screen and (max-width:480px) {
+ table.full-width-mobile { width: 100% !important; }
+td.full-width-mobile { width: auto !important; }
+}
+u + #body a {color: #000000;text-decoration: underline;font-size: inherit; =
+font-family: inherit; font-weight: inherit; line-height: inherit; }
+ a {color: #000000;text-decoration: underline;}
+ /* Adds left and right padding to Apple mail */
+ [class^=3D"apple-mail"] #body {
+ padding: 0px 12px !important;=20
+ }=20
+ strong {
+ font-weight:600 !important;
+ }
+ b {
+ font-weight:600 !important;
+ }
+ /* inline image width */
+ td.post-content img {
+ max-width:592px;=20
+ }
+ /* list indentation */
+ td.post-content div ol {
+ margin-left: 5px !important;
+ padding-left: 16px !important;
+ }
+ td.post-content div ul {
+ margin-left:5px !important;
+ padding-left:16px !important;
+ }
+ /* set 20px between paragraphs */
+ td.post-content div p {
+ margin: 20px 0 !important;
+ mso-margin-top-alt: 20px !important;
+ mso-margin-bottom-alt: 20px !important;=20
+ }
+ /* set 10px between list items */
+ td.post-content div ul li,
+ td.post-content div ol li {
+ margin: 0 0 10px 0 !important;=20
+ }
+ /* set 10px between list items */
+ td.post-content li p {
+ margin: 0 0 10px 0 !important;
+ mso-margin-bottom-alt: 10px !important;
+ }
+ td.post-content li {
+ margin: 0 !important;
+ }
+ /* remove extra spacing after the last item in each list */
+ td.post-content div ul li:last-child,
+ td.post-content div ol li:last-child {
+ margin-bottom: 0 !important;
+ }
+ blockquote {
+ border-left:2px solid #070707 !important;
+ margin: 0; padding: 0;
+ padding-left:20px !important;
+ }
+ li p {
+ margin: 12px 0 !important;
+ }
+ @media only screen and (max-width:480px) {
+ td.post-content div p {
+ margin:18px 0 !important;
+ }
+ h1 {
+ font-size: 30px !important;
+ font-weight: 600 !important;
+ line-height:36px !important;
+ }
+ h3 {
+ font-size: 20px !important;
+ font-weight: 600 !important;
+ line-height: 26px !important;=20
+ }
+ h4 {
+ font-size:16px !important;
+ font-weight:600;
+ line-height: 21px !important;
+ }
+ /* padding for titles variant */
+ .pd-bt16 > h1 {
+ padding-bottom:16px !important;
+ }
+ }
+ @media only screen and (max-width: 480px) {
+ .pd-btm {
+ padding-bottom:12px !important;
+ }
+ .mb-pd-wrp > table > tbody > tr > td {
+ padding: 12px 14px !important;
+ }=20
+ .row-mb-pd > table > tbody > tr > td {
+ padding-left:4px !important;
+ padding-right:4px !important;
+ }
+ .stack-mb {
+ display:block !important;
+ }
+ .stack-mb-btn > table {
+ margin-top:16px !important;
+ }
+ }
+ @media only screen and (min-width:480px) {
+ .body-pd {
+ padding:20px 0 !important;
+ }
+ .row-mb-pd > table > tbody > tr > td {
+ padding-left:4px !important;
+ padding-right:4px !important;
+ }
+ }
+ .title-2lines{
+ display:-webkit-box;
+ -webkit-box-orient:vertical;
+ -webkit-line-clamp:2;
+ overflow:hidden;
+ text-overflow:ellipsis;
+ max-height:41.6px;
+ line-height:20.8px;
+ }
+=20
+ .cr-img img {width:42px !important;}
+ @media only screen and (max-width:440px) {
+ .title-mb-sz-26 > h2 {
+ font-size:30px !important;
+ line-height:36px !important;
+ }
+ }
+=20
+ @media only screen and (max-width:440px) {
+ .text-mb-sz-16 > div {
+ font-size:16px !important;
+ line-height:26px !important;
+ }
+ td.post-content li { margin: 0 !important; padding: 0 !important; }
+ /* 10px between paragraphs INSIDE list items (wins over the 16px rule abov=
+e) */
+ td.post-content li p,
+ .text-mb-sz-16 li p {
+ margin: 0 0 10px 0 !important;
+ mso-margin-bottom-alt: 10px !important;
+ }
+ /* 10px between list items */
+ td.post-content ul li,
+ td.post-content ol li,
+ .text-mb-sz-16 ul li,
+ .text-mb-sz-16 ol li {
+ margin: 0 0 10px 0 !important;
+ }
+ /* trim the extra space after the last item */
+ td.post-content ul li:last-child,
+ td.post-content ol li:last-child {
+ margin-bottom: 0 !important;
+ }
+ }=20
+ td.post-content div p li {
+ margin-left:0 !important;
+ padding-left:0 !important;
+ }
+ td.post-content div hr {
+ background-color: #cccccc !important;
+ border: none !important;
+ margin: 32px 0 !important;
+ height: 1px !important;
+ width: 100% !important;
+ }
+ td.post-content div h1 {
+ font-size:26px !important;
+ line-height:34px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div h2 {
+ font-size:22px !important;
+ line-height:29px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div h3 {
+ font-size:18px !important;
+ line-height:23px !important;
+ font-weight:600 !important;
+ }
+ td.post-content div p {
+ font-size:16px !important;
+ line-height:26px !important;
+ }
+ td.post-content div p.caption-text {
+ font-size:14px !important;
+ line-height:20px !important;
+ color: #666 !important;
+ }
+=20
+ .wrp-radius > table {
+ border:1px solid #e8e8e8 !important;
+ border-collapse:initial !important;
+ border-radius: 12px !important;
+ }
+=20
+ @media only screen and (max-width:480px) {
+ .full-width-mb > table {
+ width:100% !important;
+ }
+ .full-width-mb {
+ padding-left: 0 !important;
+ }
+ .mb-crd-pd > table > tbody > tr > td {
+ padding: 24px 16px !important;
+ }
+ .stack-container-mb > tbody > tr > td {
+ display: block !important;
+ width: 100% !important;
+ box-sizing: border-box !important;
+ }
+ .button-cell-mb {
+ padding-top: 16px !important;
+ padding-left: 0 !important;
+ max-width:100% !important;
+ }
+ }
+=20
+ @media only screen and (max-width: 480px) {
+ .footer-text > div {
+ text-align: left !important;
+ margin-top:16px !important;
+ }
+ .fnt12 > div {
+ font-size:12px !important;
+ }
+ }
+=20
+</style>
+
+
+</head>
+<body id=3D"body" style=3D"background-color: transparent;"><span id=3D"dys-=
+ph" style=3D"width:0;opacity:0;max-height:0;mso-hide:all;overflow:hidden;fl=
+oat:left;display:none !important;">Bond yields are sky rocketing in Japan. =
+ For 30 years plus or as long as I have tracked they always had cheap money=
+=2E  This is where the systemic risk .=
+=2E.</span><span style=3D"display: none;=20=
+max-height: 0px; overflow: hidden;">=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=
+=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+=E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F=20
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+=C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=20
+ &nbsp;</span><div style=3D"background-color: transparent;" class=3D"body-p=
+d">
+<!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]-->
+<div style=3D"margin:0px auto; max-width:600px;">
+<table align=3D"center" role=3D"presentation" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%"><tbody><tr><td style=3D"padding:12px 0px=
+ 12px 0px;vertical-align:top;">
+
+=20
+=20
+
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:0px 4px;padding-bottom:0px;padding-left:4px=
+;padding-right:4px;padding-top:16px;text-align:center;vertical-align:top;">=
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:0;word-brea=
+k:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;"><t=
+body><tr><td style=3D"width:592px;"><a href=3D"https://www.patreon.com/Inve=
+stAnswers/posts/end-of-cheap-era-163165725?utm_campaign=3Dpatron_engagement=
+&amp;utm_source=3Dpost_link&amp;post_id=3D163165725&amp;token=3DeyJhbGciOiJ=
+IUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6ODM0OTM1NWUtYzE3MS00NGVhL=
+ThmMGItNzg5YjM0NTQ0ZTc2IiwicG9zdF9pZCI6MTYzMTY1NzI1LCJwYXRyb25faWQiOjE4NTE3=
+MTg0OX0.GC52a5E7KymeDdS3va9KOXL6qvolM4syMgOyrHUU474&amp;utm_id=3Df7068406-6=
+471-482c-b4f1-b3c2eae07997&amp;utm_medium=3Demail" rel=3D"noopener noreferr=
+er" style=3D"color:#000000;text-decoration:underline;" target=3D"_blank"><s=
+pan style=3D"color:#000000;text-decoration:underline;"><img height=3D"auto"=
+ src=3D"https://c10.patreonusercontent.com/4/patreon-media/p/post/163165725=
+/2e2d4ac2507d446994e6551cedd8a463/eyJ3IjoxMDgwfQ%3D%3D/1.png?token-hash=3Dn=
+cIroqG8vbitrEfPIfSjsgh_2vrE8ZpWUk9hLoL3Rzg%3D&amp;token-time=3D1784678400" =
+style=3D"border:none;border-radius:12px;display:block;font-size:13px;height=
+:auto;outline:none;text-decoration:none;width:100%;" width=3D"592"></span><=
+/a></td></tr></tbody></table></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mb-pd-title-outlook row-mb-pd-outlook" style=3D"width:600px;" width=
+=3D"600"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rul=
+e:exactly;">
+<![endif]--><div class=3D"mb-pd-title row-mb-pd" style=3D"margin:0px auto;m=
+ax-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td s=
+tyle=3D"direction:ltr;font-size:0px;padding:0px 4px;padding-bottom:16px;pad=
+ding-top:16px;text-align:center;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"title-mb-sz-30" style=3D"font-size:=
+0px;padding:0px 0px 20px;padding-bottom:16px;padding-top:0px;word-break:bre=
+ak-word;"><h2 style=3D"color:#000000;font-family:'SF Pro Display', -apple-s=
+ystem, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:32px;font=
+-weight:600;line-height:38px;margin:0;padding:0;text-align:left;text-decora=
+tion:none;"><a href=3D"https://www.patreon.com/InvestAnswers/posts/end-of-c=
+heap-era-163165725?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_l=
+ink&amp;post_id=3D163165725&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ=
+9.eyJyZWRpc19rZXkiOiJpYTI6ODM0OTM1NWUtYzE3MS00NGVhLThmMGItNzg5YjM0NTQ0ZTc2I=
+iwicG9zdF9pZCI6MTYzMTY1NzI1LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GC52a5E7KymeDdS3=
+va9KOXL6qvolM4syMgOyrHUU474&amp;utm_id=3Df7068406-6471-482c-b4f1-b3c2eae079=
+97&amp;utm_medium=3Demail" style=3D"text-decoration:none;color:#000000;"><s=
+pan style=3D"text-decoration:none;color:#000000;">End of Cheap Money Era in=
+ Japan</span></a></h2></td></tr>
+ <tr><td><div>
+ <div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on">
+ <tbody>
+ <tr>
+=20
+ <td class=3D"cr-img" style=3D"max-width:40px;padding-right:12px;" width=3D=
+"40">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:42px;"><a href=3D"https://www.patreon.com/InvestAnswers?utm_c=
+ampaign=3Dpatron_engagement&amp;utm_source=3Dcreator_link&amp;utm_id=3Df706=
+8406-6471-482c-b4f1-b3c2eae07997&amp;utm_medium=3Demail" rel=3D"noopener no=
+referrer" style=3D"color:#000000;text-decoration:underline;" target=3D"_bla=
+nk"><span style=3D"color:#000000;text-decoration:underline;"><img height=3D=
+"auto" src=3D"https://c10.patreonusercontent.com/4/patreon-media/p/campaign=
+/6060700/1e1c15135a1b458c8c3199bbee7f657b/eyJoIjo3NSwidyI6NzV9/4.png?token-=
+hash=3DSEhhIAk8OLBgPeMkz_-qm_uAyNc-C59l_YTnjpW61RU%3D" style=3D"border:none=
+;border-radius:4px;display:block;font-size:13px;height:auto;outline:none;te=
+xt-decoration:none;width:100%;" width=3D"42"></span></a></td></tr></tbody><=
+/table>
+ </td>
+=20
+ <td>
+=20
+=20
+ <h4 style=3D"color:#000000;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:6=
+00;line-height:18px;margin:0;padding:0;text-align:left;"><a href=3D"https:/=
+/www.patreon.com/InvestAnswers?utm_campaign=3Dpatron_engagement&amp;utm_sou=
+rce=3Dcreator_link&amp;utm_id=3Df7068406-6471-482c-b4f1-b3c2eae07997&amp;ut=
+m_medium=3Demail" style=3D"text-decoration:none;color:#000000;"><span style=
+=3D"text-decoration:none;color:#000000;">InvestAnswers</span></a></h4>
+=20
+=20
+ <div style=3D"color:#666666;font-family:-apple-system, system-ui, BlinkMac=
+SystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:400;line-height:20=
+px;text-align:left;">Jul 7, 2026</div>
+=20
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div></td></tr>
+ <tr><td style=3D"font-size:0px;word-break:break-word;"><div style=3D"heigh=
+t:16px;line-height:16px;">=E2=80=8A</div></td></tr>
+ <tr><td><div>
+ <div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"icon-mb-a=
+l">
+ <tbody>
+ <tr style=3D"padding-top 16px;">
+ <td align=3D"left" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/InvestAnswers/posts/end-of-cheap-era-163165725?utm_cam=
+paign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D16316572=
+5&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6=
+ODM0OTM1NWUtYzE3MS00NGVhLThmMGItNzg5YjM0NTQ0ZTc2IiwicG9zdF9pZCI6MTYzMTY1NzI=
+1LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GC52a5E7KymeDdS3va9KOXL6qvolM4syMgOyrHUU47=
+4&amp;utm_id=3Df7068406-6471-482c-b4f1-b3c2eae07997&amp;utm_medium=3Demail"=
+ rel=3D"noopener noreferrer" style=3D"background:transparent;border-radius:=
+50px;color:#ffffff;display:inline-block;font-family:'SF Pro Display', -appl=
+e-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;f=
+ont-weight:600;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;te=
+xt-decoration:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE=
+]><span style=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"like" src=3D=
+"https://cdn-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_01jm=
+dv6s5fevecq2mwr1tmmwss%2FmEPm9PuPRYKykZNvWcmk_HeartOutline.png" style=3D"ve=
+rtical-align:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></span><![end=
+if]--></a></td></tr></tbody></table>
+ </td>
+ <td align=3D"center" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/InvestAnswers/posts/end-of-cheap-era-163165725?utm_cam=
+paign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D16316572=
+5&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6=
+ODM0OTM1NWUtYzE3MS00NGVhLThmMGItNzg5YjM0NTQ0ZTc2IiwicG9zdF9pZCI6MTYzMTY1NzI=
+1LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GC52a5E7KymeDdS3va9KOXL6qvolM4syMgOyrHUU47=
+4&amp;utm_id=3Df7068406-6471-482c-b4f1-b3c2eae07997&amp;utm_medium=3Demail"=
+ rel=3D"noopener noreferrer" style=3D"background:transparent;border-radius:=
+50px;color:#ffffff;display:inline-block;font-family:'SF Pro Display', -appl=
+e-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;f=
+ont-weight:600;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;te=
+xt-decoration:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE=
+]><span style=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"comment" src=
+=3D"https://cdn-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_0=
+1jmdv6s5fevecq2mwr1tmmwss%2FpONe1AzqSS2ydddAswCs_BubbleOutlined%20(1).png" =
+style=3D"vertical-align:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></=
+span><![endif]--></a></td></tr></tbody></table>
+ </td>
+ <td align=3D"right" style=3D"padding-right: 8px">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border=
+:1px solid #cccccc;background:transparent;border-radius:50px;cursor:auto;ms=
+o-padding-alt:8px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+ps://www.patreon.com/InvestAnswers/posts/end-of-cheap-era-163165725?utm_cam=
+paign=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D16316572=
+5&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6=
+ODM0OTM1NWUtYzE3MS00NGVhLThmMGItNzg5YjM0NTQ0ZTc2IiwicG9zdF9pZCI6MTYzMTY1NzI=
+1LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GC52a5E7KymeDdS3va9KOXL6qvolM4syMgOyrHUU47=
+4&amp;utm_id=3Df7068406-6471-482c-b4f1-b3c2eae07997&amp;utm_medium=3Demail"=
+ rel=3D"noopener noreferrer" style=3D"background:transparent;border-radius:=
+50px;color:#ffffff;display:inline-block;font-family:'SF Pro Display', -appl=
+e-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;f=
+ont-weight:600;line-height:16px;margin:0;mso-padding-alt:0px;padding:8px;te=
+xt-decoration:none;text-transform:none;" target=3D"_blank"><!--[if mso | IE=
+]><span style=3D"mso-text-raise:-2px;"><![endif]--><img alt=3D"share" src=
+=3D"https://cdn-web-assets.dyspatch.io/org_01gvh8mwwb22j90stngkwjbkvx/fdr_0=
+1jmdv6s5fevecq2mwr1tmmwss%2FFkHQyZCfR8O5oErCuqC4_Share%20(2).png" style=3D"=
+vertical-align:-2px;width:19px;" width=3D"19"><!--[if mso | IE]></span><![e=
+ndif]--></a></td></tr></tbody></table>
+ </td>
+ <td>
+=20
+ <div class=3D"dys-desktop"><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"border-collapse:separate;line-heigh=
+t:100%;"><tbody><tr><td align=3D"center" bgcolor=3D"transparent" role=3D"pr=
+esentation" style=3D"border:1px solid #CCCCCC;border-color:#CCCCCC;backgrou=
+nd:transparent;border-radius:50px;cursor:auto;mso-padding-alt:8px 20px;" va=
+lign=3D"middle"><a class=3D"dys-button-a" href=3D"https://open.patreon.com/=
+InvestAnswers/posts/end-of-cheap-era-163165725?utm_campaign=3Dpatron_engage=
+ment&amp;utm_source=3Dpost_link&amp;post_id=3D163165725&amp;token=3DeyJhbGc=
+iOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6ODM0OTM1NWUtYzE3MS00N=
+GVhLThmMGItNzg5YjM0NTQ0ZTc2IiwicG9zdF9pZCI6MTYzMTY1NzI1LCJwYXRyb25faWQiOjE4=
+NTE3MTg0OX0.GC52a5E7KymeDdS3va9KOXL6qvolM4syMgOyrHUU474&amp;utm_id=3Df70684=
+06-6471-482c-b4f1-b3c2eae07997&amp;utm_medium=3Demail" rel=3D"noopener nore=
+ferrer" style=3D"background:transparent;border-radius:50px;color:#000000;di=
+splay:inline-block;font-family:'SF Pro Display', -apple-system, system-ui, =
+BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:600;line-h=
+eight:20px;margin:0;mso-padding-alt:0px;padding:8px 20px;text-decoration:no=
+ne;text-transform:none;" target=3D"_blank">View in app</a></td></tr></tbody=
+></table></div>
+=20
+=20
+ <div><!--[if !mso]--><div class=3D"dys-mobile" style=3D"display:none;"><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse:separate;line-height:100%;"><tbody><tr><td align=
+=3D"center" bgcolor=3D"transparent" role=3D"presentation" style=3D"border:1=
+px solid #CCCCCC;border-color:#CCCCCC;background:transparent;border-radius:=
+50px;cursor:auto;mso-padding-alt:8px 20px;" valign=3D"middle"><a class=3D"d=
+ys-button-a" href=3D"https://open.patreon.com/InvestAnswers/posts/end-of-ch=
+eap-era-163165725?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpost_li=
+nk&amp;post_id=3D163165725&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9=
+=2EeyJyZWRpc19rZXkiOiJpYTI6ODM0OTM1NWUt=
+YzE3MS00NGVhLThmMGItNzg5YjM0NTQ0ZTc2Ii=
+wicG9zdF9pZCI6MTYzMTY1NzI1LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GC52a5E7KymeDdS3v=
+a9KOXL6qvolM4syMgOyrHUU474&amp;utm_id=3Df7068406-6471-482c-b4f1-b3c2eae0799=
+7&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"background:t=
+ransparent;border-radius:50px;color:#000000;display:inline-block;font-famil=
+y:'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', =
+Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI=
+ Symbol';font-size:14px;font-weight:600;line-height:20px;margin:0;mso-paddi=
+ng-alt:0px;padding:8px 20px;text-decoration:none;text-transform:none;" targ=
+et=3D"_blank">View in app</a></td></tr></tbody></table></div><!--[endif]-->=
+</div>
+=20
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:0px 4px;padding-bottom:0px;padding-left:12p=
+x;padding-right:12px;padding-top:0px;text-align:center;vertical-align:top;"=
+><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:576px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"text-mb-sz-16 post-content" style=
+=3D"font-size:0px;padding:0px 0px 16px;padding-bottom:0;word-break:break-wo=
+rd;"><div style=3D"color:#000000;font-family:-apple-system, system-ui, Blin=
+kMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol';font-size:18px;font-weight:400;line-heigh=
+t:29px;text-align:left;"><p style=3D"margin-top:0;margin-bottom:0"></p><p s=
+tyle=3D"margin:10px 0">Bond yields are sky rocketing in Japan.  For 30 year=
+s plus or as long as I have tracked they always had cheap money.  This is w=
+here the systemic risk comes in. Japan isn't isolated=E2=80=94its low-rate =
+regime exported liquidity and capital worldwide for years.</p><ol><li><p st=
+yle=3D"margin:10px 0">Higher JGB yields + yen volatility force massive dele=
+veraging =E2=80=94 investors sell US stocks, bonds, EM assets, and crypto t=
+o repay cheap yen loans, triggering a liquidity crunch.</p></li><li><p styl=
+e=3D"margin:10px 0">Japanese institutions pull money home from US Treasurie=
+s and global markets to chase higher domestic yields, starving foreign bond=
+ markets of demand and pushing yields higher everywhere.</p></li><li><p sty=
+le=3D"margin:10px 0">Japan=E2=80=99s 250%+ debt trap + banking losses creat=
+e sovereign/financial stress that could spill over into other markets. </p>=
+</li></ol><p style=3D"margin:10px 0">The good news, if it does blow up, thi=
+s is the kinda thing that is great for Bitcoin after the initial dip.... th=
+is is what BTC was built for. </p><p style=3D"margin:10px 0"></p><p></p></d=
+iv></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pd-outlook" style=3D"width:600px;" width=3D"600"><tr><td styl=
+e=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pd" style=3D"margin:0px auto;max-width:600=
+px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dire=
+ction:ltr;font-size:0px;padding:16px 4px;text-align:center;vertical-align:t=
+op;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exac=
+tly;">
+<![endif]--><!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mb-pd-cr-outlook card-pd-32-outlook mb-crd-pd-outlook" style=3D"widt=
+h:592px;" width=3D"592"><tr><td style=3D"line-height:0px;font-size:0px;mso-=
+line-height-rule:exactly;">
+<![endif]--><div class=3D"mb-pd-cr card-pd-32 mb-crd-pd" style=3D"backgroun=
+d-color:#F5F5F5;border-radius:8px;margin:0px auto;max-width:592px;"><table =
+align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"background-color:#F5F5F5;border-collapse:separate;bor=
+der-radius:8px;width:100%;"><tbody><tr><td style=3D"border-radius:8px;direc=
+tion:ltr;font-size:0px;padding:24px;text-align:center;vertical-align:top;">=
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:544px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td><div>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"stack-con=
+tainer-mb" width=3D"100%">
+ <tbody>
+ <tr>
+ <td valign=3D"middle">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+ <tbody>
+ <tr>
+ <td height=3D"60" style=3D"min-width:60px;min-height:60px;width:60px;heigh=
+t:60;" width=3D"60">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:60px;"><img height=3D"auto" src=3D"https://c10.patreonusercon=
+tent.com/4/patreon-media/p/campaign/6060700/1e1c15135a1b458c8c3199bbee7f657=
+b/eyJoIjoxMjAsInciOjEyMH0%3D/4.png?token-hash=3DSCP2JJ3CAyW5eoxpmDCcJ6ZUb9D=
+qMvvrYjhCfua5ADo%3D" style=3D"border:none;border-radius:60px;display:block;=
+font-size:13px;height:auto;outline:none;text-decoration:none;width:100%;" w=
+idth=3D"60"></td></tr></tbody></table>
+ </td>
+ <td style=3D"padding-left:16px;">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+ <tbody>
+ <tr>
+ <td>
+ <h4 style=3D"color:#000000;font-family:'SF Pro Display', -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';font-size:16px;font-weight:6=
+00;line-height:21px;margin:0;padding:0;text-align:left;"><p style=3D"margin=
+-top:0;margin-bottom:0"> Did you like this post?</p></h4>
+ </td>
+ </tr>
+ <tr>
+ <td style=3D"padding-top:4px;">
+ <div style=3D"color:#626262;font-family:-apple-system, system-ui, BlinkMac=
+SystemFont, 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol';font-size:14px;font-weight:400;line-height:20=
+px;text-align:left;"><p style=3D"margin-top:0;margin-bottom:0"> Share this =
+post with someone who might enjoy it.</p></div>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class=3D"button-cell-mb" style=3D"width:180px;max-width:180px;padding-=
+left:16px;word-break: break-all;" width=3D"180">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:separate;line-height:100%;width:100%;"><tbody>=
+<tr><td align=3D"center" bgcolor=3D"#0D0D0D" role=3D"presentation" style=3D=
+"border:1px solid #0D0D0D;border-color:#0D0D0D;background:#0D0D0D;border-ra=
+dius:50px;cursor:auto;mso-padding-alt:8px 20px;" valign=3D"middle"><a class=
+=3D"dys-button-a" href=3D"https://www.patreon.com/InvestAnswers/posts/end-o=
+f-cheap-era-163165725?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dpos=
+t_link&amp;post_id=3D163165725&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpX=
+VCJ9.eyJyZWRpc19rZXkiOiJpYTI6ODM0OTM1NWUtYzE3MS00NGVhLThmMGItNzg5YjM0NTQ0ZT=
+c2IiwicG9zdF9pZCI6MTYzMTY1NzI1LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GC52a5E7KymeD=
+dS3va9KOXL6qvolM4syMgOyrHUU474&amp;utm_id=3Df7068406-6471-482c-b4f1-b3c2eae=
+07997&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"backgrou=
+nd:#0D0D0D;border-radius:50px;color:#ffffff;display:block;font-family:'SF P=
+ro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', Roboto,=
+ Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol=
+';font-size:14px;font-weight:600;line-height:20px;margin:0;mso-padding-alt:=
+0px;padding:8px 20px;text-decoration:none;text-transform:none;" target=3D"_=
+blank">Share</a></td></tr></tbody></table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+=20
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:28px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:0px;word-br=
+eak:break-word;"><p style=3D"border-top-color:#E8E8E8;border-top-style:soli=
+d;border-top-width:1px;font-size:1px;margin:0px auto;width:100%;"></p><!--[=
+if mso | IE]><table align=3D'center' border=3D'0' cellpadding=3D'0' cellspa=
+cing=3D'0' role=3D'presentation' style=3D'border-top-color:#E8E8E8;border-t=
+op-style:solid;border-top-width:1px;font-size:1px;margin:0px auto;width:592=
+px;' width=3D'592px'><tr><td style=3D'height:0;line-height:0;'>&nbsp</td></=
+tr></table><![endif]--></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:16px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:296px;">
+<![endif]--><div class=3D"dys-column-per-50 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"fnt12" style=3D"font-size:0px;paddi=
+ng:0px 0px 16px;padding-bottom:0;word-break:break-word;"><div style=3D"colo=
+r:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Inter'=
+, Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol';font-size:12px;font-weight:400;line-height:17px;text-align:left;=
+">
+ =C2=A9 2026 InvestAnswers<br><a href=3D"https://privacy.patreon.com/polici=
+es?utm_id=3Df7068406-6471-482c-b4f1-b3c2eae07997&amp;utm_medium=3Demail" re=
+l=3D"noopener noreferrer" style=3D"color:#666666;text-decoration:underline"=
+ title=3D"Patreon's privacy policy">Privacy policy</a> | <a href=3D"https:/=
+/www.patreon.com/policy/legal?utm_id=3Df7068406-6471-482c-b4f1-b3c2eae07997=
+&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666=
+;text-decoration:underline" title=3D"Patreon's terms of use">Terms of use</=
+a>
+ 600 Townsend Street<br>San Francisco, CA 94103
+ </div></td></tr>
+=20
+=20
+ </tbody></table></div><!--[if mso | IE]>
+</td><td style=3D"vertical-align:top;width:296px;">
+<![endif]--><div class=3D"dys-column-per-50 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"right" class=3D"footer-text" style=3D"font-size:0p=
+x;padding:0px 0px 16px;padding-bottom:0;word-break:break-word;"><div style=
+=3D"color:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont,=
+ 'Inter', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol';font-size:12px;font-weight:400;line-height:17px;text-ali=
+gn:right;">Email was sent to <a href=3D"mailto:samin@aianswer.us" rel=3D"no=
+opener noreferrer" style=3D"color:#666666;text-decoration:underline">samin@=
+aianswer.us</a><br><a href=3D"https://www.patreon.com/email-unsubscribe?tok=
+en=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGQiOiJaMEZCUVVGQlFuRlVVelZyV=
+1daV1dGa3pSR2N0VUhWdE0xaHFZbFZCV1dkbWRtRlZWREoyWTFWT1lUQldTMHBEV1VObGIxbDRV=
+RW8yWnpGdWIxcEVZemhHWjJwbk9GbE9UM0kyVEVOMGJHRlNVREJKVkZVNFRucHJWa05yVlZacVR=
+UVnBWalYyVDNGNUxXcHhSbkZzVW5OTWFqSmtTMDh6UzBWTlprZG1ibGhUWm0xcmFXaDBTVTgyWm=
+tONk1sbElSalZDWmpCSmJFRXphbVJHVGtkV1pGTkxiVGh3VW5wd2FUWk5hRlIyWTFoc2FUZDJXR=
+Gg1TlRWWk9WWjVVWEEwZFVWdGJsY3dTMUZVYTJneFVVVjFiVUp1TVVoVGRVeGxOMmhPYTNCV1Uw=
+MXRWbGh2Ym5kc2NUbE5jWEF0VWpSRGNITXlRWFZmYjNCWk1TMVZaVlF3Tlc1dlFqQXliWGMzTlc=
+xbVFqUlRjMUV0VEZBMU1rOHlSMGgxYzNkVlkyUnpPRXAxVVZGSFRrUnBZMHB3VTFWR2NXVkpiSF=
+Z2VVRnNWQweHJiSGhUV1hBMU1EVTNMV2xJUTNCRVJrdFlWVGhMVjBoT1dWUjBVM1ZKVVRZMVRrT=
+TJZbWhIYVRSWk4ySjZUa0prVVZaUlVGaEdlbTg1U3pSeVVEQjBla2RJZFhoMVJYTnFRemsxYm1a=
+bmVsSkJkWGcyTTJRdGQwNDJXbnBsUWxkNGIwcERMWEJwYTFGa1pIUjBNRzB3YURObWRVNHhkVGx=
+xUmpOSVJFZGxVbEl0ZURWa2RIUXRWR1p1TWxkc1YyaHlZbGhXWlVoNGFGUjVXVWhHU0U5S05rNX=
+RUbHBqYzIxV2NETmpkalF3TTJsVlVEbE9PV1JpY21oeE5EQTkifQ.k-lolKaVqoz6iMMoQr6-Ni=
+OYsUQfrcAmM6_1J2yt8yk&amp;utm_campaign=3Dpatron_engagement&amp;utm_source=
+=3Dunsubscribe&amp;utm_id=3Df7068406-6471-482c-b4f1-b3c2eae07997&amp;utm_me=
+dium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;text-decor=
+ation:underline">Unsubscribe</a> | <a href=3D"https://www.patreon.com/setti=
+ngs/email/InvestAnswers?utm_campaign=3Dpatron_engagement&amp;utm_source=3Dm=
+anage_email_settings&amp;utm_id=3Df7068406-6471-482c-b4f1-b3c2eae07997&amp;=
+utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"color:#666666;text=
+-decoration:underline">Manage your email settings</a></div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+<!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row-mb-pad-outlook" style=3D"width:600px;" width=3D"600"><tr><td sty=
+le=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"row-mb-pad" style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"dir=
+ection:ltr;font-size:0px;padding:0px 4px;padding-top:16px;text-align:center=
+;vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:592px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" class=3D"fnt12" style=3D"font-size:0px;paddi=
+ng:0px 0px 16px;padding-top:0px;word-break:break-word;"><div style=3D"color=
+:#666666;font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Inter',=
+ Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe U=
+I Symbol';font-size:12px;font-weight:400;line-height:17px;text-align:left;"=
+>
+ Download the app - <a href=3D"https://open.patreon.com/InvestAnswers/posts=
+/end-of-cheap-era-163165725?utm_campaign=3Dpatron_engagement&amp;utm_source=
+=3Dpost_link&amp;post_id=3D163165725&amp;token=3DeyJhbGciOiJIUzI1NiIsInR5cC=
+I6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6ODM0OTM1NWUtYzE3MS00NGVhLThmMGItNzg5YjM0=
+NTQ0ZTc2IiwicG9zdF9pZCI6MTYzMTY1NzI1LCJwYXRyb25faWQiOjE4NTE3MTg0OX0.GC52a5E=
+7KymeDdS3va9KOXL6qvolM4syMgOyrHUU474&amp;utm_id=3Df7068406-6471-482c-b4f1-b=
+3c2eae07997&amp;utm_medium=3Demail" rel=3D"noopener noreferrer" style=3D"co=
+lor:#666666;text-decoration:underline">Google Play</a> | <a href=3D"https:/=
+/open.patreon.com/InvestAnswers/posts/end-of-cheap-era-163165725?utm_campai=
+gn=3Dpatron_engagement&amp;utm_source=3Dpost_link&amp;post_id=3D163165725&a=
+mp;token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6ODM=
+0OTM1NWUtYzE3MS00NGVhLThmMGItNzg5YjM0NTQ0ZTc2IiwicG9zdF9pZCI6MTYzMTY1NzI1LC=
+JwYXRyb25faWQiOjE4NTE3MTg0OX0.GC52a5E7KymeDdS3va9KOXL6qvolM4syMgOyrHUU474&a=
+mp;utm_id=3Df7068406-6471-482c-b4f1-b3c2eae07997&amp;utm_medium=3Demail" re=
+l=3D"noopener noreferrer" style=3D"color:#666666;text-decoration:underline"=
+>App Store</a>
+ </div></td></tr>=20
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endi=
+f]--></div> <img width=3D"1" height=3D"1" alt=3D"" src=3D"http://email.crea=
+tor.patreon.com/o/eJyMVMuSo7gS_RrY3IDQCwQLFu5b645ezF6RiMTWFEiEJFzj-foJDGXjL=
+s-Ud6A8efLks52HdzW6DhuSahgnMEerTNeUpCSSkFTPIbpRWWc1Nj_xIwwYI_pfLsSEH2jJaVlI=
+ViT8wAgrMyIzIv9Hy4QfRJ3wA5dp19RCI-Mk7dwIxip3Ru9Nh432CNH5fILo0dlcuzHFhsqKC8G=
+JECmOYAZ1k2VhxCZ6sAF0NM7CsCFM1_SSlJUgZVYKSTNRMZ21oqdZyzVDQCLrWm5o66Lp1bNk9_=
+Z4mbC5gVbL5ELcQJM3zpt4aUIE24HvtvdwCRHH5vqTBfRnozGzs_1z1u8hxb-iBzW449HYo5q8m=
+0KTyB8JY2ijiRdluoSxhB_sPAwJ-3_C2OTNCP6iVsBqfepy78XVb7MuaWxOjC36lx_5tmICareI=
+39gNht-jB7Qd-n3U9eUWdSvdHv0Y87OE-7i72t9wNyK2Yq5dMBqWRl87f0P-xI9fWyJXZA_WzXH=
+PRWjd807qjBdVnclasAxIUWd9yXroZFmwFm7u7Wy7AZ9U3gS12qAdcGeUb-mpKXXFBLSVKGhLUF=
+dcUNqLAivokbGOp6ZZFoJIImlZECHyEjpaAml5rWnNoUoEebYAxka0cR2_x31LTVAnczzdZ4-kD=
+1V6dQ0enL4O8qZGbdO7rt3VJ5sGiL3zY7pM0hLvNnTry1W1GeGIqjcDpr4JMBqbCAIGbPhAn88h=
+9RBRDWY0MTRJ8SMp3lKP2kxmSTyYv1G1s37H2NA0nNw8dEqfwFocVDx5F-OwHKvNMj48xibiuIh=
+EZW-1u25thPC-CMaKAiMly3TbdpmgNWQt0TKrS9AAuiZVAemd5Jr6b0xmNPa4ra0eVtERfFTR7K=
+b0fg7_2J_DXNCikOXzMf8s77KO_jI5Y-ONb9kttY363il8Q-VRozlj94I6QfJaiKK6L2Fvhohe3=
+bszmPB6toXMi7qq6Hd8S2b_yVaQhB8IzwkvZP0vtTuiRb9-vqBvx1iR7xlfVFjlsq6KXb6fc_uq=
+IsFzWVVSfmWYvDubbq3dC_1c2UROOZGy_sLW4WDO6B9YPm_bHK7nvaFVQSWtRJ2eG_ZPAAAA__8=
+lVZBd"></body></html>

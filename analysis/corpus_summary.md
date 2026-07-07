@@ -1,14 +1,22 @@
 # Corpus Summary
 
-Generated: 2026-07-07T13:03:53+00:00
+Generated: 2026-07-07T18:03:37+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 566
-- Emails exported: 566
-- Years: {"2026": 566}
+- Message IDs found: 574
+- Emails exported: 574
+- Years: {"2026": 574}
 
 ## Latest 20 subjects
 
+- Dumb DAOs
+- How to lose $2M in an Instant
+- End of Cheap Money Era in Japan
+- People fear in car monitoring
+- STRC was just listed on Binance
+- Robotics Industry Players
+- The Widowmaker in Finance
+- New SPACEX Price Targets Flooding in
 - Day 2 BTC ETFs run Positive
 - Tesla VP says Robots are coming at scale before year end
 - VIDEO - Bitcoin: Reloading Zone
@@ -21,11 +29,3 @@ Generated: 2026-07-07T13:03:53+00:00
 - Florida on Sale
 - Legacy automakers are in serious trouble.
 - Futures and BTC looking good so far
-- China's AI Chip Independence
-- USA vs China AI
-- Unprecedented Deltas in US Real Estate Rentals
-- VIDEO - Live Q&A: $7 Million Mistake
-- Rule du Jour: Rule #114 Know your Wiring
-- AI Capex Spend about to Eclipse Defense Spending
-- CAGR Since US Independence Day 250 Years
-- Can Terafab Actually Happen? The Bare Minimum Semiconductor Supply Chain
