@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 564,
-  "message_id_count": 564,
-  "generated_at": "2026-07-06T21:04:00+00:00",
+  "count": 566,
+  "message_id_count": 566,
+  "generated_at": "2026-07-07T13:03:53+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -14671,6 +14671,58 @@
       "text_chars": 1872,
       "raw_bytes": 55658,
       "sizeEstimate": 55658,
+      "attachments": []
+    },
+    {
+      "messageId": "19f3ab3c52519142",
+      "threadId": "19f3ab3c52519142",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f3ab3c52519142",
+      "subject": "Tesla VP says Robots are coming at scale before year end",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 07 Jul 2026 03:51:26 +0000",
+      "date_iso": "2026-07-07T03:51:26+00:00",
+      "message_id_header": "<20260707035126.5acac16d3410cf61@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "TranslationOn the news front, on July 3rd at the 2026 Global Digital Economy Conference in Beijing, Tesla Vice President Tao Lin delivered a keynote s... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-07_035126_Tesla-VP-says-Robots-are-coming-at-scale-before-year-end_19f3ab3c52519142_d0ef5751",
+      "raw_path": "emails/raw_eml/2026-07-07_035126_Tesla-VP-says-Robots-are-coming-at-scale-before-year-end_19f3ab3c52519142_d0ef5751.eml",
+      "text_path": "emails/text_md/2026-07-07_035126_Tesla-VP-says-Robots-are-coming-at-scale-before-year-end_19f3ab3c52519142_d0ef5751.md",
+      "meta_path": "emails/metadata/2026-07-07_035126_Tesla-VP-says-Robots-are-coming-at-scale-before-year-end_19f3ab3c52519142_d0ef5751.json",
+      "text_chars": 2266,
+      "raw_bytes": 53257,
+      "sizeEstimate": 53257,
+      "attachments": []
+    },
+    {
+      "messageId": "19f3abee60af3eb6",
+      "threadId": "19f3abee60af3eb6",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f3abee60af3eb6",
+      "subject": "Day 2 BTC ETFs run Positive",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 07 Jul 2026 04:03:35 +0000",
+      "date_iso": "2026-07-07T04:03:35+00:00",
+      "message_id_header": "<20260707040335.d1452688ad2d2de7@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "I was not sure last week, perhaps Thursday was a flash in the pan. But today also came in positive. ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-07_040335_Day-2-BTC-ETFs-run-Positive_19f3abee60af3eb6_68387493",
+      "raw_path": "emails/raw_eml/2026-07-07_040335_Day-2-BTC-ETFs-run-Positive_19f3abee60af3eb6_68387493.eml",
+      "text_path": "emails/text_md/2026-07-07_040335_Day-2-BTC-ETFs-run-Positive_19f3abee60af3eb6_68387493.md",
+      "meta_path": "emails/metadata/2026-07-07_040335_Day-2-BTC-ETFs-run-Positive_19f3abee60af3eb6_68387493.json",
+      "text_chars": 1837,
+      "raw_bytes": 52648,
+      "sizeEstimate": 52648,
       "attachments": []
     }
   ]
