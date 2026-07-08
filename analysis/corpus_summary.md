@@ -1,14 +1,19 @@
 # Corpus Summary
 
-Generated: 2026-07-08T18:04:11+00:00
+Generated: 2026-07-08T21:02:20+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 584
-- Emails exported: 584
-- Years: {"2026": 584}
+- Message IDs found: 589
+- Emails exported: 589
+- Years: {"2026": 589}
 
 ## Latest 20 subjects
 
+- Video: TA Wednesday
+- IA Trade Alert
+- Grok has won
+- How UK Job Postings have changed the last 4 years
+- IA portfolio July 8, 2026
 - Broadcom Deal w Apple
 - Nothing Stops this Stock Train....???
 - Miracle of Compounding for Kids
@@ -24,8 +29,3 @@ Generated: 2026-07-08T18:04:11+00:00
 - End of Cheap Money Era in Japan
 - People fear in car monitoring
 - STRC was just listed on Binance
-- Robotics Industry Players
-- The Widowmaker in Finance
-- New SPACEX Price Targets Flooding in
-- Day 2 BTC ETFs run Positive
-- Tesla VP says Robots are coming at scale before year end
