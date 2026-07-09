@@ -1,14 +1,19 @@
 # Corpus Summary
 
-Generated: 2026-07-09T13:03:28+00:00
+Generated: 2026-07-09T18:02:36+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 590
-- Emails exported: 590
-- Years: {"2026": 590}
+- Message IDs found: 595
+- Emails exported: 595
+- Years: {"2026": 595}
 
 ## Latest 20 subjects
 
+- Drop your Tesla/SpaceX Questions
+- Tesla Robotaxi Ramp + Optimus Ramp
+- How $180 million could be the new million
+- Monstrous Humanoid Scaling in China
+- My Top 200 Watchlist
 - AI Is Directly Empowering Mag7 Earnings
 - Video: TA Wednesday
 - IA Trade Alert
@@ -24,8 +29,3 @@ Generated: 2026-07-09T13:03:28+00:00
 - Record Crash in Canadian Real Estate
 - People still do not believe in Tesla FSD
 - PLTR next 6 Mths
-- IA Weekly Nuggets (June 27-July 3, 2027)
-- Dumb DAOs
-- How to lose $2M in an Instant
-- End of Cheap Money Era in Japan
-- People fear in car monitoring
