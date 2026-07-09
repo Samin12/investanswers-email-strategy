@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-07-08T21:02:20+00:00
+Generated: 2026-07-09T13:03:28+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 589
-- Emails exported: 589
-- Years: {"2026": 589}
+- Message IDs found: 590
+- Emails exported: 590
+- Years: {"2026": 590}
 
 ## Latest 20 subjects
 
+- AI Is Directly Empowering Mag7 Earnings
 - Video: TA Wednesday
 - IA Trade Alert
 - Grok has won
@@ -28,4 +29,3 @@ Generated: 2026-07-08T21:02:20+00:00
 - How to lose $2M in an Instant
 - End of Cheap Money Era in Japan
 - People fear in car monitoring
-- STRC was just listed on Binance
