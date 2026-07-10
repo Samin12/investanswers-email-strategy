@@ -1,14 +1,21 @@
 # Corpus Summary
 
-Generated: 2026-07-10T13:05:03+00:00
+Generated: 2026-07-10T18:05:56+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 599
-- Emails exported: 599
-- Years: {"2026": 599}
+- Message IDs found: 606
+- Emails exported: 606
+- Years: {"2026": 606}
 
 ## Latest 20 subjects
 
+- Upcoming Fireside Chat
+- SpaceX Domination
+- BTC vs QQQ
+- Why I never touch funds, ETFs etc
+- Tangem Wallet Security Flaw
+- SK Hynix top 3 Memory Player Debut today
+- BTC ETFs positive so far this week
 - SpaceX Holders
 - ⚠️ IMPORTANT SCAM WARNING
 - SpaceX & Tesla Merger Math + LEAPS
@@ -22,10 +29,3 @@ Generated: 2026-07-10T13:05:03+00:00
 - Video: TA Wednesday
 - IA Trade Alert
 - Grok has won
-- How UK Job Postings have changed the last 4 years
-- IA portfolio July 8, 2026
-- Broadcom Deal w Apple
-- Nothing Stops this Stock Train....???
-- Miracle of Compounding for Kids
-- Terawulf BTC Miner Soars on Anthropic Deal
-- MSTR does plan to get above 1M BTC
