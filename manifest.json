@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 606,
-  "message_id_count": 606,
-  "generated_at": "2026-07-10T18:05:56+00:00",
+  "count": 607,
+  "message_id_count": 607,
+  "generated_at": "2026-07-10T21:03:10+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -15763,6 +15763,32 @@
       "text_chars": 2196,
       "raw_bytes": 53090,
       "sizeEstimate": 53090,
+      "attachments": []
+    },
+    {
+      "messageId": "19f4d9472d0a4ea8",
+      "threadId": "19f4d9472d0a4ea8",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f4d9472d0a4ea8",
+      "subject": "VIDEO - The Turnaround",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 10 Jul 2026 19:50:00 +0000",
+      "date_iso": "2026-07-10T19:50:00+00:00",
+      "message_id_header": "<20260710195000.bb99f27f10edeeea@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Live at 1pm Pacific: https://youtube.com/live/3MIB75YHVDk... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-10_195000_VIDEO-The-Turnaround_19f4d9472d0a4ea8_28d33e2b",
+      "raw_path": "emails/raw_eml/2026-07-10_195000_VIDEO-The-Turnaround_19f4d9472d0a4ea8_28d33e2b.eml",
+      "text_path": "emails/text_md/2026-07-10_195000_VIDEO-The-Turnaround_19f4d9472d0a4ea8_28d33e2b.md",
+      "meta_path": "emails/metadata/2026-07-10_195000_VIDEO-The-Turnaround_19f4d9472d0a4ea8_28d33e2b.json",
+      "text_chars": 1856,
+      "raw_bytes": 55652,
+      "sizeEstimate": 55652,
       "attachments": []
     }
   ]

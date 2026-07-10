@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-07-10T18:05:56+00:00
+Generated: 2026-07-10T21:03:10+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 606
-- Emails exported: 606
-- Years: {"2026": 606}
+- Message IDs found: 607
+- Emails exported: 607
+- Years: {"2026": 607}
 
 ## Latest 20 subjects
 
+- VIDEO - The Turnaround
 - Upcoming Fireside Chat
 - SpaceX Domination
 - BTC vs QQQ
@@ -28,4 +29,3 @@ Generated: 2026-07-10T18:05:56+00:00
 - AI Is Directly Empowering Mag7 Earnings
 - Video: TA Wednesday
 - IA Trade Alert
-- Grok has won
