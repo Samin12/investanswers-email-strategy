@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-07-09T21:03:59+00:00
+Generated: 2026-07-10T13:05:03+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 596
-- Emails exported: 596
-- Years: {"2026": 596}
+- Message IDs found: 599
+- Emails exported: 599
+- Years: {"2026": 599}
 
 ## Latest 20 subjects
 
+- SpaceX Holders
+- ⚠️ IMPORTANT SCAM WARNING
+- SpaceX & Tesla Merger Math + LEAPS
 - VIDEO - Cyberbulls: Unlocking Scale
 - Drop your Tesla/SpaceX Questions
 - Tesla Robotaxi Ramp + Optimus Ramp
@@ -26,6 +29,3 @@ Generated: 2026-07-09T21:03:59+00:00
 - Miracle of Compounding for Kids
 - Terawulf BTC Miner Soars on Anthropic Deal
 - MSTR does plan to get above 1M BTC
-- VIDEO - OCTA: Market Liquidity Shock
-- Record Crash in Canadian Real Estate
-- People still do not believe in Tesla FSD
