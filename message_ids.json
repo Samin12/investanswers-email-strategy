@@ -1,9 +1,113 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 607,
-  "generated_at": "2026-07-10T21:03:10+00:00",
+  "count": 633,
+  "generated_at": "2026-07-14T13:03:34+00:00",
   "messages": [
+    {
+      "messageId": "19f6082068e4f533",
+      "threadId": "19f6082068e4f533"
+    },
+    {
+      "messageId": "19f5e770c7f13351",
+      "threadId": "19f5e770c7f13351"
+    },
+    {
+      "messageId": "19f5de663353344d",
+      "threadId": "19f5de663353344d"
+    },
+    {
+      "messageId": "19f5d14c4a1aeb5f",
+      "threadId": "19f5d14c4a1aeb5f"
+    },
+    {
+      "messageId": "19f5d072e9271902",
+      "threadId": "19f5d072e9271902"
+    },
+    {
+      "messageId": "19f5c39ca9d0e4af",
+      "threadId": "19f5c39ca9d0e4af"
+    },
+    {
+      "messageId": "19f5bda9c1427b91",
+      "threadId": "19f5bda9c1427b91"
+    },
+    {
+      "messageId": "19f58d4c2bb87637",
+      "threadId": "19f58d4c2bb87637"
+    },
+    {
+      "messageId": "19f58d00b2e7886c",
+      "threadId": "19f58d00b2e7886c"
+    },
+    {
+      "messageId": "19f58054aa6f6414",
+      "threadId": "19f58054aa6f6414"
+    },
+    {
+      "messageId": "19f57b9031f9968c",
+      "threadId": "19f57b9031f9968c"
+    },
+    {
+      "messageId": "19f5780fb6be3134",
+      "threadId": "19f5780fb6be3134"
+    },
+    {
+      "messageId": "19f5779aa815ec29",
+      "threadId": "19f5779aa815ec29"
+    },
+    {
+      "messageId": "19f576db02478017",
+      "threadId": "19f576db02478017"
+    },
+    {
+      "messageId": "19f56eea991bbfd7",
+      "threadId": "19f56eea991bbfd7"
+    },
+    {
+      "messageId": "19f56e49443c871a",
+      "threadId": "19f56e49443c871a"
+    },
+    {
+      "messageId": "19f56cce61e64e2b",
+      "threadId": "19f56cce61e64e2b"
+    },
+    {
+      "messageId": "19f537966945a25f",
+      "threadId": "19f537966945a25f"
+    },
+    {
+      "messageId": "19f52fa34d6097d9",
+      "threadId": "19f52fa34d6097d9"
+    },
+    {
+      "messageId": "19f527d8d2afb306",
+      "threadId": "19f527d8d2afb306"
+    },
+    {
+      "messageId": "19f51e02b908283a",
+      "threadId": "19f51e02b908283a"
+    },
+    {
+      "messageId": "19f51d8b5c831efe",
+      "threadId": "19f51d8b5c831efe"
+    },
+    {
+      "messageId": "19f51bcc8e4eebf7",
+      "threadId": "19f51bcc8e4eebf7"
+    },
+    {
+      "messageId": "19f519c4500c65c9",
+      "threadId": "19f519c4500c65c9"
+    },
+    {
+      "messageId": "19f4e777ca24d44c",
+      "threadId": "19f4e777ca24d44c"
+    },
+    {
+      "messageId": "19f4e494f23127e9",
+      "threadId": "19f4e494f23127e9"
+    },
     {
       "messageId": "19f4d9472d0a4ea8",
       "threadId": "19f4d9472d0a4ea8"

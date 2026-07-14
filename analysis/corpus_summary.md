@@ -1,31 +1,31 @@
 # Corpus Summary
 
-Generated: 2026-07-10T21:03:10+00:00
+Generated: 2026-07-14T13:03:34+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 607
-- Emails exported: 607
-- Years: {"2026": 607}
+- Message IDs found: 633
+- Emails exported: 633
+- Years: {"2026": 633}
 
 ## Latest 20 subjects
 
-- VIDEO - The Turnaround
-- Upcoming Fireside Chat
-- SpaceX Domination
-- BTC vs QQQ
-- Why I never touch funds, ETFs etc
-- Tangem Wallet Security Flaw
-- SK Hynix top 3 Memory Player Debut today
-- BTC ETFs positive so far this week
-- SpaceX Holders
-- ⚠️ IMPORTANT SCAM WARNING
-- SpaceX & Tesla Merger Math + LEAPS
-- VIDEO - Cyberbulls: Unlocking Scale
-- Drop your Tesla/SpaceX Questions
-- Tesla Robotaxi Ramp + Optimus Ramp
-- How $180 million could be the new million
-- Monstrous Humanoid Scaling in China
-- My Top 200 Watchlist
-- AI Is Directly Empowering Mag7 Earnings
-- Video: TA Wednesday
-- IA Trade Alert
+- Dex Volume Leaders
+- Marcus Aurelius: The importance of Rules for Early Retirement
+- SPCX and TSLA/SPCX Update
+- VIDEO - Bitcoin: 61 Days To Go
+- Interesting BTC Pattern
+- EXCLUSIVE Fireside Chat - Happening NOW
+- Saylor Diluted Again to beef up STRC Dividends to 20 months
+- Rotation of the Decade
+- Expect Less Volatility in the Future
+- Well there it is... #1 spot on the SWE-Atlas-QnA benchmark
+- VIDEO - Live Q&A: Stop Selling Winners
+- Tesla TAM vs SpaceX TAM
+- What a Gigawatt Data Center costs
+- Odds of $40K Bitcoin
+- Fidelity: BTC $60K is Mathematic Floor
+- NVDA EDGE: AI Demand Indicator
+- Rule du Jour: #115 Pre-Crisis Dry Powder
+- Space Based Data Centers to start next year
+- AI is the Narrative that controls the Economy
+- Family Budget and Inflation Changes since 2000
