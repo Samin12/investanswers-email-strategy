@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 633,
-  "message_id_count": 633,
-  "generated_at": "2026-07-14T13:03:34+00:00",
+  "count": 636,
+  "message_id_count": 636,
+  "generated_at": "2026-07-14T18:05:06+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -16466,6 +16466,84 @@
       "text_chars": 1740,
       "raw_bytes": 52562,
       "sizeEstimate": 52562,
+      "attachments": []
+    },
+    {
+      "messageId": "19f60be1f2c42640",
+      "threadId": "19f60be1f2c42640",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f60be1f2c42640",
+      "subject": "Inflation nosedives - Markets up big in pre market",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 14 Jul 2026 13:08:17 +0000",
+      "date_iso": "2026-07-14T13:08:17+00:00",
+      "message_id_header": "<20260714130817.eb5d05404cfeba19@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "June y/y CPI +3.5% vs. +3.8% est &amp;amp; +4.2% priorCore CPI +2.6% vs. +2.8% est.&amp;amp; +2.9% priorOdds of a rate hike tank. on this news.... where one h... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-14_130817_Inflation-nosedives-Markets-up-big-in-pre-market_19f60be1f2c42640_01608b82",
+      "raw_path": "emails/raw_eml/2026-07-14_130817_Inflation-nosedives-Markets-up-big-in-pre-market_19f60be1f2c42640_01608b82.eml",
+      "text_path": "emails/text_md/2026-07-14_130817_Inflation-nosedives-Markets-up-big-in-pre-market_19f60be1f2c42640_01608b82.md",
+      "meta_path": "emails/metadata/2026-07-14_130817_Inflation-nosedives-Markets-up-big-in-pre-market_19f60be1f2c42640_01608b82.json",
+      "text_chars": 2042,
+      "raw_bytes": 54251,
+      "sizeEstimate": 54251,
+      "attachments": []
+    },
+    {
+      "messageId": "19f60c12c5e467b3",
+      "threadId": "19f60c12c5e467b3",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f60c12c5e467b3",
+      "subject": "BTC ETFs hit reverse",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 14 Jul 2026 13:11:39 +0000",
+      "date_iso": "2026-07-14T13:11:39+00:00",
+      "message_id_header": "<20260714131139.8b377c90a0810512@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "$426M out yesterday... so much for the reversal last week. The interesting news is BTC is up $1600 in pre market to nearly hit $64K again. Someone els... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-14_131139_BTC-ETFs-hit-reverse_19f60c12c5e467b3_ff198d68",
+      "raw_path": "emails/raw_eml/2026-07-14_131139_BTC-ETFs-hit-reverse_19f60c12c5e467b3_ff198d68.eml",
+      "text_path": "emails/text_md/2026-07-14_131139_BTC-ETFs-hit-reverse_19f60c12c5e467b3_ff198d68.md",
+      "meta_path": "emails/metadata/2026-07-14_131139_BTC-ETFs-hit-reverse_19f60c12c5e467b3_ff198d68.json",
+      "text_chars": 1956,
+      "raw_bytes": 52806,
+      "sizeEstimate": 52806,
+      "attachments": []
+    },
+    {
+      "messageId": "19f6162b93e7aef1",
+      "threadId": "19f6162b93e7aef1",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f6162b93e7aef1",
+      "subject": "Chamath says 50% premium for Tesla on SpaceX Merger",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 14 Jul 2026 16:08:06 +0000",
+      "date_iso": "2026-07-14T16:08:06+00:00",
+      "message_id_header": "<20260714160806.b21a941ddb823c03@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Chamath just said on CNBC he thinks SPCX would have to pay a 50% Premium to acquire TSLA. Everyone seems to be normalizing this inevitable merger! Cha... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-14_160806_Chamath-says-50-premium-for-Tesla-on-SpaceX-Merger_19f6162b93e7aef1_9ab22889",
+      "raw_path": "emails/raw_eml/2026-07-14_160806_Chamath-says-50-premium-for-Tesla-on-SpaceX-Merger_19f6162b93e7aef1_9ab22889.eml",
+      "text_path": "emails/text_md/2026-07-14_160806_Chamath-says-50-premium-for-Tesla-on-SpaceX-Merger_19f6162b93e7aef1_9ab22889.md",
+      "meta_path": "emails/metadata/2026-07-14_160806_Chamath-says-50-premium-for-Tesla-on-SpaceX-Merger_19f6162b93e7aef1_9ab22889.json",
+      "text_chars": 2348,
+      "raw_bytes": 53292,
+      "sizeEstimate": 53292,
       "attachments": []
     }
   ]

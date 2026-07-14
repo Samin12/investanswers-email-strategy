@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-07-14T13:03:34+00:00
+Generated: 2026-07-14T18:05:06+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 633
-- Emails exported: 633
-- Years: {"2026": 633}
+- Message IDs found: 636
+- Emails exported: 636
+- Years: {"2026": 636}
 
 ## Latest 20 subjects
 
+- Chamath says 50% premium for Tesla on SpaceX Merger
+- BTC ETFs hit reverse
+- Inflation nosedives - Markets up big in pre market
 - Dex Volume Leaders
 - Marcus Aurelius: The importance of Rules for Early Retirement
 - SPCX and TSLA/SPCX Update
@@ -26,6 +29,3 @@ Generated: 2026-07-14T13:03:34+00:00
 - Fidelity: BTC $60K is Mathematic Floor
 - NVDA EDGE: AI Demand Indicator
 - Rule du Jour: #115 Pre-Crisis Dry Powder
-- Space Based Data Centers to start next year
-- AI is the Narrative that controls the Economy
-- Family Budget and Inflation Changes since 2000
