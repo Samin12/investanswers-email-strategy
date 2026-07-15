@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 640,
-  "message_id_count": 640,
-  "generated_at": "2026-07-15T13:04:10+00:00",
+  "count": 644,
+  "message_id_count": 644,
+  "generated_at": "2026-07-15T18:02:28+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -16648,6 +16648,110 @@
       "text_chars": 2009,
       "raw_bytes": 50479,
       "sizeEstimate": 50479,
+      "attachments": []
+    },
+    {
+      "messageId": "19f663341f8d0ee0",
+      "threadId": "19f663341f8d0ee0",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f663341f8d0ee0",
+      "subject": "IA Portfolio July 15, 2026",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Wed, 15 Jul 2026 14:34:20 +0000",
+      "date_iso": "2026-07-15T14:34:20+00:00",
+      "message_id_header": "<20260715143420.25e61f11f7379153@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Not much has changed, this is summer so I am raising cash. The ALAB hedge is doing well and just counting down the clock. NVDA PLTR also had a good w... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-15_143420_IA-Portfolio-July-15-2026_19f663341f8d0ee0_11e3c26c",
+      "raw_path": "emails/raw_eml/2026-07-15_143420_IA-Portfolio-July-15-2026_19f663341f8d0ee0_11e3c26c.eml",
+      "text_path": "emails/text_md/2026-07-15_143420_IA-Portfolio-July-15-2026_19f663341f8d0ee0_11e3c26c.md",
+      "meta_path": "emails/metadata/2026-07-15_143420_IA-Portfolio-July-15-2026_19f663341f8d0ee0_11e3c26c.json",
+      "text_chars": 2385,
+      "raw_bytes": 57236,
+      "sizeEstimate": 57236,
+      "attachments": []
+    },
+    {
+      "messageId": "19f6640cf6236719",
+      "threadId": "19f6640cf6236719",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f6640cf6236719",
+      "subject": "US AI Compute still expected to 4x",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Wed, 15 Jul 2026 14:49:04 +0000",
+      "date_iso": "2026-07-15T14:49:04+00:00",
+      "message_id_header": "<20260715144904.4f1ad3310976f795@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Morgan Stanley still expects 80GW in new compute coming online from now until 2028. That translates to $4-$8TN in capex spending in LESS THAN 3 years,... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-15_144904_US-AI-Compute-still-expected-to-4x_19f6640cf6236719_ab70b777",
+      "raw_path": "emails/raw_eml/2026-07-15_144904_US-AI-Compute-still-expected-to-4x_19f6640cf6236719_ab70b777.eml",
+      "text_path": "emails/text_md/2026-07-15_144904_US-AI-Compute-still-expected-to-4x_19f6640cf6236719_ab70b777.md",
+      "meta_path": "emails/metadata/2026-07-15_144904_US-AI-Compute-still-expected-to-4x_19f6640cf6236719_ab70b777.json",
+      "text_chars": 2044,
+      "raw_bytes": 52897,
+      "sizeEstimate": 52897,
+      "attachments": []
+    },
+    {
+      "messageId": "19f66766c4c69848",
+      "threadId": "19f66766c4c69848",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f66766c4c69848",
+      "subject": "AI Warning from MSFT",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Wed, 15 Jul 2026 15:47:44 +0000",
+      "date_iso": "2026-07-15T15:47:44+00:00",
+      "message_id_header": "<20260715154744.5d662f6f44a05bea@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "The Simple AI Warning:When companies use tools like ChatGPT or Claude, they&#39;re not just paying with money. They&#39;re also feeding the AI their private b... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-15_154744_AI-Warning-from-MSFT_19f66766c4c69848_bb2a446d",
+      "raw_path": "emails/raw_eml/2026-07-15_154744_AI-Warning-from-MSFT_19f66766c4c69848_bb2a446d.eml",
+      "text_path": "emails/text_md/2026-07-15_154744_AI-Warning-from-MSFT_19f66766c4c69848_bb2a446d.md",
+      "meta_path": "emails/metadata/2026-07-15_154744_AI-Warning-from-MSFT_19f66766c4c69848_bb2a446d.json",
+      "text_chars": 2574,
+      "raw_bytes": 53800,
+      "sizeEstimate": 53800,
+      "attachments": []
+    },
+    {
+      "messageId": "19f667f987fa0dc8",
+      "threadId": "19f667f987fa0dc8",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f667f987fa0dc8",
+      "subject": "Youtube Video: OCTA",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Wed, 15 Jul 2026 15:57:44 +0000",
+      "date_iso": "2026-07-15T15:57:44+00:00",
+      "message_id_header": "<20260715155744.c4bae78f2090fcc2@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Market panic is hitting extreme levels, but underneath the surface, a major reversal is brewing! https://youtube.com/live/2ADT4lol1sY... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-15_155744_Youtube-Video-OCTA_19f667f987fa0dc8_14af4c8e",
+      "raw_path": "emails/raw_eml/2026-07-15_155744_Youtube-Video-OCTA_19f667f987fa0dc8_14af4c8e.eml",
+      "text_path": "emails/text_md/2026-07-15_155744_Youtube-Video-OCTA_19f667f987fa0dc8_14af4c8e.md",
+      "meta_path": "emails/metadata/2026-07-15_155744_Youtube-Video-OCTA_19f667f987fa0dc8_14af4c8e.json",
+      "text_chars": 1974,
+      "raw_bytes": 55745,
+      "sizeEstimate": 55745,
       "attachments": []
     }
   ]
