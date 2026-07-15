@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-07-14T21:04:23+00:00
+Generated: 2026-07-15T13:04:10+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 636
-- Emails exported: 636
-- Years: {"2026": 636}
+- Message IDs found: 640
+- Emails exported: 640
+- Years: {"2026": 640}
 
 ## Latest 20 subjects
 
+- BTC ETFs bounce back
+- Stocks gettng hammered today - $IBM and $LCID
+- Top AI Plays by Operating Profit Margin
+- Tied up today w Real Estate - No Video Today
 - Chamath says 50% premium for Tesla on SpaceX Merger
 - BTC ETFs hit reverse
 - Inflation nosedives - Markets up big in pre market
@@ -25,7 +29,3 @@ Generated: 2026-07-14T21:04:23+00:00
 - VIDEO - Live Q&A: Stop Selling Winners
 - Tesla TAM vs SpaceX TAM
 - What a Gigawatt Data Center costs
-- Odds of $40K Bitcoin
-- Fidelity: BTC $60K is Mathematic Floor
-- NVDA EDGE: AI Demand Indicator
-- Rule du Jour: #115 Pre-Crisis Dry Powder
