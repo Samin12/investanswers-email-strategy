@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-07-15T21:02:14+00:00
+Generated: 2026-07-16T13:04:23+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 644
-- Emails exported: 644
-- Years: {"2026": 644}
+- Message IDs found: 646
+- Emails exported: 646
+- Years: {"2026": 646}
 
 ## Latest 20 subjects
 
+- EXCLUSIVE VIDEO - How to Snipe on the Short Timeframe
+- Real Estate Post: End of an era - 3 Legged Stool - long one... warning
 - Youtube Video: OCTA
 - AI Warning from MSFT
 - US AI Compute still expected to 4x
@@ -27,5 +29,3 @@ Generated: 2026-07-15T21:02:14+00:00
 - Interesting BTC Pattern
 - EXCLUSIVE Fireside Chat - Happening NOW
 - Saylor Diluted Again to beef up STRC Dividends to 20 months
-- Rotation of the Decade
-- Expect Less Volatility in the Future

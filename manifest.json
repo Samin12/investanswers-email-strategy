@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 644,
-  "message_id_count": 644,
-  "generated_at": "2026-07-15T21:02:14+00:00",
+  "count": 646,
+  "message_id_count": 646,
+  "generated_at": "2026-07-16T13:04:23+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -16752,6 +16752,58 @@
       "text_chars": 1974,
       "raw_bytes": 55745,
       "sizeEstimate": 55745,
+      "attachments": []
+    },
+    {
+      "messageId": "19f689326f7a403e",
+      "threadId": "19f689326f7a403e",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f689326f7a403e",
+      "subject": "Real Estate Post: End of an era - 3 Legged Stool - long one... warning",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 16 Jul 2026 01:38:20 +0000",
+      "date_iso": "2026-07-16T01:38:20+00:00",
+      "message_id_header": "<20260716013820.9ee2de2893cb9faf@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Hey everybody, just wanted to share why I&#39;ve been a little quiet the last day or so.Today I closed out the final of my multi-unit properties I&#39;ve owne... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-16_013820_Real-Estate-Post-End-of-an-era-3-Legged-Stool-long-one...-warning_19f689326f7a403e_c2925a94",
+      "raw_path": "emails/raw_eml/2026-07-16_013820_Real-Estate-Post-End-of-an-era-3-Legged-Stool-long-one...-warning_19f689326f7a403e_c2925a94.eml",
+      "text_path": "emails/text_md/2026-07-16_013820_Real-Estate-Post-End-of-an-era-3-Legged-Stool-long-one...-warning_19f689326f7a403e_c2925a94.md",
+      "meta_path": "emails/metadata/2026-07-16_013820_Real-Estate-Post-End-of-an-era-3-Legged-Stool-long-one...-warning_19f689326f7a403e_c2925a94.json",
+      "text_chars": 4812,
+      "raw_bytes": 56266,
+      "sizeEstimate": 56266,
+      "attachments": []
+    },
+    {
+      "messageId": "19f68fe73ab77aa9",
+      "threadId": "19f68fe73ab77aa9",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f68fe73ab77aa9",
+      "subject": "EXCLUSIVE VIDEO - How to Snipe on the Short Timeframe",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 16 Jul 2026 03:35:32 +0000",
+      "date_iso": "2026-07-16T03:35:32+00:00",
+      "message_id_header": "<20260716033532.7355fa3d8286bfd7@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Jacob shows us how to snipe and avoid downdrafts: https://www.youtube.com/watch?v=2y0_vumLijw1. Find Good Spots to Buy - aka Zoom out - Start with the... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-16_033532_EXCLUSIVE-VIDEO-How-to-Snipe-on-the-Short-Timeframe_19f68fe73ab77aa9_a5f6e1fb",
+      "raw_path": "emails/raw_eml/2026-07-16_033532_EXCLUSIVE-VIDEO-How-to-Snipe-on-the-Short-Timeframe_19f68fe73ab77aa9_a5f6e1fb.eml",
+      "text_path": "emails/text_md/2026-07-16_033532_EXCLUSIVE-VIDEO-How-to-Snipe-on-the-Short-Timeframe_19f68fe73ab77aa9_a5f6e1fb.md",
+      "meta_path": "emails/metadata/2026-07-16_033532_EXCLUSIVE-VIDEO-How-to-Snipe-on-the-Short-Timeframe_19f68fe73ab77aa9_a5f6e1fb.json",
+      "text_chars": 3086,
+      "raw_bytes": 57423,
+      "sizeEstimate": 57423,
       "attachments": []
     }
   ]
