@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-07-16T13:04:23+00:00
+Generated: 2026-07-16T18:02:46+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 646
-- Emails exported: 646
-- Years: {"2026": 646}
+- Message IDs found: 648
+- Emails exported: 648
+- Years: {"2026": 648}
 
 ## Latest 20 subjects
 
+- IA13 and AI Sell Off
+- More IA13 Convergence + TeraFab
 - EXCLUSIVE VIDEO - How to Snipe on the Short Timeframe
 - Real Estate Post: End of an era - 3 Legged Stool - long one... warning
 - Youtube Video: OCTA
@@ -27,5 +29,3 @@ Generated: 2026-07-16T13:04:23+00:00
 - SPCX and TSLA/SPCX Update
 - VIDEO - Bitcoin: 61 Days To Go
 - Interesting BTC Pattern
-- EXCLUSIVE Fireside Chat - Happening NOW
-- Saylor Diluted Again to beef up STRC Dividends to 20 months

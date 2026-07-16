@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 646,
-  "message_id_count": 646,
-  "generated_at": "2026-07-16T13:04:23+00:00",
+  "count": 648,
+  "message_id_count": 648,
+  "generated_at": "2026-07-16T18:02:46+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -16804,6 +16804,58 @@
       "text_chars": 3086,
       "raw_bytes": 57423,
       "sizeEstimate": 57423,
+      "attachments": []
+    },
+    {
+      "messageId": "19f6b0b2d25446d7",
+      "threadId": "19f6b0b2d25446d7",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f6b0b2d25446d7",
+      "subject": "More IA13 Convergence + TeraFab",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 16 Jul 2026 13:08:41 +0000",
+      "date_iso": "2026-07-16T13:08:41+00:00",
+      "message_id_header": "<20260716130841.595fd4e406976e52@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "ASML, the leader in lithography, just said today that its plans to increase production in 2027 and 2028 already include the machines needed for Elon M... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-16_130841_More-IA13-Convergence-TeraFab_19f6b0b2d25446d7_3a91a909",
+      "raw_path": "emails/raw_eml/2026-07-16_130841_More-IA13-Convergence-TeraFab_19f6b0b2d25446d7_3a91a909.eml",
+      "text_path": "emails/text_md/2026-07-16_130841_More-IA13-Convergence-TeraFab_19f6b0b2d25446d7_3a91a909.md",
+      "meta_path": "emails/metadata/2026-07-16_130841_More-IA13-Convergence-TeraFab_19f6b0b2d25446d7_3a91a909.json",
+      "text_chars": 2514,
+      "raw_bytes": 56138,
+      "sizeEstimate": 56138,
+      "attachments": []
+    },
+    {
+      "messageId": "19f6be8c6c5fe741",
+      "threadId": "19f6be8c6c5fe741",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f6be8c6c5fe741",
+      "subject": "IA13 and AI Sell Off",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 16 Jul 2026 17:10:43 +0000",
+      "date_iso": "2026-07-16T17:10:43+00:00",
+      "message_id_header": "<20260716171043.47dc3690c148c641@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Summer sucks once again..... some items are now trading at low valuation ratios. This is typical summer action, no volume, no buyers, some sellers ...... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-16_171043_IA13-and-AI-Sell-Off_19f6be8c6c5fe741_a9c151cd",
+      "raw_path": "emails/raw_eml/2026-07-16_171043_IA13-and-AI-Sell-Off_19f6be8c6c5fe741_a9c151cd.eml",
+      "text_path": "emails/text_md/2026-07-16_171043_IA13-and-AI-Sell-Off_19f6be8c6c5fe741_a9c151cd.md",
+      "meta_path": "emails/metadata/2026-07-16_171043_IA13-and-AI-Sell-Off_19f6be8c6c5fe741_a9c151cd.json",
+      "text_chars": 2343,
+      "raw_bytes": 53434,
+      "sizeEstimate": 53434,
       "attachments": []
     }
   ]
