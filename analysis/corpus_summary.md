@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-07-16T18:02:46+00:00
+Generated: 2026-07-16T21:03:14+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 648
-- Emails exported: 648
-- Years: {"2026": 648}
+- Message IDs found: 652
+- Emails exported: 652
+- Years: {"2026": 652}
 
 ## Latest 20 subjects
 
+- Youtube Video: The Retirement Game and magic Bogey Target
+- Retirement Threshold: #FIRE F to the U Money
+- The AI Reckoning cometh for Anthropic and OpenAI
+- Per last weeks warning... beware the margin call
 - IA13 and AI Sell Off
 - More IA13 Convergence + TeraFab
 - EXCLUSIVE VIDEO - How to Snipe on the Short Timeframe
@@ -25,7 +29,3 @@ Generated: 2026-07-16T18:02:46+00:00
 - BTC ETFs hit reverse
 - Inflation nosedives - Markets up big in pre market
 - Dex Volume Leaders
-- Marcus Aurelius: The importance of Rules for Early Retirement
-- SPCX and TSLA/SPCX Update
-- VIDEO - Bitcoin: 61 Days To Go
-- Interesting BTC Pattern
