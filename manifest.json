@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 660,
-  "message_id_count": 660,
-  "generated_at": "2026-07-17T18:03:20+00:00",
+  "count": 664,
+  "message_id_count": 664,
+  "generated_at": "2026-07-17T21:01:22+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -17170,6 +17170,110 @@
       "text_chars": 1921,
       "raw_bytes": 52756,
       "sizeEstimate": 52756,
+      "attachments": []
+    },
+    {
+      "messageId": "19f7143137989074",
+      "threadId": "19f7143137989074",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f7143137989074",
+      "subject": "Tom Lee has lost his mind",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 17 Jul 2026 18:07:27 +0000",
+      "date_iso": "2026-07-17T18:07:27+00:00",
+      "message_id_header": "<20260717180727.70a03a2790e05cac@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Does He Mean ETH Goes to $250000?Yes — that&#39;s his explicit long-term target.That would mean the market cap would be over $30 Trillion for a chain tha... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-17_180727_Tom-Lee-has-lost-his-mind_19f7143137989074_f15db565",
+      "raw_path": "emails/raw_eml/2026-07-17_180727_Tom-Lee-has-lost-his-mind_19f7143137989074_f15db565.eml",
+      "text_path": "emails/text_md/2026-07-17_180727_Tom-Lee-has-lost-his-mind_19f7143137989074_f15db565.md",
+      "meta_path": "emails/metadata/2026-07-17_180727_Tom-Lee-has-lost-his-mind_19f7143137989074_f15db565.json",
+      "text_chars": 2434,
+      "raw_bytes": 53640,
+      "sizeEstimate": 53640,
+      "attachments": []
+    },
+    {
+      "messageId": "19f716c0ea204852",
+      "threadId": "19f716c0ea204852",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f716c0ea204852",
+      "subject": "Bitcoin Floor Time",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 17 Jul 2026 18:52:13 +0000",
+      "date_iso": "2026-07-17T18:52:13+00:00",
+      "message_id_header": "<20260717185213.b0715ac71d775692@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Bitcoin bear markets have consistently established higher lows each cycle. Using a simple power-law model on historical cycle bottoms, the projections... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-17_185213_Bitcoin-Floor-Time_19f716c0ea204852_d07a377d",
+      "raw_path": "emails/raw_eml/2026-07-17_185213_Bitcoin-Floor-Time_19f716c0ea204852_d07a377d.eml",
+      "text_path": "emails/text_md/2026-07-17_185213_Bitcoin-Floor-Time_19f716c0ea204852_d07a377d.md",
+      "meta_path": "emails/metadata/2026-07-17_185213_Bitcoin-Floor-Time_19f716c0ea204852_d07a377d.json",
+      "text_chars": 2008,
+      "raw_bytes": 52830,
+      "sizeEstimate": 52830,
+      "attachments": []
+    },
+    {
+      "messageId": "19f717b71fc3b3af",
+      "threadId": "19f717b71fc3b3af",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f717b71fc3b3af",
+      "subject": "Spacex and Pentagon News",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 17 Jul 2026 19:09:02 +0000",
+      "date_iso": "2026-07-17T19:09:02+00:00",
+      "message_id_header": "<20260717190902.e40637638969ba7b@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "SpaceX is in talks with the Defense Department about providing the agency with access to data-center capacity worth billions of dollars for running ar... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-17_190902_Spacex-and-Pentagon-News_19f717b71fc3b3af_44d6d70b",
+      "raw_path": "emails/raw_eml/2026-07-17_190902_Spacex-and-Pentagon-News_19f717b71fc3b3af_44d6d70b.eml",
+      "text_path": "emails/text_md/2026-07-17_190902_Spacex-and-Pentagon-News_19f717b71fc3b3af_44d6d70b.md",
+      "meta_path": "emails/metadata/2026-07-17_190902_Spacex-and-Pentagon-News_19f717b71fc3b3af_44d6d70b.json",
+      "text_chars": 2287,
+      "raw_bytes": 54433,
+      "sizeEstimate": 54433,
+      "attachments": []
+    },
+    {
+      "messageId": "19f71a66d450e2df",
+      "threadId": "19f71a66d450e2df",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f71a66d450e2df",
+      "subject": "VIDEO - Massive Turnarounds",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 17 Jul 2026 19:55:58 +0000",
+      "date_iso": "2026-07-17T19:55:58+00:00",
+      "message_id_header": "<20260717195558.7bd27e12f06d8724@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Live at 1:10pm Pacific: https://youtube.com/live/CCj0HA-DCr4... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-17_195558_VIDEO-Massive-Turnarounds_19f71a66d450e2df_552614fb",
+      "raw_path": "emails/raw_eml/2026-07-17_195558_VIDEO-Massive-Turnarounds_19f71a66d450e2df_552614fb.eml",
+      "text_path": "emails/text_md/2026-07-17_195558_VIDEO-Massive-Turnarounds_19f71a66d450e2df_552614fb.md",
+      "meta_path": "emails/metadata/2026-07-17_195558_VIDEO-Massive-Turnarounds_19f71a66d450e2df_552614fb.json",
+      "text_chars": 1872,
+      "raw_bytes": 55628,
+      "sizeEstimate": 55628,
       "attachments": []
     }
   ]

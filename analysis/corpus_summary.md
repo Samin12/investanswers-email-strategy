@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-07-17T18:03:20+00:00
+Generated: 2026-07-17T21:01:22+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 660
-- Emails exported: 660
-- Years: {"2026": 660}
+- Message IDs found: 664
+- Emails exported: 664
+- Years: {"2026": 664}
 
 ## Latest 20 subjects
 
+- VIDEO - Massive Turnarounds
+- Spacex and Pentagon News
+- Bitcoin Floor Time
+- Tom Lee has lost his mind
 - Silver Bitcoin pair trade
 - SpaceX Unlock Reminder
 - A note on Unprecedented Assets
@@ -25,7 +29,3 @@ Generated: 2026-07-17T18:03:20+00:00
 - More IA13 Convergence + TeraFab
 - EXCLUSIVE VIDEO - How to Snipe on the Short Timeframe
 - Real Estate Post: End of an era - 3 Legged Stool - long one... warning
-- Youtube Video: OCTA
-- AI Warning from MSFT
-- US AI Compute still expected to 4x
-- IA Portfolio July 15, 2026
