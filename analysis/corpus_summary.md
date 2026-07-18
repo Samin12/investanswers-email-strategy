@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-07-18T13:02:38+00:00
+Generated: 2026-07-18T18:02:42+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 669
-- Emails exported: 669
-- Years: {"2026": 669}
+- Message IDs found: 670
+- Emails exported: 670
+- Years: {"2026": 670}
 
 ## Latest 20 subjects
 
+- Top Asset Classes last 220 years
 - How Early are we in AI?
 - IA Weekly Nuggets (July 4-14, 2026)
 - US Govt adding $100BN in Debt per week now
@@ -28,4 +29,3 @@ Generated: 2026-07-18T13:02:38+00:00
 - Starship Flight Scrubbed at last minute
 - Youtube Video: The Retirement Game and magic Bogey Target
 - Retirement Threshold: #FIRE F to the U Money
-- The AI Reckoning cometh for Anthropic and OpenAI
