@@ -1,14 +1,19 @@
 # Corpus Summary
 
-Generated: 2026-07-17T21:01:22+00:00
+Generated: 2026-07-18T13:02:38+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 664
-- Emails exported: 664
-- Years: {"2026": 664}
+- Message IDs found: 669
+- Emails exported: 669
+- Years: {"2026": 669}
 
 ## Latest 20 subjects
 
+- How Early are we in AI?
+- IA Weekly Nuggets (July 4-14, 2026)
+- US Govt adding $100BN in Debt per week now
+- EXCLUSIVE VIDEO - EVERYTHING MEAN REVERTS!!!
+- VanEck buys a ton of STRC
 - VIDEO - Massive Turnarounds
 - Spacex and Pentagon News
 - Bitcoin Floor Time
@@ -24,8 +29,3 @@ Generated: 2026-07-17T21:01:22+00:00
 - Youtube Video: The Retirement Game and magic Bogey Target
 - Retirement Threshold: #FIRE F to the U Money
 - The AI Reckoning cometh for Anthropic and OpenAI
-- Per last weeks warning... beware the margin call
-- IA13 and AI Sell Off
-- More IA13 Convergence + TeraFab
-- EXCLUSIVE VIDEO - How to Snipe on the Short Timeframe
-- Real Estate Post: End of an era - 3 Legged Stool - long one... warning
