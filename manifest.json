@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 670,
-  "message_id_count": 670,
-  "generated_at": "2026-07-18T21:03:03+00:00",
+  "count": 673,
+  "message_id_count": 673,
+  "generated_at": "2026-07-19T13:05:05+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -17430,6 +17430,84 @@
       "text_chars": 2025,
       "raw_bytes": 52894,
       "sizeEstimate": 52894,
+      "attachments": []
+    },
+    {
+      "messageId": "19f779079f5156f7",
+      "threadId": "19f779079f5156f7",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f779079f5156f7",
+      "subject": "IA13: Marvell Explosive Future",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sat, 18 Jul 2026 23:29:43 +0000",
+      "date_iso": "2026-07-18T23:29:43+00:00",
+      "message_id_header": "<20260718232943.fdcfe486a826220a@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Note MRVL is 3.3% of my portfolio and a key part of IA13.Marvell has been violent both up and down, looks like it has turned the corner at $175 to hea... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-18_232943_IA13-Marvell-Explosive-Future_19f779079f5156f7_adccf329",
+      "raw_path": "emails/raw_eml/2026-07-18_232943_IA13-Marvell-Explosive-Future_19f779079f5156f7_adccf329.eml",
+      "text_path": "emails/text_md/2026-07-18_232943_IA13-Marvell-Explosive-Future_19f779079f5156f7_adccf329.md",
+      "meta_path": "emails/metadata/2026-07-18_232943_IA13-Marvell-Explosive-Future_19f779079f5156f7_adccf329.json",
+      "text_chars": 3009,
+      "raw_bytes": 58130,
+      "sizeEstimate": 58130,
+      "attachments": []
+    },
+    {
+      "messageId": "19f77affeddbd73f",
+      "threadId": "19f77affeddbd73f",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f77affeddbd73f",
+      "subject": "Tesla made 245 Cybercabs today",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 19 Jul 2026 00:04:09 +0000",
+      "date_iso": "2026-07-19T00:04:09+00:00",
+      "message_id_header": "<20260719000409.b08740c5ff902ed3@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "It is estimated they are spitting out about 49 cybercabs an hour! They would not build these unless they were going to make them work real soon. ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-19_000409_Tesla-made-245-Cybercabs-today_19f77affeddbd73f_d0d089c4",
+      "raw_path": "emails/raw_eml/2026-07-19_000409_Tesla-made-245-Cybercabs-today_19f77affeddbd73f_d0d089c4.eml",
+      "text_path": "emails/text_md/2026-07-19_000409_Tesla-made-245-Cybercabs-today_19f77affeddbd73f_d0d089c4.md",
+      "meta_path": "emails/metadata/2026-07-19_000409_Tesla-made-245-Cybercabs-today_19f77affeddbd73f_d0d089c4.json",
+      "text_chars": 1937,
+      "raw_bytes": 52794,
+      "sizeEstimate": 52794,
+      "attachments": []
+    },
+    {
+      "messageId": "19f77b6d9330b02a",
+      "threadId": "19f77b6d9330b02a",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f77b6d9330b02a",
+      "subject": "Why Kimi K3 is bad for OpenAI + Anthropic but great for the rest of the world!",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 19 Jul 2026 00:11:38 +0000",
+      "date_iso": "2026-07-19T00:11:38+00:00",
+      "message_id_header": "<20260719001138.4e789fe979870934@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Kimi K3 may be an important inflection point for AI. Potentially negative for Anthropic and OpenAI while being net positive for essentially every othe... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-19_001138_Why-Kimi-K3-is-bad-for-OpenAI-Anthropic-but-great-for-the-rest-of-the_19f77b6d9330b02a_40591ae6",
+      "raw_path": "emails/raw_eml/2026-07-19_001138_Why-Kimi-K3-is-bad-for-OpenAI-Anthropic-but-great-for-the-rest-of-the_19f77b6d9330b02a_40591ae6.eml",
+      "text_path": "emails/text_md/2026-07-19_001138_Why-Kimi-K3-is-bad-for-OpenAI-Anthropic-but-great-for-the-rest-of-the_19f77b6d9330b02a_40591ae6.md",
+      "meta_path": "emails/metadata/2026-07-19_001138_Why-Kimi-K3-is-bad-for-OpenAI-Anthropic-but-great-for-the-rest-of-the_19f77b6d9330b02a_40591ae6.json",
+      "text_chars": 2559,
+      "raw_bytes": 53534,
+      "sizeEstimate": 53534,
       "attachments": []
     }
   ]
