@@ -1,7 +1,7 @@
 {
   "$schema_note": "Machine-readable trigger set for AGENT_INSTRUCTIONS.md. Every level cites a source email in emails/text_md/. Rule: latest email wins; recompute moving-average levels older than 14 days.",
-  "as_of": "2026-07-17",
-  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + unlock nibble note",
+  "as_of": "2026-07-19",
+  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + 2026-07-19 unlock floor ~$120 / DCA-layers + BTC diminishing-drawdowns thesis",
   "hard_rules": [
     "Autonomous execution enabled for the assigned Alpaca paper profile only",
     "Notify Samin after every placed/modified/cancelled order",
@@ -9,7 +9,7 @@
     "Options/LEAPS/covered calls enabled by Samin on 2026-06-12; never create debt, margin debit, naked/undefined option risk, perps, or crypto perpetual exposure",
     "InvestAnswers TRADE_ALERT emails are priority signal; follow fresh alerts at our scale when they match our portfolio, valid trigger levels, and no-debt guardrails; revalidate instead of chasing stale fills",
     "Max 2 new autonomous opening trades per rolling 7 days unless risk-reducing",
-    "Never buy above the buy zone \u2014 watch/alert instead",
+    "Never buy above the buy zone — watch/alert instead",
     "Every trade cites its trigger + source file"
   ],
   "sizing": {
@@ -28,7 +28,7 @@
   },
   "assets": {
     "SPCX": {
-      "narrative": "AI/space \u2014 the marquee event",
+      "narrative": "AI/space — the marquee event",
       "price_jun11": "IPO priced $135, lists 2026-06-12 on Nasdaq",
       "buy": [
         {
@@ -37,9 +37,14 @@
           "source": "2026-07-17_141222_IA-Trade-Alert"
         },
         {
-          "condition": "post-IPO unlock dips; ~$100 area = triple-down / larger layer if still patient and dry powder remains",
-          "action": "BUY larger layer only with confirmation; James expects continued unlock sell pressure",
-          "source": "2026-07-17_161000_SpaceX-Unlock-Reminder"
+          "condition": "post-IPO unlock dips; ~$100 area = optional larger layer only if still patient and dry powder remains (do NOT treat $100 as destiny)",
+          "action": "BUY larger layer only with confirmation; James still DCAs layers down while unlocks continue",
+          "source": "2026-07-17_161000_SpaceX-Unlock-Reminder + 2026-07-19_164014_SpaceX-Impact-of-Unlocks-on-Price"
+        },
+        {
+          "condition": "unlock chart floor context ~$120 with tape near $122; layer/DCA plan, not automatic full deployment",
+          "action": "WATCH/DCA small layers only when cash buffer intact; prefer working limit near latest TRADE_ALERT fill ($123) over chasing",
+          "source": "2026-07-19_164014_SpaceX-Impact-of-Unlocks-on-Price"
         },
         {
           "condition": "IPO allocation fill at $135",
@@ -53,7 +58,7 @@
         }
       ],
       "never": "Buy the day-1 open ('Avoid the IPO Trap'); use margin (IPO shares non-marginable); options before it settles; blow full allocation while unlocks continue",
-      "note": "2026-07-17: James at 3/21 allocation after $123 double-down; rem summer sux / high cash / patient nibbling",
+      "note": "2026-07-19: unlock chart sees ~$120 floor / price ~$122; James DCA layers down, does not assume $100 destiny; still prefers TSLA ~$380 vs SPCX ~$130 arb; open paper GTC layer at $123 mirrors 2026-07-17 TRADE_ALERT",
       "his_recent_fills": [
         {
           "date": "2026-07-08",
@@ -67,9 +72,10 @@
       "targets": {
         "street": "Oppenheimer $190, New Street $165",
         "james_2030": "$1,527/share ($18.45T EV, 11.3x)",
-        "first_year_ceiling": "~$2.6T cap \u2014 'returns paltry first year'"
+        "first_year_ceiling": "~$2.6T cap — 'returns paltry first year'"
       },
       "sources": [
+        "2026-07-19_164014_SpaceX-Impact-of-Unlocks-on-Price",
         "2026-07-17_141222_IA-Trade-Alert",
         "2026-07-17_161000_SpaceX-Unlock-Reminder",
         "2026-06-11_131218_Oppenheimer-first-w-new-SPCX-PT-190",
@@ -77,7 +83,7 @@
       ]
     },
     "TSLA": {
-      "narrative": "AI \u2014 his #1 conviction (separate from IA13)",
+      "narrative": "AI — his #1 conviction (separate from IA13)",
       "price_jun11": 399.15,
       "buy": [
         {
@@ -100,7 +106,7 @@
       ],
       "breakout": {
         "level": 450,
-        "meaning": "break + hold = third leg; posture flips accumulate\u2192hold",
+        "meaning": "break + hold = third leg; posture flips accumulate→hold",
         "source": "2026-05-30_022159_TA-Summary"
       },
       "targets": {
@@ -157,7 +163,7 @@
           "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready"
         }
       ],
-      "note": "Fails his 3x market-cap test \u2014 core holding, not a max bet"
+      "note": "Fails his 3x market-cap test — core holding, not a max bet"
     },
     "AVGO": {
       "narrative": "AI (IA13)",
@@ -188,7 +194,7 @@
       "buy": [
         {
           "zone": "340-350 (gap + 50-DMA) AND bottoming confirmation required",
-          "action": "WAIT \u2014 Jun 5 guidance: uptrend broke at 380, 'let it roll over and find a bottom before jumping in'",
+          "action": "WAIT — Jun 5 guidance: uptrend broke at 380, 'let it roll over and find a bottom before jumping in'",
           "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready supersedes 2026-05-30_TA-Summary entry zone"
         }
       ],
@@ -200,7 +206,7 @@
       "buy": [
         {
           "zone": "~350-360 (gap fill / ATR L5) or tier-4/5 pullback to 50-DMA",
-          "action": "WAIT \u2014 far above zone",
+          "action": "WAIT — far above zone",
           "source": "2026-05-16_TA-Weekly-Edge + 2026-05-23_Space-Quantum-Vibes + 2026-05-30_TA-Summary"
         }
       ],
@@ -213,7 +219,7 @@
       ]
     },
     "MU": {
-      "narrative": "AI (IA13) \u2014 his big-3 gainer",
+      "narrative": "AI (IA13) — his big-3 gainer",
       "price_jun11": 995.87,
       "buy": [
         {
@@ -235,7 +241,7 @@
       }
     },
     "MRVL": {
-      "narrative": "AI (IA13) \u2014 hold to 2028",
+      "narrative": "AI (IA13) — hold to 2028",
       "price_jun11": 280.71,
       "buy": [
         {
@@ -286,7 +292,7 @@
         }
       ],
       "regime": {
-        "200dma_reclaim": "= liftoff regime; last quoted $82.5K on May 12-13 \u2014 RECOMPUTE, MA is downward-sloping",
+        "200dma_reclaim": "= liftoff regime; last quoted $82.5K on May 12-13 — RECOMPUTE, MA is downward-sloping",
         "next_top_if_diminishing": 150000,
         "12mo_model": "EV $117.5K (range $96K-$139K)"
       }
@@ -308,7 +314,7 @@
       "price_jun11": 120.15,
       "buy": [
         {
-          "condition": "NO SIGNAL \u2014 $150 'line in the sand' broke; analyze BTC first, MSTR second",
+          "condition": "NO SIGNAL — $150 'line in the sand' broke; analyze BTC first, MSTR second",
           "action": "WAIT",
           "source": "2026-05-30_TA-Summary + 2026-06-11_Weekly-Nuggets ('NAV premium never coming back')"
         }
@@ -336,14 +342,14 @@
           "source": "2026-06-11_174602_IA-Weekly-Nuggets-June-2-11-2026"
         }
       ],
-      "note": "Proxies get rotated into the real thing (SPCX) \u2014 as he did with STM at $74.25"
+      "note": "Proxies get rotated into the real thing (SPCX) — as he did with STM at $74.25"
     },
     "TSM": {
       "narrative": "AI",
       "buy": [
         {
           "level": 340,
-          "action": "'a gift \u2014 take it' (limit-order mentality)",
+          "action": "'a gift — take it' (limit-order mentality)",
           "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready"
         }
       ]
@@ -362,15 +368,15 @@
     "CLSK": {
       "narrative": "BTC miner",
       "price_jun11": 16.17,
-      "note": "He is EXITING via sell limits \u2014 not an add candidate",
+      "note": "He is EXITING via sell limits — not an add candidate",
       "source": "2026-06-09_144052_IA-Portfolio-June-9-2026"
     }
   },
   "macro_standing_orders": {
-    "iran_hormuz": "Oil headlines drive CPI \u2192 Fed \u2192 everything. Peace headlines = risk-on; escalation dips INTO buy zones = entries, not exits.",
+    "iran_hormuz": "Oil headlines drive CPI → Fed → everything. Peace headlines = risk-on; escalation dips INTO buy zones = entries, not exits.",
     "fomc": "No new deployment into FOMC days (next: 2026-06-16/17, ~98% hold priced, hikes possible from Sep/Oct).",
     "good_news_is_bad_news": "Hot jobs/CPI = yield spike = AI-multiple compression = watch the buy zones.",
     "cpi_latest": "May 2026: 4.2% headline (oil-driven), core 2.9%"
   },
-  "refresh_protocol": "See AGENT_INSTRUCTIONS.md \u00a76 \u2014 mandatory when as_of is >7 days old"
+  "refresh_protocol": "See AGENT_INSTRUCTIONS.md §6 — mandatory when as_of is >7 days old"
 }

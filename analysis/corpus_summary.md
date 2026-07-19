@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-07-19T13:05:05+00:00
+Generated: 2026-07-19T18:03:21+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 673
-- Emails exported: 673
-- Years: {"2026": 673}
+- Message IDs found: 675
+- Emails exported: 675
+- Years: {"2026": 675}
 
 ## Latest 20 subjects
 
+- Bitcoin Diminishing Returns and Diminishing Drawdowns
+- SpaceX Impact of Unlocks on Price
 - Why Kimi K3 is bad for OpenAI + Anthropic but great for the rest of the world!
 - Tesla made 245 Cybercabs today
 - IA13: Marvell Explosive Future
@@ -27,5 +29,3 @@ Generated: 2026-07-19T13:05:05+00:00
 - A note on Unprecedented Assets
 - Concerning AI News: China vs USA
 - IA13 Names
-- Solana RWA: Tokenized Equities Volume
-- IA Trade Alert
