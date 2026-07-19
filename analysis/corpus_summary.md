@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-07-19T18:03:21+00:00
+Generated: 2026-07-19T21:04:25+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 675
-- Emails exported: 675
-- Years: {"2026": 675}
+- Message IDs found: 676
+- Emails exported: 676
+- Years: {"2026": 676}
 
 ## Latest 20 subjects
 
+- VIDEO - Live Q&A: The Big Reversal
 - Bitcoin Diminishing Returns and Diminishing Drawdowns
 - SpaceX Impact of Unlocks on Price
 - Why Kimi K3 is bad for OpenAI + Anthropic but great for the rest of the world!
@@ -28,4 +29,3 @@ Generated: 2026-07-19T18:03:21+00:00
 - SpaceX Unlock Reminder
 - A note on Unprecedented Assets
 - Concerning AI News: China vs USA
-- IA13 Names
