@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-07-20T13:04:47+00:00
+Generated: 2026-07-20T18:03:36+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 679
-- Emails exported: 679
-- Years: {"2026": 679}
+- Message IDs found: 681
+- Emails exported: 681
+- Years: {"2026": 681}
 
 ## Latest 20 subjects
 
+- MSFT considers Pivoting away from OpenAI
+- MSTR STRC update
 - US Tax Revenues Are About to Get Torched by AI
 - Unreal IA13 PEG Ratios
 - Rule du Jour: #116 Power Law World
@@ -27,5 +29,3 @@ Generated: 2026-07-20T13:04:47+00:00
 - VIDEO - Massive Turnarounds
 - Spacex and Pentagon News
 - Bitcoin Floor Time
-- Tom Lee has lost his mind
-- Silver Bitcoin pair trade

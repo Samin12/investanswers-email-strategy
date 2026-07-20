@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 679,
-  "message_id_count": 679,
-  "generated_at": "2026-07-20T13:04:47+00:00",
+  "count": 681,
+  "message_id_count": 681,
+  "generated_at": "2026-07-20T18:03:36+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -17664,6 +17664,58 @@
       "text_chars": 2795,
       "raw_bytes": 53975,
       "sizeEstimate": 53975,
+      "attachments": []
+    },
+    {
+      "messageId": "19f80083c3601877",
+      "threadId": "19f80083c3601877",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f80083c3601877",
+      "subject": "MSTR STRC update",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 20 Jul 2026 14:57:30 +0000",
+      "date_iso": "2026-07-20T14:57:30+00:00",
+      "message_id_header": "<20260720145730.345d8d5ce06f16cc@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Saylor continues to sell / dilute MSTR to raise cash to try bring STRC back to life. They now have 2 years of dividend coverage. Small move for STRC ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-20_145730_MSTR-STRC-update_19f80083c3601877_e7692c08",
+      "raw_path": "emails/raw_eml/2026-07-20_145730_MSTR-STRC-update_19f80083c3601877_e7692c08.eml",
+      "text_path": "emails/text_md/2026-07-20_145730_MSTR-STRC-update_19f80083c3601877_e7692c08.md",
+      "meta_path": "emails/metadata/2026-07-20_145730_MSTR-STRC-update_19f80083c3601877_e7692c08.json",
+      "text_chars": 1958,
+      "raw_bytes": 54082,
+      "sizeEstimate": 54082,
+      "attachments": []
+    },
+    {
+      "messageId": "19f802fb87f14dff",
+      "threadId": "19f802fb87f14dff",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f802fb87f14dff",
+      "subject": "MSFT considers Pivoting away from OpenAI",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 20 Jul 2026 15:40:37 +0000",
+      "date_iso": "2026-07-20T15:40:37+00:00",
+      "message_id_header": "<20260720154037.35198ec6bb210609@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Microsoft is reportedly testing China&#39;s Moonshot AI Kimi K3 for Copilot as it adds the open-weight model to Azure. Engineers will evaluate whether K3 ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-20_154037_MSFT-considers-Pivoting-away-from-OpenAI_19f802fb87f14dff_437fd56a",
+      "raw_path": "emails/raw_eml/2026-07-20_154037_MSFT-considers-Pivoting-away-from-OpenAI_19f802fb87f14dff_437fd56a.eml",
+      "text_path": "emails/text_md/2026-07-20_154037_MSFT-considers-Pivoting-away-from-OpenAI_19f802fb87f14dff_437fd56a.md",
+      "meta_path": "emails/metadata/2026-07-20_154037_MSFT-considers-Pivoting-away-from-OpenAI_19f802fb87f14dff_437fd56a.json",
+      "text_chars": 2349,
+      "raw_bytes": 53271,
+      "sizeEstimate": 53271,
       "attachments": []
     }
   ]
