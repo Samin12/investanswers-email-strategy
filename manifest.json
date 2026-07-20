@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 676,
-  "message_id_count": 676,
-  "generated_at": "2026-07-19T21:04:25+00:00",
+  "count": 679,
+  "message_id_count": 679,
+  "generated_at": "2026-07-20T13:04:47+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -17586,6 +17586,84 @@
       "text_chars": 1883,
       "raw_bytes": 55707,
       "sizeEstimate": 55707,
+      "attachments": []
+    },
+    {
+      "messageId": "19f7ceaac414957f",
+      "threadId": "19f7ceaac414957f",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f7ceaac414957f",
+      "subject": "Rule du Jour: #116 Power Law World",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 20 Jul 2026 00:26:21 +0000",
+      "date_iso": "2026-07-20T00:26:21+00:00",
+      "message_id_header": "<20260720002621.a979fea46b3f7a27@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "In the power-law world, the average is pulled way up by a tiny number of extreme winners, while the median (typical outcome) sits much lower. The winn... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-20_002621_Rule-du-Jour-116-Power-Law-World_19f7ceaac414957f_6f9fe652",
+      "raw_path": "emails/raw_eml/2026-07-20_002621_Rule-du-Jour-116-Power-Law-World_19f7ceaac414957f_6f9fe652.eml",
+      "text_path": "emails/text_md/2026-07-20_002621_Rule-du-Jour-116-Power-Law-World_19f7ceaac414957f_6f9fe652.md",
+      "meta_path": "emails/metadata/2026-07-20_002621_Rule-du-Jour-116-Power-Law-World_19f7ceaac414957f_6f9fe652.json",
+      "text_chars": 2535,
+      "raw_bytes": 54784,
+      "sizeEstimate": 54784,
+      "attachments": []
+    },
+    {
+      "messageId": "19f7d2b39930a584",
+      "threadId": "19f7d2b39930a584",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f7d2b39930a584",
+      "subject": "Unreal IA13 PEG Ratios",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 20 Jul 2026 01:36:51 +0000",
+      "date_iso": "2026-07-20T01:36:51+00:00",
+      "message_id_header": "<20260720013651.f0d9eaaa1ddad402@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Note PEG = P/E ÷ growth rate. When fast-growing companies that are building the biggest industry to hit the planet are trading this cheap relative to ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-20_013651_Unreal-IA13-PEG-Ratios_19f7d2b39930a584_74bf7e67",
+      "raw_path": "emails/raw_eml/2026-07-20_013651_Unreal-IA13-PEG-Ratios_19f7d2b39930a584_74bf7e67.eml",
+      "text_path": "emails/text_md/2026-07-20_013651_Unreal-IA13-PEG-Ratios_19f7d2b39930a584_74bf7e67.md",
+      "meta_path": "emails/metadata/2026-07-20_013651_Unreal-IA13-PEG-Ratios_19f7d2b39930a584_74bf7e67.json",
+      "text_chars": 2327,
+      "raw_bytes": 54639,
+      "sizeEstimate": 54639,
+      "attachments": []
+    },
+    {
+      "messageId": "19f7d485256bdcec",
+      "threadId": "19f7d485256bdcec",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f7d485256bdcec",
+      "subject": "US Tax Revenues Are About to Get Torched by AI",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 20 Jul 2026 02:08:38 +0000",
+      "date_iso": "2026-07-20T02:08:38+00:00",
+      "message_id_header": "<20260720020838.689b304683576d90@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Yes this is an investing tip post! This chart from RAND + CBO data is one of the cleanest illustrations of the fiscal train wreck coming. A modest 10%... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-20_020838_US-Tax-Revenues-Are-About-to-Get-Torched-by-AI_19f7d485256bdcec_bcfbcbf7",
+      "raw_path": "emails/raw_eml/2026-07-20_020838_US-Tax-Revenues-Are-About-to-Get-Torched-by-AI_19f7d485256bdcec_bcfbcbf7.eml",
+      "text_path": "emails/text_md/2026-07-20_020838_US-Tax-Revenues-Are-About-to-Get-Torched-by-AI_19f7d485256bdcec_bcfbcbf7.md",
+      "meta_path": "emails/metadata/2026-07-20_020838_US-Tax-Revenues-Are-About-to-Get-Torched-by-AI_19f7d485256bdcec_bcfbcbf7.json",
+      "text_chars": 2795,
+      "raw_bytes": 53975,
+      "sizeEstimate": 53975,
       "attachments": []
     }
   ]

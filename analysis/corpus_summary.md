@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-07-19T21:04:25+00:00
+Generated: 2026-07-20T13:04:47+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 676
-- Emails exported: 676
-- Years: {"2026": 676}
+- Message IDs found: 679
+- Emails exported: 679
+- Years: {"2026": 679}
 
 ## Latest 20 subjects
 
+- US Tax Revenues Are About to Get Torched by AI
+- Unreal IA13 PEG Ratios
+- Rule du Jour: #116 Power Law World
 - VIDEO - Live Q&A: The Big Reversal
 - Bitcoin Diminishing Returns and Diminishing Drawdowns
 - SpaceX Impact of Unlocks on Price
@@ -26,6 +29,3 @@ Generated: 2026-07-19T21:04:25+00:00
 - Bitcoin Floor Time
 - Tom Lee has lost his mind
 - Silver Bitcoin pair trade
-- SpaceX Unlock Reminder
-- A note on Unprecedented Assets
-- Concerning AI News: China vs USA
