@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-07-20T18:03:36+00:00
+Generated: 2026-07-20T21:03:32+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 681
-- Emails exported: 681
-- Years: {"2026": 681}
+- Message IDs found: 683
+- Emails exported: 683
+- Years: {"2026": 683}
 
 ## Latest 20 subjects
 
+- VIDEO - Bitcoin: Mixed CAGR Signals
+- Bitcoin hits 1 Month High
 - MSFT considers Pivoting away from OpenAI
 - MSTR STRC update
 - US Tax Revenues Are About to Get Torched by AI
@@ -27,5 +29,3 @@ Generated: 2026-07-20T18:03:36+00:00
 - EXCLUSIVE VIDEO - EVERYTHING MEAN REVERTS!!!
 - VanEck buys a ton of STRC
 - VIDEO - Massive Turnarounds
-- Spacex and Pentagon News
-- Bitcoin Floor Time
