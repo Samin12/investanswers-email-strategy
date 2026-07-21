@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 683,
-  "message_id_count": 683,
-  "generated_at": "2026-07-20T21:03:32+00:00",
+  "count": 687,
+  "message_id_count": 687,
+  "generated_at": "2026-07-21T13:03:04+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -17768,6 +17768,110 @@
       "text_chars": 1886,
       "raw_bytes": 55681,
       "sizeEstimate": 55681,
+      "attachments": []
+    },
+    {
+      "messageId": "19f81d46d1bb502d",
+      "threadId": "19f81d46d1bb502d",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f81d46d1bb502d",
+      "subject": "Tesla Investors are Frustrated",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 20 Jul 2026 23:20:07 +0000",
+      "date_iso": "2026-07-20T23:20:07+00:00",
+      "message_id_header": "<20260720232007.6350e88f3af7b6ae@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "I did not buy shares today as the chart looked off, I was waiting a turnaround - but the real story is everyone is upset. I get it. But we&#39;ve been her... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-20_232007_Tesla-Investors-are-Frustrated_19f81d46d1bb502d_cd0fece7",
+      "raw_path": "emails/raw_eml/2026-07-20_232007_Tesla-Investors-are-Frustrated_19f81d46d1bb502d_cd0fece7.eml",
+      "text_path": "emails/text_md/2026-07-20_232007_Tesla-Investors-are-Frustrated_19f81d46d1bb502d_cd0fece7.md",
+      "meta_path": "emails/metadata/2026-07-20_232007_Tesla-Investors-are-Frustrated_19f81d46d1bb502d_cd0fece7.json",
+      "text_chars": 2786,
+      "raw_bytes": 53971,
+      "sizeEstimate": 53971,
+      "attachments": []
+    },
+    {
+      "messageId": "19f81faf465a250f",
+      "threadId": "19f81faf465a250f",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f81faf465a250f",
+      "subject": "Tesla and SpaceX working hand in glove",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 21 Jul 2026 00:02:13 +0000",
+      "date_iso": "2026-07-21T00:02:13+00:00",
+      "message_id_header": "<20260721000213.0835d8167466e2ec@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Just released from Tesla, Cybercabs are integrated w SpaceX and each one has a purpose built antenna on the back. This is on top of Grok being the bra... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-21_000213_Tesla-and-SpaceX-working-hand-in-glove_19f81faf465a250f_7fd85945",
+      "raw_path": "emails/raw_eml/2026-07-21_000213_Tesla-and-SpaceX-working-hand-in-glove_19f81faf465a250f_7fd85945.eml",
+      "text_path": "emails/text_md/2026-07-21_000213_Tesla-and-SpaceX-working-hand-in-glove_19f81faf465a250f_7fd85945.md",
+      "meta_path": "emails/metadata/2026-07-21_000213_Tesla-and-SpaceX-working-hand-in-glove_19f81faf465a250f_7fd85945.json",
+      "text_chars": 2076,
+      "raw_bytes": 52987,
+      "sizeEstimate": 52987,
+      "attachments": []
+    },
+    {
+      "messageId": "19f829ae4c45a8e8",
+      "threadId": "19f829ae4c45a8e8",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f829ae4c45a8e8",
+      "subject": "The Finkster on AI & Crypto",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 21 Jul 2026 02:56:55 +0000",
+      "date_iso": "2026-07-21T02:56:55+00:00",
+      "message_id_header": "<20260721025655.64eb4836757558d9@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Larry (the biggest money runner on the planet) saying why China will win the AI race (Same thing I have said for a long time): AI race will come down ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-21_025655_The-Finkster-on-AI-Crypto_19f829ae4c45a8e8_d344af5a",
+      "raw_path": "emails/raw_eml/2026-07-21_025655_The-Finkster-on-AI-Crypto_19f829ae4c45a8e8_d344af5a.eml",
+      "text_path": "emails/text_md/2026-07-21_025655_The-Finkster-on-AI-Crypto_19f829ae4c45a8e8_d344af5a.md",
+      "meta_path": "emails/metadata/2026-07-21_025655_The-Finkster-on-AI-Crypto_19f829ae4c45a8e8_d344af5a.json",
+      "text_chars": 2487,
+      "raw_bytes": 53563,
+      "sizeEstimate": 53563,
+      "attachments": []
+    },
+    {
+      "messageId": "19f833ba934ffa56",
+      "threadId": "19f833ba934ffa56",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f833ba934ffa56",
+      "subject": "5 Green Days in a Row",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 21 Jul 2026 05:52:31 +0000",
+      "date_iso": "2026-07-21T05:52:31+00:00",
+      "message_id_header": "<20260721055231.7a7cf290a61d7c57@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "BTC ETFs have not had this since April 2026. If this juice continues to flow the bear market is over. Every billion in raises the BTC price by 3%. IB... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-21_055231_5-Green-Days-in-a-Row_19f833ba934ffa56_9ef442ed",
+      "raw_path": "emails/raw_eml/2026-07-21_055231_5-Green-Days-in-a-Row_19f833ba934ffa56_9ef442ed.eml",
+      "text_path": "emails/text_md/2026-07-21_055231_5-Green-Days-in-a-Row_19f833ba934ffa56_9ef442ed.md",
+      "meta_path": "emails/metadata/2026-07-21_055231_5-Green-Days-in-a-Row_19f833ba934ffa56_9ef442ed.json",
+      "text_chars": 2030,
+      "raw_bytes": 52918,
+      "sizeEstimate": 52918,
       "attachments": []
     }
   ]
