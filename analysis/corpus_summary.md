@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-07-21T18:04:56+00:00
+Generated: 2026-07-21T21:07:33+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 689
-- Emails exported: 689
-- Years: {"2026": 689}
+- Message IDs found: 693
+- Emails exported: 693
+- Years: {"2026": 693}
 
 ## Latest 20 subjects
 
+- EXCLUSIVE VIDEO - Pair Trading Refresher
+- VIDEO - OCTA: Incoming Boom
+- Memory, Kimi and Micron
+- NVDA: Super Bullish Report if True
 - IA Portfolio Allocations July 21, 2026
 - Tesla Robotaxi quietly launches in Orlando
 - 5 Green Days in a Row
@@ -25,7 +29,3 @@ Generated: 2026-07-21T18:04:56+00:00
 - VIDEO - Live Q&A: The Big Reversal
 - Bitcoin Diminishing Returns and Diminishing Drawdowns
 - SpaceX Impact of Unlocks on Price
-- Why Kimi K3 is bad for OpenAI + Anthropic but great for the rest of the world!
-- Tesla made 245 Cybercabs today
-- IA13: Marvell Explosive Future
-- Top Asset Classes last 220 years
