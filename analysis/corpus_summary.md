@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-07-21T13:03:04+00:00
+Generated: 2026-07-21T18:04:56+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 687
-- Emails exported: 687
-- Years: {"2026": 687}
+- Message IDs found: 689
+- Emails exported: 689
+- Years: {"2026": 689}
 
 ## Latest 20 subjects
 
+- IA Portfolio Allocations July 21, 2026
+- Tesla Robotaxi quietly launches in Orlando
 - 5 Green Days in a Row
 - The Finkster on AI & Crypto
 - Tesla and SpaceX working hand in glove
@@ -27,5 +29,3 @@ Generated: 2026-07-21T13:03:04+00:00
 - Tesla made 245 Cybercabs today
 - IA13: Marvell Explosive Future
 - Top Asset Classes last 220 years
-- How Early are we in AI?
-- IA Weekly Nuggets (July 4-14, 2026)
