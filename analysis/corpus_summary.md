@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-07-22T18:04:01+00:00
+Generated: 2026-07-22T21:03:42+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 698
-- Emails exported: 698
-- Years: {"2026": 698}
+- Message IDs found: 699
+- Emails exported: 699
+- Years: {"2026": 699}
 
 ## Latest 20 subjects
 
+- VIDEO - Tesla Earnings Call Q2 2026
 - IA Trade Alert - More Marvell
 - CPO: Co-Packaged Optics
 - AMD and Anthropic - Circular Finance is Back
@@ -28,4 +29,3 @@ Generated: 2026-07-22T18:04:01+00:00
 - Bitcoin hits 1 Month High
 - MSFT considers Pivoting away from OpenAI
 - MSTR STRC update
-- US Tax Revenues Are About to Get Torched by AI
