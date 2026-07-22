@@ -1,7 +1,7 @@
 {
   "$schema_note": "Machine-readable trigger set for AGENT_INSTRUCTIONS.md. Every level cites a source email in emails/text_md/. Rule: latest email wins; recompute moving-average levels older than 14 days.",
-  "as_of": "2026-07-19",
-  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + 2026-07-19 unlock floor ~$120 / DCA-layers + BTC diminishing-drawdowns thesis",
+  "as_of": "2026-07-22",
+  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + 2026-07-19 unlock floor ~$120 / DCA-layers + BTC diminishing-drawdowns thesis + 2026-07-22 IA Trade Alert MRVL add at $209",
   "hard_rules": [
     "Autonomous execution enabled for the assigned Alpaca paper profile only",
     "Notify Samin after every placed/modified/cancelled order",
@@ -245,11 +245,17 @@
       "price_jun11": 280.71,
       "buy": [
         {
+          "condition": "fresh TRADE_ALERT add at $209 after bullish photonics/CPO data; James added 1/8 to his position and used a 2028 $200-call/$210-put synthetic at $18 net debit",
+          "action": "BUY/ADD a small share layer only at or below $209 with cash buffer intact; do not copy the short-put structure unless fully cash-secured and no-debt proof passes",
+          "source": "2026-07-22_145114_IA-Trade-Alert-More-Marvell"
+        },
+        {
           "condition": "sideways consolidation after the +37% S&P-inclusion spike",
           "action": "WAIT for consolidation, then tranche",
-          "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready"
+          "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready (superseded for the next small add by 2026-07-22 TRADE_ALERT at $209)"
         }
-      ]
+      ],
+      "note": "2026-07-22: MRVL was ~$212.86 after James's $209 fill; use a $209 limit rather than chase. Shares are preferred at this account scale because the alert's sold $210 put adds roughly $21,000 assignment notional per contract and is not cash-secured by the current paper-account cash."
     },
     "ALAB": {
       "narrative": "AI (IA13)",

@@ -1,14 +1,19 @@
 # Corpus Summary
 
-Generated: 2026-07-22T13:03:32+00:00
+Generated: 2026-07-22T18:04:01+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 693
-- Emails exported: 693
-- Years: {"2026": 693}
+- Message IDs found: 698
+- Emails exported: 698
+- Years: {"2026": 698}
 
 ## Latest 20 subjects
 
+- IA Trade Alert - More Marvell
+- CPO: Co-Packaged Optics
+- AMD and Anthropic - Circular Finance is Back
+- Elon is Bullish - earnings call expectations
+- Oil keeps surging
 - EXCLUSIVE VIDEO - Pair Trading Refresher
 - VIDEO - OCTA: Incoming Boom
 - Memory, Kimi and Micron
@@ -24,8 +29,3 @@ Generated: 2026-07-22T13:03:32+00:00
 - MSFT considers Pivoting away from OpenAI
 - MSTR STRC update
 - US Tax Revenues Are About to Get Torched by AI
-- Unreal IA13 PEG Ratios
-- Rule du Jour: #116 Power Law World
-- VIDEO - Live Q&A: The Big Reversal
-- Bitcoin Diminishing Returns and Diminishing Drawdowns
-- SpaceX Impact of Unlocks on Price
