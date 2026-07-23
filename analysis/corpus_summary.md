@@ -1,14 +1,24 @@
 # Corpus Summary
 
-Generated: 2026-07-22T21:03:42+00:00
+Generated: 2026-07-23T13:04:24+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 699
-- Emails exported: 699
-- Years: {"2026": 699}
+- Message IDs found: 709
+- Emails exported: 709
+- Years: {"2026": 709}
 
 ## Latest 20 subjects
 
+- GOOG: Heavy Capex Hurts FCF
+- Oil Ripping Higher
+- Bitmex Shutting Down
+- SEC & Gary Gensler - super dirty
+- IA Trade Alert
+- Tesla Earnings call notes
+- New Digital Asset Index
+- Tesla Capex vs Others
+- Tesla earnings beat on Rev and miss on Earnings
+- Google massive earnings beat but down in after hours
 - VIDEO - Tesla Earnings Call Q2 2026
 - IA Trade Alert - More Marvell
 - CPO: Co-Packaged Optics
@@ -19,13 +29,3 @@ Generated: 2026-07-22T21:03:42+00:00
 - VIDEO - OCTA: Incoming Boom
 - Memory, Kimi and Micron
 - NVDA: Super Bullish Report if True
-- IA Portfolio Allocations July 21, 2026
-- Tesla Robotaxi quietly launches in Orlando
-- 5 Green Days in a Row
-- The Finkster on AI & Crypto
-- Tesla and SpaceX working hand in glove
-- Tesla Investors are Frustrated
-- VIDEO - Bitcoin: Mixed CAGR Signals
-- Bitcoin hits 1 Month High
-- MSFT considers Pivoting away from OpenAI
-- MSTR STRC update

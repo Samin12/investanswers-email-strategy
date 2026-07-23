@@ -1,7 +1,7 @@
 {
   "$schema_note": "Machine-readable trigger set for AGENT_INSTRUCTIONS.md. Every level cites a source email in emails/text_md/. Rule: latest email wins; recompute moving-average levels older than 14 days.",
-  "as_of": "2026-07-22",
-  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + 2026-07-19 unlock floor ~$120 / DCA-layers + BTC diminishing-drawdowns thesis + 2026-07-22 IA Trade Alert MRVL add at $209",
+  "as_of": "2026-07-23",
+  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + 2026-07-19 unlock floor ~$120 / DCA-layers + BTC diminishing-drawdowns thesis + 2026-07-22 IA Trade Alert MRVL add at $209 + 2026-07-22 IA Trade Alert TSLA shares at $357",
   "hard_rules": [
     "Autonomous execution enabled for the assigned Alpaca paper profile only",
     "Notify Samin after every placed/modified/cancelled order",
@@ -87,6 +87,11 @@
       "price_jun11": 399.15,
       "buy": [
         {
+          "zone": "around or below $357 after the post-earnings selloff (James bought shares at $357 and added 1%)",
+          "action": "BUY/ADD a small cash-funded share tranche while the fresh alert remains valid; no options or debt; preserve the 10% cash buffer",
+          "source": "2026-07-22_235757_IA-Trade-Alert"
+        },
+        {
           "zone": "around 380; 360-380 support remains the better-entry band",
           "action": "BUY/ADD tranche only if cash buffer remains intact and confirmation/fresh alert supports it",
           "source": "2026-06-19_153803_My-Summer-Game-Plan + 2026-06-05_222805_Get-Sniper-Rifles-Ready"
@@ -124,7 +129,7 @@
           "px": 384
         }
       ],
-      "note": "Do NOT rotate TSLA into SPCX beyond a few percent; Jun 19 update says he is already happy with TSLA amount and waiting for better entries"
+      "note": "Latest action supersedes the prior wait posture: after Q2 earnings James bought straight equity at $357 with cash (1% add). Do not copy with options or debt; size at account scale and keep the 10% cash buffer."
     },
     "PLTR": {
       "narrative": "AI (IA13)",
