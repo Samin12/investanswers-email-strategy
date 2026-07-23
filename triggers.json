@@ -1,7 +1,7 @@
 {
   "$schema_note": "Machine-readable trigger set for AGENT_INSTRUCTIONS.md. Every level cites a source email in emails/text_md/. Rule: latest email wins; recompute moving-average levels older than 14 days.",
   "as_of": "2026-07-23",
-  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + 2026-07-19 unlock floor ~$120 / DCA-layers + BTC diminishing-drawdowns thesis + 2026-07-22 IA Trade Alert MRVL add at $209 + 2026-07-22 IA Trade Alert TSLA shares at $357",
+  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + 2026-07-19 unlock floor ~$120 / DCA-layers + BTC diminishing-drawdowns thesis + 2026-07-22 IA Trade Alert MRVL add at $209 + 2026-07-22 IA Trade Alert TSLA shares at $357 + 2026-07-23 IA Trade Alert TSLA shares at $322.50 after a 5-minute trend turn + BTC $69K breakout level",
   "hard_rules": [
     "Autonomous execution enabled for the assigned Alpaca paper profile only",
     "Notify Samin after every placed/modified/cancelled order",
@@ -87,8 +87,13 @@
       "price_jun11": 399.15,
       "buy": [
         {
-          "zone": "around or below $357 after the post-earnings selloff (James bought shares at $357 and added 1%)",
-          "action": "BUY/ADD a small cash-funded share tranche while the fresh alert remains valid; no options or debt; preserve the 10% cash buffer",
+          "zone": "around $322.50 after the post-earnings washout, only after the short-timeframe trend turns (James waited for the 5-minute turn at $321 and filled at $322.50)",
+          "action": "BUY/ADD a small cash-funded share tranche only if cadence and 10% cash-buffer rules still pass; do not stack another same-name tranche in the same week or copy James's >3% sizing",
+          "source": "2026-07-23_160744_IA-Trade-Alert"
+        },
+        {
+          "zone": "around or below $357 after the post-earnings selloff (James bought shares at $357 and added 1%); superseded for the next add by his 2026-07-23 $322.50 fill after a 5-minute trend turn",
+          "action": "HOLD prior tranche / historical alert context; use the newest $322.50 signal for any future add decision",
           "source": "2026-07-22_235757_IA-Trade-Alert"
         },
         {
@@ -121,6 +126,14 @@
       },
       "his_recent_fills": [
         {
+          "date": "2026-07-23",
+          "px": 322.5
+        },
+        {
+          "date": "2026-07-22",
+          "px": 357
+        },
+        {
           "date": "2026-06-05",
           "px": 390.69
         },
@@ -129,7 +142,7 @@
           "px": 384
         }
       ],
-      "note": "Latest action supersedes the prior wait posture: after Q2 earnings James bought straight equity at $357 with cash (1% add). Do not copy with options or debt; size at account scale and keep the 10% cash buffer."
+      "note": "Latest action supersedes the $357 next-add level: on 2026-07-23 James waited for a 5-minute trend turn near $321 and bought straight equity at $322.50, adding well over 3%. At this account scale use shares only, do not copy his size, do not add more than one same-name tranche per week, and preserve the 10% cash buffer."
     },
     "PLTR": {
       "narrative": "AI (IA13)",
@@ -282,6 +295,11 @@
       "narrative": "Crypto core (scarcity in the age of AGI)",
       "price_jun11": 63449,
       "buy": [
+        {
+          "condition": "break and hold above $69K",
+          "action": "Treat as confirmed upward-trend / next-bull-market signal; reassess a cash-funded IBIT proxy only if the 10% cash buffer and cadence rules pass",
+          "source": "2026-07-23_173816_BTC-Breakout-Level-69K"
+        },
         {
           "condition": "Optimized Trend flipped back up at ~$64K OR ATR-style buy signal; avoid chasing if cash/FOMC/no-debt guardrails block deployment",
           "action": "RE-ENGAGE tranches / consider IBIT proxy only when cash buffer and no-debt rules are satisfied",

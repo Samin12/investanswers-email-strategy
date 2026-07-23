@@ -85,6 +85,8 @@ As of June 11, 2026, every move serves one campaign: **maximum liquidity into th
 
 ## 5. The Ranges — what to watch RIGHT NOW (June 11, 2026)
 
+> **Live override — July 23, 2026:** The newest TSLA `TRADE_ALERT` supersedes the older next-add levels below: James waited for the 5-minute trend to turn near **$321** and bought straight equity at **$322.50**, adding well over 3%. At this paper account's scale, use small cash-funded shares only, max one same-name tranche per week, and preserve the 10% cash floor. The account's existing 0.3-share TSLA order filled earlier July 23 at $341.29, so the 2pm decision was hold/no second tranche. BTC's newest confirmation level is a **break and hold above $69K**; $63K is described as heavy support/buying, not a fresh autonomous order. Sources: `2026-07-23_160744_IA-Trade-Alert` and `2026-07-23_173816_BTC-Breakout-Level-69K`.
+
 His levels vs. June 11 closing prices. **Action column = what his system says to do at that level, not a recommendation.**
 
 | Asset | Now (Jun 11) | His buy zone / trigger | His trim/exit zone | His targets | System action right now |

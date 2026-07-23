@@ -1,14 +1,21 @@
 # Corpus Summary
 
-Generated: 2026-07-23T13:04:24+00:00
+Generated: 2026-07-23T18:04:14+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 709
-- Emails exported: 709
-- Years: {"2026": 709}
+- Message IDs found: 716
+- Emails exported: 716
+- Years: {"2026": 716}
 
 ## Latest 20 subjects
 
+- AI Trade Energy Demand
+- BTC Breakout Level $69K
+- History of Dip Buying
+- IA Weekly Nuggets (July 15-22, 2026)
+- What a day... and to top things off Starship 13 is taking off in 7 hours
+- IA Trade Alert
+- Avg TPS by year by Major Chain
 - GOOG: Heavy Capex Hurts FCF
 - Oil Ripping Higher
 - Bitmex Shutting Down
@@ -22,10 +29,3 @@ Generated: 2026-07-23T13:04:24+00:00
 - VIDEO - Tesla Earnings Call Q2 2026
 - IA Trade Alert - More Marvell
 - CPO: Co-Packaged Optics
-- AMD and Anthropic - Circular Finance is Back
-- Elon is Bullish - earnings call expectations
-- Oil keeps surging
-- EXCLUSIVE VIDEO - Pair Trading Refresher
-- VIDEO - OCTA: Incoming Boom
-- Memory, Kimi and Micron
-- NVDA: Super Bullish Report if True
