@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-07-23T18:04:14+00:00
+Generated: 2026-07-23T21:02:13+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 716
-- Emails exported: 716
-- Years: {"2026": 716}
+- Message IDs found: 717
+- Emails exported: 717
+- Years: {"2026": 717}
 
 ## Latest 20 subjects
 
+- VIDEO - 21 Charts: Summer Bloodbath
 - AI Trade Energy Demand
 - BTC Breakout Level $69K
 - History of Dip Buying
@@ -28,4 +29,3 @@ Generated: 2026-07-23T18:04:14+00:00
 - Google massive earnings beat but down in after hours
 - VIDEO - Tesla Earnings Call Q2 2026
 - IA Trade Alert - More Marvell
-- CPO: Co-Packaged Optics
