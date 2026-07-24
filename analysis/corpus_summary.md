@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-07-23T21:02:13+00:00
+Generated: 2026-07-24T13:01:53+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 717
-- Emails exported: 717
-- Years: {"2026": 717}
+- Message IDs found: 719
+- Emails exported: 719
+- Years: {"2026": 719}
 
 ## Latest 20 subjects
 
+- US Mints Half the World's Millionaires in 2025 + more in 2026
+- Tesla was most bought stock today
 - VIDEO - 21 Charts: Summer Bloodbath
 - AI Trade Energy Demand
 - BTC Breakout Level $69K
@@ -27,5 +29,3 @@ Generated: 2026-07-23T21:02:13+00:00
 - Tesla Capex vs Others
 - Tesla earnings beat on Rev and miss on Earnings
 - Google massive earnings beat but down in after hours
-- VIDEO - Tesla Earnings Call Q2 2026
-- IA Trade Alert - More Marvell

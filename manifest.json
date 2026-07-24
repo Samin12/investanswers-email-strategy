@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 717,
-  "message_id_count": 717,
-  "generated_at": "2026-07-23T21:02:13+00:00",
+  "count": 719,
+  "message_id_count": 719,
+  "generated_at": "2026-07-24T13:01:53+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -18652,6 +18652,58 @@
       "text_chars": 1886,
       "raw_bytes": 55704,
       "sizeEstimate": 55704,
+      "attachments": []
+    },
+    {
+      "messageId": "19f925fd08c4f1d7",
+      "threadId": "19f925fd08c4f1d7",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f925fd08c4f1d7",
+      "subject": "Tesla was most bought stock today",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 24 Jul 2026 04:26:19 +0000",
+      "date_iso": "2026-07-24T04:26:19+00:00",
+      "message_id_header": "<20260724042619.776123bedb3373c3@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Still trying to nail the real reason behind the dip today - seemed suspicious. 13th worst day ever in history - nothing in earnings was a surprise an... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-24_042619_Tesla-was-most-bought-stock-today_19f925fd08c4f1d7_38e76cb2",
+      "raw_path": "emails/raw_eml/2026-07-24_042619_Tesla-was-most-bought-stock-today_19f925fd08c4f1d7_38e76cb2.eml",
+      "text_path": "emails/text_md/2026-07-24_042619_Tesla-was-most-bought-stock-today_19f925fd08c4f1d7_38e76cb2.md",
+      "meta_path": "emails/metadata/2026-07-24_042619_Tesla-was-most-bought-stock-today_19f925fd08c4f1d7_38e76cb2.json",
+      "text_chars": 2348,
+      "raw_bytes": 58198,
+      "sizeEstimate": 58198,
+      "attachments": []
+    },
+    {
+      "messageId": "19f92f2e7a6010aa",
+      "threadId": "19f92f2e7a6010aa",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f92f2e7a6010aa",
+      "subject": "US Mints Half the World's Millionaires in 2025 + more in 2026",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 24 Jul 2026 07:06:59 +0000",
+      "date_iso": "2026-07-24T07:06:59+00:00",
+      "message_id_header": "<20260724070659.4df786b71a62647f@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "The United States created almost half of all the world&#39;s new millionaires in 2025. This is over 441000 people all because of two massive wealth engin... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-24_070659_US-Mints-Half-the-Worlds-Millionaires-in-2025-more-in-2026_19f92f2e7a6010aa_82b185f5",
+      "raw_path": "emails/raw_eml/2026-07-24_070659_US-Mints-Half-the-Worlds-Millionaires-in-2025-more-in-2026_19f92f2e7a6010aa_82b185f5.eml",
+      "text_path": "emails/text_md/2026-07-24_070659_US-Mints-Half-the-Worlds-Millionaires-in-2025-more-in-2026_19f92f2e7a6010aa_82b185f5.md",
+      "meta_path": "emails/metadata/2026-07-24_070659_US-Mints-Half-the-Worlds-Millionaires-in-2025-more-in-2026_19f92f2e7a6010aa_82b185f5.json",
+      "text_chars": 2473,
+      "raw_bytes": 53564,
+      "sizeEstimate": 53564,
       "attachments": []
     }
   ]
