@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-07-24T18:05:27+00:00
+Generated: 2026-07-24T21:04:35+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 727
-- Emails exported: 727
-- Years: {"2026": 727}
+- Message IDs found: 728
+- Emails exported: 728
+- Years: {"2026": 728}
 
 ## Latest 20 subjects
 
+- VIDEO - New Bottleneck
 - IA13: AMD vs NVDA
 - OpenAI vs Anthropic
 - Short Hedge Funds dying out
@@ -28,4 +29,3 @@ Generated: 2026-07-24T18:05:27+00:00
 - IA Trade Alert
 - Avg TPS by year by Major Chain
 - GOOG: Heavy Capex Hurts FCF
-- Oil Ripping Higher
