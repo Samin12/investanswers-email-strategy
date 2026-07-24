@@ -1,14 +1,22 @@
 # Corpus Summary
 
-Generated: 2026-07-24T13:01:53+00:00
+Generated: 2026-07-24T18:05:27+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 719
-- Emails exported: 719
-- Years: {"2026": 719}
+- Message IDs found: 727
+- Emails exported: 727
+- Years: {"2026": 727}
 
 ## Latest 20 subjects
 
+- IA13: AMD vs NVDA
+- OpenAI vs Anthropic
+- Short Hedge Funds dying out
+- Franklin Templeton talk Agentic AI as killer use case for Crypto
+- IA Trade Alert
+- BTC ETFs - 3 positive weeks so far
+- IA Trade Alert
+- Gavin Baker on AI and Top Holdings
 - US Mints Half the World's Millionaires in 2025 + more in 2026
 - Tesla was most bought stock today
 - VIDEO - 21 Charts: Summer Bloodbath
@@ -21,11 +29,3 @@ Generated: 2026-07-24T13:01:53+00:00
 - Avg TPS by year by Major Chain
 - GOOG: Heavy Capex Hurts FCF
 - Oil Ripping Higher
-- Bitmex Shutting Down
-- SEC & Gary Gensler - super dirty
-- IA Trade Alert
-- Tesla Earnings call notes
-- New Digital Asset Index
-- Tesla Capex vs Others
-- Tesla earnings beat on Rev and miss on Earnings
-- Google massive earnings beat but down in after hours
