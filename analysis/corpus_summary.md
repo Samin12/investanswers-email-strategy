@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-07-24T21:04:35+00:00
+Generated: 2026-07-25T13:03:28+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 728
-- Emails exported: 728
-- Years: {"2026": 728}
+- Message IDs found: 730
+- Emails exported: 730
+- Years: {"2026": 730}
 
 ## Latest 20 subjects
 
+- Got a business? Use AI to help!
+- EXCLUSIVE VIDEO: Nailing Layers w DCAS
 - VIDEO - New Bottleneck
 - IA13: AMD vs NVDA
 - OpenAI vs Anthropic
@@ -27,5 +29,3 @@ Generated: 2026-07-24T21:04:35+00:00
 - IA Weekly Nuggets (July 15-22, 2026)
 - What a day... and to top things off Starship 13 is taking off in 7 hours
 - IA Trade Alert
-- Avg TPS by year by Major Chain
-- GOOG: Heavy Capex Hurts FCF
