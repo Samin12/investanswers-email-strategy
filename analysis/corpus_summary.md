@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-07-25T18:01:44+00:00
+Generated: 2026-07-25T21:03:05+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 736
-- Emails exported: 736
-- Years: {"2026": 736}
+- Message IDs found: 738
+- Emails exported: 738
+- Years: {"2026": 738}
 
 ## Latest 20 subjects
 
+- Tesla SpaceX Merger Odds
+- S&P500 PEG Ratio
 - Rule du Jour: #117 Mean Reversion Reckoning
 - Quick update on ALAB hedge
 - Neuralink: Control wheelchair by thought!
@@ -27,5 +29,3 @@ Generated: 2026-07-25T18:01:44+00:00
 - IA Trade Alert
 - Gavin Baker on AI and Top Holdings
 - US Mints Half the World's Millionaires in 2025 + more in 2026
-- Tesla was most bought stock today
-- VIDEO - 21 Charts: Summer Bloodbath

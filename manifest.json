@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 736,
-  "message_id_count": 736,
-  "generated_at": "2026-07-25T18:01:44+00:00",
+  "count": 738,
+  "message_id_count": 738,
+  "generated_at": "2026-07-25T21:03:05+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -19145,6 +19145,58 @@
       "text_chars": 3470,
       "raw_bytes": 54876,
       "sizeEstimate": 54876,
+      "attachments": []
+    },
+    {
+      "messageId": "19f9aa69b51ca31c",
+      "threadId": "19f9aa69b51ca31c",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f9aa69b51ca31c",
+      "subject": "S&P500 PEG Ratio",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sat, 25 Jul 2026 19:00:36 +0000",
+      "date_iso": "2026-07-25T19:00:36+00:00",
+      "message_id_header": "<20260725190036.29bb1cc83b988e38@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "S&amp;amp;P500 now has the lowest PEG ratio in 30+ years. We are beginning to see the AI IMPACT on growth (growing fast) and costs (falling fast). For tho... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-25_190036_SP500-PEG-Ratio_19f9aa69b51ca31c_f3079f3a",
+      "raw_path": "emails/raw_eml/2026-07-25_190036_SP500-PEG-Ratio_19f9aa69b51ca31c_f3079f3a.eml",
+      "text_path": "emails/text_md/2026-07-25_190036_SP500-PEG-Ratio_19f9aa69b51ca31c_f3079f3a.md",
+      "meta_path": "emails/metadata/2026-07-25_190036_SP500-PEG-Ratio_19f9aa69b51ca31c_f3079f3a.json",
+      "text_chars": 2000,
+      "raw_bytes": 52924,
+      "sizeEstimate": 52924,
+      "attachments": []
+    },
+    {
+      "messageId": "19f9ad73a0f232fd",
+      "threadId": "19f9ad73a0f232fd",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f9ad73a0f232fd",
+      "subject": "Tesla SpaceX Merger Odds",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sat, 25 Jul 2026 19:53:42 +0000",
+      "date_iso": "2026-07-25T19:53:42+00:00",
+      "message_id_header": "<20260725195342.9c28f97cf2fa071a@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Well the odds of a merger happening before May 1, 2027 just popped to 74%. When Kalshi is at 75% to 80% odds it becomes pretty much a sure thing. So ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-25_195342_Tesla-SpaceX-Merger-Odds_19f9ad73a0f232fd_7e8d5318",
+      "raw_path": "emails/raw_eml/2026-07-25_195342_Tesla-SpaceX-Merger-Odds_19f9ad73a0f232fd_7e8d5318.eml",
+      "text_path": "emails/text_md/2026-07-25_195342_Tesla-SpaceX-Merger-Odds_19f9ad73a0f232fd_7e8d5318.md",
+      "meta_path": "emails/metadata/2026-07-25_195342_Tesla-SpaceX-Merger-Odds_19f9ad73a0f232fd_7e8d5318.json",
+      "text_chars": 2330,
+      "raw_bytes": 55720,
+      "sizeEstimate": 55720,
       "attachments": []
     }
   ]
