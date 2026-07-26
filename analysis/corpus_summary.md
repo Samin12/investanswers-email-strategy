@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-07-26T18:05:04+00:00
+Generated: 2026-07-26T21:02:03+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 741
-- Emails exported: 741
-- Years: {"2026": 741}
+- Message IDs found: 742
+- Emails exported: 742
+- Years: {"2026": 742}
 
 ## Latest 20 subjects
 
+- VIDEO - Live Q&A: The Best Pivot
 - Starship is Everything!
 - AI Capex Spend Continues
 - AI Server Market CAGR
@@ -28,4 +29,3 @@ Generated: 2026-07-26T18:05:04+00:00
 - Short Hedge Funds dying out
 - Franklin Templeton talk Agentic AI as killer use case for Crypto
 - IA Trade Alert
-- BTC ETFs - 3 positive weeks so far
