@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-07-26T13:04:10+00:00
+Generated: 2026-07-26T18:05:04+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 738
-- Emails exported: 738
-- Years: {"2026": 738}
+- Message IDs found: 741
+- Emails exported: 741
+- Years: {"2026": 741}
 
 ## Latest 20 subjects
 
+- Starship is Everything!
+- AI Capex Spend Continues
+- AI Server Market CAGR
 - Tesla SpaceX Merger Odds
 - S&P500 PEG Ratio
 - Rule du Jour: #117 Mean Reversion Reckoning
@@ -26,6 +29,3 @@ Generated: 2026-07-26T13:04:10+00:00
 - Franklin Templeton talk Agentic AI as killer use case for Crypto
 - IA Trade Alert
 - BTC ETFs - 3 positive weeks so far
-- IA Trade Alert
-- Gavin Baker on AI and Top Holdings
-- US Mints Half the World's Millionaires in 2025 + more in 2026

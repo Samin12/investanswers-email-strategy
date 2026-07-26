@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 738,
-  "message_id_count": 738,
-  "generated_at": "2026-07-26T13:04:10+00:00",
+  "count": 741,
+  "message_id_count": 741,
+  "generated_at": "2026-07-26T18:05:04+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -19197,6 +19197,83 @@
       "text_chars": 2330,
       "raw_bytes": 55720,
       "sizeEstimate": 55720,
+      "attachments": []
+    },
+    {
+      "messageId": "19f9eff0b105e85c",
+      "threadId": "19f9eff0b105e85c",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f9eff0b105e85c",
+      "subject": "AI Server Market CAGR",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 26 Jul 2026 15:15:41 +0000",
+      "date_iso": "2026-07-26T15:15:41+00:00",
+      "message_id_header": "<20260726151541.73f2722b8d3840ae@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "INBOX"
+      ],
+      "snippet": "Interesting to see DELL like a phoenix rising from the flames. JP Morgan: AI Server Market&quot;The AI Server market is estimated to expand to $356bn in ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-26_151541_AI-Server-Market-CAGR_19f9eff0b105e85c_85bc5833",
+      "raw_path": "emails/raw_eml/2026-07-26_151541_AI-Server-Market-CAGR_19f9eff0b105e85c_85bc5833.eml",
+      "text_path": "emails/text_md/2026-07-26_151541_AI-Server-Market-CAGR_19f9eff0b105e85c_85bc5833.md",
+      "meta_path": "emails/metadata/2026-07-26_151541_AI-Server-Market-CAGR_19f9eff0b105e85c_85bc5833.json",
+      "text_chars": 2335,
+      "raw_bytes": 53279,
+      "sizeEstimate": 53279,
+      "attachments": []
+    },
+    {
+      "messageId": "19f9f0632073f5f1",
+      "threadId": "19f9f0632073f5f1",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f9f0632073f5f1",
+      "subject": "AI Capex Spend Continues",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 26 Jul 2026 15:23:30 +0000",
+      "date_iso": "2026-07-26T15:23:30+00:00",
+      "message_id_header": "<20260726152330.1d815f9925310109@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "There is no planned slowdown in CAPEX Spend. And this chart above does not even include Tesla/SPCX Terafab, Micron, TSMC, OpenAI, Anthropic and China... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-26_152330_AI-Capex-Spend-Continues_19f9f0632073f5f1_c874e2f3",
+      "raw_path": "emails/raw_eml/2026-07-26_152330_AI-Capex-Spend-Continues_19f9f0632073f5f1_c874e2f3.eml",
+      "text_path": "emails/text_md/2026-07-26_152330_AI-Capex-Spend-Continues_19f9f0632073f5f1_c874e2f3.md",
+      "meta_path": "emails/metadata/2026-07-26_152330_AI-Capex-Spend-Continues_19f9f0632073f5f1_c874e2f3.json",
+      "text_chars": 2273,
+      "raw_bytes": 54425,
+      "sizeEstimate": 54425,
+      "attachments": []
+    },
+    {
+      "messageId": "19f9f199be81a475",
+      "threadId": "19f9f199be81a475",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19f9f199be81a475",
+      "subject": "Starship is Everything!",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 26 Jul 2026 15:44:42 +0000",
+      "date_iso": "2026-07-26T15:44:42+00:00",
+      "message_id_header": "<20260726154442.d9933a2538221f97@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Do we have a new infinite money machine w Starship? The answer is probably yes. THE FALCON 9 MATHThis is how much they make w the old rocket Falcon p... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-26_154442_Starship-is-Everything_19f9f199be81a475_eca5543b",
+      "raw_path": "emails/raw_eml/2026-07-26_154442_Starship-is-Everything_19f9f199be81a475_eca5543b.eml",
+      "text_path": "emails/text_md/2026-07-26_154442_Starship-is-Everything_19f9f199be81a475_eca5543b.md",
+      "meta_path": "emails/metadata/2026-07-26_154442_Starship-is-Everything_19f9f199be81a475_eca5543b.json",
+      "text_chars": 2634,
+      "raw_bytes": 56118,
+      "sizeEstimate": 56118,
       "attachments": []
     }
   ]
