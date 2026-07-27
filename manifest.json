@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 750,
-  "message_id_count": 750,
-  "generated_at": "2026-07-27T18:03:48+00:00",
+  "count": 752,
+  "message_id_count": 752,
+  "generated_at": "2026-07-27T21:03:54+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -19509,6 +19509,59 @@
       "text_chars": 2620,
       "raw_bytes": 53765,
       "sizeEstimate": 53765,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa4f0727389d95",
+      "threadId": "19fa4f0727389d95",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa4f0727389d95",
+      "subject": "IA Trade Alert",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 27 Jul 2026 18:57:28 +0000",
+      "date_iso": "2026-07-27T18:57:28+00:00",
+      "message_id_header": "<20260727185728.2153d230a3fe04ff@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "NFA my goals are not your goals - Disclaimer: The information provided in this trade alert is for educational and entertainment purposes only and shou... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-27_185728_IA-Trade-Alert_19fa4f0727389d95_8fd1ff57",
+      "raw_path": "emails/raw_eml/2026-07-27_185728_IA-Trade-Alert_19fa4f0727389d95_8fd1ff57.eml",
+      "text_path": "emails/text_md/2026-07-27_185728_IA-Trade-Alert_19fa4f0727389d95_8fd1ff57.md",
+      "meta_path": "emails/metadata/2026-07-27_185728_IA-Trade-Alert_19fa4f0727389d95_8fd1ff57.json",
+      "text_chars": 4115,
+      "raw_bytes": 56756,
+      "sizeEstimate": 56756,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa518747585d77",
+      "threadId": "19fa518747585d77",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa518747585d77",
+      "subject": "VIDEO - Bitcoin: Hash Collapse",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 27 Jul 2026 19:41:09 +0000",
+      "date_iso": "2026-07-27T19:41:09+00:00",
+      "message_id_header": "<20260727194109.b598970bd5b6d4aa@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "Label_9",
+        "INBOX"
+      ],
+      "snippet": "Live at 12:50pm Pacific: https://youtube.com/live/EJE28ADpsdo... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-27_194109_VIDEO-Bitcoin-Hash-Collapse_19fa518747585d77_cf26345e",
+      "raw_path": "emails/raw_eml/2026-07-27_194109_VIDEO-Bitcoin-Hash-Collapse_19fa518747585d77_cf26345e.eml",
+      "text_path": "emails/text_md/2026-07-27_194109_VIDEO-Bitcoin-Hash-Collapse_19fa518747585d77_cf26345e.md",
+      "meta_path": "emails/metadata/2026-07-27_194109_VIDEO-Bitcoin-Hash-Collapse_19fa518747585d77_cf26345e.json",
+      "text_chars": 1879,
+      "raw_bytes": 55669,
+      "sizeEstimate": 55669,
       "attachments": []
     }
   ]

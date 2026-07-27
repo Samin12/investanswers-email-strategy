@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-07-27T18:03:48+00:00
+Generated: 2026-07-27T21:03:54+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 750
-- Emails exported: 750
-- Years: {"2026": 750}
+- Message IDs found: 752
+- Emails exported: 752
+- Years: {"2026": 752}
 
 ## Latest 20 subjects
 
+- VIDEO - Bitcoin: Hash Collapse
+- IA Trade Alert
 - AI Boom - no wonder folks call it a bubble
 - BitMart exchange is closing.
 - IA13 2030 Price Targets
@@ -27,5 +29,3 @@ Generated: 2026-07-27T18:03:48+00:00
 - Quick update on ALAB hedge
 - Neuralink: Control wheelchair by thought!
 - Tesla AI5 Chip Mass Production date set
-- BTC ETFs just squeezed in a Green Week
-- NVDA and SK Hynix Deal
