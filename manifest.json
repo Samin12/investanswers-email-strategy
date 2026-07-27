@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 742,
-  "message_id_count": 742,
-  "generated_at": "2026-07-26T21:02:03+00:00",
+  "count": 745,
+  "message_id_count": 745,
+  "generated_at": "2026-07-27T13:04:29+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -19301,6 +19301,84 @@
       "text_chars": 1889,
       "raw_bytes": 55688,
       "sizeEstimate": 55688,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa079af65a4faa",
+      "threadId": "19fa079af65a4faa",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa079af65a4faa",
+      "subject": "BTC and BigMac Index",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 26 Jul 2026 22:09:15 +0000",
+      "date_iso": "2026-07-26T22:09:15+00:00",
+      "message_id_header": "<20260726220915.c30fd3e49b44d861@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "The original Big Mac Index (created by The Economist) was designed for cross-country purchasing-power parity. The same logic applied over time inside ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-26_220915_BTC-and-BigMac-Index_19fa079af65a4faa_facde83b",
+      "raw_path": "emails/raw_eml/2026-07-26_220915_BTC-and-BigMac-Index_19fa079af65a4faa_facde83b.eml",
+      "text_path": "emails/text_md/2026-07-26_220915_BTC-and-BigMac-Index_19fa079af65a4faa_facde83b.md",
+      "meta_path": "emails/metadata/2026-07-26_220915_BTC-and-BigMac-Index_19fa079af65a4faa_facde83b.json",
+      "text_chars": 2214,
+      "raw_bytes": 53071,
+      "sizeEstimate": 53071,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa29453e4b8a84",
+      "threadId": "19fa29453e4b8a84",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa29453e4b8a84",
+      "subject": "Watch the Inference Compute Players",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 27 Jul 2026 07:57:36 +0000",
+      "date_iso": "2026-07-27T07:57:36+00:00",
+      "message_id_header": "<20260727075736.452a41040b6637d8@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "By 2030, it is projected that inference will surpass training as the dominant workload in AI data centers, representing more than half of all AI compu... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-27_075736_Watch-the-Inference-Compute-Players_19fa29453e4b8a84_036216d7",
+      "raw_path": "emails/raw_eml/2026-07-27_075736_Watch-the-Inference-Compute-Players_19fa29453e4b8a84_036216d7.eml",
+      "text_path": "emails/text_md/2026-07-27_075736_Watch-the-Inference-Compute-Players_19fa29453e4b8a84_036216d7.md",
+      "meta_path": "emails/metadata/2026-07-27_075736_Watch-the-Inference-Compute-Players_19fa29453e4b8a84_036216d7.json",
+      "text_chars": 2323,
+      "raw_bytes": 53252,
+      "sizeEstimate": 53252,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa2d2446ad64cd",
+      "threadId": "19fa2d2446ad64cd",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa2d2446ad64cd",
+      "subject": "G7 M2 Growth",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 27 Jul 2026 09:05:15 +0000",
+      "date_iso": "2026-07-27T09:05:15+00:00",
+      "message_id_header": "<20260727090515.5a71d04a680d2273@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "When M2 grows, it means more money chasing the same number of goods which means higher prices (inflation). Eventually some of this money will also sta... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-27_090515_G7-M2-Growth_19fa2d2446ad64cd_0e9692c8",
+      "raw_path": "emails/raw_eml/2026-07-27_090515_G7-M2-Growth_19fa2d2446ad64cd_0e9692c8.eml",
+      "text_path": "emails/text_md/2026-07-27_090515_G7-M2-Growth_19fa2d2446ad64cd_0e9692c8.md",
+      "meta_path": "emails/metadata/2026-07-27_090515_G7-M2-Growth_19fa2d2446ad64cd_0e9692c8.json",
+      "text_chars": 2413,
+      "raw_bytes": 54712,
+      "sizeEstimate": 54712,
       "attachments": []
     }
   ]

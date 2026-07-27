@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-07-26T21:02:03+00:00
+Generated: 2026-07-27T13:04:29+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 742
-- Emails exported: 742
-- Years: {"2026": 742}
+- Message IDs found: 745
+- Emails exported: 745
+- Years: {"2026": 745}
 
 ## Latest 20 subjects
 
+- G7 M2 Growth
+- Watch the Inference Compute Players
+- BTC and BigMac Index
 - VIDEO - Live Q&A: The Best Pivot
 - Starship is Everything!
 - AI Capex Spend Continues
@@ -26,6 +29,3 @@ Generated: 2026-07-26T21:02:03+00:00
 - VIDEO - New Bottleneck
 - IA13: AMD vs NVDA
 - OpenAI vs Anthropic
-- Short Hedge Funds dying out
-- Franklin Templeton talk Agentic AI as killer use case for Crypto
-- IA Trade Alert
