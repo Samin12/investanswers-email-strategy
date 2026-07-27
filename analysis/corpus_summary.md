@@ -1,14 +1,19 @@
 # Corpus Summary
 
-Generated: 2026-07-27T13:04:29+00:00
+Generated: 2026-07-27T18:03:48+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 745
-- Emails exported: 745
-- Years: {"2026": 745}
+- Message IDs found: 750
+- Emails exported: 750
+- Years: {"2026": 750}
 
 ## Latest 20 subjects
 
+- AI Boom - no wonder folks call it a bubble
+- BitMart exchange is closing.
+- IA13 2030 Price Targets
+- Big players have locked up Memory Supply
+- MSTR did something different
 - G7 M2 Growth
 - Watch the Inference Compute Players
 - BTC and BigMac Index
@@ -24,8 +29,3 @@ Generated: 2026-07-27T13:04:29+00:00
 - Tesla AI5 Chip Mass Production date set
 - BTC ETFs just squeezed in a Green Week
 - NVDA and SK Hynix Deal
-- Got a business? Use AI to help!
-- EXCLUSIVE VIDEO: Nailing Layers w DCAS
-- VIDEO - New Bottleneck
-- IA13: AMD vs NVDA
-- OpenAI vs Anthropic
