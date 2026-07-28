@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 758,
-  "message_id_count": 758,
-  "generated_at": "2026-07-28T18:05:23+00:00",
+  "count": 762,
+  "message_id_count": 762,
+  "generated_at": "2026-07-28T21:05:57+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -19718,6 +19718,110 @@
       "text_chars": 2069,
       "raw_bytes": 53001,
       "sizeEstimate": 53001,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa9fda9461f2f4",
+      "threadId": "19fa9fda9461f2f4",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa9fda9461f2f4",
+      "subject": "IA Portfolio July 28, 2026",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 28 Jul 2026 18:29:59 +0000",
+      "date_iso": "2026-07-28T18:29:59+00:00",
+      "message_id_header": "<20260728182959.f1e85ae653c8fc7b@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "AI stocks got hammered the last week... but surprisingly STRC went up and Crypto held steady. Crypto allocation is now 22%. ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-28_182959_IA-Portfolio-July-28-2026_19fa9fda9461f2f4_a9844fe6",
+      "raw_path": "emails/raw_eml/2026-07-28_182959_IA-Portfolio-July-28-2026_19fa9fda9461f2f4_a9844fe6.eml",
+      "text_path": "emails/text_md/2026-07-28_182959_IA-Portfolio-July-28-2026_19fa9fda9461f2f4_a9844fe6.md",
+      "meta_path": "emails/metadata/2026-07-28_182959_IA-Portfolio-July-28-2026_19fa9fda9461f2f4_a9844fe6.json",
+      "text_chars": 1887,
+      "raw_bytes": 52749,
+      "sizeEstimate": 52749,
+      "attachments": []
+    },
+    {
+      "messageId": "19faa022cb000cd6",
+      "threadId": "19faa022cb000cd6",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19faa022cb000cd6",
+      "subject": "Worst Semi Month since 2022",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 28 Jul 2026 18:34:55 +0000",
+      "date_iso": "2026-07-28T18:34:55+00:00",
+      "message_id_header": "<20260728183455.0b5ad9b77bc23725@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "MSCI semiconductor index its worst month since 2022. However April was the best ever in history. It is giving some back. IA13 is impacted by this. ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-28_183455_Worst-Semi-Month-since-2022_19faa022cb000cd6_c39133d5",
+      "raw_path": "emails/raw_eml/2026-07-28_183455_Worst-Semi-Month-since-2022_19faa022cb000cd6_c39133d5.eml",
+      "text_path": "emails/text_md/2026-07-28_183455_Worst-Semi-Month-since-2022_19faa022cb000cd6_c39133d5.md",
+      "meta_path": "emails/metadata/2026-07-28_183455_Worst-Semi-Month-since-2022_19faa022cb000cd6_c39133d5.json",
+      "text_chars": 2200,
+      "raw_bytes": 53161,
+      "sizeEstimate": 53161,
+      "attachments": []
+    },
+    {
+      "messageId": "19faa1e038568845",
+      "threadId": "19faa1e038568845",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19faa1e038568845",
+      "subject": "Morgan Stanley Investment Recommendation",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 28 Jul 2026 19:05:19 +0000",
+      "date_iso": "2026-07-28T19:05:19+00:00",
+      "message_id_header": "<20260728190519.bf8c42ebed289a0a@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Here is the mapping to my IA13 - we have a gap w Chinese AI Solution Providers. Thoughts welcome below. (i) Own the AI Infrastructure bottlenecks Best... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-28_190519_Morgan-Stanley-Investment-Recommendation_19faa1e038568845_5b0b749c",
+      "raw_path": "emails/raw_eml/2026-07-28_190519_Morgan-Stanley-Investment-Recommendation_19faa1e038568845_5b0b749c.eml",
+      "text_path": "emails/text_md/2026-07-28_190519_Morgan-Stanley-Investment-Recommendation_19faa1e038568845_5b0b749c.md",
+      "meta_path": "emails/metadata/2026-07-28_190519_Morgan-Stanley-Investment-Recommendation_19faa1e038568845_5b0b749c.json",
+      "text_chars": 3365,
+      "raw_bytes": 55048,
+      "sizeEstimate": 55048,
+      "attachments": []
+    },
+    {
+      "messageId": "19faa50f961d6eeb",
+      "threadId": "19faa50f961d6eeb",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19faa50f961d6eeb",
+      "subject": "VIDEO - OCTA: Panic or Opportunity?",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 28 Jul 2026 20:00:57 +0000",
+      "date_iso": "2026-07-28T20:00:57+00:00",
+      "message_id_header": "<20260728200057.987c19ba9407d3cf@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Live at 1:10pm Pacific: https://youtube.com/live/ls6-dGt5wA0... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-28_200057_VIDEO-OCTA-Panic-or-Opportunity_19faa50f961d6eeb_07824235",
+      "raw_path": "emails/raw_eml/2026-07-28_200057_VIDEO-OCTA-Panic-or-Opportunity_19faa50f961d6eeb_07824235.eml",
+      "text_path": "emails/text_md/2026-07-28_200057_VIDEO-OCTA-Panic-or-Opportunity_19faa50f961d6eeb_07824235.md",
+      "meta_path": "emails/metadata/2026-07-28_200057_VIDEO-OCTA-Panic-or-Opportunity_19faa50f961d6eeb_07824235.json",
+      "text_chars": 1896,
+      "raw_bytes": 55748,
+      "sizeEstimate": 55748,
       "attachments": []
     }
   ]

@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-07-28T18:05:23+00:00
+Generated: 2026-07-28T21:05:57+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 758
-- Emails exported: 758
-- Years: {"2026": 758}
+- Message IDs found: 762
+- Emails exported: 762
+- Years: {"2026": 762}
 
 ## Latest 20 subjects
 
+- VIDEO - OCTA: Panic or Opportunity?
+- Morgan Stanley Investment Recommendation
+- Worst Semi Month since 2022
+- IA Portfolio July 28, 2026
 - SPCX graduated to Top Hyperscaler
 - Anduril: Data Center in a shipping container
 - Kalshi see US Debt going from $39T to $$47.5T in 2 years
@@ -25,7 +29,3 @@ Generated: 2026-07-28T18:05:23+00:00
 - G7 M2 Growth
 - Watch the Inference Compute Players
 - BTC and BigMac Index
-- VIDEO - Live Q&A: The Best Pivot
-- Starship is Everything!
-- AI Capex Spend Continues
-- AI Server Market CAGR
