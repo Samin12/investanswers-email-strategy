@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 752,
-  "message_id_count": 752,
-  "generated_at": "2026-07-27T21:03:54+00:00",
+  "count": 754,
+  "message_id_count": 754,
+  "generated_at": "2026-07-28T13:05:08+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -19560,6 +19560,58 @@
       "text_path": "emails/text_md/2026-07-27_194109_VIDEO-Bitcoin-Hash-Collapse_19fa518747585d77_cf26345e.md",
       "meta_path": "emails/metadata/2026-07-27_194109_VIDEO-Bitcoin-Hash-Collapse_19fa518747585d77_cf26345e.json",
       "text_chars": 1879,
+      "raw_bytes": 55669,
+      "sizeEstimate": 55669,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa65d8e33abf6c",
+      "threadId": "19fa65d8e33abf6c",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa65d8e33abf6c",
+      "subject": "Sell Off Continues in Asia",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 28 Jul 2026 01:36:16 +0000",
+      "date_iso": "2026-07-28T01:36:16+00:00",
+      "message_id_header": "<20260728013616.0cd4ab70866e4386@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Kospi (South Korea) and Nikkei (Japan) are down 8% and 3% respectively as their markets opened. SK Hynix is down 50% in a month and another 11% just n... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-28_013616_Sell-Off-Continues-in-Asia_19fa65d8e33abf6c_a2c01a1e",
+      "raw_path": "emails/raw_eml/2026-07-28_013616_Sell-Off-Continues-in-Asia_19fa65d8e33abf6c_a2c01a1e.eml",
+      "text_path": "emails/text_md/2026-07-28_013616_Sell-Off-Continues-in-Asia_19fa65d8e33abf6c_a2c01a1e.md",
+      "meta_path": "emails/metadata/2026-07-28_013616_Sell-Off-Continues-in-Asia_19fa65d8e33abf6c_a2c01a1e.json",
+      "text_chars": 2108,
+      "raw_bytes": 54326,
+      "sizeEstimate": 54326,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa665c109ff46b",
+      "threadId": "19fa665c109ff46b",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa665c109ff46b",
+      "subject": "Surprise Rate Hike would Hurt Markets More",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 28 Jul 2026 01:45:12 +0000",
+      "date_iso": "2026-07-28T01:45:12+00:00",
+      "message_id_header": "<20260728014512.d15b72fb8344c715@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Rumor has it Warsh as a surprise hike planned. Futures now have it 37% locked in. This would really hurt risk assets....and Bitcoin. To make matters w... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-28_014512_Surprise-Rate-Hike-would-Hurt-Markets-More_19fa665c109ff46b_fd252df9",
+      "raw_path": "emails/raw_eml/2026-07-28_014512_Surprise-Rate-Hike-would-Hurt-Markets-More_19fa665c109ff46b_fd252df9.eml",
+      "text_path": "emails/text_md/2026-07-28_014512_Surprise-Rate-Hike-would-Hurt-Markets-More_19fa665c109ff46b_fd252df9.md",
+      "meta_path": "emails/metadata/2026-07-28_014512_Surprise-Rate-Hike-would-Hurt-Markets-More_19fa665c109ff46b_fd252df9.json",
+      "text_chars": 2256,
       "raw_bytes": 55669,
       "sizeEstimate": 55669,
       "attachments": []
