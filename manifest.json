@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 754,
-  "message_id_count": 754,
-  "generated_at": "2026-07-28T13:05:08+00:00",
+  "count": 758,
+  "message_id_count": 758,
+  "generated_at": "2026-07-28T18:05:23+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -19614,6 +19614,110 @@
       "text_chars": 2256,
       "raw_bytes": 55669,
       "sizeEstimate": 55669,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa9111166a4d93",
+      "threadId": "19fa9111166a4d93",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa9111166a4d93",
+      "subject": "Did OpenAI Founder put pin in OpenAI?",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 28 Jul 2026 14:11:34 +0000",
+      "date_iso": "2026-07-28T14:11:34+00:00",
+      "message_id_header": "<20260728141134.111e48fb7a726cab@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Nvidia is investing in Ilya Sutskever&#39;s new secret AI lab, Safe Superintelligence (SSI)The ex-OpenAI chief scientist&#39;s startup gets better access to N... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-28_141134_Did-OpenAI-Founder-put-pin-in-OpenAI_19fa9111166a4d93_e2172f09",
+      "raw_path": "emails/raw_eml/2026-07-28_141134_Did-OpenAI-Founder-put-pin-in-OpenAI_19fa9111166a4d93_e2172f09.eml",
+      "text_path": "emails/text_md/2026-07-28_141134_Did-OpenAI-Founder-put-pin-in-OpenAI_19fa9111166a4d93_e2172f09.md",
+      "meta_path": "emails/metadata/2026-07-28_141134_Did-OpenAI-Founder-put-pin-in-OpenAI_19fa9111166a4d93_e2172f09.json",
+      "text_chars": 2781,
+      "raw_bytes": 55307,
+      "sizeEstimate": 55307,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa982f7a1402df",
+      "threadId": "19fa982f7a1402df",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa982f7a1402df",
+      "subject": "Kalshi see US Debt going from $39T to $$47.5T in 2 years",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 28 Jul 2026 16:15:59 +0000",
+      "date_iso": "2026-07-28T16:15:59+00:00",
+      "message_id_header": "<20260728161559.8c2f4740077abc5e@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Kalshi see US Debt going from $39T to $$47.5T in 2 years A stunning level of debt increase. We know we are accelerating but this is ridiculousWe have... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-28_161559_Kalshi-see-US-Debt-going-from-39T-to-47.5T-in-2-years_19fa982f7a1402df_e4ec53eb",
+      "raw_path": "emails/raw_eml/2026-07-28_161559_Kalshi-see-US-Debt-going-from-39T-to-47.5T-in-2-years_19fa982f7a1402df_e4ec53eb.eml",
+      "text_path": "emails/text_md/2026-07-28_161559_Kalshi-see-US-Debt-going-from-39T-to-47.5T-in-2-years_19fa982f7a1402df_e4ec53eb.md",
+      "meta_path": "emails/metadata/2026-07-28_161559_Kalshi-see-US-Debt-going-from-39T-to-47.5T-in-2-years_19fa982f7a1402df_e4ec53eb.json",
+      "text_chars": 2227,
+      "raw_bytes": 53208,
+      "sizeEstimate": 53208,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa98529b4723cd",
+      "threadId": "19fa98529b4723cd",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa98529b4723cd",
+      "subject": "Anduril: Data Center in a shipping container",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 28 Jul 2026 16:18:22 +0000",
+      "date_iso": "2026-07-28T16:18:22+00:00",
+      "message_id_header": "<20260728161822.4b6ffe811925f6f6@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Anduril put a full data center in a shipping container. Two people stand it up in under 10 minutes and it flies in slung under a CH-53K.An F-35 missio... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-28_161822_Anduril-Data-Center-in-a-shipping-container_19fa98529b4723cd_51654881",
+      "raw_path": "emails/raw_eml/2026-07-28_161822_Anduril-Data-Center-in-a-shipping-container_19fa98529b4723cd_51654881.eml",
+      "text_path": "emails/text_md/2026-07-28_161822_Anduril-Data-Center-in-a-shipping-container_19fa98529b4723cd_51654881.md",
+      "meta_path": "emails/metadata/2026-07-28_161822_Anduril-Data-Center-in-a-shipping-container_19fa98529b4723cd_51654881.json",
+      "text_chars": 2195,
+      "raw_bytes": 54377,
+      "sizeEstimate": 54377,
+      "attachments": []
+    },
+    {
+      "messageId": "19fa9a2e648f6cfd",
+      "threadId": "19fa9a2e648f6cfd",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fa9a2e648f6cfd",
+      "subject": "SPCX graduated to Top Hyperscaler",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Tue, 28 Jul 2026 16:50:52 +0000",
+      "date_iso": "2026-07-28T16:50:52+00:00",
+      "message_id_header": "<20260728165052.23142fbb73b7060d@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "In this recent capex report - 2 items1) SPCX now part of the big five hyperscalers2) SpaceX do a lot more with less. Rem SpaceX w Tesla are going to b... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-28_165052_SPCX-graduated-to-Top-Hyperscaler_19fa9a2e648f6cfd_849106dc",
+      "raw_path": "emails/raw_eml/2026-07-28_165052_SPCX-graduated-to-Top-Hyperscaler_19fa9a2e648f6cfd_849106dc.eml",
+      "text_path": "emails/text_md/2026-07-28_165052_SPCX-graduated-to-Top-Hyperscaler_19fa9a2e648f6cfd_849106dc.md",
+      "meta_path": "emails/metadata/2026-07-28_165052_SPCX-graduated-to-Top-Hyperscaler_19fa9a2e648f6cfd_849106dc.json",
+      "text_chars": 2069,
+      "raw_bytes": 53001,
+      "sizeEstimate": 53001,
       "attachments": []
     }
   ]

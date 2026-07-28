@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-07-28T13:05:08+00:00
+Generated: 2026-07-28T18:05:23+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 754
-- Emails exported: 754
-- Years: {"2026": 754}
+- Message IDs found: 758
+- Emails exported: 758
+- Years: {"2026": 758}
 
 ## Latest 20 subjects
 
+- SPCX graduated to Top Hyperscaler
+- Anduril: Data Center in a shipping container
+- Kalshi see US Debt going from $39T to $$47.5T in 2 years
+- Did OpenAI Founder put pin in OpenAI?
 - Surprise Rate Hike would Hurt Markets More
 - Sell Off Continues in Asia
 - VIDEO - Bitcoin: Hash Collapse
@@ -25,7 +29,3 @@ Generated: 2026-07-28T13:05:08+00:00
 - Starship is Everything!
 - AI Capex Spend Continues
 - AI Server Market CAGR
-- Tesla SpaceX Merger Odds
-- S&P500 PEG Ratio
-- Rule du Jour: #117 Mean Reversion Reckoning
-- Quick update on ALAB hedge
