@@ -1,14 +1,19 @@
 # Corpus Summary
 
-Generated: 2026-07-29T13:03:56+00:00
+Generated: 2026-07-29T18:04:52+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 763
-- Emails exported: 763
-- Years: {"2026": 763}
+- Message IDs found: 768
+- Emails exported: 768
+- Years: {"2026": 768}
 
 ## Latest 20 subjects
 
+- Poll: Auto-Moderation in Patreon
+- Chinese are the only Optimists on Tesla Optimus
+- Tragic Margin Warning & Real Estate Angle
+- Korean Memory Player Missed - SK Hynix
+- Market under shadow of Fed once again
 - US bans Chinese Humanoids
 - VIDEO - OCTA: Panic or Opportunity?
 - Morgan Stanley Investment Recommendation
@@ -24,8 +29,3 @@ Generated: 2026-07-29T13:03:56+00:00
 - IA Trade Alert
 - AI Boom - no wonder folks call it a bubble
 - BitMart exchange is closing.
-- IA13 2030 Price Targets
-- Big players have locked up Memory Supply
-- MSTR did something different
-- G7 M2 Growth
-- Watch the Inference Compute Players
