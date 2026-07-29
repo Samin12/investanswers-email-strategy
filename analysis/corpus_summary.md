@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-07-29T18:04:52+00:00
+Generated: 2026-07-29T21:03:46+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 768
-- Emails exported: 768
-- Years: {"2026": 768}
+- Message IDs found: 771
+- Emails exported: 771
+- Years: {"2026": 771}
 
 ## Latest 20 subjects
 
+- VIDEO - Is Sell-Off Overblown?
+- IA Trade Alert
+- No Hike - Markets rebound slightly
 - Poll: Auto-Moderation in Patreon
 - Chinese are the only Optimists on Tesla Optimus
 - Tragic Margin Warning & Real Estate Angle
@@ -26,6 +29,3 @@ Generated: 2026-07-29T18:04:52+00:00
 - Surprise Rate Hike would Hurt Markets More
 - Sell Off Continues in Asia
 - VIDEO - Bitcoin: Hash Collapse
-- IA Trade Alert
-- AI Boom - no wonder folks call it a bubble
-- BitMart exchange is closing.
