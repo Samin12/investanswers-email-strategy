@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-07-28T21:05:57+00:00
+Generated: 2026-07-29T13:03:56+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 762
-- Emails exported: 762
-- Years: {"2026": 762}
+- Message IDs found: 763
+- Emails exported: 763
+- Years: {"2026": 763}
 
 ## Latest 20 subjects
 
+- US bans Chinese Humanoids
 - VIDEO - OCTA: Panic or Opportunity?
 - Morgan Stanley Investment Recommendation
 - Worst Semi Month since 2022
@@ -28,4 +29,3 @@ Generated: 2026-07-28T21:05:57+00:00
 - MSTR did something different
 - G7 M2 Growth
 - Watch the Inference Compute Players
-- BTC and BigMac Index
