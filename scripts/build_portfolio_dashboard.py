@@ -260,8 +260,10 @@ def build_data() -> dict:
     prices = latest.get("prices") or {}
     watch = []
     watch_levels = {
-        "SPCX": "Buy zone $140 -> $135 retest; no day-1 chase.",
-        "TSLA": "Interested under $400, better $380-$395 with confirmation.",
+        "SPCX": "Latest watch: possible meander toward $100; $82 is stronger relative value. Confirmation and cash room required.",
+        "TSLA": "Stock preferred to expensive options in the low-$300s after the historic dump; wait for execution confirmation.",
+        "MRVL": "James reiterates he is buying; prior alert fill was $209. Cash and AI concentration still block an add.",
+        "MU": "Latest TRADE_ALERT began DCA near $745; option ticket remains incomplete. Cash and concentration still block an add.",
         "SATS": "Only interesting near <$100.",
         "PLTR": "~$130 box zone, but size/cash rules still matter.",
         "NVDA": "Below $200 is preferred entry zone.",

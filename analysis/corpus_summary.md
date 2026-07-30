@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-07-30T13:06:13+00:00
+Generated: 2026-07-30T18:04:55+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 781
-- Emails exported: 781
-- Years: {"2026": 781}
+- Message IDs found: 784
+- Emails exported: 784
+- Years: {"2026": 784}
 
 ## Latest 20 subjects
 
+- IA Weekly Nuggets (July 23-30, 2027)
+- Easy come, easy go
+- VIDEO - Who Wins Capex AI Wars?
 - Bitcoin Bottom Callers at $60K
 - Bottom in or do we need a real Capitulation?
 - Upcoming Fireside Chat
@@ -26,6 +29,3 @@ Generated: 2026-07-30T13:06:13+00:00
 - Chinese are the only Optimists on Tesla Optimus
 - Tragic Margin Warning & Real Estate Angle
 - Korean Memory Player Missed - SK Hynix
-- Market under shadow of Fed once again
-- US bans Chinese Humanoids
-- VIDEO - OCTA: Panic or Opportunity?

@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 781,
-  "message_id_count": 781,
-  "generated_at": "2026-07-30T13:06:13+00:00",
+  "count": 784,
+  "message_id_count": 784,
+  "generated_at": "2026-07-30T18:04:55+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -20317,6 +20317,84 @@
       "text_chars": 2822,
       "raw_bytes": 51742,
       "sizeEstimate": 51742,
+      "attachments": []
+    },
+    {
+      "messageId": "19fb3f2dfeb20d25",
+      "threadId": "19fb3f2dfeb20d25",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fb3f2dfeb20d25",
+      "subject": "VIDEO - Who Wins Capex AI Wars?",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 30 Jul 2026 16:54:24 +0000",
+      "date_iso": "2026-07-30T16:54:24+00:00",
+      "message_id_header": "<20260730165424.71686f2ceb9dcb5b@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Premieres at 10am Pacific: https://www.youtube.com/watch?v=64RzanA4oWA... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-30_165424_VIDEO-Who-Wins-Capex-AI-Wars_19fb3f2dfeb20d25_31bf3969",
+      "raw_path": "emails/raw_eml/2026-07-30_165424_VIDEO-Who-Wins-Capex-AI-Wars_19fb3f2dfeb20d25_31bf3969.eml",
+      "text_path": "emails/text_md/2026-07-30_165424_VIDEO-Who-Wins-Capex-AI-Wars_19fb3f2dfeb20d25_31bf3969.md",
+      "meta_path": "emails/metadata/2026-07-30_165424_VIDEO-Who-Wins-Capex-AI-Wars_19fb3f2dfeb20d25_31bf3969.json",
+      "text_chars": 1892,
+      "raw_bytes": 55672,
+      "sizeEstimate": 55672,
+      "attachments": []
+    },
+    {
+      "messageId": "19fb42205eca0f1d",
+      "threadId": "19fb42205eca0f1d",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fb42205eca0f1d",
+      "subject": "Easy come, easy go",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 30 Jul 2026 17:45:55 +0000",
+      "date_iso": "2026-07-30T17:45:55+00:00",
+      "message_id_header": "<20260730174555.c6eee9c66d8da250@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "A lesson here for us all. I was tracking this guys portfolio the last 8 mths but never followed him into any positions as my RULE - DON&#39;T CHASE saved ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-30_174555_Easy-come-easy-go_19fb42205eca0f1d_80e763f2",
+      "raw_path": "emails/raw_eml/2026-07-30_174555_Easy-come-easy-go_19fb42205eca0f1d_80e763f2.eml",
+      "text_path": "emails/text_md/2026-07-30_174555_Easy-come-easy-go_19fb42205eca0f1d_80e763f2.md",
+      "meta_path": "emails/metadata/2026-07-30_174555_Easy-come-easy-go_19fb42205eca0f1d_80e763f2.json",
+      "text_chars": 3298,
+      "raw_bytes": 55949,
+      "sizeEstimate": 55949,
+      "attachments": []
+    },
+    {
+      "messageId": "19fb431f75dc16ef",
+      "threadId": "19fb431f75dc16ef",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fb431f75dc16ef",
+      "subject": "IA Weekly Nuggets (July 23-30, 2027)",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 30 Jul 2026 18:03:20 +0000",
+      "date_iso": "2026-07-30T18:03:20+00:00",
+      "message_id_header": "<20260730180320.c9f583c0958000cb@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Thanks, Josh, for collecting.Tesla &amp;amp; SpaceX:MOAT:In 1 year TSLA could have as many as 20 separate revenue streams and insane MOATs on all of them.... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-30_180320_IA-Weekly-Nuggets-July-23-30-2027_19fb431f75dc16ef_ced40632",
+      "raw_path": "emails/raw_eml/2026-07-30_180320_IA-Weekly-Nuggets-July-23-30-2027_19fb431f75dc16ef_ced40632.eml",
+      "text_path": "emails/text_md/2026-07-30_180320_IA-Weekly-Nuggets-July-23-30-2027_19fb431f75dc16ef_ced40632.md",
+      "meta_path": "emails/metadata/2026-07-30_180320_IA-Weekly-Nuggets-July-23-30-2027_19fb431f75dc16ef_ced40632.json",
+      "text_chars": 6162,
+      "raw_bytes": 56329,
+      "sizeEstimate": 56329,
       "attachments": []
     }
   ]
