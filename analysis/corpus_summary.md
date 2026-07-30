@@ -1,14 +1,24 @@
 # Corpus Summary
 
-Generated: 2026-07-29T21:03:46+00:00
+Generated: 2026-07-30T13:06:13+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 771
-- Emails exported: 771
-- Years: {"2026": 771}
+- Message IDs found: 781
+- Emails exported: 781
+- Years: {"2026": 781}
 
 ## Latest 20 subjects
 
+- Bitcoin Bottom Callers at $60K
+- Bottom in or do we need a real Capitulation?
+- Upcoming Fireside Chat
+- Samsung Profit up 19x thanks to AI Boom
+- More Drone News: Door Dash cleared to fly
+- Goldman on AI: It is cheap now!
+- EXCLUSIVE VIDEO: Is it Time To Start Buying IA13?
+- Losing control of the long end
+- New Patreon Automatic Moderation Feature turned off
+- SPCX wins SpaceForce Contract
 - VIDEO - Is Sell-Off Overblown?
 - IA Trade Alert
 - No Hike - Markets rebound slightly
@@ -19,13 +29,3 @@ Generated: 2026-07-29T21:03:46+00:00
 - Market under shadow of Fed once again
 - US bans Chinese Humanoids
 - VIDEO - OCTA: Panic or Opportunity?
-- Morgan Stanley Investment Recommendation
-- Worst Semi Month since 2022
-- IA Portfolio July 28, 2026
-- SPCX graduated to Top Hyperscaler
-- Anduril: Data Center in a shipping container
-- Kalshi see US Debt going from $39T to $$47.5T in 2 years
-- Did OpenAI Founder put pin in OpenAI?
-- Surprise Rate Hike would Hurt Markets More
-- Sell Off Continues in Asia
-- VIDEO - Bitcoin: Hash Collapse
