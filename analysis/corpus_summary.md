@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-07-31T13:05:18+00:00
+Generated: 2026-07-31T18:07:58+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 784
-- Emails exported: 784
-- Years: {"2026": 784}
+- Message IDs found: 788
+- Emails exported: 788
+- Years: {"2026": 788}
 
 ## Latest 20 subjects
 
+- SpaceX to build out 8 GW of Compute on Earth
+- Fascinating Zero Sum Game
+- IREN on AI Demand
+- The Markets are Rattled
 - IA Weekly Nuggets (July 23-30, 2027)
 - Easy come, easy go
 - VIDEO - Who Wins Capex AI Wars?
@@ -25,7 +29,3 @@ Generated: 2026-07-31T13:05:18+00:00
 - VIDEO - Is Sell-Off Overblown?
 - IA Trade Alert
 - No Hike - Markets rebound slightly
-- Poll: Auto-Moderation in Patreon
-- Chinese are the only Optimists on Tesla Optimus
-- Tragic Margin Warning & Real Estate Angle
-- Korean Memory Player Missed - SK Hynix

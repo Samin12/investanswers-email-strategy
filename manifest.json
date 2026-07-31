@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 784,
-  "message_id_count": 784,
-  "generated_at": "2026-07-31T13:05:18+00:00",
+  "count": 788,
+  "message_id_count": 788,
+  "generated_at": "2026-07-31T18:07:58+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -20395,6 +20395,110 @@
       "text_chars": 6162,
       "raw_bytes": 56329,
       "sizeEstimate": 56329,
+      "attachments": []
+    },
+    {
+      "messageId": "19fb88e45ddebc62",
+      "threadId": "19fb88e45ddebc62",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fb88e45ddebc62",
+      "subject": "The Markets are Rattled",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 31 Jul 2026 14:22:38 +0000",
+      "date_iso": "2026-07-31T14:22:38+00:00",
+      "message_id_header": "<20260731142238.39a25b47ed08db01@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Summer continues to suck w extreme volatility and signs things are breaking. A quick summary of the cracks1) 30 year bond yield is ripping higher - th... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-31_142238_The-Markets-are-Rattled_19fb88e45ddebc62_da487729",
+      "raw_path": "emails/raw_eml/2026-07-31_142238_The-Markets-are-Rattled_19fb88e45ddebc62_da487729.eml",
+      "text_path": "emails/text_md/2026-07-31_142238_The-Markets-are-Rattled_19fb88e45ddebc62_da487729.md",
+      "meta_path": "emails/metadata/2026-07-31_142238_The-Markets-are-Rattled_19fb88e45ddebc62_da487729.json",
+      "text_chars": 2638,
+      "raw_bytes": 53700,
+      "sizeEstimate": 53700,
+      "attachments": []
+    },
+    {
+      "messageId": "19fb895522a91e55",
+      "threadId": "19fb895522a91e55",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fb895522a91e55",
+      "subject": "IREN on AI Demand",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 31 Jul 2026 14:30:10 +0000",
+      "date_iso": "2026-07-31T14:30:10+00:00",
+      "message_id_header": "<20260731143010.523b7951cd7af07c@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Bitcoin Miner IREN CEO Says Demand Outstrips SupplyCo-CEO Daniel Roberts told investors that customer demand for IREN&#39;s computing capacity outstrips w... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-31_143010_IREN-on-AI-Demand_19fb895522a91e55_a0f2a027",
+      "raw_path": "emails/raw_eml/2026-07-31_143010_IREN-on-AI-Demand_19fb895522a91e55_a0f2a027.eml",
+      "text_path": "emails/text_md/2026-07-31_143010_IREN-on-AI-Demand_19fb895522a91e55_a0f2a027.md",
+      "meta_path": "emails/metadata/2026-07-31_143010_IREN-on-AI-Demand_19fb895522a91e55_a0f2a027.json",
+      "text_chars": 1957,
+      "raw_bytes": 52762,
+      "sizeEstimate": 52762,
+      "attachments": []
+    },
+    {
+      "messageId": "19fb89dd7711b4cb",
+      "threadId": "19fb89dd7711b4cb",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fb89dd7711b4cb",
+      "subject": "Fascinating Zero Sum Game",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 31 Jul 2026 14:39:38 +0000",
+      "date_iso": "2026-07-31T14:39:38+00:00",
+      "message_id_header": "<20260731143938.4e21701cbbde694d@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Free cashflow moving from Hyperscalers directly to Chip Companies for the AI buildout. The Buildout math25-35 gigawatts built out 60b per gigawatt1.5 ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-31_143938_Fascinating-Zero-Sum-Game_19fb89dd7711b4cb_ac2c780a",
+      "raw_path": "emails/raw_eml/2026-07-31_143938_Fascinating-Zero-Sum-Game_19fb89dd7711b4cb_ac2c780a.eml",
+      "text_path": "emails/text_md/2026-07-31_143938_Fascinating-Zero-Sum-Game_19fb89dd7711b4cb_ac2c780a.md",
+      "meta_path": "emails/metadata/2026-07-31_143938_Fascinating-Zero-Sum-Game_19fb89dd7711b4cb_ac2c780a.json",
+      "text_chars": 1974,
+      "raw_bytes": 53008,
+      "sizeEstimate": 53008,
+      "attachments": []
+    },
+    {
+      "messageId": "19fb8abb259ab087",
+      "threadId": "19fb8abb259ab087",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fb8abb259ab087",
+      "subject": "SpaceX to build out 8 GW of Compute on Earth",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 31 Jul 2026 14:54:46 +0000",
+      "date_iso": "2026-07-31T14:54:46+00:00",
+      "message_id_header": "<20260731145446.b75a4c3a6a9dfb0d@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "SPCX plan to get to 8 GW by mid-2028. How much revenue can they make on this? They currently make $28bn a year on 0.4GW from Google, Anthropic and Ref... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-31_145446_SpaceX-to-build-out-8-GW-of-Compute-on-Earth_19fb8abb259ab087_1f02365a",
+      "raw_path": "emails/raw_eml/2026-07-31_145446_SpaceX-to-build-out-8-GW-of-Compute-on-Earth_19fb8abb259ab087_1f02365a.eml",
+      "text_path": "emails/text_md/2026-07-31_145446_SpaceX-to-build-out-8-GW-of-Compute-on-Earth_19fb8abb259ab087_1f02365a.md",
+      "meta_path": "emails/metadata/2026-07-31_145446_SpaceX-to-build-out-8-GW-of-Compute-on-Earth_19fb8abb259ab087_1f02365a.json",
+      "text_chars": 2244,
+      "raw_bytes": 53237,
+      "sizeEstimate": 53237,
       "attachments": []
     }
   ]
