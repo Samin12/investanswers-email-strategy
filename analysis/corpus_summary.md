@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-07-31T18:07:58+00:00
+Generated: 2026-07-31T21:05:08+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 788
-- Emails exported: 788
-- Years: {"2026": 788}
+- Message IDs found: 791
+- Emails exported: 791
+- Years: {"2026": 791}
 
 ## Latest 20 subjects
 
+- EXCLUSIVE VIDEO - Very Volatile Week
+- No Youtube Video Today (Friday July 31)
+- AI vs BTC
 - SpaceX to build out 8 GW of Compute on Earth
 - Fascinating Zero Sum Game
 - IREN on AI Demand
@@ -26,6 +29,3 @@ Generated: 2026-07-31T18:07:58+00:00
 - Losing control of the long end
 - New Patreon Automatic Moderation Feature turned off
 - SPCX wins SpaceForce Contract
-- VIDEO - Is Sell-Off Overblown?
-- IA Trade Alert
-- No Hike - Markets rebound slightly

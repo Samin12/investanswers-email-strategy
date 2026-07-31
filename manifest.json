@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 788,
-  "message_id_count": 788,
-  "generated_at": "2026-07-31T18:07:58+00:00",
+  "count": 791,
+  "message_id_count": 791,
+  "generated_at": "2026-07-31T21:05:08+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -20499,6 +20499,84 @@
       "text_chars": 2244,
       "raw_bytes": 53237,
       "sizeEstimate": 53237,
+      "attachments": []
+    },
+    {
+      "messageId": "19fb95d5d69aebdc",
+      "threadId": "19fb95d5d69aebdc",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fb95d5d69aebdc",
+      "subject": "AI vs BTC",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 31 Jul 2026 18:08:50 +0000",
+      "date_iso": "2026-07-31T18:08:50+00:00",
+      "message_id_header": "<20260731180850.d8e295e5e393add1@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Saying for a long time now that AI is sucking the oxygen out of all the rooms Well now Saylor is saying it also AI Spending Is Pulling Capital Away Fr... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-31_180850_AI-vs-BTC_19fb95d5d69aebdc_ab00be05",
+      "raw_path": "emails/raw_eml/2026-07-31_180850_AI-vs-BTC_19fb95d5d69aebdc_ab00be05.eml",
+      "text_path": "emails/text_md/2026-07-31_180850_AI-vs-BTC_19fb95d5d69aebdc_ab00be05.md",
+      "meta_path": "emails/metadata/2026-07-31_180850_AI-vs-BTC_19fb95d5d69aebdc_ab00be05.json",
+      "text_chars": 2456,
+      "raw_bytes": 53453,
+      "sizeEstimate": 53453,
+      "attachments": []
+    },
+    {
+      "messageId": "19fb96c59093277d",
+      "threadId": "19fb96c59093277d",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fb96c59093277d",
+      "subject": "No Youtube Video Today (Friday July 31)",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 31 Jul 2026 18:25:10 +0000",
+      "date_iso": "2026-07-31T18:25:10+00:00",
+      "message_id_header": "<20260731182510.438ff36ed2c9177a@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "James is locked down in meetings so no Youtube video today. Stay tuned this afternoon for the IA Weekly Edge exclusive Patreon video where Jacob reca... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-31_182510_No-Youtube-Video-Today-Friday-July-31_19fb96c59093277d_30905733",
+      "raw_path": "emails/raw_eml/2026-07-31_182510_No-Youtube-Video-Today-Friday-July-31_19fb96c59093277d_30905733.eml",
+      "text_path": "emails/text_md/2026-07-31_182510_No-Youtube-Video-Today-Friday-July-31_19fb96c59093277d_30905733.md",
+      "meta_path": "emails/metadata/2026-07-31_182510_No-Youtube-Video-Today-Friday-July-31_19fb96c59093277d_30905733.json",
+      "text_chars": 1935,
+      "raw_bytes": 50206,
+      "sizeEstimate": 50206,
+      "attachments": []
+    },
+    {
+      "messageId": "19fb9d308eb0fda2",
+      "threadId": "19fb9d308eb0fda2",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fb9d308eb0fda2",
+      "subject": "EXCLUSIVE VIDEO - Very Volatile Week",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 31 Jul 2026 20:17:21 +0000",
+      "date_iso": "2026-07-31T20:17:21+00:00",
+      "message_id_header": "<20260731201721.d45539f8e211adbc@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Jacob recaps the week of July 27-31, 2026: https://www.youtube.com/watch?v=UM8aupARWTY... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-07-31_201721_EXCLUSIVE-VIDEO-Very-Volatile-Week_19fb9d308eb0fda2_30f6bd2b",
+      "raw_path": "emails/raw_eml/2026-07-31_201721_EXCLUSIVE-VIDEO-Very-Volatile-Week_19fb9d308eb0fda2_30f6bd2b.eml",
+      "text_path": "emails/text_md/2026-07-31_201721_EXCLUSIVE-VIDEO-Very-Volatile-Week_19fb9d308eb0fda2_30f6bd2b.md",
+      "meta_path": "emails/metadata/2026-07-31_201721_EXCLUSIVE-VIDEO-Very-Volatile-Week_19fb9d308eb0fda2_30f6bd2b.json",
+      "text_chars": 1920,
+      "raw_bytes": 55721,
+      "sizeEstimate": 55721,
       "attachments": []
     }
   ]
