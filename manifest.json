@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 791,
-  "message_id_count": 791,
-  "generated_at": "2026-08-01T13:03:35+00:00",
+  "count": 793,
+  "message_id_count": 793,
+  "generated_at": "2026-08-01T18:04:37+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -20577,6 +20577,59 @@
       "text_chars": 1920,
       "raw_bytes": 55721,
       "sizeEstimate": 55721,
+      "attachments": []
+    },
+    {
+      "messageId": "19fbe4fa6a114770",
+      "threadId": "19fbe4fa6a114770",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fbe4fa6a114770",
+      "subject": "BTC Sentiment and Flows",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sat, 01 Aug 2026 17:11:58 +0000",
+      "date_iso": "2026-08-01T17:11:58+00:00",
+      "message_id_header": "<20260801171158.c89cdf9de3f0cad6@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "BTC ETFs had first positive flow since April in what was a very rough month for AI Stocks. In addition, BTC sentiment hit lowest point ever - positive... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-01_171158_BTC-Sentiment-and-Flows_19fbe4fa6a114770_5ccaa37d",
+      "raw_path": "emails/raw_eml/2026-08-01_171158_BTC-Sentiment-and-Flows_19fbe4fa6a114770_5ccaa37d.eml",
+      "text_path": "emails/text_md/2026-08-01_171158_BTC-Sentiment-and-Flows_19fbe4fa6a114770_5ccaa37d.md",
+      "meta_path": "emails/metadata/2026-08-01_171158_BTC-Sentiment-and-Flows_19fbe4fa6a114770_5ccaa37d.json",
+      "text_chars": 2184,
+      "raw_bytes": 53091,
+      "sizeEstimate": 53091,
+      "attachments": []
+    },
+    {
+      "messageId": "19fbe692b66a0fab",
+      "threadId": "19fbe692b66a0fab",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fbe692b66a0fab",
+      "subject": "Security Risk: Coldcard Hack",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sat, 01 Aug 2026 17:39:50 +0000",
+      "date_iso": "2026-08-01T17:39:50+00:00",
+      "message_id_header": "<20260801173950.c0b47f36b82da68d@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "Label_9",
+        "INBOX"
+      ],
+      "snippet": "Coldcard one of the most popular BTC hard wallets just discovered it had a serious firmware bug dating back to 2021. When the device created your reco... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-01_173950_Security-Risk-Coldcard-Hack_19fbe692b66a0fab_c2e5ee9e",
+      "raw_path": "emails/raw_eml/2026-08-01_173950_Security-Risk-Coldcard-Hack_19fbe692b66a0fab_c2e5ee9e.eml",
+      "text_path": "emails/text_md/2026-08-01_173950_Security-Risk-Coldcard-Hack_19fbe692b66a0fab_c2e5ee9e.md",
+      "meta_path": "emails/metadata/2026-08-01_173950_Security-Risk-Coldcard-Hack_19fbe692b66a0fab_c2e5ee9e.json",
+      "text_chars": 3071,
+      "raw_bytes": 54322,
+      "sizeEstimate": 54322,
       "attachments": []
     }
   ]

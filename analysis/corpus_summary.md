@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-08-01T13:03:35+00:00
+Generated: 2026-08-01T18:04:37+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 791
-- Emails exported: 791
-- Years: {"2026": 791}
+- Message IDs found: 793
+- Emails exported: 793
+- Years: {"2026": 793}
 
 ## Latest 20 subjects
 
+- Security Risk: Coldcard Hack
+- BTC Sentiment and Flows
 - EXCLUSIVE VIDEO - Very Volatile Week
 - No Youtube Video Today (Friday July 31)
 - AI vs BTC
@@ -27,5 +29,3 @@ Generated: 2026-08-01T13:03:35+00:00
 - Goldman on AI: It is cheap now!
 - EXCLUSIVE VIDEO: Is it Time To Start Buying IA13?
 - Losing control of the long end
-- New Patreon Automatic Moderation Feature turned off
-- SPCX wins SpaceForce Contract
