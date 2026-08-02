@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 796,
-  "message_id_count": 796,
-  "generated_at": "2026-08-02T18:05:36+00:00",
+  "count": 799,
+  "message_id_count": 799,
+  "generated_at": "2026-08-02T21:06:47+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -20709,6 +20709,85 @@
       "text_chars": 2337,
       "raw_bytes": 56575,
       "sizeEstimate": 56575,
+      "attachments": []
+    },
+    {
+      "messageId": "19fc3a89727bdc5d",
+      "threadId": "19fc3a89727bdc5d",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fc3a89727bdc5d",
+      "subject": "VIDEO - Live Q&A: AI Train Dead?",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 02 Aug 2026 18:07:12 +0000",
+      "date_iso": "2026-08-02T18:07:12+00:00",
+      "message_id_header": "<20260802180712.68a272f0b1a4d19d@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "Label_9",
+        "INBOX"
+      ],
+      "snippet": "Live at 11:20am Pacific: https://www.youtube.com/live/HtcM6XqHP0c... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-02_180712_VIDEO-Live-QA-AI-Train-Dead_19fc3a89727bdc5d_42594630",
+      "raw_path": "emails/raw_eml/2026-08-02_180712_VIDEO-Live-QA-AI-Train-Dead_19fc3a89727bdc5d_42594630.eml",
+      "text_path": "emails/text_md/2026-08-02_180712_VIDEO-Live-QA-AI-Train-Dead_19fc3a89727bdc5d_42594630.md",
+      "meta_path": "emails/metadata/2026-08-02_180712_VIDEO-Live-QA-AI-Train-Dead_19fc3a89727bdc5d_42594630.json",
+      "text_chars": 1885,
+      "raw_bytes": 55708,
+      "sizeEstimate": 55708,
+      "attachments": []
+    },
+    {
+      "messageId": "19fc3ea3ed6834bf",
+      "threadId": "19fc3ea3ed6834bf",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fc3ea3ed6834bf",
+      "subject": "Best AI: Speed and Cost",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 02 Aug 2026 19:18:55 +0000",
+      "date_iso": "2026-08-02T19:18:55+00:00",
+      "message_id_header": "<20260802191855.a2bcd5eec03669aa@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Grok 4.5 is Pareto #1 when considering speed &amp;amp; costWhen people run out of funds to buy tokens, they will be forced to sniff out the best cheapest ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-02_191855_Best-AI-Speed-and-Cost_19fc3ea3ed6834bf_d3320048",
+      "raw_path": "emails/raw_eml/2026-08-02_191855_Best-AI-Speed-and-Cost_19fc3ea3ed6834bf_d3320048.eml",
+      "text_path": "emails/text_md/2026-08-02_191855_Best-AI-Speed-and-Cost_19fc3ea3ed6834bf_d3320048.md",
+      "meta_path": "emails/metadata/2026-08-02_191855_Best-AI-Speed-and-Cost_19fc3ea3ed6834bf_d3320048.json",
+      "text_chars": 1999,
+      "raw_bytes": 52911,
+      "sizeEstimate": 52911,
+      "attachments": []
+    },
+    {
+      "messageId": "19fc417b4242eac3",
+      "threadId": "19fc417b4242eac3",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fc417b4242eac3",
+      "subject": "Samsung severely undervalued",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 02 Aug 2026 20:08:34 +0000",
+      "date_iso": "2026-08-02T20:08:34+00:00",
+      "message_id_header": "<20260802200834.4a17543e139019e6@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Much of it is driven by Memory but not sure how strong other parts of the business are. Will dig into it. ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-02_200834_Samsung-severely-undervalued_19fc417b4242eac3_80365700",
+      "raw_path": "emails/raw_eml/2026-08-02_200834_Samsung-severely-undervalued_19fc417b4242eac3_80365700.eml",
+      "text_path": "emails/text_md/2026-08-02_200834_Samsung-severely-undervalued_19fc417b4242eac3_80365700.md",
+      "meta_path": "emails/metadata/2026-08-02_200834_Samsung-severely-undervalued_19fc417b4242eac3_80365700.json",
+      "text_chars": 1854,
+      "raw_bytes": 52724,
+      "sizeEstimate": 52724,
       "attachments": []
     }
   ]

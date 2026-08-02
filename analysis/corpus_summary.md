@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-08-02T18:05:36+00:00
+Generated: 2026-08-02T21:06:47+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 796
-- Emails exported: 796
-- Years: {"2026": 796}
+- Message IDs found: 799
+- Emails exported: 799
+- Years: {"2026": 799}
 
 ## Latest 20 subjects
 
+- Samsung severely undervalued
+- Best AI: Speed and Cost
+- VIDEO - Live Q&A: AI Train Dead?
 - Impact of AI on Self Custody - must read if you are into either BTC or AI
 - Fireside Chat - Taking the Pulse
 - AI Stack: Part 1 Scarce Physical Stuff ie Energized Land
@@ -26,6 +29,3 @@ Generated: 2026-08-02T18:05:36+00:00
 - VIDEO - Who Wins Capex AI Wars?
 - Bitcoin Bottom Callers at $60K
 - Bottom in or do we need a real Capitulation?
-- Upcoming Fireside Chat
-- Samsung Profit up 19x thanks to AI Boom
-- More Drone News: Door Dash cleared to fly
