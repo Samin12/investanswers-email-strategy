@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-08-01T18:04:37+00:00
+Generated: 2026-08-02T13:05:16+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 793
-- Emails exported: 793
-- Years: {"2026": 793}
+- Message IDs found: 795
+- Emails exported: 795
+- Years: {"2026": 795}
 
 ## Latest 20 subjects
 
+- Fireside Chat - Taking the Pulse
+- AI Stack: Part 1 Scarce Physical Stuff ie Energized Land
 - Security Risk: Coldcard Hack
 - BTC Sentiment and Flows
 - EXCLUSIVE VIDEO - Very Volatile Week
@@ -27,5 +29,3 @@ Generated: 2026-08-01T18:04:37+00:00
 - Samsung Profit up 19x thanks to AI Boom
 - More Drone News: Door Dash cleared to fly
 - Goldman on AI: It is cheap now!
-- EXCLUSIVE VIDEO: Is it Time To Start Buying IA13?
-- Losing control of the long end
