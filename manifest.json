@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 799,
-  "message_id_count": 799,
-  "generated_at": "2026-08-02T21:06:47+00:00",
+  "count": 803,
+  "message_id_count": 803,
+  "generated_at": "2026-08-03T13:05:53+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -20788,6 +20788,110 @@
       "text_chars": 1854,
       "raw_bytes": 52724,
       "sizeEstimate": 52724,
+      "attachments": []
+    },
+    {
+      "messageId": "19fc45e48955fc69",
+      "threadId": "19fc45e48955fc69",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fc45e48955fc69",
+      "subject": "ORCL going all in on AI",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 02 Aug 2026 21:25:40 +0000",
+      "date_iso": "2026-08-02T21:25:40+00:00",
+      "message_id_header": "<20260802212540.c1506d55ea6e18ca@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "High CapEx near revenue levels to fund aggressive AI capacity against a $638B RPO I see as very risky. The rest are all about 50%. There is ZERO roo... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-02_212540_ORCL-going-all-in-on-AI_19fc45e48955fc69_d6c36a59",
+      "raw_path": "emails/raw_eml/2026-08-02_212540_ORCL-going-all-in-on-AI_19fc45e48955fc69_d6c36a59.eml",
+      "text_path": "emails/text_md/2026-08-02_212540_ORCL-going-all-in-on-AI_19fc45e48955fc69_d6c36a59.md",
+      "meta_path": "emails/metadata/2026-08-02_212540_ORCL-going-all-in-on-AI_19fc45e48955fc69_d6c36a59.json",
+      "text_chars": 2058,
+      "raw_bytes": 52943,
+      "sizeEstimate": 52943,
+      "attachments": []
+    },
+    {
+      "messageId": "19fc46cf4678f03d",
+      "threadId": "19fc46cf4678f03d",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fc46cf4678f03d",
+      "subject": "Earnings Blowout",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 02 Aug 2026 21:41:41 +0000",
+      "date_iso": "2026-08-02T21:41:41+00:00",
+      "message_id_header": "<20260802214141.7f48668c41595331@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Why AI is not a bubbleA real bubble happens when stock prices go vertical while the actual businesses underneath are still making little or no money. ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-02_214141_Earnings-Blowout_19fc46cf4678f03d_62eccf02",
+      "raw_path": "emails/raw_eml/2026-08-02_214141_Earnings-Blowout_19fc46cf4678f03d_62eccf02.eml",
+      "text_path": "emails/text_md/2026-08-02_214141_Earnings-Blowout_19fc46cf4678f03d_62eccf02.md",
+      "meta_path": "emails/metadata/2026-08-02_214141_Earnings-Blowout_19fc46cf4678f03d_62eccf02.json",
+      "text_chars": 2473,
+      "raw_bytes": 53552,
+      "sizeEstimate": 53552,
+      "attachments": []
+    },
+    {
+      "messageId": "19fc4bb8af32928b",
+      "threadId": "19fc4bb8af32928b",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fc4bb8af32928b",
+      "subject": "People moving their Bitcoin",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 02 Aug 2026 23:07:32 +0000",
+      "date_iso": "2026-08-02T23:07:32+00:00",
+      "message_id_header": "<20260802230732.198abae78e3b9c73@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Bitcoin daily active addresses spiked to almost 1M - the highest daily level since 2024. This is the spike of active sending addresses ie getting off... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-02_230732_People-moving-their-Bitcoin_19fc4bb8af32928b_3b5bcf7f",
+      "raw_path": "emails/raw_eml/2026-08-02_230732_People-moving-their-Bitcoin_19fc4bb8af32928b_3b5bcf7f.eml",
+      "text_path": "emails/text_md/2026-08-02_230732_People-moving-their-Bitcoin_19fc4bb8af32928b_3b5bcf7f.md",
+      "meta_path": "emails/metadata/2026-08-02_230732_People-moving-their-Bitcoin_19fc4bb8af32928b_3b5bcf7f.json",
+      "text_chars": 1946,
+      "raw_bytes": 52766,
+      "sizeEstimate": 52766,
+      "attachments": []
+    },
+    {
+      "messageId": "19fc5091e119099a",
+      "threadId": "19fc5091e119099a",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fc5091e119099a",
+      "subject": "Reminder: The reason I still hold BTC",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 03 Aug 2026 00:32:15 +0000",
+      "date_iso": "2026-08-03T00:32:15+00:00",
+      "message_id_header": "<20260803003215.186439e333aefefa@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "This debt explosion is pretty nutty to watch. Rising national debt forces more money printing, which dilutes every dollar&#39;s buying power and makes sca... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-03_003215_Reminder-The-reason-I-still-hold-BTC_19fc5091e119099a_346d35bb",
+      "raw_path": "emails/raw_eml/2026-08-03_003215_Reminder-The-reason-I-still-hold-BTC_19fc5091e119099a_346d35bb.eml",
+      "text_path": "emails/text_md/2026-08-03_003215_Reminder-The-reason-I-still-hold-BTC_19fc5091e119099a_346d35bb.md",
+      "meta_path": "emails/metadata/2026-08-03_003215_Reminder-The-reason-I-still-hold-BTC_19fc5091e119099a_346d35bb.json",
+      "text_chars": 2128,
+      "raw_bytes": 53056,
+      "sizeEstimate": 53056,
       "attachments": []
     }
   ]

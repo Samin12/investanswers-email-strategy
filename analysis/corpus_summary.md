@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-08-02T21:06:47+00:00
+Generated: 2026-08-03T13:05:53+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 799
-- Emails exported: 799
-- Years: {"2026": 799}
+- Message IDs found: 803
+- Emails exported: 803
+- Years: {"2026": 803}
 
 ## Latest 20 subjects
 
+- Reminder: The reason I still hold BTC
+- People moving their Bitcoin
+- Earnings Blowout
+- ORCL going all in on AI
 - Samsung severely undervalued
 - Best AI: Speed and Cost
 - VIDEO - Live Q&A: AI Train Dead?
@@ -25,7 +29,3 @@ Generated: 2026-08-02T21:06:47+00:00
 - IREN on AI Demand
 - The Markets are Rattled
 - IA Weekly Nuggets (July 23-30, 2027)
-- Easy come, easy go
-- VIDEO - Who Wins Capex AI Wars?
-- Bitcoin Bottom Callers at $60K
-- Bottom in or do we need a real Capitulation?
