@@ -1,14 +1,20 @@
 # Corpus Summary
 
-Generated: 2026-08-03T13:05:53+00:00
+Generated: 2026-08-03T18:05:48+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 803
-- Emails exported: 803
-- Years: {"2026": 803}
+- Message IDs found: 809
+- Emails exported: 809
+- Years: {"2026": 809}
 
 ## Latest 20 subjects
 
+- EXCLUSIVE Fireside Chat - Happening NOW
+- IA STRC Update
+- He/She w the most compute wins the AI race
+- OpenAI Financial Projections
+- OpenSource Models Continue to kill it
+- MSTR did it again
 - Reminder: The reason I still hold BTC
 - People moving their Bitcoin
 - Earnings Blowout
@@ -23,9 +29,3 @@ Generated: 2026-08-03T13:05:53+00:00
 - BTC Sentiment and Flows
 - EXCLUSIVE VIDEO - Very Volatile Week
 - No Youtube Video Today (Friday July 31)
-- AI vs BTC
-- SpaceX to build out 8 GW of Compute on Earth
-- Fascinating Zero Sum Game
-- IREN on AI Demand
-- The Markets are Rattled
-- IA Weekly Nuggets (July 23-30, 2027)
