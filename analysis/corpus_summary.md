@@ -1,14 +1,19 @@
 # Corpus Summary
 
-Generated: 2026-08-03T21:03:28+00:00
+Generated: 2026-08-04T13:06:39+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 811
-- Emails exported: 811
-- Years: {"2026": 811}
+- Message IDs found: 816
+- Emails exported: 816
+- Years: {"2026": 816}
 
 ## Latest 20 subjects
 
+- Bezos to dump $4BN of AMZN
+- Blackrock goes RWA on Solana
+- Citadel Ken Griffin - Bull Mkt Firmly Intact
+- Tesla FSD driving people 67 million miles per day - over 100m KM
+- IA13: PLTR Earnings
 - VIDEO - Bitcoin: The Last Optimist
 - STRC above 200 DMA
 - EXCLUSIVE Fireside Chat - Happening NOW
@@ -24,8 +29,3 @@ Generated: 2026-08-03T21:03:28+00:00
 - Samsung severely undervalued
 - Best AI: Speed and Cost
 - VIDEO - Live Q&A: AI Train Dead?
-- Impact of AI on Self Custody - must read if you are into either BTC or AI
-- Fireside Chat - Taking the Pulse
-- AI Stack: Part 1 Scarce Physical Stuff ie Energized Land
-- Security Risk: Coldcard Hack
-- BTC Sentiment and Flows
