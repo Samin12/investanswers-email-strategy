@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-08-05T18:02:51+00:00
+Generated: 2026-08-05T21:01:41+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 842
-- Emails exported: 842
-- Years: {"2026": 842}
+- Message IDs found: 845
+- Emails exported: 845
+- Years: {"2026": 845}
 
 ## Latest 20 subjects
 
+- VIDEO - 21 Charts: FOMO Chase
+- US Avg Retirement Portfolio
+- EXCLUSIVE VIDEO - PLTR Covered Call Update
 - Crypto Clarity Odds looking bad
 - Google opened real strong this morning, then this
 - Electricity is the substrate of wealth
@@ -26,6 +29,3 @@ Generated: 2026-08-05T18:02:51+00:00
 - VIDEO - OCTAi: Burning Building Bid
 - Amazon AWS growth and rev dependent on 2 players
 - Big earnings week
-- Correction on my STRC Cost Basis
-- CLARIFICATION Re AMAZON post last nite
-- JP Morgan Retirement Study
