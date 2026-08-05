@@ -1,14 +1,20 @@
 # Corpus Summary
 
-Generated: 2026-08-05T13:04:31+00:00
+Generated: 2026-08-05T18:02:51+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 836
-- Emails exported: 836
-- Years: {"2026": 836}
+- Message IDs found: 842
+- Emails exported: 842
+- Years: {"2026": 842}
 
 ## Latest 20 subjects
 
+- Crypto Clarity Odds looking bad
+- Google opened real strong this morning, then this
+- Electricity is the substrate of wealth
+- Largest FOMO Chase Ever
+- The end is nigh - if history repeats
+- Sovereign AI
 - Looks like MSTR selling more BTC
 - UMAC update
 - Rare S&P500 is this cheap
@@ -23,9 +29,3 @@ Generated: 2026-08-05T13:04:31+00:00
 - Correction on my STRC Cost Basis
 - CLARIFICATION Re AMAZON post last nite
 - JP Morgan Retirement Study
-- Hughesnet Files for bankruptcy
-- AI Impact: RIP Source Code
-- IA Portfolio Allocations August 4th 2026
-- Huge US GDP Print Expected
-- IA13: The AI Bubble Check in
-- IA Trade Alert
