@@ -1,14 +1,18 @@
 # Corpus Summary
 
-Generated: 2026-08-06T13:02:30+00:00
+Generated: 2026-08-06T18:02:18+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 850
-- Emails exported: 850
-- Years: {"2026": 850}
+- Message IDs found: 854
+- Emails exported: 854
+- Years: {"2026": 854}
 
 ## Latest 20 subjects
 
+- IA Weekly Nuggets (July 29-Aug 5, 2026)
+- Saving Hacks Part II
+- Tesla/SpaceX Terafab update
+- 3 saving graces for Crypto 1) Tokenized Stocks and 2) AI Agents and 3) Stables
 - Bank of America $460 PT on Tesla
 - My SpaceX Conundrum
 - Bitcoin Hashrate
@@ -25,7 +29,3 @@ Generated: 2026-08-06T13:02:30+00:00
 - Sovereign AI
 - Looks like MSTR selling more BTC
 - UMAC update
-- Rare S&P500 is this cheap
-- SpaceX will build exclusively on $NVDA
-- AMD Earnings.... good but...
-- SPCX Conf Call Nuggets + Substack

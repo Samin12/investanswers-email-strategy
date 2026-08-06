@@ -1,7 +1,7 @@
 {
   "$schema_note": "Machine-readable trigger set for AGENT_INSTRUCTIONS.md. Every level cites a source email in emails/text_md/. Rule: latest email wins; recompute moving-average levels older than 14 days.",
-  "as_of": "2026-08-04",
-  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + 2026-07-19 unlock floor ~$120 / DCA-layers + BTC diminishing-drawdowns thesis + 2026-07-22 IA Trade Alert MRVL add at $209 + 2026-07-22 IA Trade Alert TSLA shares at $357 + 2026-07-23 IA Trade Alert TSLA shares at $322.50 after a 5-minute trend turn + BTC $69K breakout level + 2026-07-24 MRVL synthetic-long double-down ($200 call/$210 short put, 2028, $3 net debit) + 2026-07-24 TSLA large options add ($33 net debit; extracted text omits strikes/expiry) + 2026-07-29 IA Trade Alert MU DCA start around $745 ($60 net debit, $801 breakeven, Dec 2028; extracted text omits strikes/full legs) + 2026-07-30 Weekly Nuggets SPCX ~$100 meander / $82 relative-value level and TSLA stock-over-expensive-options guidance + 2026-08-04 IA Trade Alert PLTR hedge via $160 covered calls sold for $11 with $171 breakeven over 73 days and ATR level 5 near $170",
+  "as_of": "2026-08-06",
+  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + 2026-07-19 unlock floor ~$120 / DCA-layers + BTC diminishing-drawdowns thesis + 2026-07-22 IA Trade Alert MRVL add at $209 + 2026-07-22 IA Trade Alert TSLA shares at $357 + 2026-07-23 IA Trade Alert TSLA shares at $322.50 after a 5-minute trend turn + BTC $69K breakout level + 2026-07-24 MRVL synthetic-long double-down ($200 call/$210 short put, 2028, $3 net debit) + 2026-07-24 TSLA large options add ($33 net debit; extracted text omits strikes/expiry) + 2026-07-29 IA Trade Alert MU DCA start around $745 ($60 net debit, $801 breakeven, Dec 2028; extracted text omits strikes/full legs) + 2026-07-30 Weekly Nuggets SPCX ~$100 meander / $82 relative-value level and TSLA stock-over-expensive-options guidance + 2026-08-04 IA Trade Alert PLTR hedge via $160 covered calls sold for $11 with $171 breakeven over 73 days and ATR level 5 near $170 + 2026-08-06 Weekly Nuggets SPCX/TSLA crossover at $86, wait for SPCX tide turn (possibly October or later), and SOL interest near $64",
   "hard_rules": [
     "Autonomous execution enabled for the assigned Alpaca paper profile only",
     "Notify Samin after every placed/modified/cancelled order",
@@ -42,9 +42,9 @@
           "source": "2026-07-30_180320_IA-Weekly-Nuggets-July-23-30-2027 + 2026-07-19_164014_SpaceX-Impact-of-Unlocks-on-Price"
         },
         {
-          "condition": "around $82, where James says SPCX becomes a better value than TSLA at the current price",
-          "action": "PRIORITY WATCH / consider a larger cash-funded layer only after confirmation and with cash/concentration room; this is relative-value context, not an automatic limit order",
-          "source": "2026-07-30_180320_IA-Weekly-Nuggets-July-23-30-2027"
+          "condition": "around $86, where James's latest comparison says SPCX becomes more attractive than TSLA if the expected merger occurs; wait for the tide to turn, which he says could be October or later",
+          "action": "PRIORITY WATCH / consider a cash-funded layer only after trend/support confirmation and with cash/concentration room; this is relative-value context, not an automatic limit order",
+          "source": "2026-08-06_174033_IA-Weekly-Nuggets-July-29-Aug-5-2026"
         },
         {
           "condition": "unlock chart floor context ~$120 with tape near $122; layer/DCA plan, not automatic full deployment",
@@ -63,7 +63,7 @@
         }
       ],
       "never": "Buy the day-1 open ('Avoid the IPO Trap'); use margin (IPO shares non-marginable); options before it settles; blow full allocation while unlocks continue",
-      "note": "2026-07-30 latest guidance: SPCX may meander toward $100; at $82 James sees it as better value than TSLA at the current price. Existing 2-share paper position is a hold; only add with confirmation and cash/concentration room. Prior unlock context saw ~$120 as a chart floor and the 2026-07-17 TRADE_ALERT fill was $123.",
+      "note": "2026-08-06 latest guidance: James has only a tiny SPCX toe hold, will wait for the tide to turn before going big (possibly October or later), and sees about $86 as the SPCX-versus-TSLA crossover if the merger happens. Existing 2-share paper position is a hold; only add with confirmation and cash/concentration room. Prior guidance expected a meander toward ~$100, unlock context saw ~$120 as a chart floor, and the 2026-07-17 TRADE_ALERT fill was $123.",
       "his_recent_fills": [
         {
           "date": "2026-07-08",
@@ -80,6 +80,7 @@
         "first_year_ceiling": "~$2.6T cap — 'returns paltry first year'"
       },
       "sources": [
+        "2026-08-06_174033_IA-Weekly-Nuggets-July-29-Aug-5-2026",
         "2026-07-30_180320_IA-Weekly-Nuggets-July-23-30-2027",
         "2026-07-19_164014_SpaceX-Impact-of-Unlocks-on-Price",
         "2026-07-17_141222_IA-Trade-Alert",
@@ -352,6 +353,11 @@
       "narrative": "Crypto secondary (BTC+SOL only)",
       "price_jun11": 66.79,
       "buy": [
+        {
+          "zone": "around 64; James says he likes SOL there, but this is Weekly Nuggets context rather than a TRADE_ALERT",
+          "action": "PRIORITY WATCH / consider a small cash-funded spot or approved proxy tranche only at or near $64 with trend/support confirmation, cash buffer intact, and no chase",
+          "source": "2026-08-06_174033_IA-Weekly-Nuggets-July-29-Aug-5-2026"
+        },
         {
           "zone": "45 ('deep value if the market truly panics'); his last add was 15% at $80",
           "action": "HOLD; add only at capitulation or trend turn",
