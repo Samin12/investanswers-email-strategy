@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-08-06T18:02:18+00:00
+Generated: 2026-08-06T21:01:58+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 854
-- Emails exported: 854
-- Years: {"2026": 854}
+- Message IDs found: 856
+- Emails exported: 856
+- Years: {"2026": 856}
 
 ## Latest 20 subjects
 
+- VIDEO - Chips -> Trillions
+- Burry just shorted two new names
 - IA Weekly Nuggets (July 29-Aug 5, 2026)
 - Saving Hacks Part II
 - Tesla/SpaceX Terafab update
@@ -27,5 +29,3 @@ Generated: 2026-08-06T18:02:18+00:00
 - Largest FOMO Chase Ever
 - The end is nigh - if history repeats
 - Sovereign AI
-- Looks like MSTR selling more BTC
-- UMAC update

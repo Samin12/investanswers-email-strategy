@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 854,
-  "message_id_count": 854,
-  "generated_at": "2026-08-06T18:02:18+00:00",
+  "count": 856,
+  "message_id_count": 856,
+  "generated_at": "2026-08-06T21:01:58+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -22218,6 +22218,58 @@
       "text_chars": 4939,
       "raw_bytes": 54927,
       "sizeEstimate": 54927,
+      "attachments": []
+    },
+    {
+      "messageId": "19fd84a30e6ab364",
+      "threadId": "19fd84a30e6ab364",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fd84a30e6ab364",
+      "subject": "Burry just shorted two new names",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 06 Aug 2026 18:16:05 +0000",
+      "date_iso": "2026-08-06T18:16:05+00:00",
+      "message_id_header": "<20260806181605.b5eb9d012c0c3296@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Michael Burry has opened a bearish position in Oracle and Nebius Shorted Oracle at $144.63 Shorted Nebius $NBIS at $211.77Oracle - I nearly shorted a... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-06_181605_Burry-just-shorted-two-new-names_19fd84a30e6ab364_c8900d48",
+      "raw_path": "emails/raw_eml/2026-08-06_181605_Burry-just-shorted-two-new-names_19fd84a30e6ab364_c8900d48.eml",
+      "text_path": "emails/text_md/2026-08-06_181605_Burry-just-shorted-two-new-names_19fd84a30e6ab364_c8900d48.md",
+      "meta_path": "emails/metadata/2026-08-06_181605_Burry-just-shorted-two-new-names_19fd84a30e6ab364_c8900d48.json",
+      "text_chars": 2234,
+      "raw_bytes": 55707,
+      "sizeEstimate": 55707,
+      "attachments": []
+    },
+    {
+      "messageId": "19fd88e8351ea2cb",
+      "threadId": "19fd88e8351ea2cb",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fd88e8351ea2cb",
+      "subject": "VIDEO - Chips -> Trillions",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 06 Aug 2026 19:30:44 +0000",
+      "date_iso": "2026-08-06T19:30:44+00:00",
+      "message_id_header": "<20260806193044.3c31a62d58df87a7@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Live at 12:40pm Pacific: https://youtube.com/live/MqxQA_Cja7k... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-06_193044_VIDEO-Chips-Trillions_19fd88e8351ea2cb_aba978e3",
+      "raw_path": "emails/raw_eml/2026-08-06_193044_VIDEO-Chips-Trillions_19fd88e8351ea2cb_aba978e3.eml",
+      "text_path": "emails/text_md/2026-08-06_193044_VIDEO-Chips-Trillions_19fd88e8351ea2cb_aba978e3.md",
+      "meta_path": "emails/metadata/2026-08-06_193044_VIDEO-Chips-Trillions_19fd88e8351ea2cb_aba978e3.json",
+      "text_chars": 1867,
+      "raw_bytes": 55650,
+      "sizeEstimate": 55650,
       "attachments": []
     }
   ]
