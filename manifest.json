@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 856,
-  "message_id_count": 856,
-  "generated_at": "2026-08-06T21:01:58+00:00",
+  "count": 859,
+  "message_id_count": 859,
+  "generated_at": "2026-08-07T13:02:30+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -22270,6 +22270,84 @@
       "text_chars": 1867,
       "raw_bytes": 55650,
       "sizeEstimate": 55650,
+      "attachments": []
+    },
+    {
+      "messageId": "19fd94ceb4173fb9",
+      "threadId": "19fd94ceb4173fb9",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fd94ceb4173fb9",
+      "subject": "To hike or not to hike in Sept?",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Thu, 06 Aug 2026 22:58:43 +0000",
+      "date_iso": "2026-08-06T22:58:43+00:00",
+      "message_id_header": "<20260806225843.44df486248ddc712@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Prediction markets have now come in line w CME Futures re rate hike for Sept. Rem if they do hike in SEPT our risk assets will get smacked down. Have... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-06_225843_To-hike-or-not-to-hike-in-Sept_19fd94ceb4173fb9_7bbc244f",
+      "raw_path": "emails/raw_eml/2026-08-06_225843_To-hike-or-not-to-hike-in-Sept_19fd94ceb4173fb9_7bbc244f.eml",
+      "text_path": "emails/text_md/2026-08-06_225843_To-hike-or-not-to-hike-in-Sept_19fd94ceb4173fb9_7bbc244f.md",
+      "meta_path": "emails/metadata/2026-08-06_225843_To-hike-or-not-to-hike-in-Sept_19fd94ceb4173fb9_7bbc244f.json",
+      "text_chars": 2079,
+      "raw_bytes": 52892,
+      "sizeEstimate": 52892,
+      "attachments": []
+    },
+    {
+      "messageId": "19fdb4174f80349c",
+      "threadId": "19fdb4174f80349c",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fdb4174f80349c",
+      "subject": "BTC Volume and Volatility",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 07 Aug 2026 08:05:26 +0000",
+      "date_iso": "2026-08-07T08:05:26+00:00",
+      "message_id_header": "<20260807080526.157afd039cdd2a97@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "We had the ColdCard wallet hack and Saylor looks like he sold more Bitcoin this week. Some are hoping for a CLARITY Act breakthru but I dont see that... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-07_080526_BTC-Volume-and-Volatility_19fdb4174f80349c_c4d666ee",
+      "raw_path": "emails/raw_eml/2026-08-07_080526_BTC-Volume-and-Volatility_19fdb4174f80349c_c4d666ee.eml",
+      "text_path": "emails/text_md/2026-08-07_080526_BTC-Volume-and-Volatility_19fdb4174f80349c_c4d666ee.md",
+      "meta_path": "emails/metadata/2026-08-07_080526_BTC-Volume-and-Volatility_19fdb4174f80349c_c4d666ee.json",
+      "text_chars": 2244,
+      "raw_bytes": 53148,
+      "sizeEstimate": 53148,
+      "attachments": []
+    },
+    {
+      "messageId": "19fdc23cfdc4aed0",
+      "threadId": "19fdc23cfdc4aed0",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fdc23cfdc4aed0",
+      "subject": "BTC ETFs having best week in 14 weeks",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 07 Aug 2026 12:12:39 +0000",
+      "date_iso": "2026-08-07T12:12:39+00:00",
+      "message_id_header": "<20260807121239.91ce9953f8c25ce6@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "ETF flows have turned positive again, Bitcoin has held above $60K, and this is looking pretty durable after a horrific May June and July. ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-07_121239_BTC-ETFs-having-best-week-in-14-weeks_19fdc23cfdc4aed0_242bb9b5",
+      "raw_path": "emails/raw_eml/2026-08-07_121239_BTC-ETFs-having-best-week-in-14-weeks_19fdc23cfdc4aed0_242bb9b5.eml",
+      "text_path": "emails/text_md/2026-08-07_121239_BTC-ETFs-having-best-week-in-14-weeks_19fdc23cfdc4aed0_242bb9b5.md",
+      "meta_path": "emails/metadata/2026-08-07_121239_BTC-ETFs-having-best-week-in-14-weeks_19fdc23cfdc4aed0_242bb9b5.json",
+      "text_chars": 1933,
+      "raw_bytes": 52782,
+      "sizeEstimate": 52782,
       "attachments": []
     }
   ]

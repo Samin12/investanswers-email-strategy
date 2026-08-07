@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-08-06T21:01:58+00:00
+Generated: 2026-08-07T13:02:30+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 856
-- Emails exported: 856
-- Years: {"2026": 856}
+- Message IDs found: 859
+- Emails exported: 859
+- Years: {"2026": 859}
 
 ## Latest 20 subjects
 
+- BTC ETFs having best week in 14 weeks
+- BTC Volume and Volatility
+- To hike or not to hike in Sept?
 - VIDEO - Chips -> Trillions
 - Burry just shorted two new names
 - IA Weekly Nuggets (July 29-Aug 5, 2026)
@@ -26,6 +29,3 @@ Generated: 2026-08-06T21:01:58+00:00
 - Crypto Clarity Odds looking bad
 - Google opened real strong this morning, then this
 - Electricity is the substrate of wealth
-- Largest FOMO Chase Ever
-- The end is nigh - if history repeats
-- Sovereign AI
