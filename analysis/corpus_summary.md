@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-08-07T13:02:30+00:00
+Generated: 2026-08-07T18:02:00+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 859
-- Emails exported: 859
-- Years: {"2026": 859}
+- Message IDs found: 860
+- Emails exported: 860
+- Years: {"2026": 860}
 
 ## Latest 20 subjects
 
+- VIDEO - Rapid Wealth Erosion
 - BTC ETFs having best week in 14 weeks
 - BTC Volume and Volatility
 - To hike or not to hike in Sept?
@@ -28,4 +29,3 @@ Generated: 2026-08-07T13:02:30+00:00
 - EXCLUSIVE VIDEO - PLTR Covered Call Update
 - Crypto Clarity Odds looking bad
 - Google opened real strong this morning, then this
-- Electricity is the substrate of wealth
