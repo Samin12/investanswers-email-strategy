@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-08-08T13:02:46+00:00
+Generated: 2026-08-08T18:03:24+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 861
-- Emails exported: 861
-- Years: {"2026": 861}
+- Message IDs found: 864
+- Emails exported: 864
+- Years: {"2026": 864}
 
 ## Latest 20 subjects
 
+- Credit Markets fear AI Build Out
+- Internet vs AI
+- Path to $300B+ ARR for SpaceX + Mkt Cap
 - Weekly Edge Aug 7: Monster Recovery Week
 - VIDEO - Rapid Wealth Erosion
 - BTC ETFs having best week in 14 weeks
@@ -26,6 +29,3 @@ Generated: 2026-08-08T13:02:46+00:00
 - Hyperscaler Concentration
 - Memory Bear Case + SNDK Earnings
 - VIDEO - 21 Charts: FOMO Chase
-- US Avg Retirement Portfolio
-- EXCLUSIVE VIDEO - PLTR Covered Call Update
-- Crypto Clarity Odds looking bad
