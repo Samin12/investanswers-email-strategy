@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-08-07T21:01:54+00:00
+Generated: 2026-08-08T13:02:46+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 860
-- Emails exported: 860
-- Years: {"2026": 860}
+- Message IDs found: 861
+- Emails exported: 861
+- Years: {"2026": 861}
 
 ## Latest 20 subjects
 
+- Weekly Edge Aug 7: Monster Recovery Week
 - VIDEO - Rapid Wealth Erosion
 - BTC ETFs having best week in 14 weeks
 - BTC Volume and Volatility
@@ -28,4 +29,3 @@ Generated: 2026-08-07T21:01:54+00:00
 - US Avg Retirement Portfolio
 - EXCLUSIVE VIDEO - PLTR Covered Call Update
 - Crypto Clarity Odds looking bad
-- Google opened real strong this morning, then this

@@ -1,7 +1,7 @@
 {
   "$schema_note": "Machine-readable trigger set for AGENT_INSTRUCTIONS.md. Every level cites a source email in emails/text_md/. Rule: latest email wins; recompute moving-average levels older than 14 days.",
-  "as_of": "2026-08-06",
-  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + 2026-07-19 unlock floor ~$120 / DCA-layers + BTC diminishing-drawdowns thesis + 2026-07-22 IA Trade Alert MRVL add at $209 + 2026-07-22 IA Trade Alert TSLA shares at $357 + 2026-07-23 IA Trade Alert TSLA shares at $322.50 after a 5-minute trend turn + BTC $69K breakout level + 2026-07-24 MRVL synthetic-long double-down ($200 call/$210 short put, 2028, $3 net debit) + 2026-07-24 TSLA large options add ($33 net debit; extracted text omits strikes/expiry) + 2026-07-29 IA Trade Alert MU DCA start around $745 ($60 net debit, $801 breakeven, Dec 2028; extracted text omits strikes/full legs) + 2026-07-30 Weekly Nuggets SPCX ~$100 meander / $82 relative-value level and TSLA stock-over-expensive-options guidance + 2026-08-04 IA Trade Alert PLTR hedge via $160 covered calls sold for $11 with $171 breakeven over 73 days and ATR level 5 near $170 + 2026-08-06 Weekly Nuggets SPCX/TSLA crossover at $86, wait for SPCX tide turn (possibly October or later), and SOL interest near $64",
+  "as_of": "2026-08-07",
+  "price_snapshot_source": "analysis/extracted/research-market-levels.md (Jun 11, 2026 close) plus 2026-06-19_153803_My-Summer-Game-Plan; refresh 2026-07-17 IA Trade Alert SPCX $123 double-down + 2026-07-19 unlock floor ~$120 / DCA-layers + BTC diminishing-drawdowns thesis + 2026-07-22 IA Trade Alert MRVL add at $209 + 2026-07-22 IA Trade Alert TSLA shares at $357 + 2026-07-23 IA Trade Alert TSLA shares at $322.50 after a 5-minute trend turn + BTC $69K breakout level + 2026-07-24 MRVL synthetic-long double-down ($200 call/$210 short put, 2028, $3 net debit) + 2026-07-24 TSLA large options add ($33 net debit; extracted text omits strikes/expiry) + 2026-07-29 IA Trade Alert MU DCA start around $745 ($60 net debit, $801 breakeven, Dec 2028; extracted text omits strikes/full legs) + 2026-07-30 Weekly Nuggets SPCX ~$100 meander / $82 relative-value level and TSLA stock-over-expensive-options guidance + 2026-08-04 IA Trade Alert PLTR hedge via $160 covered calls sold for $11 with $171 breakeven over 73 days and ATR level 5 near $170 + 2026-08-06 Weekly Nuggets SPCX/TSLA crossover at $86, wait for SPCX tide turn (possibly October or later), and SOL interest near $64 + 2026-08-07 Weekly Edge BTC current buying zone with $67K/$70K resistance, MRVL under-$200 plus buy-signal requirement, and continued SPCX patience/no-FOMO",
   "hard_rules": [
     "Autonomous execution enabled for the assigned Alpaca paper profile only",
     "Notify Samin after every placed/modified/cancelled order",
@@ -63,7 +63,7 @@
         }
       ],
       "never": "Buy the day-1 open ('Avoid the IPO Trap'); use margin (IPO shares non-marginable); options before it settles; blow full allocation while unlocks continue",
-      "note": "2026-08-06 latest guidance: James has only a tiny SPCX toe hold, will wait for the tide to turn before going big (possibly October or later), and sees about $86 as the SPCX-versus-TSLA crossover if the merger happens. Existing 2-share paper position is a hold; only add with confirmation and cash/concentration room. Prior guidance expected a meander toward ~$100, unlock context saw ~$120 as a chart floor, and the 2026-07-17 TRADE_ALERT fill was $123.",
+      "note": "2026-08-07 latest guidance: after a roughly 30% weekly move, James is only 3/20 loaded and explicitly says he will be patient with no FOMO/POMO. His disclosed $100 calls and short $130 puts are context, not a complete executable ticket under this account's no-debt rules. The prior August 6 guidance says wait for the tide to turn before going big, possibly October or later, and sees about $86 as the SPCX-versus-TSLA crossover if the merger happens. Existing 2-share paper position is a hold; only add with confirmation and cash/concentration room.",
       "his_recent_fills": [
         {
           "date": "2026-07-08",
@@ -80,6 +80,7 @@
         "first_year_ceiling": "~$2.6T cap — 'returns paltry first year'"
       },
       "sources": [
+        "2026-08-07_211556_Weekly-Edge-Aug-7-Monster-Recovery-Week",
         "2026-08-06_174033_IA-Weekly-Nuggets-July-29-Aug-5-2026",
         "2026-07-30_180320_IA-Weekly-Nuggets-July-23-30-2027",
         "2026-07-19_164014_SpaceX-Impact-of-Unlocks-on-Price",
@@ -181,7 +182,8 @@
       "breakout": {
         "level": 160,
         "meaning": "break + hold opens 200"
-      }
+      },
+      "note": "2026-08-07 Weekly Edge says PLTR is at James's $171 covered-call breakeven but reiterates waiting for mean reversion. The paper account has fewer than 100 shares and already mirrored the August 4 hedge with a share trim, so do not open an uncovered call or duplicate the trim without a fresh signal."
     },
     "NVDA": {
       "narrative": "AI (IA13)",
@@ -286,8 +288,13 @@
       "price_jun11": 280.71,
       "buy": [
         {
+          "condition": "dip below $200 and a fresh tool/trend buy signal",
+          "action": "BUY/ADD a small cash-funded share layer only after both price and confirmation fire; do not buy above $200",
+          "source": "2026-08-07_211556_Weekly-Edge-Aug-7-Monster-Recovery-Week"
+        },
+        {
           "condition": "fresh TRADE_ALERT add at $209 after bullish photonics/CPO data; James added 1/8 to his position and used a 2028 $200-call/$210-put synthetic at $18 net debit",
-          "action": "BUY/ADD a small share layer only at or below $209 with cash buffer intact; do not copy the short-put structure unless fully cash-secured and no-debt proof passes",
+          "action": "Historical alert context; superseded for the next add by the August 7 under-$200 plus buy-signal requirement",
           "source": "2026-07-22_145114_IA-Trade-Alert-More-Marvell"
         },
         {
@@ -296,7 +303,7 @@
           "source": "2026-06-05_222805_Get-Sniper-Rifles-Ready (superseded for the next small add by 2026-07-22 TRADE_ALERT at $209)"
         }
       ],
-      "note": "2026-07-24 latest TRADE_ALERT: James doubled down on the same 2028 $200-call/$210-short-put synthetic for a $3 net debit and doubled the contract count. Shares remain preferred at this account scale because one sold $210 put adds roughly $21,000 assignment notional and is not cash-secured by the paper account; at the 2pm check, even a 0.3-share buy near $196.80 would reduce cash below the 10% floor and rolling cadence was already full. The prior executable share reference remains James's 2026-07-22 $209 fill; do not chase. Source: 2026-07-24_150808_IA-Trade-Alert."
+      "note": "2026-08-07 latest guidance says do not buy yet above $200; wait for a dip below $200 and a buy signal. Shares remain preferred at this account scale because one sold $210 put adds roughly $21,000 assignment notional and is not cash-secured by the paper account. Prior July synthetic-long alerts are historical context only."
     },
     "ALAB": {
       "narrative": "AI (IA13)",
@@ -318,6 +325,11 @@
       "narrative": "Crypto core (scarcity in the age of AGI)",
       "price_jun11": 63449,
       "buy": [
+        {
+          "condition": "current buying zone around the mid-$60Ks; watch $67K and $70K as resistance ceilings",
+          "action": "BUY a small cash-funded BTC spot or IBIT proxy tranche only while the 10% cash floor and cadence checks pass; do not chase through resistance",
+          "source": "2026-08-07_211556_Weekly-Edge-Aug-7-Monster-Recovery-Week"
+        },
         {
           "condition": "break and hold above $69K",
           "action": "Treat as confirmed upward-trend / next-bull-market signal; reassess a cash-funded IBIT proxy only if the 10% cash buffer and cadence rules pass",

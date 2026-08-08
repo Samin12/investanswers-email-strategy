@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 860,
-  "message_id_count": 860,
-  "generated_at": "2026-08-07T21:01:54+00:00",
+  "count": 861,
+  "message_id_count": 861,
+  "generated_at": "2026-08-08T13:02:46+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -22374,6 +22374,32 @@
       "text_chars": 1871,
       "raw_bytes": 55633,
       "sizeEstimate": 55633,
+      "attachments": []
+    },
+    {
+      "messageId": "19fde152c33eabe2",
+      "threadId": "19fde152c33eabe2",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fde152c33eabe2",
+      "subject": "Weekly Edge Aug 7: Monster Recovery Week",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Fri, 07 Aug 2026 21:15:56 +0000",
+      "date_iso": "2026-08-07T21:15:56+00:00",
+      "message_id_header": "<20260807211556.e895973c9d20c34c@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Thanks, Jacob for the recap. A few key lessons from the week and some sentiment from me - james here...DCAS is a killer for layering into IA13 during ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-07_211556_Weekly-Edge-Aug-7-Monster-Recovery-Week_19fde152c33eabe2_00fe1e9d",
+      "raw_path": "emails/raw_eml/2026-08-07_211556_Weekly-Edge-Aug-7-Monster-Recovery-Week_19fde152c33eabe2_00fe1e9d.eml",
+      "text_path": "emails/text_md/2026-08-07_211556_Weekly-Edge-Aug-7-Monster-Recovery-Week_19fde152c33eabe2_00fe1e9d.md",
+      "meta_path": "emails/metadata/2026-08-07_211556_Weekly-Edge-Aug-7-Monster-Recovery-Week_19fde152c33eabe2_00fe1e9d.json",
+      "text_chars": 3667,
+      "raw_bytes": 58105,
+      "sizeEstimate": 58105,
       "attachments": []
     }
   ]
