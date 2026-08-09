@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-08-09T18:02:15+00:00
+Generated: 2026-08-09T21:01:13+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 870
-- Emails exported: 870
-- Years: {"2026": 870}
+- Message IDs found: 873
+- Emails exported: 873
+- Years: {"2026": 873}
 
 ## Latest 20 subjects
 
+- Bull Market Duration
+- VIDEO - Live Q&A: Everything's Changing
+- Best signal of real blockchain vitality
 - Battery Storage Growth 70%
 - AI finds more vulnerabilities
 - Someone entered $28M Long on SOL at $76.10
@@ -26,6 +29,3 @@ Generated: 2026-08-09T18:02:15+00:00
 - VIDEO - Chips -> Trillions
 - Burry just shorted two new names
 - IA Weekly Nuggets (July 29-Aug 5, 2026)
-- Saving Hacks Part II
-- Tesla/SpaceX Terafab update
-- 3 saving graces for Crypto 1) Tokenized Stocks and 2) AI Agents and 3) Stables
