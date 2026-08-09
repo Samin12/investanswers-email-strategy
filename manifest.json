@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 864,
-  "message_id_count": 864,
-  "generated_at": "2026-08-08T21:01:44+00:00",
+  "count": 867,
+  "message_id_count": 867,
+  "generated_at": "2026-08-09T13:01:36+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -22478,6 +22478,84 @@
       "text_chars": 2019,
       "raw_bytes": 52884,
       "sizeEstimate": 52884,
+      "attachments": []
+    },
+    {
+      "messageId": "19fe39fb60c28798",
+      "threadId": "19fe39fb60c28798",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fe39fb60c28798",
+      "subject": "Berkshire Hathaway buys!",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sat, 08 Aug 2026 23:05:21 +0000",
+      "date_iso": "2026-08-08T23:05:21+00:00",
+      "message_id_header": "<20260808230521.795ec31f073190ef@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Interesting, beginning to deploy their huge cash pile. They bought 3 items - but the ideas are mixed IMHO1) their own stock back2) Google - good. They... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-08_230521_Berkshire-Hathaway-buys_19fe39fb60c28798_f3907a50",
+      "raw_path": "emails/raw_eml/2026-08-08_230521_Berkshire-Hathaway-buys_19fe39fb60c28798_f3907a50.eml",
+      "text_path": "emails/text_md/2026-08-08_230521_Berkshire-Hathaway-buys_19fe39fb60c28798_f3907a50.md",
+      "meta_path": "emails/metadata/2026-08-08_230521_Berkshire-Hathaway-buys_19fe39fb60c28798_f3907a50.json",
+      "text_chars": 2512,
+      "raw_bytes": 54730,
+      "sizeEstimate": 54730,
+      "attachments": []
+    },
+    {
+      "messageId": "19fe3b123f23c139",
+      "threadId": "19fe3b123f23c139",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fe3b123f23c139",
+      "subject": "Global Humanoid Players",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sat, 08 Aug 2026 23:24:23 +0000",
+      "date_iso": "2026-08-08T23:24:23+00:00",
+      "message_id_header": "<20260808232423.7aae2cace65c512c@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Chinese players far in the lead for now. US based Figure is valued at $39B after shipping 150 robots in 2025. That is $260M of market cap per robot sh... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-08_232423_Global-Humanoid-Players_19fe3b123f23c139_c0a83a06",
+      "raw_path": "emails/raw_eml/2026-08-08_232423_Global-Humanoid-Players_19fe3b123f23c139_c0a83a06.eml",
+      "text_path": "emails/text_md/2026-08-08_232423_Global-Humanoid-Players_19fe3b123f23c139_c0a83a06.md",
+      "meta_path": "emails/metadata/2026-08-08_232423_Global-Humanoid-Players_19fe3b123f23c139_c0a83a06.json",
+      "text_chars": 2231,
+      "raw_bytes": 53165,
+      "sizeEstimate": 53165,
+      "attachments": []
+    },
+    {
+      "messageId": "19fe44fbf298b656",
+      "threadId": "19fe44fbf298b656",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fe44fbf298b656",
+      "subject": "Best Hedge Fund Returns year to date",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 09 Aug 2026 02:17:38 +0000",
+      "date_iso": "2026-08-09T02:17:38+00:00",
+      "message_id_header": "<20260809021738.50b4b607d69c5fa3@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "I have met 3 of the folks on the list above. They move large dollar amts around. My exact return year to date sucks and it is 31.48%as I got hammered... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-09_021738_Best-Hedge-Fund-Returns-year-to-date_19fe44fbf298b656_aa19f0d8",
+      "raw_path": "emails/raw_eml/2026-08-09_021738_Best-Hedge-Fund-Returns-year-to-date_19fe44fbf298b656_aa19f0d8.eml",
+      "text_path": "emails/text_md/2026-08-09_021738_Best-Hedge-Fund-Returns-year-to-date_19fe44fbf298b656_aa19f0d8.md",
+      "meta_path": "emails/metadata/2026-08-09_021738_Best-Hedge-Fund-Returns-year-to-date_19fe44fbf298b656_aa19f0d8.json",
+      "text_chars": 2328,
+      "raw_bytes": 54514,
+      "sizeEstimate": 54514,
       "attachments": []
     }
   ]

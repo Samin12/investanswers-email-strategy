@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-08-08T21:01:44+00:00
+Generated: 2026-08-09T13:01:36+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 864
-- Emails exported: 864
-- Years: {"2026": 864}
+- Message IDs found: 867
+- Emails exported: 867
+- Years: {"2026": 867}
 
 ## Latest 20 subjects
 
+- Best Hedge Fund Returns year to date
+- Global Humanoid Players
+- Berkshire Hathaway buys!
 - Credit Markets fear AI Build Out
 - Internet vs AI
 - Path to $300B+ ARR for SpaceX + Mkt Cap
@@ -26,6 +29,3 @@ Generated: 2026-08-08T21:01:44+00:00
 - Bank of America $460 PT on Tesla
 - My SpaceX Conundrum
 - Bitcoin Hashrate
-- Hyperscaler Concentration
-- Memory Bear Case + SNDK Earnings
-- VIDEO - 21 Charts: FOMO Chase
