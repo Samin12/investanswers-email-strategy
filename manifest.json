@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 867,
-  "message_id_count": 867,
-  "generated_at": "2026-08-09T13:01:36+00:00",
+  "count": 870,
+  "message_id_count": 870,
+  "generated_at": "2026-08-09T18:02:15+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -22556,6 +22556,84 @@
       "text_chars": 2328,
       "raw_bytes": 54514,
       "sizeEstimate": 54514,
+      "attachments": []
+    },
+    {
+      "messageId": "19fe74c2a1c85905",
+      "threadId": "19fe74c2a1c85905",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fe74c2a1c85905",
+      "subject": "Someone entered $28M Long on SOL at $76.10",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 09 Aug 2026 16:12:35 +0000",
+      "date_iso": "2026-08-09T16:12:35+00:00",
+      "message_id_header": "<20260809161235.986fdd57e2a61dc5@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Interesting trade... large in size. Address: 0x9c6a5b4662c722d2c47f43d6c9813cb080ffa4edSOL LONG at 20x cross leverageNotional value ≈ $28.5 million (r... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-09_161235_Someone-entered-28M-Long-on-SOL-at-76.10_19fe74c2a1c85905_c926d53d",
+      "raw_path": "emails/raw_eml/2026-08-09_161235_Someone-entered-28M-Long-on-SOL-at-76.10_19fe74c2a1c85905_c926d53d.eml",
+      "text_path": "emails/text_md/2026-08-09_161235_Someone-entered-28M-Long-on-SOL-at-76.10_19fe74c2a1c85905_c926d53d.md",
+      "meta_path": "emails/metadata/2026-08-09_161235_Someone-entered-28M-Long-on-SOL-at-76.10_19fe74c2a1c85905_c926d53d.json",
+      "text_chars": 2127,
+      "raw_bytes": 55814,
+      "sizeEstimate": 55814,
+      "attachments": []
+    },
+    {
+      "messageId": "19fe7687c380af85",
+      "threadId": "19fe7687c380af85",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fe7687c380af85",
+      "subject": "AI finds more vulnerabilities",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 09 Aug 2026 16:43:31 +0000",
+      "date_iso": "2026-08-09T16:43:31+00:00",
+      "message_id_header": "<20260809164331.5d40aa6e3445571a@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "AI tools are getting better at finding these kinds of software bugs, so waves of attacks like this will probably keep happening. Software needs to be ... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-09_164331_AI-finds-more-vulnerabilities_19fe7687c380af85_1a43b15c",
+      "raw_path": "emails/raw_eml/2026-08-09_164331_AI-finds-more-vulnerabilities_19fe7687c380af85_1a43b15c.eml",
+      "text_path": "emails/text_md/2026-08-09_164331_AI-finds-more-vulnerabilities_19fe7687c380af85_1a43b15c.md",
+      "meta_path": "emails/metadata/2026-08-09_164331_AI-finds-more-vulnerabilities_19fe7687c380af85_1a43b15c.json",
+      "text_chars": 2191,
+      "raw_bytes": 53095,
+      "sizeEstimate": 53095,
+      "attachments": []
+    },
+    {
+      "messageId": "19fe78265c6e62dc",
+      "threadId": "19fe78265c6e62dc",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fe78265c6e62dc",
+      "subject": "Battery Storage Growth 70%",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Sun, 09 Aug 2026 17:11:48 +0000",
+      "date_iso": "2026-08-09T17:11:48+00:00",
+      "message_id_header": "<20260809171148.dd5192d3747a6865@creator.patreon.com>",
+      "labelIds": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "snippet": "Tesla is a leader in this space. Current capacity is 80 GWh/year - makes about $20bn a year at 30% margin. Brookshire/Houston, Texas: Just started Meg... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-09_171148_Battery-Storage-Growth-70_19fe78265c6e62dc_b25a9102",
+      "raw_path": "emails/raw_eml/2026-08-09_171148_Battery-Storage-Growth-70_19fe78265c6e62dc_b25a9102.eml",
+      "text_path": "emails/text_md/2026-08-09_171148_Battery-Storage-Growth-70_19fe78265c6e62dc_b25a9102.md",
+      "meta_path": "emails/metadata/2026-08-09_171148_Battery-Storage-Growth-70_19fe78265c6e62dc_b25a9102.json",
+      "text_chars": 2192,
+      "raw_bytes": 53102,
+      "sizeEstimate": 53102,
       "attachments": []
     }
   ]

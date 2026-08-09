@@ -1,14 +1,17 @@
 # Corpus Summary
 
-Generated: 2026-08-09T13:01:36+00:00
+Generated: 2026-08-09T18:02:15+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 867
-- Emails exported: 867
-- Years: {"2026": 867}
+- Message IDs found: 870
+- Emails exported: 870
+- Years: {"2026": 870}
 
 ## Latest 20 subjects
 
+- Battery Storage Growth 70%
+- AI finds more vulnerabilities
+- Someone entered $28M Long on SOL at $76.10
 - Best Hedge Fund Returns year to date
 - Global Humanoid Players
 - Berkshire Hathaway buys!
@@ -26,6 +29,3 @@ Generated: 2026-08-09T13:01:36+00:00
 - Saving Hacks Part II
 - Tesla/SpaceX Terafab update
 - 3 saving graces for Crypto 1) Tokenized Stocks and 2) AI Agents and 3) Stables
-- Bank of America $460 PT on Tesla
-- My SpaceX Conundrum
-- Bitcoin Hashrate
