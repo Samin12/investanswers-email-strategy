@@ -1,14 +1,19 @@
 # Corpus Summary
 
-Generated: 2026-08-10T13:01:31+00:00
+Generated: 2026-08-10T18:02:32+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 875
-- Emails exported: 875
-- Years: {"2026": 875}
+- Message IDs found: 880
+- Emails exported: 880
+- Years: {"2026": 880}
 
 ## Latest 20 subjects
 
+- State of Crypto
+- The Rush for Power
+- Is Crypto Coming Back?
+- MARA FUD
+- MSTR update
 - Diamonds are Forever - NOT!
 - Today's Cybercab shots from USA
 - Bull Market Duration
@@ -24,8 +29,3 @@ Generated: 2026-08-10T13:01:31+00:00
 - Internet vs AI
 - Path to $300B+ ARR for SpaceX + Mkt Cap
 - Weekly Edge Aug 7: Monster Recovery Week
-- VIDEO - Rapid Wealth Erosion
-- BTC ETFs having best week in 14 weeks
-- BTC Volume and Volatility
-- To hike or not to hike in Sept?
-- VIDEO - Chips -> Trillions
