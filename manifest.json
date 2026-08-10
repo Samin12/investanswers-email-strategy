@@ -1,9 +1,9 @@
 {
   "source": "investanswers@creator.patreon.com",
   "query": "from:investanswers@creator.patreon.com",
-  "count": 880,
-  "message_id_count": 880,
-  "generated_at": "2026-08-10T18:02:32+00:00",
+  "count": 881,
+  "message_id_count": 881,
+  "generated_at": "2026-08-10T21:01:08+00:00",
   "emails": [
     {
       "messageId": "19df900abdef1fd1",
@@ -22895,6 +22895,32 @@
       "text_chars": 2540,
       "raw_bytes": 53827,
       "sizeEstimate": 53827,
+      "attachments": []
+    },
+    {
+      "messageId": "19fed1675cdfc419",
+      "threadId": "19fed1675cdfc419",
+      "display_url": "https://mail.google.com/mail/u/0/#inbox/19fed1675cdfc419",
+      "subject": "VIDEO - Crypto's True Winner?",
+      "from": "InvestAnswers <investanswers@creator.patreon.com>",
+      "to": "samin@aianswer.us",
+      "cc": "",
+      "date_header": "Mon, 10 Aug 2026 19:11:38 +0000",
+      "date_iso": "2026-08-10T19:11:38+00:00",
+      "message_id_header": "<20260810191138.6d76aae7a6fcd215@creator.patreon.com>",
+      "labelIds": [
+        "CATEGORY_PROMOTIONS",
+        "UNREAD",
+        "INBOX"
+      ],
+      "snippet": "Live at 12:25pm Pacific: https://youtube.com/live/SvoemBrgZ8o... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "filename_base": "2026-08-10_191138_VIDEO-Cryptos-True-Winner_19fed1675cdfc419_cfba376c",
+      "raw_path": "emails/raw_eml/2026-08-10_191138_VIDEO-Cryptos-True-Winner_19fed1675cdfc419_cfba376c.eml",
+      "text_path": "emails/text_md/2026-08-10_191138_VIDEO-Cryptos-True-Winner_19fed1675cdfc419_cfba376c.md",
+      "meta_path": "emails/metadata/2026-08-10_191138_VIDEO-Cryptos-True-Winner_19fed1675cdfc419_cfba376c.json",
+      "text_chars": 1860,
+      "raw_bytes": 55644,
+      "sizeEstimate": 55644,
       "attachments": []
     }
   ]

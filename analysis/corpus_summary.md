@@ -1,14 +1,15 @@
 # Corpus Summary
 
-Generated: 2026-08-10T18:02:32+00:00
+Generated: 2026-08-10T21:01:08+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 880
-- Emails exported: 880
-- Years: {"2026": 880}
+- Message IDs found: 881
+- Emails exported: 881
+- Years: {"2026": 881}
 
 ## Latest 20 subjects
 
+- VIDEO - Crypto's True Winner?
 - State of Crypto
 - The Rush for Power
 - Is Crypto Coming Back?
@@ -28,4 +29,3 @@ Generated: 2026-08-10T18:02:32+00:00
 - Credit Markets fear AI Build Out
 - Internet vs AI
 - Path to $300B+ ARR for SpaceX + Mkt Cap
-- Weekly Edge Aug 7: Monster Recovery Week
