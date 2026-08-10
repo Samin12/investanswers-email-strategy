@@ -1,14 +1,16 @@
 # Corpus Summary
 
-Generated: 2026-08-09T21:01:13+00:00
+Generated: 2026-08-10T13:01:31+00:00
 
 - Query: `from:investanswers@creator.patreon.com`
-- Message IDs found: 873
-- Emails exported: 873
-- Years: {"2026": 873}
+- Message IDs found: 875
+- Emails exported: 875
+- Years: {"2026": 875}
 
 ## Latest 20 subjects
 
+- Diamonds are Forever - NOT!
+- Today's Cybercab shots from USA
 - Bull Market Duration
 - VIDEO - Live Q&A: Everything's Changing
 - Best signal of real blockchain vitality
@@ -27,5 +29,3 @@ Generated: 2026-08-09T21:01:13+00:00
 - BTC Volume and Volatility
 - To hike or not to hike in Sept?
 - VIDEO - Chips -> Trillions
-- Burry just shorted two new names
-- IA Weekly Nuggets (July 29-Aug 5, 2026)
